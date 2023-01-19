@@ -1,8 +1,10 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Feel the science !"
+image: ./assets/images/fluidflow.jpg
+# page-layout: full
 about:
-  template: jolla
+  template: marquee
+  # image-width: 100em
   links:
     - icon: twitter
       text: Twitter
@@ -16,4 +18,14 @@ about:
 
 ---
 
-About this blog
+<!-- ![Welcome, Fluid Flow](./assets/images/fluidflow.jpg) -->
+
+Index page should be more about NEWS... Interesting stuff, not the About. CHANGE THIS !
+
+Describe the website organisation.
+
+Talks.
+
+Link to subscribe to newsletter
+
+

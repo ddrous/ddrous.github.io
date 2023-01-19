@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: ff0d850b-b7b0-43fb-9338-e3a0a8d15308
+      url: 'https://dainty-bombolone-598c06.netlify.app'

@@ -13,5 +13,11 @@
   },
   "posts.qmd": {
     "posts.html": "b8581906"
+  },
+  "projects.qmd": {
+    "projects.html": "74a1c308"
+  },
+  "resume.qmd": {
+    "resume.html": "e2997242"
   }
 }
