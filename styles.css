@@ -1,0 +1,29 @@
+/* css styles */
+
+@font-face {
+    font-family: 'CMU Bright';
+    src: url('./assets/fonts/cmunbmr-webfont.woff2') format('woff2'),
+            url('./assets/fonts/cmunbmr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'CMU Bright';
+    src: url('./assets/fonts/cmunbsr-webfont.woff2') format('woff2'),
+            url('./assets/fonts/cmunbsr-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'CMU Bright';
+    src: url('./assets/fonts/cmunbmo-webfont.woff2') format('woff2'),
+            url('./assets/fonts/cmunbmo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: oblique;
+    }
+
+body {
+    font-family: 'CMU Bright', sans-serif;
+    }

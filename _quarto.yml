@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Feels of Science"
+  navbar:
+    right:
+      - posts.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+format:
+  html:
+    theme: 
+      light: yeti
+      dark: superhero
+    css: styles.css
+    highlight-style: zenburn
+
+
+
