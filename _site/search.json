@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Feel the science !",
-    "section": "",
-    "text": "This website contains lots of cool stuff about it’s creator and subject i.e. ME, and even more interesting stories about science and how it makes us feel.\nTo learn more about me, go to the About page. In Projects, you’ll find some work I’ve contributed to, along with the tech stack I’ve mastered over the years. And for the most fun stuff, go to Blog where you’ll find a curated list of articles. I hope you’ll enjoy !"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -35,11 +7,11 @@
     "text": "Hi there ! I’m Des, a PhD student in HPC-AI at the University of Bristol. I’m investigating parallel algorithms for combined data-driven and physics-informed simulation, control, and 3D reconstruction from fluid flows.\nMy research interests are at the intersection of Machine Learning, Scientific Computing, and High Performance Computing. They include:\n\nHow to best combine classical knowledge of physical systems with AI approaches ?\nHow to scale existing physics-based AI techniques to real-world engineering problems: this involves questions like strong/weak scaling and uncertainty quantification.\nWhat role do humans, and domain scientists in particular play in the envisionned symbiose above?\n\nTo learn more about me, you can consult the list of projects I’ve been involved in. Also, here’s a link to a short version of my CV. Ever better, send me a message !\nMESSAGE BOX"
   },
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Blog",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Feel the science !",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nJan 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\nTristan O’Malley\n\n\nJan 16, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This website contains lots of cool stuff about it’s creator and subject i.e. ME, and even more interesting stories about science and how it makes us feel.\nTo learn more about me, go to the About page. In Projects, you’ll find some work I’ve contributed to, along with the tech stack I’ve mastered over the years. And for the most fun stuff, go to Blog where you’ll find a curated list of articles. I hope you’ll enjoy !"
   },
   {
     "objectID": "index.html#news",
@@ -54,5 +26,33 @@
     "title": "Feel the science !",
     "section": "Newsletter",
     "text": "Newsletter\nIf you enjoy what you see and want to stay updated, subscribe to my newletter (it’s non-spammy)."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nJan 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\nTristan O’Malley\n\n\nJan 16, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "No matching items"
   }
 ]
