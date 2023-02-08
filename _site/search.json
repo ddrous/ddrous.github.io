@@ -25,14 +25,14 @@
     "href": "index.html",
     "title": "Feel the science !",
     "section": "",
-    "text": "Index page should be more about NEWS… Interesting stuff, not the About. CHANGE THIS !\nDescribe the website organisation.\nTalks.\nLink to subscribe to newsletter"
+    "text": "This website contains lots of cool stuff about it’s creator and subject i.e. ME, and even more interesting stories about science and how it makes us feel.\nTo learn more about me, go to the About page. In Projects, you’ll find some work I’ve contributed to, along with the tech stack I’ve mastered over the years. And for the most fun stuff, go to Blog where you’ll find a curated list of articles. I hope you’ll enjoy !"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this website, about me.\nCurrent research and interests.\nA link to download a PDF of the CV"
+    "text": "Hi there ! I’m Des, a PhD student in HPC-AI at the University of Bristol. I’m investigating parallel algorithms for combined data-driven and physics-informed simulation, control, and 3D reconstruction from fluid flows.\nMy research interests are at the intersection of Machine Learning, Scientific Computing, and High Performance Computing. They include:\n\nHow to best combine classical knowledge of physical systems with AI approaches ?\nHow to scale existing physics-based AI techniques to real-world engineering problems: this involves questions like strong/weak scaling and uncertainty quantification.\nWhat role do humans, and domain scientists in particular play in the envisionned symbiose above?\n\nTo learn more about me, you can consult the list of projects I’ve been involved in. Also, here’s a link to a short version of my CV. Ever better, send me a message !\nMESSAGE BOX"
   },
   {
     "objectID": "posts.html",
@@ -40,5 +40,19 @@
     "title": "Blog",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nJan 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\nTristan O’Malley\n\n\nJan 16, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Feel the science !",
+    "section": "News",
+    "text": "News\n\nI’ve migrated my portofolio/blog website.\nI’ll be giving a talk very soon. But where ?"
+  },
+  {
+    "objectID": "index.html#newsletter",
+    "href": "index.html#newsletter",
+    "title": "Feel the science !",
+    "section": "Newsletter",
+    "text": "Newsletter\nIf you enjoy what you see and want to stay updated, subscribe to my newletter (it’s non-spammy)."
   }
 ]
