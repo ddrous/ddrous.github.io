@@ -10,8 +10,13 @@ website:
       - posts.qmd
       - icon: github
         href: https://github.com/ddrous
-      - icon: linkedin
-        href: https://www.linkedin.com/in/roussel-desmond-nzoyem/
+      - icon: envelope
+        href: mailto:roussel.desmond.nzoyem@outlook.com
+  page-footer:
+    left: "Copyright © 2023 - Roussel Desmond Nzoyem"
+    right: "Powered by [Quarto](https://quarto.org/) <?quarto.version?>"
+  # search: true
+
 format:
   html:
     theme: 

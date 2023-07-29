@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Hi there ! I’m Des, a PhD student in AI-HPC at the University of Bristol. I’m investigating parallel algorithms for combined data-driven and physics-informed simulation, control, and 3D reconstruction.\nMy research interests are at the intersection of Artificial Inteligence, Scientific Computing, and High Performance Computing. Some of the questions I ponder are:\nFor more details about my carrer, please read my CV. If it grabs your attention, please do send me a message.\nhttps://raw.githubusercontent.com/ddrous/fosblog/tree/master/assets/pdfs/CV_Short.pd"
+    "text": "Hi there ! I’m a PhD student in HPC-AI at the University of Bristol, investigating parallel algorithms for combined data-driven and physics-informed simulation and control. I’m advised by Dr Tom Deakin, Pr David Barton, and Pr Simon McIntosh-Smith.\nMy research interests are at the intersection of Artificial Inteligence, Scientific Computing, and High Performance Computing. Some of the questions I ponder are:\nFor more details, please read my CV, or view my profile on LinkedIn. If it grabs your attention, please do send me a message."
   },
   {
     "objectID": "index.html",
@@ -123,7 +123,7 @@
     "href": "about.html#hobbies",
     "title": "About",
     "section": "Hobbies",
-    "text": "Hobbies\n\nI play football weekly in the Bristol Suburban League with the Little Stokes feared A’s team.\nI’ve just recently taken back to playing the piano. Seriously this time. Find some of my pieces here.\nIn another life, I’m pretty sure I am a moviemaker.\nAll things computer software and games. From old classics like XX to AAA games like DOOM, nothing like a first-person shooter to evade your troubles."
+    "text": "Hobbies\n\n\n\n   \n\n\n\n\nAll things computer hardware, software and games. From old classics like XX to AAA games like DOOM, nothing like a first-person shooter to evade your troubles.\nI play football weekly in the Bristol Suburban League with the Little Stokes feared A’s team.\nI’ve just recently taken back to playing the piano. Seriously this time. Find some of my pieces here.\nIn another life, I’m pretty sure I am a moviemaker."
   },
   {
     "objectID": "about.html#life",
@@ -236,5 +236,19 @@
     "title": "Toward a Unified Theory of High-Energy Metaphysics: Silly String Theory",
     "section": "",
     "text": "Reusehttps://creativecommons.org/licenses/by/4.0/CitationBibTeX citation:@online{carberry2008,\n  author = {Carberry, Josiah},\n  title = {Toward a {Unified} {Theory} of {High-Energy} {Metaphysics:}\n    {Silly} {String} {Theory}},\n  volume = {1},\n  number = {1},\n  date = {2008-02-29},\n  doi = {10.5555/12345678},\n  langid = {en},\n  abstract = {The characteristic theme of the works of Stone is the\n    bridge between culture and society. ...}\n}\nFor attribution, please cite this work as:\nCarberry, Josiah. 2008. “Toward a Unified Theory of High-Energy\nMetaphysics: Silly String Theory.” Journal of Psychoceramics.\nFebruary 29, 2008. https://doi.org/10.5555/12345678."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact"
+  },
+  {
+    "objectID": "about.html#address",
+    "href": "about.html#address",
+    "title": "About",
+    "section": "Address",
+    "text": "Address"
   }
 ]

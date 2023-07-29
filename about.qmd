@@ -6,19 +6,19 @@ about:
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com
+      href: https://twitter.com/rdesnzoyem
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/roussel-desmond-nzoyem/
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/ddrous
 format:
   html:
     toc: true
 ---
 
-Hi there ! I'm Des, a PhD student in AI-HPC at the University of Bristol. I'm investigating parallel algorithms for combined data-driven and physics-informed simulation, control, and 3D reconstruction.
+Hi there ! I'm a PhD student in HPC-AI at the University of Bristol, investigating parallel algorithms for combined data-driven and physics-informed simulation and control. I'm advised by [Dr Tom Deakin](https://hpc.tomdeakin.com/), [Pr David Barton](https://cityinthesky.co.uk/about-me/), and [Pr Simon McIntosh-Smith](http://uob-hpc.github.io/SimonMS/).
 
 
 My research interests are at the intersection of **Artificial Inteligence**, **Scientific Computing**, and **High Performance Computing**. Some of the questions I ponder are:
@@ -29,19 +29,23 @@ My research interests are at the intersection of **Artificial Inteligence**, **S
 - The _parallel computational theory of the causal mind_ as broadly covered by John R. Searle in _Philosophy of Mind_ and Malcolm Gladwell in _Blink_.
 
 
-For more details about my carrer, please read [my CV](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/ddrous/fosblog/master/assets/pdfs/CV_Short.pd). If it grabs your attention, please do send me [a message]().
+For more details, please read [my CV](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/ddrous/fosblog/master/assets/pdfs/CV_Short.pdf), or view my profile on [LinkedIn](https://www.linkedin.com/in/roussel-desmond-nzoyem/). If it grabs your attention, please do send me [a message](mailto:roussel.desmond.nzoyem@outlook.com).
 
-<!-- https://docs.google.com/viewer?url=https://raw.githubusercontent.com/programonaut/cv/main/build-files/cv-maximilian-kuerschner.pdf -->
 
-https://raw.githubusercontent.com/ddrous/fosblog/tree/master/assets/pdfs/CV_Short.pd
-
-<!-- https://www.rousseldesnzoyem.com/static/media/CV_Short.b1a8a9adbe072d8ec3b2.pdf -->
 
 ## Hobbies
-- I play football weekly in the Bristol Suburban League with the Little Stokes **feared** A's team.
+
+::: {layout-ncol=4}
+![](assets/images/games.jpeg)
+![Casiotone CT-S100](assets/images/piano.jpg)
+![](assets/images/movies.jpg)
+![](assets/images/football.png)
+:::
+
+- All things computer hardware, software and games. From old classics like XX to AAA games like DOOM, nothing like a first-person shooter to evade your troubles.
+- I play football weekly in the Bristol Suburban League with the Little Stokes **feared** A's team. 
 - I've just recently taken back to playing the piano. Seriously this time. Find some of my pieces here.
 - In another life, I'm pretty sure I am a moviemaker.
-- All things computer software and games. From old classics like XX to AAA games like DOOM, nothing like a first-person shooter to evade your troubles.
 
 
 
@@ -52,3 +56,7 @@ A few quotes and prayers can describe me better than any essay I could ever writ
 - __God, give me the__ - The serenity prayer
 - __Time waits for no one__ - A very famous movie quote
 
+
+## Address
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.3556073109103!2d-2.601771986821512!3d51.45162711465729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718dd6fb02c409%3A0xf7efe4efd96ad12f!2s1%20Cathedral%20Square%2C%20Bristol%20BS1%205TS!5e0!3m2!1sen!2suk!4v1690662754993!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

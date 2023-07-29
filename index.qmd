@@ -39,7 +39,7 @@ To learn more about me, go to the [About](/about.qmd) page. In [Projects](/proje
 
 
 
-## Selected publications
+<!-- ## Selected publications
 
 
 ::: {.callout-caution collapse="true"}
@@ -48,15 +48,14 @@ To learn more about me, go to the [About](/about.qmd) page. In [Projects](/proje
 
 ::: {.callout-caution collapse="true"}
 ### MSc 2 Title
-<!-- {{< include publications/_msc2.qmd >}} -->
-<!-- <iframe src="publications/_msc2.html"></iframe> -->
+/* {{< include publications/_msc2.qmd >}}
+/*<iframe src="publications/_msc2.html"></iframe>
 :::
 
 ::: {.callout-caution collapse="true"}
 ### MSc Title 1
 {{< include publications/_msc1.qmd >}}
-:::
-
+::: -->
 
 
 
