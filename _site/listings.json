@@ -2,12 +2,17 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/post-with-code/index.html",
+      "/posts/parallel-mind-theory/index.html",
       "/posts/welcome/index.html"
     ]
   },
   {
     "listing": "/projects.html",
-    "items": []
+    "items": [
+      "/projects/gnn4amg/index.html",
+      "/projects/arcticfloes/index.html",
+      "/projects/phifem/index.html",
+      "/projects/vnetcancer/index.html"
+    ]
   }
 ]

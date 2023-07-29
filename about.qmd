@@ -16,16 +16,31 @@ about:
 
 ---
 
-Hi there ! I'm Des, a PhD student in HPC-AI at the University of Bristol. I'm investigating parallel algorithms for combined data-driven and physics-informed simulation, control, and 3D reconstruction from fluid flows.
+Hi there ! I'm Des, a PhD student in AI-HPC at the University of Bristol. I'm investigating parallel algorithms for combined data-driven and physics-informed simulation, control, and 3D reconstruction.
 
 
-**My research interests are at the intersection of Machine Learning, Scientific Computing, and High Performance Computing. They include:**
+My research interests are at the intersection of **Artificial Inteligence**, **Scientific Computing**, and **High Performance Computing**. Some of the questions I ponder are:
 
 - How to best combine classical knowledge of physical systems with AI approaches ?
 - How to scale existing physics-based AI techniques to real-world engineering problems: this involves questions like strong/weak scaling and uncertainty quantification.
-- What role do humans, and domain scientists in particular play in the envisionned symbiose above?
+- What role do humans and domain scientists in particular play in the envisionned systemic symbiose above ?
+- The _parallel computational theory of the causal mind_ as broadly covered by John R. Searle in _Philosophy of Mind_ and Malcolm Gladwell in _Blink_.
+
+To learn more about my professional life, you can consult the list of [projects](/projects.qmd) I've worked on. Also, here's a link to a short version of [my CV](https://www.rousseldesnzoyem.com/static/media/CV_Short.b1a8a9adbe072d8ec3b2.pdf). Or even better, send me a message !
 
 
-To learn more about me, you can consult the list of [projects](/projects.qmd) I've been involved in. Also, here's a link to a short version of [my CV](https://www.rousseldesnzoyem.com/static/media/CV_Short.b1a8a9adbe072d8ec3b2.pdf). Ever better, send me a message !
+## Hobbies
+- I play football weekly in the Bristol Suburban League with the Little Stokes **feared** A's team.
+- I've just recently taken back to playing the piano. Seriously this time. Find some of my pieces here.
+- In another life, I'm pretty sure I am a moviemaker.
+- All things computer software and games. From old classics like XX to AAA games like DOOM, nothing like a first-person shooter to evade your troubles.
 
-MESSAGE BOX
+
+
+## Life
+
+A few quotes and prayers can describe me better than any essay I could ever write:
+
+- __God, give me the__ - The serenity prayer
+- __Time waits for no one__ - A very famous movie quote
+

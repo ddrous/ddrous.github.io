@@ -19,5 +19,23 @@
   },
   "resume.qmd": {
     "resume.html": "e2997242"
+  },
+  "walkthrough.qmd": {
+    "walkthrough.html": "f90af6da"
+  },
+  "projects/gnn4amg/index.qmd": {
+    "index.html": "2c74089f"
+  },
+  "projects/vnetcancer/index.qmd": {
+    "index.html": "a1905783"
+  },
+  "projects/arcticfloes/index.qmd": {
+    "index.html": "955e86aa"
+  },
+  "projects/phifem/index.qmd": {
+    "index.html": "a0ef215d"
+  },
+  "posts/parallel-mind-theory/index.qmd": {
+    "index.html": "e3d73b29"
   }
 }

@@ -1,0 +1,14 @@
+---
+title: "VnetCancer"
+author: "RD2N"
+date: "2020-06-18"
+categories: [AI, Simulation]
+image: "radiatif.png"
+---
+
+We solved a computerized tomography inverse problem: given the signal on the boundaries of an organ, we want to rebuild the density map of the organ, hence detecting abnormally high density zones (which are potential indicators of early-onset cancer). Our main tasks were: simulating the radiative transfer equation; using Convolutional Neural Network to solve the related inverse problem; using a V-Net to improve accuracy and recreate the complete density map.
+
+Software stack:
+- Transfer
+- Eigen
+- Tensorflow

@@ -1,0 +1,13 @@
+---
+title: "$Phi$-FEM"
+author: "RD2N"
+date: "2021-01-15"
+categories: [Modelling, Scientific Computing]
+image: "phifem.png"
+---
+
+In recent years, numerical models using the Finite Elements Method (FEM) to simulate the soft tissue mechanisms of the human body have attracted a great interest. In the context of computer-assisted surgery, the simulation method should be quick, precise, and patient-specific. This work develops a new immersed boundary method named φ-FEM to address those issues.
+
+Software:
+- Fenics
+- SOFA
