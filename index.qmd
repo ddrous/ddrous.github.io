@@ -1,5 +1,6 @@
 ---
-title: "Feel the science !"
+title: "Roussel."
+subtitle: PhD student @ [University of Bristol](http://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/)
 image: ./assets/images/fluidflow.jpg
 # page-layout: full
 about:
@@ -15,24 +16,48 @@ about:
     - icon: github
       text: Github
       href: https://github.com/ddrous
-
 ---
 
-<!-- ![Welcome, Fluid Flow](./assets/images/fluidflow.jpg) -->
 
 ## Welcome 👋
 
-This website has some cool stuff about me i.e. Roussel Desmond Nzoyem (RD2N). You'll also find interesting stories about various topics in **hard science**, **cognitive sciences**, and some even more random stuff.
+This website is about my professional journey. You'll also find interesting stories on various topics in **hard** and **cognitive sciences**, and some even more random stuff.
 
 To learn more about me, go to the [About](/about.qmd) page. In [Projects](/projects.qmd), you'll find some work I've contributed to, along with the tech stack I've mastered over the years. For some very random stuff, go to [Blog](/posts.qmd) where you'll find a curated list of stories, articles, and poems. I hope you'll enjoy !
 
 
 ## News
 
-- _01 Aug. 2023_ : I've released version 0.1.5 of Updec: a differentiable mesh-free software for quick experimentation with a variety of PDEs. Find it here.
-- _10 Mar. 2023_ : I gave a talk for CMU Africa on Emerging Graph Neural Network techniques. Find a recording here.
-- _01 Dec. 2022_ : I begun my research topics on AI and HPC for mesh-free simulations. A short abstract can be foudn here.
-- _10 Oct. 2021_ : I moved to Bristol for a PhD in the Interacrive AI CDT. Find pictures of my trips on Instagram.
+- _01 Aug. 2023_ : I've released version 0.1.5 of Updec: a mesh-free differentiable software for quick experimentation with a variety of PDEs. Install it [here](https://github.com/ddrous/Updec).
+- _10 Mar. 2023_ : I gave a talk for CMU Africa on Emerging Graph Neural Network techniques. Find a recording [here](https://youtu.be/ahG-LG0ABRQ).
+- _01 Dec. 2022_ : I began my research on AI and HPC for mesh-free simulations. A short abstract can be found [here](http://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/).
+<!-- - _10 Oct. 2021_ : I moved to Bristol for a PhD in the Interacrive AI CDT. Find pictures of my trips on Instagram. -->
+
+
+## Selected stories
+- a computational theory of the causal mind
+
+
+
+## Selected publications
+
+
+::: {.callout-caution collapse="true"}
+### Summer project title
+:::
+
+::: {.callout-caution collapse="true"}
+### MSc 2 Title
+<!-- {{< include publications/_msc2.qmd >}} -->
+<!-- <iframe src="publications/_msc2.html"></iframe> -->
+:::
+
+::: {.callout-caution collapse="true"}
+### MSc Title 1
+{{< include publications/_msc1.qmd >}}
+:::
+
+
 
 
 ## Newsletter

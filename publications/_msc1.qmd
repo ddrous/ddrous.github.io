@@ -1,0 +1,23 @@
+---
+citation:
+  type: article-journal
+  container-title: ACM Transactions on Embedded Computing Systems
+  author: Roussel Desmond
+  volume: 21
+  issue: 2
+  issued: 2022-03
+  issn: 1539-9087
+  doi: 10.1145/3514174
+  title: Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones
+  abstract: Abstract of the item (e.g. the abstract of a journal article)
+---
+
+```{=html}
+<div class="card border-primary mb-3" style="max-width: 20rem;">
+  <div class="card-header">Links to PDF, etc.</div>
+  <div class="card-body">
+    <h4 class="card-title">Conference title</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+```

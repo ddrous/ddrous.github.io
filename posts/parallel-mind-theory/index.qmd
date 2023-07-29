@@ -3,6 +3,10 @@ title: "A parallel theory of the causal mind"
 author: "RD2N"
 date: "2023-07-23"
 categories: [Cognitive Science, Parallel Computing, Differential Equations]
+format:
+  html:
+    toc: true
+number-sections: true
 ---
 
 I've always been fascinated by the theory of the mind, and how to fully replicate it. But lately I've found the pholosiphical nature of the question more and more frustrating. The following article is based on ideas I collected from Malcolm Gladwell's book Blink, and John Searle's course on the Philosophy of Mind. Hoping not to get into too much detail, I'll talk about a few technologies: Parallel Computing, and Neural Differential Equations.

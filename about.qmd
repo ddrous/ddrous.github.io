@@ -13,7 +13,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com
-
+format:
+  html:
+    toc: true
 ---
 
 Hi there ! I'm Des, a PhD student in AI-HPC at the University of Bristol. I'm investigating parallel algorithms for combined data-driven and physics-informed simulation, control, and 3D reconstruction.
@@ -26,8 +28,14 @@ My research interests are at the intersection of **Artificial Inteligence**, **S
 - What role do humans and domain scientists in particular play in the envisionned systemic symbiose above ?
 - The _parallel computational theory of the causal mind_ as broadly covered by John R. Searle in _Philosophy of Mind_ and Malcolm Gladwell in _Blink_.
 
-To learn more about my professional life, you can consult the list of [projects](/projects.qmd) I've worked on. Also, here's a link to a short version of [my CV](https://www.rousseldesnzoyem.com/static/media/CV_Short.b1a8a9adbe072d8ec3b2.pdf). Or even better, send me a message !
 
+For more details about my carrer, please read [my CV](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/ddrous/fosblog/master/assets/pdfs/CV_Short.pd). If it grabs your attention, please do send me [a message]().
+
+<!-- https://docs.google.com/viewer?url=https://raw.githubusercontent.com/programonaut/cv/main/build-files/cv-maximilian-kuerschner.pdf -->
+
+https://raw.githubusercontent.com/ddrous/fosblog/tree/master/assets/pdfs/CV_Short.pd
+
+<!-- https://www.rousseldesnzoyem.com/static/media/CV_Short.b1a8a9adbe072d8ec3b2.pdf -->
 
 ## Hobbies
 - I play football weekly in the Bristol Suburban League with the Little Stokes **feared** A's team.

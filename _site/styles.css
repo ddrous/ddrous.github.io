@@ -1,6 +1,6 @@
 /* css styles */
 
-@font-face {
+/* @font-face {
     font-family: 'CMU Bright';
     src: url('./assets/fonts/cmunbmr-webfont.woff2') format('woff2'),
             url('./assets/fonts/cmunbmr-webfont.woff') format('woff');
@@ -26,4 +26,43 @@
 
 body {
     font-family: 'CMU Bright', sans-serif;
-    }
+    } */
+
+
+/* Computer modern fonts in assets/fonts/computer-modern */
+/* @font-face {
+    font-family: 'CMUSansSerifBold';
+        src: url('assets/fonts/cmu-sans-serif/0da0d92e6bacf5e091c1ae85c4da581d/98a6bd49a818d69c36e01d34255f0f1c/CMUSansSerifBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'CMUSansSerifBoldOblique';
+        src: url('assets/fonts/cmu-sans-serif/0da0d92e6bacf5e091c1ae85c4da581d/ff6e72676cfa244f52842a57fa0ac4e2/CMUSansSerifBoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+      }
+
+@font-face {
+    font-family: 'CMUSansSerifDemiCondensedDemiCondensed';
+        src: url('assets/fonts/cmu-sans-serif/0da0d92e6bacf5e091c1ae85c4da581d/d05c4820d0ee6cb2e65bd036af08f6fc/CMUSansSerifDemiCondensedDemiCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'CMUSansSerifMedium';
+        src: url('assets/fonts/cmu-sans-serif/0da0d92e6bacf5e091c1ae85c4da581d/1b24573c1e6cf956df63c20903efe11d/CMUSansSerifMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'CMUSansSerifOblique';
+        src: url('assets/fonts/cmu-sans-serif/0da0d92e6bacf5e091c1ae85c4da581d/67cbb1959b3197e6dc6020bf482b0e3f/CMUSansSerifOblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+      }
+
+ /* The following rules are deprecated. */ 

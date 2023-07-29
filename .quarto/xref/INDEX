@@ -37,5 +37,8 @@
   },
   "posts/parallel-mind-theory/index.qmd": {
     "index.html": "e3d73b29"
+  },
+  "publications/msc2.qmd": {
+    "msc2.html": "e4680c0d"
   }
 }

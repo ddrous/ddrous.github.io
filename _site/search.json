@@ -4,26 +4,26 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Hi there ! I’m Des, a PhD student in AI-HPC at the University of Bristol. I’m investigating parallel algorithms for combined data-driven and physics-informed simulation, control, and 3D reconstruction.\nMy research interests are at the intersection of Artificial Inteligence, Scientific Computing, and High Performance Computing. Some of the questions I ponder are:\nTo learn more about my professional life, you can consult the list of projects I’ve worked on. Also, here’s a link to a short version of my CV. Or even better, send me a message !"
+    "text": "Hi there ! I’m Des, a PhD student in AI-HPC at the University of Bristol. I’m investigating parallel algorithms for combined data-driven and physics-informed simulation, control, and 3D reconstruction.\nMy research interests are at the intersection of Artificial Inteligence, Scientific Computing, and High Performance Computing. Some of the questions I ponder are:\nFor more details about my carrer, please read my CV. If it grabs your attention, please do send me a message.\nhttps://raw.githubusercontent.com/ddrous/fosblog/tree/master/assets/pdfs/CV_Short.pd"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Feel the science !",
+    "title": "Roussel.",
     "section": "",
-    "text": "This website has some cool stuff about me i.e. Roussel Desmond Nzoyem (RD2N). You’ll also find interesting stories about various topics in hard science, cognitive sciences, and some even more random stuff.\nTo learn more about me, go to the About page. In Projects, you’ll find some work I’ve contributed to, along with the tech stack I’ve mastered over the years. For some very random stuff, go to Blog where you’ll find a curated list of stories, articles, and poems. I hope you’ll enjoy !"
+    "text": "This website is about my professional journey. You’ll also find interesting stories on various topics in hard and cognitive sciences, and some even more random stuff.\nTo learn more about me, go to the About page. In Projects, you’ll find some work I’ve contributed to, along with the tech stack I’ve mastered over the years. For some very random stuff, go to Blog where you’ll find a curated list of stories, articles, and poems. I hope you’ll enjoy !"
   },
   {
     "objectID": "index.html#news",
     "href": "index.html#news",
-    "title": "Feel the science !",
+    "title": "Roussel.",
     "section": "News",
-    "text": "News\n\n01 Aug. 2023 : I’ve released version 0.1.5 of Updec: a differentiable mesh-free software for quick experimentation with a variety of PDEs. Find it here.\n10 Mar. 2023 : I gave a talk for CMU Africa on Emerging Graph Neural Network techniques. Find a recording here.\n01 Dec. 2022 : I begun my research topics on AI and HPC for mesh-free simulations. A short abstract can be foudn here.\n10 Oct. 2021 : I moved to Bristol for a PhD in the Interacrive AI CDT. Find pictures of my trips on Instagram."
+    "text": "News\n\n01 Aug. 2023 : I’ve released version 0.1.5 of Updec: a mesh-free differentiable software for quick experimentation with a variety of PDEs. Install it here.\n10 Mar. 2023 : I gave a talk for CMU Africa on Emerging Graph Neural Network techniques. Find a recording here.\n01 Dec. 2022 : I began my research on AI and HPC for mesh-free simulations. A short abstract can be found here."
   },
   {
     "objectID": "index.html#newsletter",
     "href": "index.html#newsletter",
-    "title": "Feel the science !",
+    "title": "Roussel.",
     "section": "Newsletter",
     "text": "Newsletter\nIf you enjoy what you see and want to stay updated, then please subscribe to my newletter (it’s non-spammy)."
   },
@@ -46,14 +46,14 @@
     "href": "posts.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nA parallel theory of the causal mind\n\n\n\nCognitive Science\n\n\nParallel Computing\n\n\nDifferential Equations\n\n\n\n\n\n\n\nRD2N\n\n\nJul 23, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to the FOS Blog\n\n\n\nnews\n\n\n\n\n\n\n\nRD2N\n\n\nJul 20, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nA parallel theory of the causal mind\n\n\n\n\n\n\n\nCognitive Science\n\n\nParallel Computing\n\n\nDifferential Equations\n\n\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nRD2N\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to the FOS Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2023\n\n\nRD2N\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nAI4HPC\n\n\n\n\n\n\n\nAI\n\n\nHPC\n\n\nFluid Dynamics\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2022\n\n\nRD2N\n\n\n\n\n\n\n  \n\n\n\n\nArcticFloes\n\n\n\n\n\n\n\nModelling\n\n\nFunctional Analysis\n\n\n\n\n\n\n\n\n\n\n\nJul 31, 2021\n\n\nRD2N\n\n\n\n\n\n\n  \n\n\n\n\n\\(Phi\\)-FEM\n\n\n\n\n\n\n\nModelling\n\n\nScientific Computing\n\n\n\n\n\n\n\n\n\n\n\nJan 15, 2021\n\n\nRD2N\n\n\n\n\n\n\n  \n\n\n\n\nVnetCancer\n\n\n\n\n\n\n\nAI\n\n\nSimulation\n\n\n\n\n\n\n\n\n\n\n\nJun 18, 2020\n\n\nRD2N\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAI4HPC\n\n\n\nAI\n\n\nHPC\n\n\nFluid Dynamics\n\n\n\n\n\n\n\nRD2N\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArcticFloes\n\n\n\nModelling\n\n\nFunctional Analysis\n\n\n\n\n\n\n\nRD2N\n\n\nJul 31, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(Phi\\)-FEM\n\n\n\nModelling\n\n\nScientific Computing\n\n\n\n\n\n\n\nRD2N\n\n\nJan 15, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVnetCancer\n\n\n\nAI\n\n\nSimulation\n\n\n\n\n\n\n\nRD2N\n\n\nJun 18, 2020\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "walkthrough.html",
@@ -86,9 +86,9 @@
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
-    "title": "Feel the science !",
+    "title": "Roussel.",
     "section": "",
-    "text": "This website has some cool stuff about me i.e. Roussel Desmond Nzoyem (RD2N). You’ll also find interesting stories about various topics in hard science, cognitive sciences, and some even more random stuff.\nTo learn more about me, go to the About page. In Projects, you’ll find some work I’ve contributed to, along with the tech stack I’ve mastered over the years. For some very random stuff, go to Blog where you’ll find a curated list of stories, articles, and poems. I hope you’ll enjoy !"
+    "text": "This website is about my professional journey. You’ll also find interesting stories on various topics in hard and cognitive sciences, and some even more random stuff.\nTo learn more about me, go to the About page. In Projects, you’ll find some work I’ve contributed to, along with the tech stack I’ve mastered over the years. For some very random stuff, go to Blog where you’ll find a curated list of stories, articles, and poems. I hope you’ll enjoy !"
   },
   {
     "objectID": "projects/gnn4amg/index.html",
@@ -150,8 +150,8 @@
     "objectID": "posts/parallel-mind-theory/index.html#the-mind-body-problem",
     "href": "posts/parallel-mind-theory/index.html#the-mind-body-problem",
     "title": "A parallel theory of the causal mind",
-    "section": "The Mind-Body problem",
-    "text": "The Mind-Body problem\nThe Cartesian theory postulates that there are two realms: a real of mind, and a real of body. The mind commands the body (which is only there for the ride). This is Rene Descarte’s legacy, whose remants we carry to this day.\nThis formulation dating back to the 1600s is convenient for it’s time, as it leaves the Realm of the Body to the science, and the Realm of the Mind to the church. Perfect if you’re a scientist wanting to conduct your research under the inquisitions.\nFinger pointing appart, this teory is appealing. But it leaves us with one big problem. How does the mind influence the brain ? How are the two realms connected ? Descarte’s answer to this puzzled was unconvinding.\nOver the centuries, several school of thoughts have emerged only considering one of the thoughts. The main groups being idealism and behaviourism. It would appear that the advent of computers and the emergence of the cross-disciplinary field of congnitive science is the key to this puzzle."
+    "section": "1 The Mind-Body problem",
+    "text": "1 The Mind-Body problem\nThe Cartesian theory postulates that there are two realms: a real of mind, and a real of body. The mind commands the body (which is only there for the ride). This is Rene Descarte’s legacy, whose remants we carry to this day.\nThis formulation dating back to the 1600s is convenient for it’s time, as it leaves the Realm of the Body to the science, and the Realm of the Mind to the church. Perfect if you’re a scientist wanting to conduct your research under the inquisitions.\nFinger pointing appart, this teory is appealing. But it leaves us with one big problem. How does the mind influence the brain ? How are the two realms connected ? Descarte’s answer to this puzzled was unconvinding.\nOver the centuries, several school of thoughts have emerged only considering one of the thoughts. The main groups being idealism and behaviourism. It would appear that the advent of computers and the emergence of the cross-disciplinary field of congnitive science is the key to this puzzle."
   },
   {
     "objectID": "posts/parallel-mind-theory/index.html#the-seemingly-reflexive-causal-brain",
@@ -164,8 +164,8 @@
     "objectID": "posts/parallel-mind-theory/index.html#a-parallel-theory",
     "href": "posts/parallel-mind-theory/index.html#a-parallel-theory",
     "title": "A parallel theory of the causal mind",
-    "section": "A parallel theory",
-    "text": "A parallel theory\nAs a full-on daydreamer, I also believe any theory of the mind must account for the subconcious. Although not necessarily as decribed by Freud [REF] as I don’t believe those deeply abstract ideas are indispensable to replicating the human mind.\nThis is why I think there’s a second computer at work in the background of our minds, even when we are awake. The same computer that quickly processes information and let’s us avoid a car in an emergency situation. The kind of computer that shows us how we’re all carrying implict biases [REFs]. the same one we make use of on first impressions. The one professionals use to identify talent.\nIf those ideas sound familiar, that’s because the’re copied from Malcolm Gladwell’s betselling book Blink. He calls it thin slicing. A computer that, given sufficient experience in a domain, discards all unecassy information to make the quickest decisions critical for our survival. More often than none, the good one. The moral of the book is, listen to your inner voice, and know when to ignore it.\nSo how can this idea complement the Neural ODE (which represent our full mind in this analogy). Well, we parallelise it. The function \\(f\\), given a smaller input vector \\(y\\) and smaller weights \\(\\theta\\), should return faster results at competitive accuracy. What I’m describing is combined data- and time-parallastion. We solve the Neural ODE on a fine data-time domain, and we make sure it’s inference on a coarser data-time domain is just as accurate.\nSeveral works have investigated this idea on Neural ODE, namely Gunther [REF MULTIGRID IN TIME], Massaroli [REF DIFF LAYERS]. However, they only considered time (or layer) parallelism. Moreover, they focus on the training, rather than inference. Combinng at data and time for quick inference is a dream I hope to achieve before then end of my PhD (2025)."
+    "section": "3 A parallel theory",
+    "text": "3 A parallel theory\nAs a full-on daydreamer, I also believe any theory of the mind must account for the subconcious. Although not necessarily as decribed by Freud [REF] as I don’t believe those deeply abstract ideas are indispensable to replicating the human mind.\nThis is why I think there’s a second computer at work in the background of our minds, even when we are awake. The same computer that quickly processes information and let’s us avoid a car in an emergency situation. The kind of computer that shows us how we’re all carrying implict biases [REFs]. the same one we make use of on first impressions. The one professionals use to identify talent.\nIf those ideas sound familiar, that’s because the’re copied from Malcolm Gladwell’s betselling book Blink. He calls it thin slicing. A computer that, given sufficient experience in a domain, discards all unecassy information to make the quickest decisions critical for our survival. More often than none, the good one. The moral of the book is, listen to your inner voice, and know when to ignore it.\nSo how can this idea complement the Neural ODE (which represent our full mind in this analogy). Well, we parallelise it. The function \\(f\\), given a smaller input vector \\(y\\) and smaller weights \\(\\theta\\), should return faster results at competitive accuracy. What I’m describing is combined data- and time-parallastion. We solve the Neural ODE on a fine data-time domain, and we make sure it’s inference on a coarser data-time domain is just as accurate.\nSeveral works have investigated this idea on Neural ODE, namely Gunther [REF MULTIGRID IN TIME], Massaroli [REF DIFF LAYERS]. However, they only considered time (or layer) parallelism. Moreover, they focus on the training, rather than inference. Combinng at data and time for quick inference is a dream I hope to achieve before then end of my PhD (2025)."
   },
   {
     "objectID": "posts/parallel-mind-theory/index.html#how-to-test-such-an-idea",
@@ -178,14 +178,63 @@
     "objectID": "posts/parallel-mind-theory/index.html#the-causal-brain",
     "href": "posts/parallel-mind-theory/index.html#the-causal-brain",
     "title": "A parallel theory of the causal mind",
-    "section": "The causal brain",
-    "text": "The causal brain\nWhen you feel good pain, hunger, or joy, there’s no doubt that these are neuro-biological processes in your brain firing. This suggest that the mint reacts to the behaviour of the world, it is caused by the brain processes.\nOn the other hand, when you go from being unhappy to being extatic, we can clearly see a change in the physical disposition of your brain. In other words, your mind is a state of your brain, a feature.\nAs explained by John Searle, the brain causes the mind, and the brain is a feature of the mind. This would appear paradoxal, but no. It makes sense if we think of the mind as made up of the higher-level processes than what we measure in the brain.\nDoesn’t this causality principle remind you of something(s) specific ? Differential equations and Neural Networks. Therefore, we liken the causality and evolutionary nature of the brain to ordinaty differential equations (ODE). Wereas we ascribe the compositionality of it to Deep Neural Networks.\nAs it turns out, those two concepts have been merged in what is now known as Neural ODEs, typically formulated as follows: \\[\\begin{align}\n\\frac{\\text{d} y}{\\text{d} t}(t) &= f_{\\theta}(y,t), \\qquad t \\in ]t_0, t_f [ \\\\\ny(t_0) &= y_0, \\\\\nz(t) &= g_{\\theta'}(\\theta, y, y_0, t, t_0, t_f),\n\\end{align}\\] where \\(y\\) represents the physical state in which the brain is in. The transformative function \\(f_{\\theta}\\) – where the learnable parameters \\(\\theta\\) indicte a Deep Neural Network – dictates how a physical signal is processed inside the brain. The misterious readout function \\(g_{\\theta'}\\) tells us how a brain signal \\(y_0\\in \\mathbb{R}^b\\) turns into a global mind feature \\(z \\in \\mathbb{R}^m\\) (with potentially lots more parameters).\n\n\n\nFigure 1: Illustration of the computational theory of the mind\n\n\nThat’s not all. Tipicall neural networks today can grow to extremely large size: billions of parameters in the weights \\(\\theta\\). What if this neural network doesn’t have a fixed structure? What if the neurons could dynamically adapt to the task at hand? This is the rapidly growing notions of Liquid Neural Networks inspired by the efficiency of the worm’s brain made up of mearly 300 neurons.\nThe Neural ODE paradigm has found breathtaking success, particularly againts ResNets [REF]. The Liquid Neural Network on the other hand has shown jaw-dropping perforamnce in autonomous driving [REF MIT]. I believe those two could be combined within the Liquid Neural ODE, unlocking the secrets of conciousness."
+    "section": "2 The causal brain",
+    "text": "2 The causal brain\nWhen you feel good pain, hunger, or joy, there’s no doubt that these are neuro-biological processes in your brain firing. This suggest that the mint reacts to the behaviour of the world, it is caused by the brain processes.\nOn the other hand, when you go from being unhappy to being extatic, we can clearly see a change in the physical disposition of your brain. In other words, your mind is a state of your brain, a feature.\nAs explained by John Searle, the brain causes the mind, and the brain is a feature of the mind. This would appear paradoxal, but no. It makes sense if we think of the mind as made up of the higher-level processes than what we measure in the brain.\nDoesn’t this causality principle remind you of something(s) specific ? Differential equations and Neural Networks. Therefore, we liken the causality and evolutionary nature of the brain to ordinaty differential equations (ODE). Wereas we ascribe the compositionality of it to Deep Neural Networks.\nAs it turns out, those two concepts have been merged in what is now known as Neural ODEs, typically formulated as follows: \\[\\begin{align}\n\\frac{\\text{d} y}{\\text{d} t}(t) &= f_{\\theta}(y,t), \\qquad t \\in ]t_0, t_f [ \\\\\ny(t_0) &= y_0, \\\\\nz(t) &= g_{\\theta'}(\\theta, y, y_0, t, t_0, t_f),\n\\end{align}\\] where \\(y\\) represents the physical state in which the brain is in. The transformative function \\(f_{\\theta}\\) – where the learnable parameters \\(\\theta\\) indicte a Deep Neural Network – dictates how a physical signal is processed inside the brain. The misterious readout function \\(g_{\\theta'}\\) tells us how a brain signal \\(y_0\\in \\mathbb{R}^b\\) turns into a global mind feature \\(z \\in \\mathbb{R}^m\\) (with potentially lots more parameters).\n\n\n\nFigure 1: Illustration of the computational theory of the mind\n\n\nThat’s not all. Tipicall neural networks today can grow to extremely large size: billions of parameters in the weights \\(\\theta\\). What if this neural network doesn’t have a fixed structure? What if the neurons could dynamically adapt to the task at hand? This is the rapidly growing notions of Liquid Neural Networks inspired by the efficiency of the worm’s brain made up of mearly 300 neurons.\nThe Neural ODE paradigm has found breathtaking success, particularly againts ResNets [REF]. The Liquid Neural Network on the other hand has shown jaw-dropping perforamnce in autonomous driving [REF MIT]. I believe those two could be combined within the Liquid Neural ODE, unlocking the secrets of conciousness."
   },
   {
     "objectID": "posts/parallel-mind-theory/index.html#closing-toughts",
     "href": "posts/parallel-mind-theory/index.html#closing-toughts",
     "title": "A parallel theory of the causal mind",
-    "section": "Closing toughts",
-    "text": "Closing toughts\nI’m currently investigating the feasablity of a data-time parallel Neural ODE in my PhD research. How would we test such an idea on the brain? I have no clue yet. All I know is that I can only start with my brain, as with the famous Chinese Room argument.\nIf your mind finds itself drawn to these ideas, then maybe they’re true (As Searle says, always test the theory on yourself first). In that case, send me a massage. If you’ve heard these same ideas somewhere else before and think I’m wasting my time, then please do send me a message. If this sounds like complete bullshit to you, that’s because maybe it is. It shouldn’t stop you from sending a kind message."
+    "section": "4 Closing toughts",
+    "text": "4 Closing toughts\nI’m currently investigating the feasablity of a data-time parallel Neural ODE in my PhD research. How would we test such an idea on the brain? I have no clue yet. All I know is that I can only start with my brain, as with the famous Chinese Room argument.\nIf your mind finds itself drawn to these ideas, then maybe they’re true (As Searle says, always test the theory on yourself first). In that case, send me a massage. If you’ve heard these same ideas somewhere else before and think I’m wasting my time, then please do send me a message. If this sounds like complete bullshit to you, that’s because maybe it is. It shouldn’t stop you from sending a kind message."
+  },
+  {
+    "objectID": "about.html#publications-todo-find-a-template-for-publications",
+    "href": "about.html#publications-todo-find-a-template-for-publications",
+    "title": "About",
+    "section": "Publications (# TODO Find a template for publications)",
+    "text": "Publications (# TODO Find a template for publications)\n\nmy PhD summer project thesis:\nmy MSc year 2 thesis:\nmy MSc year 1 thesis:"
+  },
+  {
+    "objectID": "about.html#publications",
+    "href": "about.html#publications",
+    "title": "About",
+    "section": "Publications",
+    "text": "Publications\n\nmy PhD summer project thesis:\nmy MSc year 2 thesis:\nmy MSc year 1 thesis:"
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "Roussel.",
+    "section": "Publications (*)",
+    "text": "Publications (*)\n\nmy PhD summer project thesis:\nmy MSc year 2 thesis:\nmy MSc year 1 thesis:"
+  },
+  {
+    "objectID": "index.html#stories",
+    "href": "index.html#stories",
+    "title": "Roussel.",
+    "section": "Stories (*)",
+    "text": "Stories (*)\n\na computational theory of the causal mind"
+  },
+  {
+    "objectID": "index.html#selected-stories",
+    "href": "index.html#selected-stories",
+    "title": "Roussel.",
+    "section": "Selected stories",
+    "text": "Selected stories\n\na computational theory of the causal mind"
+  },
+  {
+    "objectID": "index.html#selected-publications",
+    "href": "index.html#selected-publications",
+    "title": "Roussel.",
+    "section": "Selected publications",
+    "text": "Selected publications\n\n\n\n\n\n\nSummer project title\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMSc 2 Title\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMSc Title 1\n\n\n\n\n\n\n  Links to PDF, etc.\n  \n    Conference title\n    Some quick example text to build on the card title and make up the bulk of the card's content."
+  },
+  {
+    "objectID": "publications/msc2.html",
+    "href": "publications/msc2.html",
+    "title": "Toward a Unified Theory of High-Energy Metaphysics: Silly String Theory",
+    "section": "",
+    "text": "Reusehttps://creativecommons.org/licenses/by/4.0/CitationBibTeX citation:@online{carberry2008,\n  author = {Carberry, Josiah},\n  title = {Toward a {Unified} {Theory} of {High-Energy} {Metaphysics:}\n    {Silly} {String} {Theory}},\n  volume = {1},\n  number = {1},\n  date = {2008-02-29},\n  doi = {10.5555/12345678},\n  langid = {en},\n  abstract = {The characteristic theme of the works of Stone is the\n    bridge between culture and society. ...}\n}\nFor attribution, please cite this work as:\nCarberry, Josiah. 2008. “Toward a Unified Theory of High-Energy\nMetaphysics: Silly String Theory.” Journal of Psychoceramics.\nFebruary 29, 2008. https://doi.org/10.5555/12345678."
   }
 ]

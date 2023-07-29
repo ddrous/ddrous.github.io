@@ -3,7 +3,7 @@ title: "Projects"
 listing:
   contents: projects
   sort: "date desc"
-  type: default
+  type: grid
   categories: cloud
   sort-ui: true
   filter-ui: true
