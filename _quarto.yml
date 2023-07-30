@@ -5,8 +5,8 @@ project:
 format:
   html:
     theme: 
-      light: yeti
       dark: superhero
+      light: yeti
     css: styles.css
     highlight-style: zenburn
     toc: false
