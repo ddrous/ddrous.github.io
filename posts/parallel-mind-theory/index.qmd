@@ -14,7 +14,7 @@ filters:
   - social-share
 share:
   permalink: "https://ddrous.github.io/posts/parallel-mind-theory/"
-  description: "awesome page"
+  description: "Awesome theory about how the mind and body connect"
   twitter: true
   facebook: true
   reddit: true
@@ -22,7 +22,7 @@ share:
   tumblr: true
   linkedin: true
   email: true
-  mastodon:true
+  mastodon: true
 ---
 
 I've always been fascinated by the theory of the mind, and how to fully replicate it. But lately I've found the pholosiphical nature of the question more and more frustrating. The following article is based on ideas I collected from Malcolm Gladwell's book Blink, and John Searle's course on the Philosophy of Mind. Hoping not to get into too much detail, I'll talk about a few technologies: Parallel Computing, and Neural Differential Equations.
