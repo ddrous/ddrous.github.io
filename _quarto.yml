@@ -1,8 +1,11 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Roussel."
+  # description: "Unapolagetically curious."
+  site-url: https://www.myblogexample.io
   navbar:
     right:
       - about.qmd

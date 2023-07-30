@@ -29,32 +29,31 @@ My research interests are at the intersection of **Artificial Inteligence**, **S
 - The _parallel computational theory of the causal mind_ as broadly covered by John R. Searle in _Philosophy of Mind_ and Malcolm Gladwell in _Blink_.
 
 
-For more details, please read [my CV](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/ddrous/fosblog/master/assets/pdfs/CV_Short.pdf), or view my profile on [LinkedIn](https://www.linkedin.com/in/roussel-desmond-nzoyem/). If it grabs your attention, please do send me [a message](mailto:roussel.desmond.nzoyem@outlook.com).
+For more details, read [my CV](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/ddrous/fosblog/master/assets/pdfs/CV_Short.pdf) or view my profile on [LinkedIn](https://www.linkedin.com/in/roussel-desmond-nzoyem/). If it grabs your attention, please do send me [a message](mailto:roussel.desmond.nzoyem@outlook.com).
+
+
+
+## Cornerstones
+
+A few quotes can describe me better than any essay I could ever write:
+
+- _God grant me the serenity to accept the things I cannot change, courage to change the things I can, and the wisdom to know the difference_ - __The Serenity Prayer__
+- _Time waits for no one_ - probably from __The Girl Who Leapt Through Time__
 
 
 
 ## Hobbies
 
-::: {layout-ncol=4}
-![](assets/images/games.jpeg)
-![Casiotone CT-S100](assets/images/piano.jpg)
-![](assets/images/movies.jpg)
-![](assets/images/football.png)
+::: {layout-nrow=2}
+![I enjoy all things computer hardware, software and games: from old classics to AAA's like DOOM. Nothing like a first-person shooter to evade your troubles.](assets/images/games.jpeg)
+
+![In another life, I'm pretty sure I am/was a moviemaker.](assets/images/movies.jpg)
+
+![My Casiotone CT-S100. I've just recently taken back to playing the piano. Hopefully some of my pieces will feature here soon.](assets/images/piano.jpg)
+
+![Football is life. I play weekly in the Bristol & Suburban League with the Little Stoke's **feared** A team.](assets/images/football.jpg)
 :::
 
-- All things computer hardware, software and games. From old classics like XX to AAA games like DOOM, nothing like a first-person shooter to evade your troubles.
-- I play football weekly in the Bristol Suburban League with the Little Stokes **feared** A's team. 
-- I've just recently taken back to playing the piano. Seriously this time. Find some of my pieces here.
-- In another life, I'm pretty sure I am a moviemaker.
-
-
-
-## Life
-
-A few quotes and prayers can describe me better than any essay I could ever write:
-
-- __God, give me the__ - The serenity prayer
-- __Time waits for no one__ - A very famous movie quote
 
 
 ## Address

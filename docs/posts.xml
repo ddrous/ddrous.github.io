@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Roussel.</title>
+<link>https://www.myblogexample.io/posts.html</link>
+<atom:link href="https://www.myblogexample.io/posts.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.3.433</generator>
+<lastBuildDate>Fri, 28 Jul 2023 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Mesh-free simulation in the age of Big Data</title>
+  <dc:creator>RD2N </dc:creator>
+  <link>https://www.myblogexample.io/posts/mesh-free-simulation/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is goign to be about why we need mesh-fre simulations:</p>
+<ul>
+<li>Meshes are heavy [AsiMov costs 3TB]</li>
+<li>Complex geometries can easily be point-clouded rather than meshesd</li>
+<li>Most data is represented as point clouds in computer graphics</li>
+</ul>
+
+
+
+ ]]></description>
+  <category>simulation</category>
+  <guid>https://www.myblogexample.io/posts/mesh-free-simulation/index.html</guid>
+  <pubDate>Fri, 28 Jul 2023 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>A parallel theory of the causal mind</title>
+  <dc:creator>RD2N </dc:creator>
+  <link>https://www.myblogexample.io/posts/parallel-mind-theory/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I’ve always been fascinated by the theory of the mind, and how to fully replicate it. But lately I’ve found the pholosiphical nature of the question more and more frustrating. The following article is based on ideas I collected from Malcolm Gladwell’s book Blink, and John Searle’s course on the Philosophy of Mind. Hoping not to get into too much detail, I’ll talk about a few technologies: Parallel Computing, and Neural Differential Equations.</p>
+<section id="the-mind-body-problem" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="the-mind-body-problem"><span class="header-section-number">1</span> The Mind-Body problem</h2>
+<p>The Cartesian theory postulates that there are two realms: a real of mind, and a real of body. The mind commands the body (which is only there for the ride). This is Rene Descarte’s legacy, whose remants we carry to this day.</p>
+<p>This formulation dating back to the 1600s is convenient for it’s time, as it leaves the Realm of the Body to the science, and the Realm of the Mind to the church. Perfect if you’re a scientist wanting to conduct your research under the inquisitions.</p>
+<p>Finger pointing appart, this teory is appealing. But it leaves us with one big problem. How does the mind influence the brain ? How are the two realms connected ? Descarte’s answer to this puzzled was unconvinding.</p>
+<p>Over the centuries, several school of thoughts have emerged only considering one of the thoughts. The main groups being idealism and behaviourism. It would appear that the advent of computers and the emergence of the cross-disciplinary field of congnitive science is the key to this puzzle.</p>
+</section>
+<section id="the-causal-brain" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="the-causal-brain"><span class="header-section-number">2</span> The causal brain</h2>
+<p>When you feel good pain, hunger, or joy, there’s no doubt that these are neuro-biological processes in your brain firing. This suggest that the mint reacts to the behaviour of the world, it is caused by the brain processes.</p>
+<p>On the other hand, when you go from being unhappy to being extatic, we can clearly see a change in the physical disposition of your brain. In other words, your mind is a state of your brain, a feature.</p>
+<p>As explained by John Searle, the brain <strong>causes</strong> the mind, and the brain is a <strong>feature</strong> of the mind. This would appear paradoxal, but no. It makes sense if we think of the mind as made up of the higher-level processes than what we measure in the brain.</p>
+<p>Doesn’t this causality principle remind you of something(s) specific ? Differential equations and Neural Networks. Therefore, we liken the causality and evolutionary nature of the brain to ordinaty differential equations (ODE). Wereas we ascribe the compositionality of it to Deep Neural Networks.</p>
+<p>As it turns out, those two concepts have been merged in what is now known as Neural ODEs, typically formulated as follows: <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%0A%5Cfrac%7B%5Ctext%7Bd%7D%20y%7D%7B%5Ctext%7Bd%7D%20t%7D(t)%20&amp;=%20f_%7B%5Ctheta%7D(y,t),%20%5Cqquad%20t%20%5Cin%20%5Dt_0,%20t_f%20%5B%20%5C%5C%0Ay(t_0)%20&amp;=%20y_0,%20%5C%5C%0Az(t)%20&amp;=%20g_%7B%5Ctheta'%7D(%5Ctheta,%20y,%20y_0,%20t,%20t_0,%20t_f),%0A%5Cend%7Balign%7D"> where <img src="https://latex.codecogs.com/png.latex?y"> represents the physical state in which the brain is in. The transformative function <img src="https://latex.codecogs.com/png.latex?f_%7B%5Ctheta%7D"> – where the learnable parameters <img src="https://latex.codecogs.com/png.latex?%5Ctheta"> indicte a Deep Neural Network – dictates how a physical signal is processed inside the brain. The misterious <strong>readout</strong> function <img src="https://latex.codecogs.com/png.latex?g_%7B%5Ctheta'%7D"> tells us how a brain signal <img src="https://latex.codecogs.com/png.latex?y_0%5Cin%20%5Cmathbb%7BR%7D%5Eb"> turns into a global mind feature <img src="https://latex.codecogs.com/png.latex?z%20%5Cin%20%5Cmathbb%7BR%7D%5Em"> (with potentially lots more parameters).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.myblogexample.io/posts/parallel-mind-theory/MindBodyProblem.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure 1: Illustration of the computational theory of the mind</figcaption>
+</figure>
+</div>
+<p>That’s not all. Tipicall neural networks today can grow to extremely large size: billions of parameters in the weights <img src="https://latex.codecogs.com/png.latex?%5Ctheta">. What if this neural network doesn’t have a fixed structure? What if the neurons could dynamically adapt to the task at hand? This is the rapidly growing notions of Liquid Neural Networks inspired by the efficiency of the worm’s brain made up of mearly 300 neurons.</p>
+<p>The Neural ODE paradigm has found breathtaking success, particularly againts ResNets [REF]. The Liquid Neural Network on the other hand has shown jaw-dropping perforamnce in autonomous driving [REF MIT]. I believe those two could be combined within the Liquid Neural ODE, unlocking the secrets of conciousness.</p>
+</section>
+<section id="a-parallel-theory" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="a-parallel-theory"><span class="header-section-number">3</span> A parallel theory</h2>
+<p>As a full-on daydreamer, I also believe any theory of the mind must account for the subconcious. Although not necessarily as decribed by Freud [REF] as I don’t believe those deeply abstract ideas are indispensable to replicating the human mind.</p>
+<p>This is why I think there’s a second computer at work in the background of our minds, even when we are awake. The same computer that quickly processes information and let’s us avoid a car in an emergency situation. The kind of computer that shows us how we’re all carrying implict biases [REFs]. the same one we make use of on first impressions. The one professionals use to identify talent.</p>
+<p>If those ideas sound familiar, that’s because the’re copied from Malcolm Gladwell’s betselling book Blink. He calls it <em>thin slicing</em>. A computer that, given sufficient experience in a domain, discards all unecassy information to make the quickest decisions critical for our survival. More often than none, the good one. The moral of the book is, listen to your inner voice, and know when to ignore it.</p>
+<p>So how can this idea complement the Neural ODE (which represent our full mind in this analogy). Well, we parallelise it. The function <img src="https://latex.codecogs.com/png.latex?f">, given a smaller input vector <img src="https://latex.codecogs.com/png.latex?y"> and smaller weights <img src="https://latex.codecogs.com/png.latex?%5Ctheta">, should return faster results at competitive accuracy. What I’m describing is combined data- and time-parallastion. We solve the Neural ODE on a fine data-time domain, and we make sure it’s inference on a coarser data-time domain is just as accurate.</p>
+<p>Several works have investigated this idea on Neural ODE, namely Gunther [REF MULTIGRID IN TIME], Massaroli [REF DIFF LAYERS]. However, they only considered time (or layer) parallelism. Moreover, they focus on the training, rather than inference. Combinng at data and time for quick inference is a dream I hope to achieve before then end of my PhD (2025).</p>
+</section>
+<section id="closing-toughts" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="closing-toughts"><span class="header-section-number">4</span> Closing toughts</h2>
+<p>I’m currently investigating the feasablity of a data-time parallel Neural ODE in my PhD research. How would we test such an idea on the brain? I have no clue yet. All I know is that I can only start with my brain, as with the famous Chinese Room argument.</p>
+<p>If your mind finds itself drawn to these ideas, then maybe they’re true (As Searle says, always test the theory on yourself first). In that case, send me a massage. If you’ve heard these same ideas somewhere else before and think I’m wasting my time, then please do send me a message. If this sounds like complete bullshit to you, that’s because maybe it is. It shouldn’t stop you from sending a kind message.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Cognitive Science</category>
+  <category>Parallel Computing</category>
+  <category>Differential Equations</category>
+  <guid>https://www.myblogexample.io/posts/parallel-mind-theory/index.html</guid>
+  <pubDate>Sat, 22 Jul 2023 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Welcome to the FOS Blog</title>
+  <dc:creator>RD2N </dc:creator>
+  <link>https://www.myblogexample.io/posts/welcome/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is my first post in the FOS blog. Welcome!</p>
+<p><img src="https://www.myblogexample.io/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p>I’ve never really owned a blog. Even though it’s been on my mind for more than 2 years now.</p>
+<p>Now that I’ve got a band new portfolio website, I feel like I’m never going to get a better opportunity than this to flesh out some of my ideas.</p>
+<p>The previous iterations of my personal websites are not accessible anymore. But snapshoots can be found below.</p>
+<ul>
+<li>Photo of Version 1: FOS version 1</li>
+<li>Photo of Version 2: FOS version 2</li>
+</ul>
+<p>Nothing was wrong with either of those versions. My only concern was that I couldn’t write code like in iPython notebooks. That feature is something I rely on a lot for my Data Science tutorials.</p>
+<p>This version of the FOS (version 3) website is built on Quarto which fully support in-line code cells in Python and Julia, my main scripting languages. It offered template more gorgeos than anything that I could’ve found anywhere else.</p>
+<p>Now that you know my reasons for making these changes, you can tell me what you think. <strong>Which version of FOS looks the best accoring to you</strong> ?</p>
+<p>POOL</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://www.myblogexample.io/posts/welcome/index.html</guid>
+  <pubDate>Wed, 19 Jul 2023 23:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

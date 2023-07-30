@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Hi there ! I’m a PhD student in HPC-AI at the University of Bristol, investigating parallel algorithms for combined data-driven and physics-informed simulation and control. I’m advised by Dr Tom Deakin, Pr David Barton, and Pr Simon McIntosh-Smith.\nMy research interests are at the intersection of Artificial Inteligence, Scientific Computing, and High Performance Computing. Some of the questions I ponder are:\nFor more details, please read my CV, or view my profile on LinkedIn. If it grabs your attention, please do send me a message."
+    "text": "Hi there ! I’m a PhD student in HPC-AI at the University of Bristol, investigating parallel algorithms for combined data-driven and physics-informed simulation and control. I’m advised by Dr Tom Deakin, Pr David Barton, and Pr Simon McIntosh-Smith.\nMy research interests are at the intersection of Artificial Inteligence, Scientific Computing, and High Performance Computing. Some of the questions I ponder are:\nFor more details, read my CV or view my profile on LinkedIn. If it grabs your attention, please do send me a message."
   },
   {
     "objectID": "index.html",
@@ -46,7 +46,7 @@
     "href": "posts.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nA parallel theory of the causal mind\n\n\n\n\n\n\n\nCognitive Science\n\n\nParallel Computing\n\n\nDifferential Equations\n\n\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nRD2N\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to the FOS Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2023\n\n\nRD2N\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nMesh-free simulation in the age of Big Data\n\n\n\n\n\n\n\nsimulation\n\n\n\n\n\n\n\n\n\n\n\nJul 29, 2023\n\n\nRD2N\n\n\n\n\n\n\n  \n\n\n\n\nA parallel theory of the causal mind\n\n\n\n\n\n\n\nCognitive Science\n\n\nParallel Computing\n\n\nDifferential Equations\n\n\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nRD2N\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to the FOS Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2023\n\n\nRD2N\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html",
@@ -123,7 +123,7 @@
     "href": "about.html#hobbies",
     "title": "About",
     "section": "Hobbies",
-    "text": "Hobbies\n\n\n\n   \n\n\n\n\nAll things computer hardware, software and games. From old classics like XX to AAA games like DOOM, nothing like a first-person shooter to evade your troubles.\nI play football weekly in the Bristol Suburban League with the Little Stokes feared A’s team.\nI’ve just recently taken back to playing the piano. Seriously this time. Find some of my pieces here.\nIn another life, I’m pretty sure I am a moviemaker."
+    "text": "Hobbies\n\n\n\n\n\n\nI enjoy all things computer hardware, software and games: from old classics to AAA’s like DOOM. Nothing like a first-person shooter to evade your troubles.\n\n\n\n\n\n\n\nIn another life, I’m pretty sure I am/was a moviemaker.\n\n\n\n\n\n\n\n\n\nMy Casiotone CT-S100. I’ve just recently taken back to playing the piano. Hopefully some of my pieces will feature here soon.\n\n\n\n\n\n\n\nFootball is life. I play weekly in the Bristol & Suburban League with the Little Stoke’s feared A team."
   },
   {
     "objectID": "about.html#life",
@@ -250,5 +250,19 @@
     "title": "About",
     "section": "Address",
     "text": "Address"
+  },
+  {
+    "objectID": "about.html#quotes",
+    "href": "about.html#quotes",
+    "title": "About",
+    "section": "Quotes",
+    "text": "Quotes\nA few quotes can describe me better than any essay I could ever write:\n\nGod grant me the serenity to accept the things I cannot change, courage to change the things I can, and the wisdom to know the difference - The Serenity Prayer\nTime waits for no one - probably from The Girl Who Leapt Through Time"
+  },
+  {
+    "objectID": "about.html#cornerstones",
+    "href": "about.html#cornerstones",
+    "title": "About",
+    "section": "Cornerstones",
+    "text": "Cornerstones\nA few quotes can describe me better than any essay I could ever write:\n\nGod grant me the serenity to accept the things I cannot change, courage to change the things I can, and the wisdom to know the difference - The Serenity Prayer\nTime waits for no one - probably from The Girl Who Leapt Through Time"
   }
 ]

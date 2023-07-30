@@ -40,5 +40,8 @@
   },
   "publications/msc2.qmd": {
     "msc2.html": "e4680c0d"
+  },
+  "posts/mesh-free-simulation/index.qmd": {
+    "index.html": "fa168e28"
   }
 }
