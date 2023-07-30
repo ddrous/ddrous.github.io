@@ -39,11 +39,11 @@ To learn more about me, go to the [About](/about.qmd) page. In [Projects](/proje
 <!-- - _10 Oct. 2021_ : I moved to Bristol for a PhD in the Interacrive AI CDT. Find pictures of my trips on Instagram. -->
 
 
-## Selected stories
+## Selected stories*
 ###### [A computational theory of the causal mind](/posts/parallel-mind-theory/index.qmd)
 ###### [Mesh-free simulation in the Age of Big Data](/posts/mesh-free-simulation/index.qmd)
 ###### [Welcome to Our Brand New Website !](posts/welcome/index.qmd)
-###### [__More__](posts.qmd)
+###### [__More ...__](posts.qmd)
 
 Stay up to date with these stories by signing up for my weekly newsletter in the [Blog](/posts.qmd) section.
 

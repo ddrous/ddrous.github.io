@@ -16,7 +16,7 @@ format:
 link-citations: true
 mainfont: CMU Sans Serif
 
-css: styles.css
+# css: styles.css
 
 
 
@@ -25,6 +25,8 @@ website:
   # description: "Unapolagetically curious."
   site-url: https://ddrous.github.io/
   navbar:
+    logo: "assets/images/logo.png"
+    href: index.html
     right:
       - about.qmd
       - projects.qmd
