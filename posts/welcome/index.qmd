@@ -3,6 +3,9 @@ title: "Welcome to the FOS Blog"
 author: "RD2N"
 date: "2023-07-20"
 categories: [news]
+comments:
+  giscus: 
+    repo: ddrous/ddrous.github.io
 ---
 
 This is my first post in the FOS blog. Welcome!

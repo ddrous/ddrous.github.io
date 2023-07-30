@@ -3,6 +3,9 @@ title: "Mesh-free simulation in the age of Big Data"
 author: "RD2N"
 date: "2023-07-29"
 categories: [simulation]
+comments:
+  giscus: 
+    repo: ddrous/ddrous.github.io
 ---
 
 This is goign to be about why we need mesh-fre simulations:
