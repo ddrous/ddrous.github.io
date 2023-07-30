@@ -21,9 +21,9 @@ website:
     left: "Copyright © 2023 - Roussel Desmond Nzoyem"
     right: "Powered by [Quarto](https://quarto.org/) <?quarto.version?>"
   # search: true
-  comments:
-    giscus:
-      repo: ddrous/ddrous.github.io
+  # comments:
+  #   giscus:
+  #     repo: ddrous/ddrous.github.io
 
 format:
   html:
