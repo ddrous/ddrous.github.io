@@ -7,15 +7,20 @@ about:
   template: marquee
   # image-width: 100em
   links:
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=80GLOSUAAAAJ&hl=en
+    - icon: github
+      text: Github
+      href: https://github.com/ddrous
     - icon: twitter
       text: Twitter
       href: https://twitter.com/rdesnzoyem
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/roussel-desmond-nzoyem/
-    - icon: github
-      text: Github
-      href: https://github.com/ddrous
+
+# margin-footer: subscribe.html
 ---
 
 
@@ -35,7 +40,12 @@ To learn more about me, go to the [About](/about.qmd) page. In [Projects](/proje
 
 
 ## Selected stories
-- a computational theory of the causal mind
+###### [A computational theory of the causal mind](/posts/parallel-mind-theory/index.qmd)
+###### [Mesh-free simulation in the Age of Big Data](/posts/mesh-free-simulation/index.qmd)
+###### [Welcome to Our Brand New Website !](posts/welcome/index.qmd)
+###### [__More__](posts.qmd)
+
+Stay up to date with these stories by signing up for my weekly newsletter in the [Blog](/posts.qmd) section.
 
 
 
@@ -57,7 +67,3 @@ To learn more about me, go to the [About](/about.qmd) page. In [Projects](/proje
 {{< include publications/_msc1.qmd >}}
 ::: -->
 
-
-
-## Newsletter
-If you enjoy what you see and want to stay updated, then please subscribe to my newletter (it's non-spammy).

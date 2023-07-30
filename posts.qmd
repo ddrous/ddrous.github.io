@@ -7,9 +7,14 @@ listing:
   categories: cloud
   sort-ui: true
   filter-ui: true
+  # fields: [date, title, reading-time, description, categories]
   feed: true
 page-layout: full
 title-block-banner: true
+margin-header: subscribe.html
+comments:
+  giscus: 
+    repo: ddrous/ddrous.github.io
 ---
 
 

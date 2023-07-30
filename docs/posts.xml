@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Roussel.</title>
-<link>https://www.myblogexample.io/posts.html</link>
-<atom:link href="https://www.myblogexample.io/posts.xml" rel="self" type="application/rss+xml"/>
+<link>https://ddrous.github.io/posts.html</link>
+<atom:link href="https://ddrous.github.io/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.433</generator>
 <lastBuildDate>Fri, 28 Jul 2023 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Mesh-free simulation in the age of Big Data</title>
   <dc:creator>RD2N </dc:creator>
-  <link>https://www.myblogexample.io/posts/mesh-free-simulation/index.html</link>
+  <link>https://ddrous.github.io/posts/mesh-free-simulation/index.html</link>
   <description><![CDATA[ 
 
 
@@ -31,13 +31,13 @@
 
  ]]></description>
   <category>simulation</category>
-  <guid>https://www.myblogexample.io/posts/mesh-free-simulation/index.html</guid>
+  <guid>https://ddrous.github.io/posts/mesh-free-simulation/index.html</guid>
   <pubDate>Fri, 28 Jul 2023 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>A parallel theory of the causal mind</title>
   <dc:creator>RD2N </dc:creator>
-  <link>https://www.myblogexample.io/posts/parallel-mind-theory/index.html</link>
+  <link>https://ddrous.github.io/posts/parallel-mind-theory/index.html</link>
   <description><![CDATA[ 
 
 
@@ -60,7 +60,7 @@
 <p>As it turns out, those two concepts have been merged in what is now known as Neural ODEs, typically formulated as follows: <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Balign%7D%0A%5Cfrac%7B%5Ctext%7Bd%7D%20y%7D%7B%5Ctext%7Bd%7D%20t%7D(t)%20&amp;=%20f_%7B%5Ctheta%7D(y,t),%20%5Cqquad%20t%20%5Cin%20%5Dt_0,%20t_f%20%5B%20%5C%5C%0Ay(t_0)%20&amp;=%20y_0,%20%5C%5C%0Az(t)%20&amp;=%20g_%7B%5Ctheta'%7D(%5Ctheta,%20y,%20y_0,%20t,%20t_0,%20t_f),%0A%5Cend%7Balign%7D"> where <img src="https://latex.codecogs.com/png.latex?y"> represents the physical state in which the brain is in. The transformative function <img src="https://latex.codecogs.com/png.latex?f_%7B%5Ctheta%7D"> – where the learnable parameters <img src="https://latex.codecogs.com/png.latex?%5Ctheta"> indicte a Deep Neural Network – dictates how a physical signal is processed inside the brain. The misterious <strong>readout</strong> function <img src="https://latex.codecogs.com/png.latex?g_%7B%5Ctheta'%7D"> tells us how a brain signal <img src="https://latex.codecogs.com/png.latex?y_0%5Cin%20%5Cmathbb%7BR%7D%5Eb"> turns into a global mind feature <img src="https://latex.codecogs.com/png.latex?z%20%5Cin%20%5Cmathbb%7BR%7D%5Em"> (with potentially lots more parameters).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://www.myblogexample.io/posts/parallel-mind-theory/MindBodyProblem.png" class="img-fluid figure-img"></p>
+<p><img src="https://ddrous.github.io/posts/parallel-mind-theory/MindBodyProblem.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">Figure 1: Illustration of the computational theory of the mind</figcaption>
 </figure>
 </div>
@@ -87,20 +87,20 @@
   <category>Cognitive Science</category>
   <category>Parallel Computing</category>
   <category>Differential Equations</category>
-  <guid>https://www.myblogexample.io/posts/parallel-mind-theory/index.html</guid>
+  <guid>https://ddrous.github.io/posts/parallel-mind-theory/index.html</guid>
   <pubDate>Sat, 22 Jul 2023 23:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Welcome to the FOS Blog</title>
   <dc:creator>RD2N </dc:creator>
-  <link>https://www.myblogexample.io/posts/welcome/index.html</link>
+  <link>https://ddrous.github.io/posts/welcome/index.html</link>
   <description><![CDATA[ 
 
 
 
 
 <p>This is my first post in the FOS blog. Welcome!</p>
-<p><img src="https://www.myblogexample.io/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p><img src="https://ddrous.github.io/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
 <p>I’ve never really owned a blog. Even though it’s been on my mind for more than 2 years now.</p>
 <p>Now that I’ve got a band new portfolio website, I feel like I’m never going to get a better opportunity than this to flesh out some of my ideas.</p>
 <p>The previous iterations of my personal websites are not accessible anymore. But snapshoots can be found below.</p>
@@ -117,7 +117,7 @@
 
  ]]></description>
   <category>news</category>
-  <guid>https://www.myblogexample.io/posts/welcome/index.html</guid>
+  <guid>https://ddrous.github.io/posts/welcome/index.html</guid>
   <pubDate>Wed, 19 Jul 2023 23:00:00 GMT</pubDate>
 </item>
 </channel>

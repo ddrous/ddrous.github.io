@@ -13,9 +13,6 @@ about:
     - icon: github
       text: Github
       href: https://github.com/ddrous
-format:
-  html:
-    toc: true
 ---
 
 Hi there ! I'm a PhD student in HPC-AI at the University of Bristol, investigating parallel algorithms for combined data-driven and physics-informed simulation and control. I'm advised by [Dr Tom Deakin](https://hpc.tomdeakin.com/), [Pr David Barton](https://cityinthesky.co.uk/about-me/), and [Pr Simon McIntosh-Smith](http://uob-hpc.github.io/SimonMS/).
