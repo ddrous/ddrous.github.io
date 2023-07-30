@@ -2,6 +2,24 @@ project:
   type: website
   output-dir: docs
 
+format:
+  html:
+    theme: 
+      light: yeti
+      dark: superhero
+    css: styles.css
+    highlight-style: zenburn
+    toc: false
+    number-sections: false
+    header-includes: |
+      <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/cmu-sans-serif" type="text/css"/>
+link-citations: true
+mainfont: CMU Sans Serif
+
+css: styles.css
+
+
+
 website:
   title: "Roussel."
   # description: "Unapolagetically curious."
@@ -24,21 +42,3 @@ website:
   # comments:
   #   giscus:
   #     repo: ddrous/ddrous.github.io
-
-format:
-  html:
-    theme: 
-      light: yeti
-      dark: superhero
-    css: styles.css
-    highlight-style: zenburn
-    toc: false
-    number-sections: false
-    header-includes: |
-      <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/cmu-sans-serif" type="text/css"/>
-link-citations: true
-mainfont: CMU Sans Serif
-
-css: styles.css
-
-
