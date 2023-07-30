@@ -39,5 +39,6 @@ format:
 link-citations: true
 mainfont: CMU Sans Serif
 
+css: styles.css
 
 

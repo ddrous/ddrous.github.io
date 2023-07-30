@@ -1,5 +1,19 @@
 /* css styles */
 
+
+.quarto-title-block .quarto-title-banner {
+    background-image: url(assets/images/logo.jpeg);
+    background-size: 300px;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    background-origin: content-box;
+  }
+
+
+
+
+
 /* @font-face {
     font-family: 'CMU Bright';
     src: url('./assets/fonts/cmunbmr-webfont.woff2') format('woff2'),
