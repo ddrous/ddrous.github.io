@@ -18,13 +18,15 @@ Now that I've got a band new portfolio website, I feel like I'm never going to g
 
 The previous iterations of my personal websites are not accessible anymore. But snapshoots can be found below.
 
-- Photo of Version 1: FOS version 1
-- Photo of Version 2: FOS version 2
+- Photo of Version 1: [FOS version 1](https://desmond-rn.github.io)
+- Photo of Version 2: [FOS version 2](https://rousseldesnzoyem.com)
 
 Nothing was wrong with either of those versions. My only concern was that I couldn't write code like in iPython notebooks. That feature is something I rely on a lot for my Data Science tutorials.
 
 This version of the FOS (version 3) website is built on Quarto which fully support in-line code cells in Python and Julia, my main scripting languages. It offered template more gorgeos than anything that I could've found anywhere else.
 
+It is a bit slower though.
+
 Now that you know my reasons for making these changes, you can tell me what you think. **Which version of FOS looks the best accoring to you** ?
 
-POOL 
+POOL

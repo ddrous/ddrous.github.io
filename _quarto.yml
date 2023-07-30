@@ -24,6 +24,9 @@ website:
   title: "Roussel."
   # description: "Unapolagetically curious."
   site-url: https://ddrous.github.io/
+  favicon: "assets/images/logo.png"
+  open-graph: true
+  google-analytics: "G-GLZPYK16BE"
   navbar:
     logo: "assets/images/logo.png"
     href: index.html
