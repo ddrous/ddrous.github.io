@@ -7,11 +7,19 @@ listing:
   categories: cloud
   sort-ui: true
   filter-ui: true
-  # fields: [date, title, reading-time, description, categories]
+  fields: [date, title, reading-time, image, description, categories, reading-time]
   feed: true
 page-layout: full
 title-block-banner: true
 margin-header: subscribe.html
 ---
 
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Blog</li>
+  </ol>
+</nav>
+```
 

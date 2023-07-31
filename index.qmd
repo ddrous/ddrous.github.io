@@ -28,7 +28,7 @@ about:
 
 This website is about my professional journey. You'll also find interesting stories on various topics in **hard** and **cognitive sciences**, and some even more random stuff.
 
-To learn more about me, go to the [About](/about.qmd) page. In [Projects](/projects.qmd), you'll find some work I've contributed to, along with the tech stack I've mastered over the years. For some very random stuff, go to [Blog](/posts.qmd) where you'll find a curated list of stories, articles, and poems. I hope you'll enjoy !
+To learn more about me, go to the [About](/about.qmd) page. In [Projects](/projects.qmd) and [Publications](/publications.qmd), you'll find some work I've contributed to, along with the tech stack I've mastered over the years. For some very random stuff, go to [Blog](/posts.qmd) where you'll find a curated list of stories, articles, and poems. I hope you'll enjoy !
 
 
 ## News
@@ -40,30 +40,21 @@ To learn more about me, go to the [About](/about.qmd) page. In [Projects](/proje
 
 
 ## Selected stories*
-###### [A computational theory of the causal mind](/posts/parallel-mind-theory/index.qmd)
-###### [Mesh-free simulation in the Age of Big Data](/posts/mesh-free-simulation/index.qmd)
-###### [Welcome to Our Brand New Website !](posts/welcome/index.qmd)
-###### [__More ...__](posts.qmd)
+- ###### A computational theory of the causal mind [Read](/posts/parallel-mind-theory/index.qmd)
+- ###### Mesh-free simulation in the Age of Big Data [Read](/posts/mesh-free-simulation/index.qmd)
+- ###### Welcome to our Brand New Website ! [Read](posts/welcome/index.qmd)
+<!-- - ###### More stories in the section [Blog ...](posts.qmd) -->
 
 Stay up to date with these stories by signing up for my weekly newsletter in the [Blog](/posts.qmd) section.
 
 
 
-<!-- ## Selected publications
+## Publications
+
+All publications can be found in the section [Publications](/publications.qmd).
 
 
-::: {.callout-caution collapse="true"}
-### Summer project title
-:::
 
-::: {.callout-caution collapse="true"}
-### MSc 2 Title
-/* {{< include publications/_msc2.qmd >}}
-/*<iframe src="publications/_msc2.html"></iframe>
-:::
-
-::: {.callout-caution collapse="true"}
-### MSc Title 1
-{{< include publications/_msc1.qmd >}}
-::: -->
-
+```{=html}
+<center> <a href="mailto:rd.nzoyemngueguin@bristol.ac.uk" class="btn btn-primary rounded-pill"> Email me </a> </center>
+```

@@ -43,5 +43,26 @@
   },
   "posts/mesh-free-simulation/index.qmd": {
     "index.html": "fa168e28"
+  },
+  "publications.qmd": {
+    "publications.html": "b9c237da"
+  },
+  "404.qmd": {
+    "404.html": "314da0fe"
+  },
+  "publications/theses/nzoyem2020.qmd": {
+    "nzoyem2020.html": "75cd6125"
+  },
+  "publications/theses/nzoyem2021fracturation.qmd": {
+    "nzoyem2021fracturation.html": "8fc98630"
+  },
+  "publications/theses/nzoyem2020simulation.qmd": {
+    "nzoyem2020simulation.html": "c4aa8be9"
+  },
+  "publications/theses/nzoyem2022accelerating.qmd": {
+    "nzoyem2022accelerating.html": "0fce4207"
+  },
+  "cv.qmd": {
+    "cv.html": "99ccbcd0"
   }
 }

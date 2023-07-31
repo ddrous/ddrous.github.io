@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="RD2N">
-<meta name="dcterms.date" content="2021-01-15">
+<meta name="author" content="Nzoyem, Labbé &amp; Prud’homme">
 
-<title>Roussel. - \(Phi\)-FEM</title>
+<title>Roussel. - Fracturation de floes de glace par percussion dans un modèle granulaire</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,16 +74,11 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
 </script>
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/cmu-sans-serif" type="text/css">
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Roussel. - \(Phi\)-FEM">
+<meta property="og:title" content="Roussel. - Fracturation de floes de glace par percussion dans un modèle granulaire">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://ddrous.github.io/projects/phifem/phifem.png">
 <meta property="og:site-name" content="Roussel.">
-<meta property="og:image:height" content="290">
-<meta property="og:image:width" content="352">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -158,54 +152,62 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title"><span class="math inline">\(Phi\)</span>-FEM</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">Modelling</div>
-                <div class="quarto-category">Scientific Computing</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>RD2N </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">January 15, 2021</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Fracturation de floes de glace par percussion dans un modèle granulaire</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">partial differential equations</div>
+    <div class="quarto-category">mathematical modelling</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
 
-<p>In recent years, numerical models using the Finite Elements Method (FEM) to simulate the soft tissue mechanisms of the human body have attracted a great interest. In the context of computer-assisted surgery, the simulation method should be quick, precise, and patient-specific. This work develops a new immersed boundary method named φ-FEM to address those issues.</p>
-<p>Software: - Fenics - SOFA</p>
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p><strong>Nzoyem</strong>, Labbé &amp; Prud’homme </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<center> <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=80GLOSUAAAAJ&amp;citation_for_view=80GLOSUAAAAJ:u-x6o8ySG0sC" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
+<section id="citation-apa" class="level2">
+<h2 class="anchored" data-anchor-id="citation-apa">Citation (APA)</h2>
+<blockquote class="blockquote">
+<p>Nzoyem, R., Labbé, S. &amp; Prud’homme, C. (2021). Fracturation de floes de glace par percussion dans un modèle granulaire.</p>
+</blockquote>
+</section>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>The rapid shrinking of the Arctic ice cap these last decades is seen as one of the most striking manifestations of global warming. This decrease in size opens way to new opportunities, namely the creation of routes beneficial to the industrial sector. The second major consequence of this observation that we need to include the Marginal Ice Zone (MIZ) into climate prediction models. In 2015, Rabatel et al.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> developed a sophisticated model for the dynamics of rigid ice floes. The model was later enhanced by Balasoiu in 2020 when he considered the ice floe not as rigid, but as an elastic material modeled by a mass‐spring‐damper lattice<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Our main goal in this report is to study what happens when two or more ice floes collide (percussion, fracture, etc.), both in 1D and in 2D.</p>
 
 
+</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Matthias RABATEL et al.&nbsp;« Dynamics of an assembly of rigid ice floes ». In : Journal of Geophysical Research : Oceans 120.9 (2015), p.&nbsp;5887‐5909.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Dimitri BALASOIU. « Modélisation et simulation du comportement mécanique de floes de glace ». Theses. Université Grenoble Alpes [2020‐….], oct. 2020. URL : https://tel. archives-ouvertes.fr/tel-03116132.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

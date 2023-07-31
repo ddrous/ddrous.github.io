@@ -1,24 +1,59 @@
 [
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Blog",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nMesh-free simulation in the age of Big Data\n\n\n\n\n\n\n\nsimulation\n\n\n\n\n\n\n\n\n\n\n\nJul 29, 2023\n\n\nRD2N\n\n\n\n\n\n\n  \n\n\n\n\nA parallel theory of the causal mind\n\n\n\n\n\n\n\nCognitive Science\n\n\nParallel Computing\n\n\nDifferential Equations\n\n\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\nRD2N\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to the FOS Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2023\n\n\nRD2N\n\n\n\n\n\n\nNo matching items"
+    "text": "Download current CV"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Home\n    About\nHi there ! I’m a PhD student in HPC-AI at the University of Bristol, investigating parallel algorithms for combined data-driven and physics-informed simulation and control. I’m advised by Dr Tom Deakin, Pr David Barton, and Pr Simon McIntosh-Smith.\nMy research interests are at the intersection of Artificial Inteligence, Scientific Computing, and High Performance Computing. Some of the questions I ponder are:\nFor more details, read my CV or view my profile on LinkedIn. If it grabs your attention, please do send me a message."
+  },
+  {
+    "objectID": "about.html#cornerstones",
+    "href": "about.html#cornerstones",
+    "title": "About",
+    "section": "Cornerstones",
+    "text": "Cornerstones\nA few quotes can describe me better than any essay I could ever write:\n\nGod grant me the serenity to accept the things I cannot change, courage to change the things I can, and the wisdom to know the difference - The Serenity Prayer\nTime waits for no one - probably from The Girl Who Leapt Through Time"
+  },
+  {
+    "objectID": "about.html#hobbies",
+    "href": "about.html#hobbies",
+    "title": "About",
+    "section": "Hobbies",
+    "text": "Hobbies\n\n\n\n\n\n\nI enjoy all things computer hardware, software and games: from old classics to AAA’s like DOOM. Nothing like a first-person shooter to evade your troubles.\n\n\n\n\n\n\n\nIn another life, I’m pretty sure I am/was a moviemaker.\n\n\n\n\n\n\n\n\n\nMy Casiotone CT-S100. I’ve just recently taken back to playing the piano. Hopefully some of my pieces will feature here soon.\n\n\n\n\n\n\n\nFootball is life. I play weekly in the Bristol & Suburban League with the Little Stoke’s feared A team."
+  },
+  {
+    "objectID": "about.html#address",
+    "href": "about.html#address",
+    "title": "About",
+    "section": "Address",
+    "text": "Address"
+  },
+  {
+    "objectID": "about.html#contact-me",
+    "href": "about.html#contact-me",
+    "title": "About",
+    "section": "Contact Me",
+    "text": "Contact Me"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Roussel.",
     "section": "",
-    "text": "This website is about my professional journey. You’ll also find interesting stories on various topics in hard and cognitive sciences, and some even more random stuff.\nTo learn more about me, go to the About page. In Projects, you’ll find some work I’ve contributed to, along with the tech stack I’ve mastered over the years. For some very random stuff, go to Blog where you’ll find a curated list of stories, articles, and poems. I hope you’ll enjoy !"
+    "text": "This website is about my professional journey. You’ll also find interesting stories on various topics in hard and cognitive sciences, and some even more random stuff.\nTo learn more about me, go to the About page. In Projects and Publications, you’ll find some work I’ve contributed to, along with the tech stack I’ve mastered over the years. For some very random stuff, go to Blog where you’ll find a curated list of stories, articles, and poems. I hope you’ll enjoy !"
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
     "title": "Roussel.",
     "section": "",
-    "text": "This website is about my professional journey. You’ll also find interesting stories on various topics in hard and cognitive sciences, and some even more random stuff.\nTo learn more about me, go to the About page. In Projects, you’ll find some work I’ve contributed to, along with the tech stack I’ve mastered over the years. For some very random stuff, go to Blog where you’ll find a curated list of stories, articles, and poems. I hope you’ll enjoy !"
+    "text": "This website is about my professional journey. You’ll also find interesting stories on various topics in hard and cognitive sciences, and some even more random stuff.\nTo learn more about me, go to the About page. In Projects and Publications, you’ll find some work I’ve contributed to, along with the tech stack I’ve mastered over the years. For some very random stuff, go to Blog where you’ll find a curated list of stories, articles, and poems. I hope you’ll enjoy !"
   },
   {
     "objectID": "index.html#news",
@@ -32,7 +67,14 @@
     "href": "index.html#selected-stories",
     "title": "Roussel.",
     "section": "Selected stories*",
-    "text": "Selected stories*\n\nA computational theory of the causal mind\n\n\nMesh-free simulation in the Age of Big Data\n\n\nWelcome to Our Brand New Website !\n\n\nMore …\nStay up to date with these stories by signing up for my weekly newsletter in the Blog section."
+    "text": "Selected stories*\n\nA computational theory of the causal mind Read\nMesh-free simulation in the Age of Big Data Read\nWelcome to our Brand New Website ! Read\n\n\nStay up to date with these stories by signing up for my weekly newsletter in the Blog section."
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "Roussel.",
+    "section": "Publications",
+    "text": "Publications\nAll publications can be found in the section Publications.\n  Email me"
   },
   {
     "objectID": "projects/phifem/index.html",
@@ -46,14 +88,56 @@
     "href": "projects/vnetcancer/index.html",
     "title": "VnetCancer",
     "section": "",
-    "text": "We solved a computerized tomography inverse problem: given the signal on the boundaries of an organ, we want to rebuild the density map of the organ, hence detecting abnormally high density zones (which are potential indicators of early-onset cancer). Our main tasks were: simulating the radiative transfer equation; using Convolutional Neural Network to solve the related inverse problem; using a V-Net to improve accuracy and recreate the complete density map.\nSoftware stack: - Transfer - Eigen - Tensorflow"
+    "text": "We solved a computerized tomography inverse problem: given the signal on the boundaries of an organ, we want to rebuild the density map of the organ, hence detecting abnormally high density zones (which are potential indicators of early-onset cancer). Our main tasks were: simulating the radiative transfer equation; using Convolutional Neural Network to solve the related inverse problem; using a V-Net to improve accuracy and recreate the complete density map.\nSoftware stack: - Transfer - Eigen - Tensorflow\nRead an abstract of our report here."
   },
   {
-    "objectID": "posts/mesh-free-simulation/index.html",
-    "href": "posts/mesh-free-simulation/index.html",
-    "title": "Mesh-free simulation in the age of Big Data",
+    "objectID": "publications/theses/nzoyem2020simulation.html",
+    "href": "publications/theses/nzoyem2020simulation.html",
+    "title": "Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones",
     "section": "",
-    "text": "This is goign to be about why we need mesh-fre simulations:\n\nMeshes are heavy [AsiMov costs 3TB]\nComplex geometries can easily be point-clouded rather than meshesd\nMost data is represented as point clouds in computer graphics"
+    "text": "Google Scholar"
+  },
+  {
+    "objectID": "publications/theses/nzoyem2020simulation.html#citation-apa",
+    "href": "publications/theses/nzoyem2020simulation.html#citation-apa",
+    "title": "Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones",
+    "section": "Citation (APA)",
+    "text": "Citation (APA)\n\nNzoyem, R., Franck, E., Navoret, L., Vigon, V., & PRUD’HOMME, C. (2020). Simulation 2D de l’equation du transfert radiatif et reconstruction de la densité par un réseau de neurones."
+  },
+  {
+    "objectID": "publications/theses/nzoyem2020simulation.html#abstract",
+    "href": "publications/theses/nzoyem2020simulation.html#abstract",
+    "title": "Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones",
+    "section": "Abstract",
+    "text": "Abstract\nEn 2015, le réseau de neurones vainqueur de l’ILSVRC1 obtient une précision de 97.3 % ce qui conduit les chercheurs à postuler que les machines peuvent identifier les objets dans des images mieux que les humains. Depuis lors, le domaine du Machine Learning a continué à prendre de l’ampleur. Aujourd’hui ses applications se multiplient dans plusieurs secteurs d’activité parmi lesquelles l’automobile, la finance, le divertissement, et plus important, celui de la santé à travers l’imagerie médicale.\nLes tumeurs ont des propriétés optiques différentes des tissus qui les entourent2. Étant donné un domaine avec un faisceau lumineux qui s’y propage, reconstruire sa densité à l’aide du signal temporel mesuré sur ses bords constitue un problème inverse. Les problèmes inverses sont très importants en sciences mathématiques et ont des applications variées en imagerie médicale, radar, vision, etc. Ils sont malheureusement très difficiles à résoudre car ils nécessitent l’utilisation d’algorithmes d’optimisation avancés. Les réseaux de neurones artificiels se présente comme une méthode potentiellement moins couteuse mais plus rapide.\nGrace à son unité mixte de recherche IRMA, l’UFR de mathématique et d’informatique de l’Université de Strasbourg est un pôle de recherche en mathématiques appliquées. À travers ses équipes MOCO et Probabilités, l’IRMA s’intéresse aux problématiques de modélisation des EDP et de Machine Learning, raison pour laquelle j’ai choisi d’y effectuer mon stage de master 1 CSMI3. Au cours de ce stage (du 15 juin au 15 août 2020), j’ai pu m’intéresser au problème inverse de reconstruction de la densité d’un domaine par un réseau de neurones convolutif (CNN).\nCe stage a été suivi par les enseignants-chercheurs MM. Emmanuel FRANCK, Laurent NAVORET, et Vincent VIGON et s’inscrit dans la continuation d’un projet (encadré par la même équipe) qui s’est déroulé du 19 mars au 28 mai 2020. Le projet consistait en la simulation 1D d’un schéma de « splitting » pour le modèle P1 de l’équation du transfert radiatif couplé avec la matière. Le stage quant à lui a essentiellement consisté en la simulation du même schéma en 2D, et en la reconstruction de la densité par un CNN. Plus généralement, ce stage a été l’opportunité pour moi d’apprendre sur les EDP et l’apprentissage profond tout en me familiarisant avec l’interface de programmation de la librairie de réseaux de neurones Keras.\nEn vue de rendre compte de manière fidèle des deux mois passés au sein de l’IRMA, il apparait logique de présenter en titre de préambule le cadre du stage et son environnement technique. Ensuite il s’agira de présenter les différentes missions et tâches qui j’ai pu effectuer. Enfin je présenterais un bilan du stage, en incluant les différents apports et enseignements que j’ai pu en tirer."
+  },
+  {
+    "objectID": "publications/theses/nzoyem2020simulation.html#footnotes",
+    "href": "publications/theses/nzoyem2020simulation.html#footnotes",
+    "title": "Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nImageNet Large Scale Visual Recognition Challenge↩︎\nLes tissus cancéreux sont généralement plus denses que les tissus sains.↩︎\nCalcul Scientifique et Mathématiques de l’Information↩︎"
+  },
+  {
+    "objectID": "publications/theses/nzoyem2022accelerating.html",
+    "href": "publications/theses/nzoyem2022accelerating.html",
+    "title": "Accelerating Algebraic Multigrid Using Machine Learning",
+    "section": "",
+    "text": "Google Scholar"
+  },
+  {
+    "objectID": "publications/theses/nzoyem2022accelerating.html#citation-apa",
+    "href": "publications/theses/nzoyem2022accelerating.html#citation-apa",
+    "title": "Accelerating Algebraic Multigrid Using Machine Learning",
+    "section": "Citation (APA)",
+    "text": "Citation (APA)\n\nNzoyem, R., Louw, T., McIntosh-Smith, S. & Deakin, T., (2022). Accelerating Algebraic Multigrid Using Machine Learning: Application to problems originating from fluid simulation."
+  },
+  {
+    "objectID": "publications/theses/nzoyem2022accelerating.html#abstract",
+    "href": "publications/theses/nzoyem2022accelerating.html#abstract",
+    "title": "Accelerating Algebraic Multigrid Using Machine Learning",
+    "section": "Abstract",
+    "text": "Abstract\nHigh-fidelity fluid simulations require solving extremely large and sparse linear systems, often in- volving millions of unknowns. With its fast convergence properties, Algebraic Multigrid (AMG) is the method of choice in several application areas. This said, classical AMG suffers from a number of issues, calling Machine Learning (ML) to the rescue. Recent years have seen a flourish of ML tactics to accelerate AMG. However, published work tends to focus on small and unrepresentative problems. Moreover, these methods tend to be developed dissociatively, not involving human end users in the process.\nWith insights from potential users, we aim to build a ML-augmented AMG framework that is: (i) robust i.e. reusable in a variety of problems arising from fluid simulation; (ii) computationally cheap i.e. converges faster than the classical AMG; (iii) works for structured as well as unstructured grids; (iv) works for small systems as well as large systems, while taking advantage of their sparsity; and (v) scalable i.e. data- and model-parallelisable with efficient memory management.\nThe main contributions of this project are as follows: (1) a Graph Neural Network methodology for learning prolongation operators, built around DGL and PyTorch; (2) a Cloud Formation stack on AWS to run experiments, containing all the dependencies our implementation requires; (3) ex- periments indicating that our current AI model is better than the classical approach in about 20% of cases; and (4) a survey that, among other remarks, endeared participants to using (AI-enabled) AMG for their various problems.\nOur work entails much efficient usage of HPC resources. By noticing that ML can be leveraged not only when solving linear systems, we pave the way for ML to be efficiently used in other parts of the high-fidelity simulation pipeline. Moreover, the consideration of users and their needs is a positive step towards broader Design Space Exploration of prolongation operators, model hyperparameters, and physical parameters influencing mechanical engines in operation."
   },
   {
     "objectID": "posts/parallel-mind-theory/index.html",
@@ -98,6 +182,34 @@
     "text": "This is my first post in the FOS blog. Welcome!\n\nI’ve never really owned a blog. Even though it’s been on my mind for more than 2 years now.\nNow that I’ve got a band new portfolio website, I feel like I’m never going to get a better opportunity than this to flesh out some of my ideas.\nThe previous iterations of my personal websites are not accessible anymore. But snapshoots can be found below.\n\nPhoto of Version 1: FOS version 1\nPhoto of Version 2: FOS version 2\n\nNothing was wrong with either of those versions. My only concern was that I couldn’t write code like in iPython notebooks. That feature is something I rely on a lot for my Data Science tutorials.\nThis version of the FOS (version 3) website is built on Quarto which fully support in-line code cells in Python and Julia, my main scripting languages. It offered template more gorgeos than anything that I could’ve found anywhere else.\nIt is a bit slower though.\nNow that you know my reasons for making these changes, you can tell me what you think. Which version of FOS looks the best accoring to you ?\nPOOL"
   },
   {
+    "objectID": "publications/theses/nzoyem2021fracturation.html",
+    "href": "publications/theses/nzoyem2021fracturation.html",
+    "title": "Fracturation de floes de glace par percussion dans un modèle granulaire",
+    "section": "",
+    "text": "Google Scholar"
+  },
+  {
+    "objectID": "publications/theses/nzoyem2021fracturation.html#citation-apa",
+    "href": "publications/theses/nzoyem2021fracturation.html#citation-apa",
+    "title": "Fracturation de floes de glace par percussion dans un modèle granulaire",
+    "section": "Citation (APA)",
+    "text": "Citation (APA)\n\nNzoyem, R., Labbé, S. & Prud’homme, C. (2021). Fracturation de floes de glace par percussion dans un modèle granulaire."
+  },
+  {
+    "objectID": "publications/theses/nzoyem2021fracturation.html#abstract",
+    "href": "publications/theses/nzoyem2021fracturation.html#abstract",
+    "title": "Fracturation de floes de glace par percussion dans un modèle granulaire",
+    "section": "Abstract",
+    "text": "Abstract\nThe rapid shrinking of the Arctic ice cap these last decades is seen as one of the most striking manifestations of global warming. This decrease in size opens way to new opportunities, namely the creation of routes beneficial to the industrial sector. The second major consequence of this observation that we need to include the Marginal Ice Zone (MIZ) into climate prediction models. In 2015, Rabatel et al.1 developed a sophisticated model for the dynamics of rigid ice floes. The model was later enhanced by Balasoiu in 2020 when he considered the ice floe not as rigid, but as an elastic material modeled by a mass‐spring‐damper lattice2. Our main goal in this report is to study what happens when two or more ice floes collide (percussion, fracture, etc.), both in 1D and in 2D."
+  },
+  {
+    "objectID": "publications/theses/nzoyem2021fracturation.html#footnotes",
+    "href": "publications/theses/nzoyem2021fracturation.html#footnotes",
+    "title": "Fracturation de floes de glace par percussion dans un modèle granulaire",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nMatthias RABATEL et al. « Dynamics of an assembly of rigid ice floes ». In : Journal of Geophysical Research : Oceans 120.9 (2015), p. 5887‐5909.↩︎\nDimitri BALASOIU. « Modélisation et simulation du comportement mécanique de floes de glace ». Theses. Université Grenoble Alpes [2020‐….], oct. 2020. URL : https://tel. archives-ouvertes.fr/tel-03116132.↩︎"
+  },
+  {
     "objectID": "projects/gnn4amg/index.html",
     "href": "projects/gnn4amg/index.html",
     "title": "AI4HPC",
@@ -116,34 +228,20 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAI4HPC\n\n\n\nAI\n\n\nHPC\n\n\nFluid Dynamics\n\n\n\n\n\n\n\nRD2N\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArcticFloes\n\n\n\nModelling\n\n\nFunctional Analysis\n\n\n\n\n\n\n\nRD2N\n\n\nJul 31, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(Phi\\)-FEM\n\n\n\nModelling\n\n\nScientific Computing\n\n\n\n\n\n\n\nRD2N\n\n\nJan 15, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVnetCancer\n\n\n\nAI\n\n\nSimulation\n\n\n\n\n\n\n\nRD2N\n\n\nJun 18, 2020\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Home\n    Projects\n  \n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAI4HPC\n\n\n\nAI\n\n\nHPC\n\n\nFluid Dynamics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArcticFloes\n\n\n\nModelling\n\n\nFunctional Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(Phi\\)-FEM\n\n\n\nModelling\n\n\nScientific Computing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVnetCancer\n\n\n\nAI\n\n\nSimulation\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "Hi there ! I’m a PhD student in HPC-AI at the University of Bristol, investigating parallel algorithms for combined data-driven and physics-informed simulation and control. I’m advised by Dr Tom Deakin, Pr David Barton, and Pr Simon McIntosh-Smith.\nMy research interests are at the intersection of Artificial Inteligence, Scientific Computing, and High Performance Computing. Some of the questions I ponder are:\nFor more details, read my CV or view my profile on LinkedIn. If it grabs your attention, please do send me a message."
+    "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n  \n    Accelerating Algebraic Multigrid Using Machine Learning\n    **Nzoyem**, Louw, McIntosh-Smith & Deakin\n    HPC Reaserach Group - University of Bristol (PhD Summer Project)\n    (2022)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n  \n    Fracturation de floes de glace par percussion dans un modèle granulaire\n    **Nzoyem**, Labbé & Prud'homme\n    Laboratoire Jacques-Louis Lions - Sorbonne Université (MSc Thesis)\n    (2021)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n  \n    Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones\n    **Nzoyem**, Franck, Navoret, Vigon & Prud'homme\n    Institut de Recherche Mathématique Avancée (MSc Thesis)\n    (2020)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n\n\nNo matching items"
   },
   {
-    "objectID": "about.html#cornerstones",
-    "href": "about.html#cornerstones",
-    "title": "About",
-    "section": "Cornerstones",
-    "text": "Cornerstones\nA few quotes can describe me better than any essay I could ever write:\n\nGod grant me the serenity to accept the things I cannot change, courage to change the things I can, and the wisdom to know the difference - The Serenity Prayer\nTime waits for no one - probably from The Girl Who Leapt Through Time"
-  },
-  {
-    "objectID": "about.html#hobbies",
-    "href": "about.html#hobbies",
-    "title": "About",
-    "section": "Hobbies",
-    "text": "Hobbies\n\n\n\n\n\n\nI enjoy all things computer hardware, software and games: from old classics to AAA’s like DOOM. Nothing like a first-person shooter to evade your troubles.\n\n\n\n\n\n\n\nIn another life, I’m pretty sure I am/was a moviemaker.\n\n\n\n\n\n\n\n\n\nMy Casiotone CT-S100. I’ve just recently taken back to playing the piano. Hopefully some of my pieces will feature here soon.\n\n\n\n\n\n\n\nFootball is life. I play weekly in the Bristol & Suburban League with the Little Stoke’s feared A team."
-  },
-  {
-    "objectID": "about.html#address",
-    "href": "about.html#address",
-    "title": "About",
-    "section": "Address",
-    "text": "Address"
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Home\n    Blog\n  \n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nA parallel theory of the causal mind\n\n\n\n\n\n\n\nCognitive Science\n\n\nParallel Computing\n\n\nDifferential Equations\n\n\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\n6 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to the FOS Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2023\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   }
 ]

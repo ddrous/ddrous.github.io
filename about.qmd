@@ -4,6 +4,9 @@ image: ./assets/images/profile.jpg
 about:
   template: solana
   links:
+    - icon: envelope
+      text: Email
+      href: mailto:rd.nzoyemngueguin@bristol.ac.uk
     - icon: twitter
       text: Twitter
       href: https://twitter.com/rdesnzoyem
@@ -14,6 +17,15 @@ about:
       text: Github
       href: https://github.com/ddrous
 ---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">About</li>
+  </ol>
+</nav>
+```
 
 Hi there ! I'm a PhD student in HPC-AI at the University of Bristol, investigating parallel algorithms for combined data-driven and physics-informed simulation and control. I'm advised by [Dr Tom Deakin](https://hpc.tomdeakin.com/), [Pr David Barton](https://cityinthesky.co.uk/about-me/), and [Pr Simon McIntosh-Smith](http://uob-hpc.github.io/SimonMS/).
 
@@ -26,7 +38,7 @@ My research interests are at the intersection of **Artificial Inteligence**, **S
 - The _parallel computational theory of the causal mind_ as broadly covered by John R. Searle in _Philosophy of Mind_ and Malcolm Gladwell in _Blink_.
 
 
-For more details, read [my CV](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/ddrous/fosblog/master/assets/pdfs/CV_Short.pdf) or view my profile on [LinkedIn](https://www.linkedin.com/in/roussel-desmond-nzoyem/). If it grabs your attention, please do send me [a message](mailto:roussel.desmond.nzoyem@outlook.com).
+For more details, read [my CV](cv.qmd) or view my profile on [LinkedIn](https://www.linkedin.com/in/roussel-desmond-nzoyem/). If it grabs your attention, please do send me [a message](#contact-me).
 
 
 
@@ -56,3 +68,12 @@ A few quotes can describe me better than any essay I could ever write:
 ## Address
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.3556073109103!2d-2.601771986821512!3d51.45162711465729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718dd6fb02c409%3A0xf7efe4efd96ad12f!2s1%20Cathedral%20Square%2C%20Bristol%20BS1%205TS!5e0!3m2!1sen!2suk!4v1690662754993!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+## Contact Me
+
+<!-- {{< include contact.html >}} -->
+```{=html}
+<script type="text/javascript" src="https://form.jotform.com/jsform/232114133283343"></script>
+```

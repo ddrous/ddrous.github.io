@@ -1,0 +1,33 @@
+---
+title: "Fracturation de floes de glace par percussion dans un modèle granulaire"
+type: "thesis"
+author: "**Nzoyem**, Labbé & Prud'homme"
+year: "2021"
+publication: "Laboratoire Jacques-Louis Lions - Sorbonne Université (MSc Thesis)"
+preprint: "https://drive.google.com/file/d/1L2j7DQhP4Z1lqjfqew9LtN7K7DpXQMUA/view"
+doi: ""
+materials: ""
+toc: false
+categories:
+  - partial differential equations
+  - mathematical modelling
+---
+
+```{=html}
+<center> <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=80GLOSUAAAAJ&citation_for_view=80GLOSUAAAAJ:u-x6o8ySG0sC" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
+```
+
+
+## Citation (APA)
+
+> Nzoyem, R., Labbé, S. & Prud’homme, C. (2021). Fracturation de floes de glace par percussion dans un modèle granulaire.
+
+
+## Abstract
+The rapid shrinking of the Arctic ice cap these last decades is seen as one of the most striking manifestations of global warming. This decrease in size opens way to new opportunities, namely the creation of routes beneficial to the industrial sector. The second major consequence of this observation that we need to include the Marginal Ice Zone (MIZ) into climate prediction models. In 2015, Rabatel et al.[^1] developed a sophisticated model for the dynamics of rigid ice floes. The model was later enhanced by Balasoiu in 2020 when he considered the ice floe not as rigid, but as an elastic material modeled by a mass‐spring‐damper lattice[^2]. Our main goal in this report is to study what happens when two or more ice floes collide (percussion, fracture, etc.), both in 1D and in 2D.
+
+
+[^1]: Matthias RABATEL et al. « Dynamics of an assembly of rigid ice floes ». In : Journal of Geophysical Research : Oceans 120.9 (2015), p. 5887‐5909.
+
+[^2]: Dimitri BALASOIU. « Modélisation et simulation du comportement mécanique de floes
+de glace ». Theses. Université Grenoble Alpes [2020‐....], oct. 2020. URL : https://tel. archives-ouvertes.fr/tel-03116132.

@@ -12,3 +12,6 @@ Software stack:
 - Transfer
 - Eigen
 - Tensorflow
+
+
+Read an abstract of our report [here](ddrous.github.io/publications/theses/nzoyem2020.html).

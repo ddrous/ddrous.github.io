@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="RD2N">
-<meta name="dcterms.date" content="2021-01-15">
+<meta name="author" content="Nzoyem, Louw, McIntosh-Smith &amp; Deakin">
 
-<title>Roussel. - \(Phi\)-FEM</title>
+<title>Roussel. - Accelerating Algebraic Multigrid Using Machine Learning</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,16 +74,11 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
 </script>
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/cmu-sans-serif" type="text/css">
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Roussel. - \(Phi\)-FEM">
+<meta property="og:title" content="Roussel. - Accelerating Algebraic Multigrid Using Machine Learning">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://ddrous.github.io/projects/phifem/phifem.png">
 <meta property="og:site-name" content="Roussel.">
-<meta property="og:image:height" content="290">
-<meta property="og:image:width" content="352">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -158,52 +152,56 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title"><span class="math inline">\(Phi\)</span>-FEM</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">Modelling</div>
-                <div class="quarto-category">Scientific Computing</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>RD2N </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">January 15, 2021</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Accelerating Algebraic Multigrid Using Machine Learning</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">linear algebra</div>
+    <div class="quarto-category">machine learning</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
 
-<p>In recent years, numerical models using the Finite Elements Method (FEM) to simulate the soft tissue mechanisms of the human body have attracted a great interest. In the context of computer-assisted surgery, the simulation method should be quick, precise, and patient-specific. This work develops a new immersed boundary method named φ-FEM to address those issues.</p>
-<p>Software: - Fenics - SOFA</p>
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p><strong>Nzoyem</strong>, Louw, McIntosh-Smith &amp; Deakin </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<center> <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=80GLOSUAAAAJ&amp;citation_for_view=80GLOSUAAAAJ:_FxGoFyzp5QC" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
+<section id="citation-apa" class="level2">
+<h2 class="anchored" data-anchor-id="citation-apa">Citation (APA)</h2>
+<blockquote class="blockquote">
+<p>Nzoyem, R., Louw, T., McIntosh-Smith, S. &amp; Deakin, T., (2022). Accelerating Algebraic Multigrid Using Machine Learning: Application to problems originating from fluid simulation.</p>
+</blockquote>
+</section>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>High-fidelity fluid simulations require solving extremely large and sparse linear systems, often in- volving millions of unknowns. With its fast convergence properties, Algebraic Multigrid (AMG) is the method of choice in several application areas. This said, classical AMG suffers from a number of issues, calling Machine Learning (ML) to the rescue. Recent years have seen a flourish of ML tactics to accelerate AMG. However, published work tends to focus on small and unrepresentative problems. Moreover, these methods tend to be developed dissociatively, not involving human end users in the process.</p>
+<p>With insights from potential users, we aim to build a ML-augmented AMG framework that is: (i) robust i.e.&nbsp;reusable in a variety of problems arising from fluid simulation; (ii) computationally cheap i.e.&nbsp;converges faster than the classical AMG; (iii) works for structured as well as unstructured grids; (iv) works for small systems as well as large systems, while taking advantage of their sparsity; and (v) scalable i.e.&nbsp;data- and model-parallelisable with efficient memory management.</p>
+<p>The main contributions of this project are as follows: (1) a Graph Neural Network methodology for learning prolongation operators, built around DGL and PyTorch; (2) a Cloud Formation stack on AWS to run experiments, containing all the dependencies our implementation requires; (3) ex- periments indicating that our current AI model is better than the classical approach in about 20% of cases; and (4) a survey that, among other remarks, endeared participants to using (AI-enabled) AMG for their various problems.</p>
+<p>Our work entails much efficient usage of HPC resources. By noticing that ML can be leveraged not only when solving linear systems, we pave the way for ML to be efficiently used in other parts of the high-fidelity simulation pipeline. Moreover, the consideration of users and their needs is a positive step towards broader Design Space Exploration of prolongation operators, model hyperparameters, and physical parameters influencing mechanical engines in operation.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

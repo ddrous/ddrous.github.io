@@ -27,22 +27,34 @@ website:
   favicon: "assets/images/logo.png"
   open-graph: true
   google-analytics: "G-GLZPYK16BE"
+  page-navigation: true
+  # back-to-top-navigation: true
+  reader-mode: true
   navbar:
     logo: "assets/images/logo.png"
     href: index.html
-    right:
+    left: 
       - about.qmd
       - projects.qmd
+      # - text: "CV"
+      #   href: "./cv/index.qmd"
+      - cv.qmd
+      - publications.qmd
       - posts.qmd
+    right:
       - icon: github
         href: https://github.com/ddrous
       - icon: envelope
-        href: mailto:roussel.desmond.nzoyem@outlook.com
+        href: mailto:rd.nzoyemngueguin@bristol.ac.uk
       - icon: rss
         href: index.xml
   page-footer:
     left: "Copyright © 2023 - Roussel Desmond Nzoyem"
     right: "Powered by [Quarto](https://quarto.org/) <?quarto.version?>"
+    background: light
+  # sidebar:
+    # style: "docked"
+    # search: true
   # search: true
   # comments:
   #   giscus:

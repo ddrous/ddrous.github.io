@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
@@ -134,7 +134,7 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">About</span></a>
@@ -144,16 +144,26 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./cv.html" rel="" target="">
+ <span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications.html" rel="" target="">
+ <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./posts.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/ddrous" rel="" target=""><i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="mailto:roussel.desmond.nzoyem@outlook.com" rel="" target=""><i class="bi bi-envelope" role="img">
+    <a class="nav-link" href="mailto:rd.nzoyemngueguin@bristol.ac.uk" rel="" target=""><i class="bi bi-envelope" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -165,6 +175,11 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
 </ul>
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -198,6 +213,12 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
 
 
 
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Projects</li>
+  </ol>
+</nav>
 
 
 
@@ -211,15 +232,6 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
        <option value="index" data-direction="asc">Default</option>
          <option value="listing-title" data-direction="asc">
           Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
         </option>
      </select>
   </div>
@@ -253,14 +265,6 @@ Fluid Dynamics
 <div class="card-text listing-description">
 How would you design a jet engine without ever buiding eanything ? This project introduces a Graph Neural Network model to acclerate the Algebraic Multigrid (AMG) method for…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-RD2N
-</div>
-<div class="listing-date">
-Sep 1, 2022
-</div>
-</div>
 </div>
 </div>
 </a>
@@ -285,14 +289,6 @@ Functional Analysis
 </div>
 <div class="card-text listing-description">
 The rapid shrinking of the Arctic ice cap these last decades is seen as one of the most striking manifestations of global warming. We investigated what happens when two or…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-RD2N
-</div>
-<div class="listing-date">
-Jul 31, 2021
-</div>
 </div>
 </div>
 </div>
@@ -319,19 +315,11 @@ Scientific Computing
 <div class="card-text listing-description">
 In recent years, numerical models using the Finite Elements Method (FEM) to simulate the soft tissue mechanisms of the human body have attracted a great interest. In the…
 </div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-RD2N
-</div>
-<div class="listing-date">
-Jan 15, 2021
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="AI,Simulation" data-listing-date-sort="1592434800000" data-listing-file-modified-sort="1690097122456" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="3" data-categories="AI,Simulation" data-listing-date-sort="1592434800000" data-listing-file-modified-sort="1690802808802" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="./projects/vnetcancer/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -351,14 +339,6 @@ Simulation
 </div>
 <div class="card-text listing-description">
 We solved a computerized tomography inverse problem: given the signal on the boundaries of an organ, we want to rebuild the density map of the organ, hence detecting…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-RD2N
-</div>
-<div class="listing-date">
-Jun 18, 2020
-</div>
 </div>
 </div>
 </div>

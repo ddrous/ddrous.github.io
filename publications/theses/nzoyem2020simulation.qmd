@@ -1,0 +1,39 @@
+---
+title: "Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones"
+type: "thesis"
+author: "**Nzoyem**, Franck, Navoret, Vigon & Prud'homme"
+year: "2020"
+publication: "Institut de Recherche Mathématique Avancée (MSc Thesis)"
+preprint: "https://github.com/ddrous/inverse-problem-vnet/blob/master/doc/references/Rapport%20de%20stage%20M1.pdf"
+doi: ""
+materials: ""
+toc: false
+categories:
+  - partial differential equations
+  - machine learning
+---
+
+```{=html}
+<center> <a href="https://scholar.google.com/scholar?cluster=6127329550477364938&hl=en&oi=scholarr" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
+```
+
+
+## Citation (APA)
+
+> Nzoyem, R., Franck, E., Navoret, L., Vigon, V., & PRUD’HOMME, C. (2020). Simulation 2D de l’equation du transfert radiatif et reconstruction de la densité par un réseau de neurones.
+
+
+## Abstract
+En 2015, le réseau de neurones vainqueur de l’ILSVRC[^1] obtient une précision de 97.3 % ce qui conduit les chercheurs à postuler que les machines peuvent identifier les objets dans des images mieux que les humains. Depuis lors, le domaine du Machine Learning a continué à prendre de l’ampleur. Aujourd’hui ses applications se multiplient dans plusieurs secteurs d’activité parmi lesquelles l’automobile, la finance, le divertissement, et plus important, celui de la santé à travers l’imagerie médicale.
+
+Les tumeurs ont des propriétés optiques différentes des tissus qui les entourent[^2]. Étant donné un domaine avec un faisceau lumineux qui s’y propage, reconstruire sa densité à l’aide du signal temporel mesuré sur ses bords constitue un problème inverse. Les problèmes inverses sont très importants en sciences mathématiques et ont des applications variées en imagerie médicale, radar, vision, etc. Ils sont malheureusement très difficiles à résoudre car ils nécessitent l’utilisation d’algorithmes d’optimisation avancés. Les réseaux de neurones artificiels se présente comme une méthode potentiellement moins couteuse mais plus rapide.
+
+Grace à son unité mixte de recherche IRMA, l’UFR de mathématique et d’informatique de l’Université de Strasbourg est un pôle de recherche en mathématiques appliquées. À travers ses équipes MOCO et Probabilités, l’IRMA s’intéresse aux problématiques de modélisation des EDP et de Machine Learning, raison pour laquelle j’ai choisi d’y effectuer mon stage de master 1 CSMI[^3]. Au cours de ce stage (du 15 juin au 15 août 2020), j’ai pu m’intéresser au problème inverse de reconstruction de la densité d’un domaine par un réseau de neurones convolutif (CNN).
+
+Ce stage a été suivi par les enseignants-chercheurs MM. Emmanuel FRANCK, Laurent NAVORET, et Vincent VIGON et s’inscrit dans la continuation d’un projet (encadré par la même équipe) qui s’est déroulé du 19 mars au 28 mai 2020. Le projet consistait en la simulation 1D d’un schéma de « splitting » pour le modèle P1 de l’équation du transfert radiatif couplé avec la matière. Le stage quant à lui a essentiellement consisté en la simulation du même schéma en 2D, et en la reconstruction de la densité par un CNN. Plus généralement, ce stage a été l’opportunité pour moi d’apprendre sur les EDP et l’apprentissage profond tout en me familiarisant avec l’interface de programmation de la librairie de réseaux de neurones Keras.
+
+En vue de rendre compte de manière fidèle des deux mois passés au sein de l’IRMA, il apparait logique de présenter en titre de préambule le cadre du stage et son environnement technique. Ensuite il s’agira de présenter les différentes missions et tâches qui j’ai pu effectuer. Enfin je présenterais un bilan du stage, en incluant les différents apports et enseignements que j’ai pu en tirer.
+
+[^1]: ImageNet Large Scale Visual Recognition Challenge
+[^2]: Les tissus cancéreux sont généralement plus denses que les tissus sains.
+[^3]: Calcul Scientifique et Mathématiques de l’Information
