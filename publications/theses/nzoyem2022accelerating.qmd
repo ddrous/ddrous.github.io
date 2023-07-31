@@ -14,7 +14,7 @@ categories:
 ---
 
 ```{=html}
-<center> <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=80GLOSUAAAAJ&citation_for_view=80GLOSUAAAAJ:_FxGoFyzp5QC" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
+<center> <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=80GLOSUAAAAJ&citation_for_view=80GLOSUAAAAJ:_FxGoFyzp5QC" target="_blank" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
 ```
 
 

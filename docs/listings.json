@@ -19,6 +19,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/mesh-free-simulation/index.html",
       "/posts/parallel-mind-theory/index.html",
       "/posts/welcome/index.html"
     ]

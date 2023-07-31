@@ -1,5 +1,5 @@
 ---
-title: CV
+title: Curriculum Vitae
 description-meta: "Roussel's CV"
 date: 2023-05-22
 # title-block-banner: "#771C6D"
@@ -8,6 +8,15 @@ engine: knitr
 cv:
   pdf: "assets/pdfs/CV_Short.pdf"
 ---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">CV</li>
+  </ol>
+</nav>
+```
 
 
 

@@ -33,14 +33,17 @@ website:
   navbar:
     logo: "assets/images/logo.png"
     href: index.html
-    left: 
-      - about.qmd
-      - projects.qmd
-      # - text: "CV"
-      #   href: "./cv/index.qmd"
-      - cv.qmd
-      - publications.qmd
-      - posts.qmd
+    left:
+      - text: "About"
+        href: "about.qmd"
+      - text: "Publications"
+        href: "publications.qmd"
+      - text: "CV"
+        href: "cv.qmd"
+      - text: "Projects"
+        href: "projects.qmd"
+      - text: "Blog"
+        href: "posts.qmd"
     right:
       - icon: github
         href: https://github.com/ddrous

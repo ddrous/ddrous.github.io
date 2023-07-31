@@ -1,8 +1,9 @@
 ---
-title: "About"
+title: "Roussel"
+# pagetitle: "About"
 image: ./assets/images/profile.jpg
 about:
-  template: solana
+  template: trestles
   links:
     - icon: envelope
       text: Email
@@ -38,16 +39,16 @@ My research interests are at the intersection of **Artificial Inteligence**, **S
 - The _parallel computational theory of the causal mind_ as broadly covered by John R. Searle in _Philosophy of Mind_ and Malcolm Gladwell in _Blink_.
 
 
-For more details, read [my CV](cv.qmd) or view my profile on [LinkedIn](https://www.linkedin.com/in/roussel-desmond-nzoyem/). If it grabs your attention, please do send me [a message](#contact-me).
+For more details, read [my CV](cv.qmd) or view my profile on [LinkedIn](https://www.linkedin.com/in/roussel-desmond-nzoyem/). If they grab your attention, please do send me [a message](#contact-me).
 
 
 
 ## Cornerstones
 
-A few quotes can describe me better than any essay I could ever write:
+A few quotes describe me better than any essay I could ever write:
 
 - _God grant me the serenity to accept the things I cannot change, courage to change the things I can, and the wisdom to know the difference_ - __The Serenity Prayer__
-- _Time waits for no one_ - probably from __The Girl Who Leapt Through Time__
+- _Time waits for no one_ - uttured in __The Girl Who Leapt Through Time__
 
 
 
