@@ -23,6 +23,14 @@ share:
 comments:
   giscus:
     repo: ddrous/ddrous.github.io
+include-in-header:
+  text: |
+    \newfontfamily\sectionfont[Color=ff7832]{Libertinus Sans}
+    \newfontfamily\subsectionfont[Color=MediumBlue]{Comic Sans MS}
+    \newfontfamily\subsubsectionfont[Color=Green]{Roboto Mono}
+    \addtokomafont{section}{\sectionfont}
+    \addtokomafont{subsection}{\subsectionfont}
+    \addtokomafont{subsubsection}{\subsubsectionfont}
 ---
 
 I've always been fascinated by the theory of the mind, and how to fully replicate it. But lately I've found the pholosiphical nature of the question more and more frustrating. The following article is based on ideas I collected from Malcolm Gladwell's book Blink, and John Searle's course on the Philosophy of Mind. Hoping not to get into too much detail, I'll talk about a few technologies: Parallel Computing, and Neural Differential Equations.
