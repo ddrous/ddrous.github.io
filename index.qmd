@@ -33,29 +33,30 @@ To learn more about me, go to the [About](/about.qmd) page. In [Projects](/proje
 
 ## News
 
-- _01 Aug. 2023_ : I've released version 0.1.5 of Updec: a mesh-free differentiable software for quick experimentation with a variety of PDEs. Install it [here](https://github.com/ddrous/Updec).
-- _10 Mar. 2023_ : I gave a talk for CMU Africa on Emerging Graph Neural Network techniques. Find a recording [here](https://youtu.be/ahG-LG0ABRQ).
-- _01 Dec. 2022_ : I began my research on AI and HPC for mesh-free simulations. A short abstract can be found [here](http://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/).
+- _01 Aug. 2023_ : I've released version 0.1.5 of Updec: a mesh-free differentiable software for quick experimentation with a variety of PDEs. ☞ [Repo](https://github.com/ddrous/Updec).
+- _10 Mar. 2023_ : I gave a talk for CMU Africa on Emerging Graph Neural Network techniques. ☞ [Recording](https://youtu.be/ahG-LG0ABRQ).
+- _01 Dec. 2022_ : I began my research on AI and HPC for mesh-free simulations. ☞ [Synopsis](http://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/).
 <!-- - _10 Oct. 2021_ : I moved to Bristol for a PhD in the Interacrive AI CDT. Find pictures of my trips on Instagram. -->
 
 
 ## Selected stories*
-- ###### A computational theory of the causal mind [Read](/posts/parallel-mind-theory/index.qmd)
-- ###### Mesh-free simulation in the Age of Big Data [Read](/posts/mesh-free-simulation/index.qmd)
-- ###### Welcome to our Brand New Website ! [Read](posts/welcome/index.qmd)
-<!-- - ###### More stories in the section [Blog ...](posts.qmd) -->
-Stay up to date with these stories by signing up for my weekly newsletter in the [Blog](/posts.qmd) section.
+- ###### A computational theory of the causal mind ➡️ [Read](/posts/parallel-mind-theory/index.qmd)
+- ###### Welcome to our brand new website ! ➡️ [Read](posts/welcome/index.qmd)
+- ###### Mesh-free simulation in the age of Big Data ➡️ [Comming soon ...]()
+
+Stay up to date and get more stories by signing up for my weekly newsletter in the [Blog](/posts.qmd) section.
 
 
 
-## Selected Publications*
-- **Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones** [Read](publications/theses/nzoyem2020simulation.qmd)
-- **Fracturation de floes de glace par percussion dans un modèle granulaire** [Read](publications/theses/nzoyem2021fracturation.qmd)
-- **Accelerating Algebraic Multigrid Using Machine Learning** [Read](publications/theses/nzoyem2022accelerating.qmd)
-All publications can be found in the section [Publications](/publications.qmd).
+## Selected publications*
+- Accelerating Algebraic Multigrid Using Machine Learning ☞ [Abstract](publications/theses/nzoyem2022accelerating.qmd)
+- Fracturation de floes de glace par percussion dans un modèle granulaire ☞ [Abstract](publications/theses/nzoyem2021fracturation.qmd)
+- Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones ☞ [Abstract](publications/theses/nzoyem2020simulation.qmd)
+
+All publications can be found in the [Publications](/publications.qmd) section.
 
 
 
 ```{=html}
-<center> <a href="mailto:rd.nzoyemngueguin@bristol.ac.uk" class="btn btn-primary rounded-pill"> Email me </a> </center>
+<center> <a href="mailto:rd.nzoyemngueguin@bristol.ac.uk" class="btn btn-primary rounded-pill"> Reach out </a> </center>
 ```

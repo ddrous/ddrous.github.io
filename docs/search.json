@@ -60,21 +60,21 @@
     "href": "index.html#news",
     "title": "Roussel.",
     "section": "News",
-    "text": "News\n\n01 Aug. 2023 : I’ve released version 0.1.5 of Updec: a mesh-free differentiable software for quick experimentation with a variety of PDEs. Install it here.\n10 Mar. 2023 : I gave a talk for CMU Africa on Emerging Graph Neural Network techniques. Find a recording here.\n01 Dec. 2022 : I began my research on AI and HPC for mesh-free simulations. A short abstract can be found here."
+    "text": "News\n\n01 Aug. 2023 : I’ve released version 0.1.5 of Updec: a mesh-free differentiable software for quick experimentation with a variety of PDEs. ☞ Repo.\n10 Mar. 2023 : I gave a talk for CMU Africa on Emerging Graph Neural Network techniques. ☞ Recording.\n01 Dec. 2022 : I began my research on AI and HPC for mesh-free simulations. ☞ Synopsis."
   },
   {
     "objectID": "index.html#selected-stories",
     "href": "index.html#selected-stories",
     "title": "Roussel.",
     "section": "Selected stories*",
-    "text": "Selected stories*\n\nA computational theory of the causal mind Read\nMesh-free simulation in the Age of Big Data Read\nWelcome to our Brand New Website ! Read\n\nStay up to date with these stories by signing up for my weekly newsletter in the Blog section."
+    "text": "Selected stories*\n\nA computational theory of the causal mind ➡️ Read\nWelcome to our brand new website ! ➡️ Read\nMesh-free simulation in the age of Big Data ➡️ Comming soon …\n\nStay up to date and get more stories by signing up for my weekly newsletter in the Blog section."
   },
   {
     "objectID": "index.html#selected-publications",
     "href": "index.html#selected-publications",
     "title": "Roussel.",
-    "section": "Selected Publications*",
-    "text": "Selected Publications*\n\nSimulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones Read\nFracturation de floes de glace par percussion dans un modèle granulaire Read\nAccelerating Algebraic Multigrid Using Machine Learning Read All publications can be found in the section Publications.\n\n  Email me"
+    "section": "Selected publications*",
+    "text": "Selected publications*\n\nAccelerating Algebraic Multigrid Using Machine Learning ☞ Abstract\nFracturation de floes de glace par percussion dans un modèle granulaire ☞ Abstract\nSimulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones ☞ Abstract\n\nAll publications can be found in the Publications section.\n  Reach out"
   },
   {
     "objectID": "projects/phifem/index.html",
@@ -177,9 +177,9 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome to the FOS Blog",
+    "title": "Welcome to our brand new website",
     "section": "",
-    "text": "This is my first post in the FOS blog. Welcome!\n\nI’ve never really owned a blog. Even though it’s been on my mind for more than 2 years now.\nNow that I’ve got a band new portfolio website, I feel like I’m never going to get a better opportunity than this to flesh out some of my ideas.\nThe previous iterations of my personal websites are not accessible anymore. But snapshoots can be found below.\n\nPhoto of Version 1: FOS version 1\nPhoto of Version 2: FOS version 2\n\nNothing was wrong with either of those versions. My only concern was that I couldn’t write code like in iPython notebooks. That feature is something I rely on a lot for my Data Science tutorials.\nThis version of the FOS (version 3) website is built on Quarto which fully support in-line code cells in Python and Julia, my main scripting languages. It offered template more gorgeos than anything that I could’ve found anywhere else.\nIt is a bit slower though.\nNow that you know my reasons for making these changes, you can tell me what you think. Which version of FOS looks the best accoring to you ?\nPOOL"
+    "text": "This is my very first post in this blog. Welcome!\n\nI’ve never really owned a blog. Even though it’s been on my mind for more than 2 years now.\nNow that I’ve got a band new portfolio website, I feel like I’m never going to get a better opportunity than this to flesh out some of my ideas.\nThe previous iterations of my personal websites are not accessible anymore. But snapshoots can be found below.\n\nPhoto of Version 1: FOS version 1\nPhoto of Version 2: FOS version 2\n\nNothing was wrong with either of those versions. My only concern was that I couldn’t write code like in iPython notebooks. That feature is something I rely on a lot for my Data Science tutorials.\nThis version of the FOS (version 3) website is built on Quarto which fully support in-line code cells in Python and Julia, my main scripting languages. It offered template more gorgeos than anything that I could’ve found anywhere else.\nIt is a bit slower though.\nNow that you know my reasons for making these changes, you can tell me what you think. Which version of FOS looks the best accoring to you ?\nPOOL"
   },
   {
     "objectID": "publications/theses/nzoyem2021fracturation.html",
@@ -242,6 +242,6 @@
     "href": "posts.html",
     "title": "Blog",
     "section": "",
-    "text": "Home\n    Blog\n  \n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nA parallel theory of the causal mind\n\n\n\n\n\n\n\nCognitive Science\n\n\nParallel Computing\n\n\nDifferential Equations\n\n\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\n6 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to the FOS Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2023\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Home\n    Blog\n  \n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nA parallel theory of the causal mind\n\n\n\n\n\n\n\nCognitive Science\n\n\nParallel Computing\n\n\nDifferential Equations\n\n\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\n6 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to our brand new website\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2023\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   }
 ]

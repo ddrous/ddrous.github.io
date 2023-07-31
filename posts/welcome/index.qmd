@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the FOS Blog"
+title: "Welcome to our brand new website"
 author: "RD2N"
 date: "2023-07-20"
 categories: [news]
@@ -8,9 +8,9 @@ comments:
     repo: ddrous/ddrous.github.io
 ---
 
-This is my first post in the FOS blog. Welcome!
+This is my very first post in this blog. Welcome!
 
-![](thumbnail.jpg)
+![](../../assets/images/fluidflow.jpg)
 
 I've never really owned a blog. Even though it's been on my mind for more than 2 years now.
 
