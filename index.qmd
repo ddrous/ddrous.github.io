@@ -44,13 +44,14 @@ To learn more about me, go to the [About](/about.qmd) page. In [Projects](/proje
 - ###### Mesh-free simulation in the Age of Big Data [Read](/posts/mesh-free-simulation/index.qmd)
 - ###### Welcome to our Brand New Website ! [Read](posts/welcome/index.qmd)
 <!-- - ###### More stories in the section [Blog ...](posts.qmd) -->
-
 Stay up to date with these stories by signing up for my weekly newsletter in the [Blog](/posts.qmd) section.
 
 
 
-## Publications
-
+## Selected Publications*
+- **Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones** [Read](publications/theses/nzoyem2020simulation.qmd)
+- **Fracturation de floes de glace par percussion dans un modèle granulaire** [Read](publications/theses/nzoyem2021fracturation.qmd)
+- **Accelerating Algebraic Multigrid Using Machine Learning** [Read](publications/theses/nzoyem2022accelerating.qmd)
 All publications can be found in the section [Publications](/publications.qmd).
 
 

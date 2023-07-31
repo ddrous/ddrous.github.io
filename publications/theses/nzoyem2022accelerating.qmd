@@ -1,6 +1,5 @@
 ---
-title: "Accelerating Algebraic Multigrid Using
-Machine Learning"
+title: "Accelerating Algebraic Multigrid Using Machine Learning"
 type: "thesis"
 author: "**Nzoyem**, Louw, McIntosh-Smith & Deakin"
 year: "2022"
