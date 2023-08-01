@@ -33,10 +33,10 @@ To learn more about me, go to the [About](/about.qmd) page. In [Projects](/proje
 
 ## News
 
-- **_01 Aug. 2023_** : I've pre-released version 0.1.4 of Updec: a mesh-free differentiable software for quick experimentation with a variety of PDEs. ☞ [Repo](https://github.com/ddrous/Updec){:target="_blank"}.
-- **_10 Mar. 2023_** : I gave a talk at [CMU Africa](https://www.africa.engineering.cmu.edu){:target="_blank"} on emerging techniques and applications of graph neural networks. ☞ [Recording](https://youtu.be/ahG-LG0ABRQ){:target="_blank"}.
-- **_01 Dec. 2022_** : I began my research on AI and HPC for mesh-free simulations. ☞ [Synopsis](http://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/){:target="_blank"}.
-- **_10 Oct. 2021_** : I moved to Bristol for a PhD in the [Interacrive AI CDT](https://www.bristol.ac.uk/cdt/interactive-ai/){:target="_blank"}. Find pictures of my trips on ☞ [Instagram](https://www.instagram.com/roussel_dn/){:target="_blank"}.
+- **_01 Aug. 2023_** : I've pre-released version 0.1.4 of Updec: a mesh-free differentiable software for quick experimentation with a variety of PDEs. ☞ [Repo](https://github.com/ddrous/Updec){.external target="_blank"}.
+- **_10 Mar. 2023_** : I gave a talk at [CMU Africa](https://www.africa.engineering.cmu.edu){.external target="_blank"} on emerging techniques and applications of graph neural networks. ☞ [Recording](https://youtu.be/ahG-LG0ABRQ){.external target="_blank"}.
+- **_01 Dec. 2022_** : I began my research on AI and HPC for mesh-free simulations. ☞ [Synopsis](http://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/){.external target="_blank"}.
+- **_10 Oct. 2021_** : I moved to Bristol for a PhD in the [Interacrive AI CDT](https://www.bristol.ac.uk/cdt/interactive-ai/){.external target="_blank"}. Find pictures of my trips on ☞ [Instagram](https://www.instagram.com/roussel_dn/){.external target="_blank"}.
 
 
 ## Selected stories*
