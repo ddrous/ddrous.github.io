@@ -1,19 +1,19 @@
 [
   {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/theses/nzoyem2022accelerating.html",
+      "/publications/theses/nzoyem2021fracturation.html",
+      "/publications/theses/nzoyem2020simulation.html"
+    ]
+  },
+  {
     "listing": "/projects.html",
     "items": [
       "/projects/gnn4amg/index.html",
       "/projects/arcticfloes/index.html",
       "/projects/phifem/index.html",
       "/projects/vnetcancer/index.html"
-    ]
-  },
-  {
-    "listing": "/publications.html",
-    "items": [
-      "/publications/theses/nzoyem2022accelerating.html",
-      "/publications/theses/nzoyem2021fracturation.html",
-      "/publications/theses/nzoyem2020simulation.html"
     ]
   },
   {
