@@ -1,7 +1,8 @@
 ---
 title: "Roussel."
 subtitle: PhD student @ [University of Bristol](http://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/)
-image: ./assets/images/fluidflow.jpg
+# image: ./assets/images/fluidflow.jpg
+image: ./assets/images/cornerstone.png
 # page-layout: full
 about:
   template: marquee
