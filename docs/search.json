@@ -39,12 +39,12 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Home\n    Projects\n  \n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAI4HPC\n\n\n\nAI\n\n\nHPC\n\n\nFluid Dynamics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArcticFloes\n\n\n\nModelling\n\n\nFunctional Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\(Phi\\)-FEM\n\n\n\nModelling\n\n\nScientific Computing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVnetCancer\n\n\n\nAI\n\n\nSimulation\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Home\n    Projects\n  \n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nAI4HPC\n\n\n\nAI\n\n\nHPC\n\n\nFluid Dynamics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArcticFloes\n\n\n\nModelling\n\n\nFunctional Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nϕ-FEM\n\n\n\nModelling\n\n\nScientific Computing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVnetCancer\n\n\n\nAI\n\n\nSimulation\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/phifem/index.html",
     "href": "projects/phifem/index.html",
-    "title": "\\(Phi\\)-FEM",
+    "title": "ϕ-FEM",
     "section": "",
     "text": "In recent years, numerical models using the Finite Elements Method (FEM) to simulate the soft tissue mechanisms of the human body have attracted a great interest. In the context of computer-assisted surgery, the simulation method should be quick, precise, and patient-specific. This work develops a new immersed boundary method named φ-FEM to address those issues.\nSoftware: - Fenics - SOFA"
   },
@@ -137,7 +137,7 @@
     "href": "index.html#selected-publications",
     "title": "Roussel.",
     "section": "Selected publications*",
-    "text": "Selected publications*\n\nAccelerating Algebraic Multigrid Using Machine Learning ☞ Abstract\nFracturation de floes de glace par percussion dans un modèle granulaire ☞ Abstract\nSimulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones ☞ Abstract\n\nAll publications can be found in the Publications section.\n  Reach out"
+    "text": "Selected publications*\n\nAccelerating Algebraic Multigrid Using Machine Learning ☞ Abstract\nFracturation de floes de glace par percussion dans un modèle granulaire ☞ Abstract\nSimulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones ☞ Abstract\n\nAll articles and theses can be found in the Publications section.\n\n    Reach out 🙂 ?"
   },
   {
     "objectID": "posts/parallel-mind-theory/index.html",

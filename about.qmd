@@ -74,6 +74,7 @@ A few quotes describe me better than any essay I could ever write:
 
 ## Contact Me
 
+
 <!-- {{< include contact.html >}} -->
 ```{=html}
 <script type="text/javascript" src="https://form.jotform.com/jsform/232114133283343"></script>

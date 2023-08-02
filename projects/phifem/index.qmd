@@ -1,5 +1,5 @@
 ---
-title: "$Phi$-FEM"
+title: "_ϕ_-FEM"
 author: "RD2N"
 date: "2021-01-15"
 categories: [Modelling, Scientific Computing]
