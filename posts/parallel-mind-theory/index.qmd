@@ -11,7 +11,7 @@ filters:
   - social-share
 share:
   permalink: "https://ddrous.github.io/posts/parallel-mind-theory/"
-  description: "Awesome theory about how the mind and body connect"
+  description: "A complete theory about how the mind and body connect"
   twitter: true
   facebook: true
   reddit: true
@@ -26,64 +26,89 @@ comments:
 ---
 
 
-New intro: How do higer-level features emerge from individual charateristics. Example of the stirling bird swirl. Connect to reaserach by Anil Seth in Brighton at University of Sussex (on the Joy of Why).
+```{=html}
+<blockquote cite="https://youtu.be/zi7Va_4ekko"> How do we fit our conception of ourselves (the human reality) with what the world is at its most fundamental level: physical particles and fields of forces ? </blockquote
+```
 
-I've always been fascinated by the theory of the mind, and how to fully replicate it. But lately I've found the pholosiphical nature of the question more and more frustrating. The following article is based on ideas I collected from Malcolm Gladwell's book Blink, and John Searle's course on the Philosophy of Mind. Hoping not to get into too much detail, I'll talk about a few technologies: Parallel Computing, and Neural Differential Equations.
+
+I've always been fascinated by the theory of the mind and how to fully replicate it. Lately, I've been finding the philosophical nature of the question more and more fascinating. This article is based on ideas I collected from John Searle's course  [_Philosophy of Mind_](https://youtu.be/zi7Va_4ekko), and Malcolm Gladwell's best-selling book [_Blink_](https://www.audible.co.uk/pd/Blink-Audiobook/B004F2Z324). Hoping not to get into too much detail, I'll talk about two technologies I believe are key to deciphering how the human mind works: Neural Ordinary Differential Equations, and Time-Parallel Computing.
 
 
 
 ## The Mind-Body problem
 
-The Cartesian theory postulates that there are two realms: a real of mind, and a real of body. The mind commands the body (which is only there for the ride). This is Rene Descarte's legacy, whose remants we carry to this day.
 
-This formulation dating back to the 1600s is convenient for it's time, as it leaves the Realm of the Body to the science, and the Realm of the Mind to the church. Perfect if you're a scientist wanting to conduct your research under the inquisitions.
+The mystery of consciousness is one of the most challenging questions of our time. The Cartesian view postulates that there exists two realms: a real of __Mind__ (whose essence is the "thinking"), and a real of __Body__ (or the physical)[^1]. The mind is indivisible, undoubtable (hence the famous phrase "_I think, therefore I am._"), and it commands the body. Of course, this is a gross oversimplification of René Descartes's legacy, whose ideas we carry to this day.
 
-Finger pointing appart, this teory is appealing. But it leaves us with one big problem. How does the mind influence the brain ? How are the two realms connected ? Descarte's answer to this puzzled was unconvinding.
+This formulation dating back to the 17th century is convenient for its time, as it leaves the realm of the Body to science, and the realm of the Mind to religion. Perfect if you're a scientist trying to conduct thought-provoking research under the Inquisition. Descartes's theory is appealing, but it leaves us with one big problem. How does the mind influence the brain ? How are the two realms connected ? Descartes's answer to this puzzle was unconvincing.
 
-Over the centuries, several school of thoughts have emerged only considering one of the thoughts. The main groups being idealism and behaviourism. It would appear that the advent of computers and the emergence of the cross-disciplinary field of congnitive science is the key to this puzzle.
+Over the centuries, several schools of thought have emerged, only considering one of the two realms. The main groups being __idealism__ and __behaviourism__, beautifully explained by John Searle in his course [Philosophy of Mind](https://youtu.be/zi7Va_4ekko). It would appear that the advent of computers and the emergence of the cross-disciplinary field of __cognitive science__ is the key to this puzzle.
+
+{{< video https://youtu.be/zi7Va_4ekko 
+    title='Philosophy of Mind - Lecture 1' 
+>}}
 
 
 ## The causal brain
 
-When you feel good pain, hunger, or joy, there's no doubt that these are neuro-biological processes in your brain firing. This suggest that the mint reacts to the behaviour of the world, it is caused by the brain processes.
+Computers function by means of algorithms: carefully established instructions relating an input to an output. If one were to think of the brain (and __daringly__ the mind too) as a computer, then the causal relation between the brain and the mind would have to be at the heart of such formalism. That is the essence of cognitive science.
 
-On the other hand, when you go from being unhappy to being extatic, we can clearly see a change in the physical disposition of your brain. In other words, your mind is a state of your brain, a feature.
+When you feel hunger or joy, there's no doubt that these are neurobiological processes in your brain firing. This suggests that the mind reacts to the behaviour of the world, it is caused by brain processes. On the other hand, when you go from being unhappy to being ecstatic, we can clearly see a change in the physical disposition of your brain. In other words, your mind is a state of your brain, a feature.
 
-As explained by John Searle, the brain **causes** the mind, and the brain is a **feature** of the mind. This would appear paradoxal, but no. It makes sense if we think of the mind as made up of the higher-level processes than what we measure in the brain.
+As explained by Searle, the brain **causes** the mind, and the mind is a **feature** of the brain. This would appear paradoxical, but no, it isn't. It makes sense if we think of the mind as made up of the higher-level processes compared to what we measure in the brain.
 
-Doesn't this causality principle remind you of something(s) specific ? Differential equations and Neural Networks. Therefore, we liken the causality and evolutionary nature of the brain to ordinaty differential equations (ODE). Wereas we ascribe the compositionality of it to Deep Neural Networks.
+__How do higher-level features emerge from individual characteristics__? This is the research question we've been after. We've turned an abstract philosophical question into a very materialistic one. A scientific problem that includes the mind (unlike Descartes's original formulation). Examples of mind-blowing behaviour emerging from simplistic elementary processes are widespread in nature. My favourite example is the swirl of Starling birds. 
 
-As it turns out, those two concepts have been merged in what is now known as Neural ODEs, typically formulated as follows:
+{{< video https://youtu.be/V4f_1_r80RY 
+    title='Flight of the Starlings' 
+>}}
+
+::: {.callout-note}
+This idea isn't particularly groundbreaking. I've recently head on the [Joy of Why](https://www.quantamagazine.org/tag/the-joy-of-why/) podcast about Professor Anil Seth and his pursuit of similar ideas at the University of Sussex.
+:::
+
+
+As an applied mathematician, the propagation of brain signals and the causality principle between low- and high-level features remind me of two specific tools: __differential equations__ and __neural networks__. Therefore, I liken the causality and evolutionary nature of brain processes to ordinary differential equations (ODE): it describes the individual dynamics. I then ascribe the compositionality of such simple behaviour to form larger feature to Deep Neural Networks.
+
+As it turns out, those two concepts have been merged in what is now known as [Neural ODEs](https://proceedings.neurips.cc/paper_files/paper/2018/hash/69386f6bb1dfed68692a24c8686939b9-Abstract.html), typically formulated as follows:
 \begin{align}
 \frac{\text{d} y}{\text{d} t}(t) &= f_{\theta}(y,t), \qquad t \in ]t_0, t_f [ \\
 y(t_0) &= y_0, \\
 z(t) &= g_{\theta'}(\theta, y, y_0, t, t_0, t_f),
 \end{align}
-where $y$ represents the physical state in which the brain is in. The transformative function $f_{\theta}$ -- where the learnable parameters $\theta$ indicte a Deep Neural Network -- dictates how a physical signal is processed inside the brain. The misterious **readout** function $g_{\theta'}$ tells us how a brain signal $y_0\in \mathbb{R}^b$ turns into a global mind feature $z \in \mathbb{R}^m$ (with potentially lots more parameters).
+where $y$ represents the physical state in which the brain is in. The transformative function $f_{\theta}$ -- where the learnable parameters $\theta$ indicate a Deep Neural Network -- dictates how a physical signal is processed inside the brain. The mysterious **readout** function $g_{\theta'}$ tells us how a brain signal $y_0\in \mathbb{R}^b$ turns into a global mind feature $z \in \mathbb{R}^m$ (with $m\gg b$, potentially lots more parameters (neurons) involved in forming a mind than to process an elementary signal).
 
 ![Figure 1: Illustration of the computational theory of the mind](MindBodyProblem.png)
 
-That's not all. Tipicall neural networks today can grow to extremely large size: billions of parameters in the weights $\theta$. What if this neural network doesn't have a fixed structure? What if the neurons could dynamically adapt to the task at hand? This is the rapidly growing notions of Liquid Neural Networks inspired by the efficiency of the worm's brain made up of mearly 300 neurons.
 
-The Neural ODE paradigm has found breathtaking success, particularly againts ResNets [REF]. The Liquid Neural Network on the other hand has shown jaw-dropping perforamnce in autonomous driving [REF MIT]. I believe those two could be combined within the Liquid Neural ODE, unlocking the secrets of conciousness.
+::: {.callout-note}
+That's not all. Typical neural networks today can grow to extremely large size: billions of parameters in the weights $\theta$. What if this neural network doesn't have a fixed structure? What if the neurons could dynamically adapt to the task at hand? This is the rapidly growing notions of [Liquid Neural Networks](https://ojs.aaai.org/index.php/AAAI/article/view/16936) inspired by the efficiency of the worm's brain, made up of merely 300 neurons.
+:::
+
+
+The Neural ODE paradigm has found breathtaking success, particularly against [ResNets](https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html). The Liquid Neural Network on the other hand has shown jaw-dropping performance in autonomous driving. I believe those two could be combined within the __Liquid Neural ODE__, thus unlocking the secrets of consciousness.
 
 
 
-## A parallel theory 
+## The parallel theory 
 
-As a full-on daydreamer, I also believe any theory of the mind must account for the subconcious. Although not necessarily as decribed by Freud [REF] as I don't believe those deeply abstract ideas are indispensable to replicating the human mind.
+As a full-time daydreamer, I also believe any theory of the mind must account for the subconscious. Although not necessarily as envisioned by Sigmund Freud, since I don't believe those deeply abstract ideas are indispensable to replicating the human mind.
 
-This is why I think there's a second computer at work in the background of our minds, even when we are awake. The same computer that quickly processes information and let's us avoid a car in an emergency situation. The kind of computer that shows us how we're all carrying implict biases [REFs]. the same one we make use of on first impressions. The one professionals use to identify talent.
+This is why I think there's a second computer at work in the back of our minds, even when we are awake. The same computer that quickly processes information and lets a car driver avoid pedestrians in an emergency situation. The kind of computer that shows us how we're all carrying [implicit biases](https://implicit.harvard.edu/implicit/takeatest.html). The same one we make use of on first impressions. The computer in the background that professionals use to identify talent without even knowing things are happening, subconsciously.
 
-If those ideas sound familiar, that's because the're copied from Malcolm Gladwell's betselling book Blink. He calls it _thin slicing_. A computer that, given sufficient experience in a domain, discards all unecassy information to make the quickest decisions critical for our survival. More often than none, the good one. The moral of the book is, listen to your inner voice, and know when to ignore it.
+If those ideas sound familiar, that's because they're collected from Malcolm Gladwell's bestselling book [Blink](https://www.audible.co.uk/pd/Blink-Audiobook/B004F2Z324). He repeatedly uses the terminology _thin slicing_. He describes a computer that, given sufficient time and experience in a domain, discards all useless information to make the quickest decisions for our assumed benefit. The moral of the book is, listen to your inner voice, and know when to ignore it.
 
-So how can this idea complement the Neural ODE (which represent our full mind in this analogy). Well, we parallelise it. The function $f$, given a smaller input vector $y$ and smaller weights $\theta$, should return faster results at competitive accuracy. What I'm describing is combined data- and time-parallastion. We solve the Neural ODE on a fine data-time domain, and we make sure it's inference on a coarser data-time domain is just as accurate.
+So, how can this idea complement the Neural ODE (which represents our foreground mind in this analogy)? Well, we parallelise it. The function $f$ above, given a smaller input vector $y$ and smaller weights $\theta$, should return faster results at competitive accuracy. What I'm describing is combined data- and time-parallelisation (achieved by skipping certain synaptic connections). We train the Neural ODE on a __fine__ data-time domain, and we make sure its inference on a __coarser__ data-time domain is just as accurate.
 
-Several works have investigated this idea on Neural ODE, namely Gunther [REF MULTIGRID IN TIME], Massaroli [REF DIFF LAYERS]. However, they only considered time (or layer) parallelism. Moreover, they focus on the training, rather than inference. Combinng at data and time for quick inference is a dream I hope to achieve before then end of my PhD (2025).
+Several works have investigated parallel ideas on Neural ODEs, namely [Gunther's](https://epubs.siam.org/doi/abs/10.1137/19M1247620) and [Massaroli's](https://proceedings.neurips.cc/paper/2021/hash/89b9c689a57b82e59074c6ba09aa394d-Abstract.html). However, they only considered time (or layer) parallelism. Moreover, they focus on the training, rather than inference. Combining data and time for quick inference is a dream I hope to achieve before then end of my PhD (2025).
 
 
 ## Closing toughts
 
-I'm currently investigating the feasablity of a data-time parallel Neural ODE in my PhD research. How would we test such an idea on the brain? I have no clue yet. All I know is that I can only start with my brain, as with the famous Chinese Room argument.
+I'm currently investigating the feasibility of a data-time parallel Neural ODE. How would we test such an idea on the brain?  I have no clue yet. What I know is that I can start with my brain, as in the famous [Chinese Room](https://plato.stanford.edu/entries/chinese-room/) argument.
 
-If your mind finds itself drawn to these ideas, then maybe they're true (As Searle says, always test the theory on yourself first). In that case, send me a massage. If you've heard these same ideas somewhere else before and think I'm wasting my time, then please do send me a message. If this sounds like complete bullshit to you, that's because maybe it is. It shouldn't stop you from sending a kind message.
+If your mind finds itself drawn to these ideas, then maybe they're valid (as Searle says, "_always test the theory on yourself first_"). In that case, [send me a message](https://ddrous.github.io/about.html#contact-me). If you've heard these same ideas somewhere else and think I'm wasting my time or that there's room for collaboration, then please do reach out. If this sounds like complete nonsense to you, then maybe it is. But it shouldn't stop us from pursuing the truth, right ?
+
+Please comment below for any insights you might have. And as always, thanks for reading !
+
+[^1]: This is the best I can do the define what the mind is, as opposed to what the body is.
