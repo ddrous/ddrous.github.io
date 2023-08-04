@@ -64,7 +64,7 @@ __How do higher-level systemic features emerge from individual characteristics__
 >}}
 
 ::: {.callout-note}
-This idea isn't particularly groundbreaking. I've recently head on the [Joy of Why](https://www.quantamagazine.org/tag/the-joy-of-why/) podcast about Professor Anil Seth and his pursuit of similar ideas at the University of Sussex.
+This idea isn't particularly groundbreaking. I've recently heard on the [Joy of Why](https://www.quantamagazine.org/tag/the-joy-of-why/) podcast about Professor Anil Seth and his pursuit of similar research questions at the University of Sussex.
 :::
 
 
