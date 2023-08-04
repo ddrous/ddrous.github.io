@@ -57,7 +57,7 @@ When you feel hunger or joy, there's no doubt that these are neurobiological pro
 
 As explained by Searle, the brain **causes** the mind, and the mind is a **feature** of the brain. This would appear paradoxical, but no, it isn't. It makes sense if we think of the mind as made up of the higher-level processes compared to what we measure in the brain.
 
-__How do higher-level systemic features emerge from individual characteristics__? This is the research question we've been after. We've turned an abstract philosophical question into a very materialistic one. A scientific problem that includes the mind (unlike Descartes's original formulation). Examples of mind-blowing behaviour emerging from simplistic elementary processes are widespread in nature. My favourite example is the swirl of Starling birds. 
+__How do higher-level systemic features emerge from individual characteristics__? This is the research question we've been after. We've turned an abstract philosophical question into a very materialistic one; a scientific problem that includes the mind (unlike Descartes's original formulation). Examples of mind-blowing behaviour emerging from simplistic elementary processes are widespread in nature. My favourite example is the swirl of Starling birds. 
 
 {{< video https://youtu.be/V4f_1_r80RY 
     title='Flight of the Starlings' 
