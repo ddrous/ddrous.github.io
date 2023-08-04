@@ -1,0 +1,31 @@
+---
+title: "Two different views of Neural ODEs"
+author: "RD2N"
+date: "2023-08-04"
+categories: [Differential Equations]
+format:
+  html:
+    toc: true
+number-sections: true
+filters:
+  - social-share
+share:
+  permalink: "https://ddrous.github.io/posts/two-way-neural-ode/"
+  description: "Two ways of viewing what Neural ODE fondamentally represent"
+  twitter: true
+  facebook: true
+  reddit: true
+  stumble: true
+  tumblr: true
+  linkedin: true
+  email: true
+  mastodon: true
+comments:
+  giscus:
+    repo: ddrous/ddrous.github.io
+draft: true
+---
+
+The first way, as intended by its creators: a continuous ResNet (Show example of MNIST) - layer parallelism
+
+The second way, an actual ODE with unknown terms. - time parallelism

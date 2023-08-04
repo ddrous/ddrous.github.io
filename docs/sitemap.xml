@@ -1,67 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ddrous.github.io/cv.html</loc>
-    <lastmod>2023-08-04T12:18:35.888Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/about.html</loc>
-    <lastmod>2023-08-04T12:18:33.040Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/index.html</loc>
-    <lastmod>2023-08-04T12:18:32.402Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/projects/phifem/index.html</loc>
-    <lastmod>2023-08-04T12:18:31.565Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/projects/vnetcancer/index.html</loc>
-    <lastmod>2023-08-04T12:18:30.942Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/publications/theses/nzoyem2020simulation.html</loc>
-    <lastmod>2023-08-04T12:18:30.337Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/publications/theses/nzoyem2022accelerating.html</loc>
-    <lastmod>2023-08-04T12:18:29.650Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/posts/mesh-free-simulation/index.html</loc>
-    <lastmod>2023-08-04T12:18:29.049Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/posts/parallel-mind-theory/index.html</loc>
-    <lastmod>2023-08-04T12:18:27.316Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/posts/welcome/index.html</loc>
-    <lastmod>2023-08-04T12:18:28.260Z</lastmod>
+    <loc>https://ddrous.github.io/publications.html</loc>
+    <lastmod>2023-08-04T23:44:09.026Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/publications/theses/nzoyem2021fracturation.html</loc>
-    <lastmod>2023-08-04T12:18:29.974Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/projects/gnn4amg/index.html</loc>
-    <lastmod>2023-08-04T12:18:30.630Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/projects/arcticfloes/index.html</loc>
-    <lastmod>2023-08-04T12:18:31.251Z</lastmod>
+    <lastmod>2023-08-04T23:44:07.417Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/projects.html</loc>
-    <lastmod>2023-08-04T12:18:32.035Z</lastmod>
+    <lastmod>2023-08-04T23:44:05.708Z</lastmod>
   </url>
   <url>
-    <loc>https://ddrous.github.io/publications.html</loc>
-    <lastmod>2023-08-04T12:18:32.705Z</lastmod>
+    <loc>https://ddrous.github.io/projects/phifem/index.html</loc>
+    <lastmod>2023-08-04T23:44:03.757Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/projects/arcticfloes/index.html</loc>
+    <lastmod>2023-08-04T23:44:02.103Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/posts/welcome/index.html</loc>
+    <lastmod>2023-08-04T23:44:00.012Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/posts/parallel-mind-theory/index.html</loc>
+    <lastmod>2023-08-04T23:43:57.371Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/index.html</loc>
+    <lastmod>2023-08-04T23:43:53.660Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/about.html</loc>
+    <lastmod>2023-08-04T23:43:48.867Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/cv.html</loc>
+    <lastmod>2023-08-04T23:43:52.406Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/posts.html</loc>
-    <lastmod>2023-08-04T12:18:33.462Z</lastmod>
+    <lastmod>2023-08-04T23:44:01.171Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/projects/gnn4amg/index.html</loc>
+    <lastmod>2023-08-04T23:44:02.949Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/projects/vnetcancer/index.html</loc>
+    <lastmod>2023-08-04T23:44:04.591Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/publications/theses/nzoyem2020simulation.html</loc>
+    <lastmod>2023-08-04T23:44:06.557Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/publications/theses/nzoyem2022accelerating.html</loc>
+    <lastmod>2023-08-04T23:44:08.215Z</lastmod>
   </url>
 </urlset>

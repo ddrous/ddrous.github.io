@@ -64,5 +64,8 @@
   },
   "cv.qmd": {
     "cv.html": "99ccbcd0"
+  },
+  "posts/two-ways-neural-ode/index.qmd": {
+    "index.html": "9b6d9c29"
   }
 }

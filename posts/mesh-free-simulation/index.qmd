@@ -6,7 +6,7 @@ categories: [simulation]
 comments:
   giscus: 
     repo: ddrous/ddrous.github.io
-# draft: true
+draft: true
 ---
 
 This is goign to be about why we need mesh-fre simulations:
