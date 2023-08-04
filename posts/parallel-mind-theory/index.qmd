@@ -82,7 +82,7 @@ where $y$ represents the physical state in which the brain is in. The transforma
 
 
 ::: {.callout-note}
-That's not all. Typical neural networks today can grow to extremely large size: billions of parameters in the weights $\theta$. What if this neural network doesn't have a fixed structure? What if the neurons could dynamically adapt to the task at hand? This is the rapidly growing notions of [Liquid Neural Networks](https://ojs.aaai.org/index.php/AAAI/article/view/16936) inspired by the efficiency of the worm's brain, made up of merely 300 neurons.
+Typical neural networks today can grow to extremely large size: billions of parameters in the weights $\theta$. What if this neural network doesn't have a fixed structure? What if the neurons could dynamically adapt to the task at hand? This is the rapidly growing notions of [Liquid Neural Networks](https://ojs.aaai.org/index.php/AAAI/article/view/16936) inspired by the efficiency of the worm's brain, made up of merely 300 neurons.
 :::
 
 
