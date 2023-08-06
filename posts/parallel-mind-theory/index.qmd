@@ -2,6 +2,7 @@
 title: "A parallel theory of the causal mind"
 author: "RD2N"
 date: "2023-07-23"
+image: ./MindBodyProblem.png
 categories: [Cognitive Science, Parallel Computing, Differential Equations]
 format:
   html:
