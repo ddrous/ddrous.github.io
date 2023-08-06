@@ -40,7 +40,7 @@ To learn more about me, go to the [About](/about.qmd) page. In [Projects](/proje
 
 
 ## Selected stories*
-- ###### A computational theory of the causal mind ➡️ [Read](/posts/parallel-mind-theory/index.qmd)
+- ###### A parallel theory of the causal mind ➡️ [Read](/posts/parallel-mind-theory/index.qmd)
 - ###### Welcome to our brand-new website ! ➡️ [Read](posts/welcome/index.qmd)
 - ###### Mesh-free simulation in the age of Big Data ➡️ [Coming soon ...]()
 
