@@ -100,7 +100,7 @@ So, how can this idea complement the Neural ODE (which represents the conscious 
 Several works have investigated parallel ideas on Neural ODEs, namely [Gunther et al.'s](https://epubs.siam.org/doi/abs/10.1137/19M1247620) and [Massaroli et al.'s](https://proceedings.neurips.cc/paper/2021/hash/89b9c689a57b82e59074c6ba09aa394d-Abstract.html). However, they only considered time (or layer) parallelism. Moreover, they focus on the training, and show very limited interest for inference. Combining data and time for quick but accurate inference is a dream I hope to achieve before then end of my PhD in September 2025.
 
 
-## Closing toughts
+## Closing thoughts
 
 I'm currently investigating the feasibility of a data-time parallel Neural ODE with applications to PDE simulation. How would we test such an idea on the brain? I have no clue yet. What I know is that I can start with my brain, like in the famous [Chinese Room](https://plato.stanford.edu/entries/chinese-room/) argument[^3] (as Searle says, "_always test the theory on yourself first_").
 
