@@ -58,7 +58,7 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome to my brand-new website",
+    "title": "Welcome to my brand-new website !",
     "section": "",
     "text": "Welcome! This is my very first post on this blog.\nI’ve never really owned a blog, even though it has been on my mind for more than 2 years now. Now that I’ve got a brand-new portfolio website, I feel like I’m never going to get a better opportunity than this to flesh out some of my ideas.\nPrevious iterations of my personal websites might not be accessible anymore, but snapshoots can be found below.\n\n\n\n\n\n\nVersion 1 built with Jekyll based on the Alembic template. This version is now archived on GitHub.\n\n\n\n\n\n\n\n\n\nVersion 2 built with ReactJS based on Soumyajit’s template. This version is still live, although not for long.\n\n\n\n\n\n\n\n\n\nVersion 3 built with Quarto and using the yeti (light) and superhero (dark) themes. This is the site you’re currently browsing.\n\n\n\n\n\nI cannot say what was wrong with versions 1 and 2. My biggest concern was that I couldn’t write code like in iPython notebooks. The coding feature is something I value a lot for Data Science tutorials. The current iteration (version 3) is built on Quarto which fully supports in-line code cells in Python and Julia, my top 2 scripting languages. It offered a template more gorgeous than anything that I found elsewhere.\nNow that you know my reasons for making these changes, you can tell me which version you think is best. You can react below with 👍 for version 1, 🎉 for version 2, or ❤️ for version 3. The comment section is handle via Giscus, so you need to create a GitHub account to be able to react or leave a comment. It’s super easy though.\nPlease go ahead and tell me which one’s preferable so that I can incorporate the best of what that version has to offer. As always, thanks for reading !"
   },
@@ -179,7 +179,7 @@
     "href": "posts.html",
     "title": "Blog",
     "section": "",
-    "text": "Home\n    Blog\n  \n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nA parallel theory of the causal mind\n\n\n\n\n\n\n\nCognitive Science\n\n\nParallel Computing\n\n\nDifferential Equations\n\n\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\n9 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to my brand-new website\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2023\n\n\n2 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Home\n    Blog\n  \n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nA parallel theory of the causal mind\n\n\n\n\n\n\n\nCognitive Science\n\n\nParallel Computing\n\n\nDifferential Equations\n\n\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\n9 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to my brand-new website !\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2023\n\n\n2 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/gnn4amg/index.html",

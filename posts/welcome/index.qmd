@@ -1,5 +1,5 @@
 ---
-title: "Welcome to my brand-new website"
+title: "Welcome to my brand-new website !"
 author: "RD2N"
 date: "2023-07-20"
 image: ./version3.png
