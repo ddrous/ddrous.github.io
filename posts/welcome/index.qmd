@@ -1,32 +1,35 @@
 ---
-title: "Welcome to our brand new website"
+title: "Welcome to my brand-new website"
 author: "RD2N"
 date: "2023-07-20"
-categories: [news]
+image: ./version3.png
+categories: [News]
 comments:
   giscus: 
     repo: ddrous/ddrous.github.io
 ---
 
-This is my very first post in this blog. Welcome!
 
-![](../../assets/images/fluidflow.jpg)
 
-I've never really owned a blog. Even though it's been on my mind for more than 2 years now.
+Welcome! This is my very first post on this blog. 
 
-Now that I've got a band new portfolio website, I feel like I'm never going to get a better opportunity than this to flesh out some of my ideas.
 
-The previous iterations of my personal websites are not accessible anymore. But snapshoots can be found below.
+I've never really owned a blog, even though it has been on my mind for more than 2 years now. Now that I've got a brand-new portfolio website, I feel like I'm never going to get a better opportunity than this to flesh out some of my ideas.
 
-- Photo of Version 1: [FOS version 1](https://desmond-rn.github.io)
-- Photo of Version 2: [FOS version 2](https://rousseldesnzoyem.com)
+Previous iterations of my personal websites might not be accessible anymore, but snapshoots can be found below.
 
-Nothing was wrong with either of those versions. My only concern was that I couldn't write code like in iPython notebooks. That feature is something I rely on a lot for my Data Science tutorials.
+::: {layout-nrow=3}
+![Version 1 built with Jekyll based on the [Alembic](https://alembic.darn.es/) template. This version is now [archived](https://github.com/ddrous/desmond-rn.github.io) on GitHub.](version1.png){width=300}
 
-This version of the FOS (version 3) website is built on Quarto which fully support in-line code cells in Python and Julia, my main scripting languages. It offered template more gorgeos than anything that I could've found anywhere else.
+![Version 2 built with ReactJS based on [Soumyajit's](https://github.com/ddrous/portfolio) template. This version is still [live](https://www.rousseldesnzoyem.com/), although not for long.](version2.png){width=300}
 
-It is a bit slower though.
+![Version 3 built with [Quarto](https://quarto.org/) and using the `yeti` (light) and `superhero` (dark) themes. This is the [site](https://ddrous.github.io/) you're currently browsing.](version3.png){width=400}
+:::
 
-Now that you know my reasons for making these changes, you can tell me what you think. **Which version of FOS looks the best accoring to you** ?
 
-POOL
+I cannot say what was wrong with versions 1 and 2. My biggest concern was that I couldn't write code like in iPython notebooks. The coding feature is something I value a lot for Data Science tutorials. The current iteration (version 3) is built on Quarto which fully supports in-line code cells in `Python` and `Julia`, my top 2 scripting languages. It offered a template more gorgeous than anything that I found elsewhere.
+
+Now that you know my reasons for making these changes, you can tell me which version you think is best. You can react below with 👍 for version 1, 🎉 for version 2, or ❤️ for version 3. The comment section is handle via [Giscus](https://giscus.app/), so you need to create a [GitHub](https://github.com/) account to be able to react or leave a comment. It's super easy though. 
+
+
+Please go ahead and tell me which one's preferable so that I can incorporate the best of what that version has to offer. As always, thanks for reading !

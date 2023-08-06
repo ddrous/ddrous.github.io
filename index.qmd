@@ -24,7 +24,6 @@ about:
 # margin-footer: subscribe.html
 ---
 
-
 ## Welcome 👋
 
 This website is about my professional journey. You'll also find interesting stories on various topics in **hard** and **cognitive sciences**, and some even more random stuff.
@@ -37,13 +36,13 @@ To learn more about me, go to the [About](/about.qmd) page. In [Projects](/proje
 - **_01 Aug. 2023_** : I've pre-released version 0.1.4 of Updec: a mesh-free differentiable software for quick experimentation with a variety of PDEs. ☞ [Repo](https://github.com/ddrous/Updec){.external target="_blank"}.
 - **_10 Mar. 2023_** : I gave a talk at [CMU Africa](https://www.africa.engineering.cmu.edu){.external target="_blank"} on emerging techniques and applications of graph neural networks. ☞ [Recording](https://youtu.be/ahG-LG0ABRQ){.external target="_blank"}.
 - **_01 Dec. 2022_** : I began my research on AI and HPC for mesh-free simulations. ☞ [Synopsis](http://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/){.external target="_blank"}.
-- **_10 Oct. 2021_** : I moved to Bristol for a PhD in the [Interacrive AI CDT](https://www.bristol.ac.uk/cdt/interactive-ai/){.external target="_blank"}. Find pictures of my trips on ☞ [Instagram](https://www.instagram.com/roussel_dn/){.external target="_blank"}.
+- **_10 Oct. 2021_** : I moved to Bristol for a PhD in the [Interactive AI CDT](https://www.bristol.ac.uk/cdt/interactive-ai/){.external target="_blank"}. Find pictures of my trips on ☞ [Instagram](https://www.instagram.com/roussel_dn/){.external target="_blank"}.
 
 
 ## Selected stories*
 - ###### A computational theory of the causal mind ➡️ [Read](/posts/parallel-mind-theory/index.qmd)
-- ###### Welcome to our brand new website ! ➡️ [Read](posts/welcome/index.qmd)
-- ###### Mesh-free simulation in the age of Big Data ➡️ [Comming soon ...]()
+- ###### Welcome to our brand-new website ! ➡️ [Read](posts/welcome/index.qmd)
+- ###### Mesh-free simulation in the age of Big Data ➡️ [Coming soon ...]()
 
 Stay up to date and get more stories by signing up for my weekly newsletter in the [Blog](/posts.qmd) section.
 
@@ -55,7 +54,6 @@ Stay up to date and get more stories by signing up for my weekly newsletter in t
 - Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones ☞ [Abstract](publications/theses/nzoyem2020simulation.qmd)
 
 All articles and theses can be found in the [Publications](/publications.qmd) section.
-
 
 <!-- 
 ```{=html}

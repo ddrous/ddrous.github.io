@@ -1,0 +1,33 @@
+---
+title: "Hard-Learned Tech Stack"
+author: "RD2N"
+date: "2023-08-04"
+categories: [Tech]
+format:
+  html:
+    toc: true
+number-sections: true
+filters:
+  - social-share
+share:
+  permalink: "https://ddrous.github.io/posts/hard-learned-tech-stack/"
+  description: "These are the tools for your tech journey"
+  twitter: true
+  facebook: true
+  reddit: true
+  stumble: true
+  tumblr: true
+  linkedin: true
+  email: true
+  mastodon: true
+comments:
+  giscus:
+    repo: ddrous/ddrous.github.io
+draft: true
+---
+
+These are the tech tool I master: (See my projects)
+
+These are the ones that are used to create this website: Jotform, Quarto, Lua, Giscus, VSCode, etc.
+
+This is the single most important feature I believe: GitHub. It enables Giscus, pages, and everybody should know how to use it.

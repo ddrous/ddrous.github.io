@@ -58,9 +58,9 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome to our brand new website",
+    "title": "Welcome to my brand-new website",
     "section": "",
-    "text": "This is my very first post in this blog. Welcome!\n\nI’ve never really owned a blog. Even though it’s been on my mind for more than 2 years now.\nNow that I’ve got a band new portfolio website, I feel like I’m never going to get a better opportunity than this to flesh out some of my ideas.\nThe previous iterations of my personal websites are not accessible anymore. But snapshoots can be found below.\n\nPhoto of Version 1: FOS version 1\nPhoto of Version 2: FOS version 2\n\nNothing was wrong with either of those versions. My only concern was that I couldn’t write code like in iPython notebooks. That feature is something I rely on a lot for my Data Science tutorials.\nThis version of the FOS (version 3) website is built on Quarto which fully support in-line code cells in Python and Julia, my main scripting languages. It offered template more gorgeos than anything that I could’ve found anywhere else.\nIt is a bit slower though.\nNow that you know my reasons for making these changes, you can tell me what you think. Which version of FOS looks the best accoring to you ?\nPOOL"
+    "text": "Welcome! This is my very first post on this blog.\nI’ve never really owned a blog, even though it has been on my mind for more than 2 years now. Now that I’ve got a brand-new portfolio website, I feel like I’m never going to get a better opportunity than this to flesh out some of my ideas.\nPrevious iterations of my personal websites might not be accessible anymore, but snapshoots can be found below.\n\n\n\n\n\n\nVersion 1 built with Jekyll based on the Alembic template. This version is now archived on GitHub.\n\n\n\n\n\n\n\n\n\nVersion 2 built with ReactJS based on Soumyajit’s template. This version is still live, although not for long.\n\n\n\n\n\n\n\n\n\nVersion 3 built with Quarto and using the yeti (light) and superhero (dark) themes. This is the site you’re currently browsing.\n\n\n\n\n\nI cannot say what was wrong with versions 1 and 2. My biggest concern was that I couldn’t write code like in iPython notebooks. The coding feature is something I value a lot for Data Science tutorials. The current iteration (version 3) is built on Quarto which fully supports in-line code cells in Python and Julia, my top 2 scripting languages. It offered a template more gorgeous than anything that I found elsewhere.\nNow that you know my reasons for making these changes, you can tell me which version you think is best. You can react below with 👍 for version 1, 🎉 for version 2, or ❤️ for version 3. The comment section is handle via Giscus, so you need to create a GitHub account to be able to react or leave a comment. It’s super easy though.\nPlease go ahead and tell me which one’s preferable so that I can incorporate the best of what that version has to offer. As always, thanks for reading !"
   },
   {
     "objectID": "posts/parallel-mind-theory/index.html#the-mind-body-problem",
@@ -105,46 +105,18 @@
     "text": "Footnotes\n\n\nThis is the best I can do the define what the mind is, as opposed to what the body is. In this article, the body is reduced to the brain without loss of generality.↩︎\nIn this model, \\(\\theta\\) is optional in cases where neurobiological input-output relations are fully understood. \\(\\theta'\\) on the other hand, is not optional.↩︎\nWhile it concedes the idea of a computational brain, this argument proves computation alone cannot explain the mind. In our model, we account for that with our readout function \\(g_{\\theta'}\\).↩︎"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Roussel.",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "This website is about my professional journey. You’ll also find interesting stories on various topics in hard and cognitive sciences, and some even more random stuff.\nTo learn more about me, go to the About page. In Projects and Publications, you’ll find some work I’ve contributed to, along with the tech stack I’ve mastered over the years. For some very random stuff, go to Blog where you’ll find a curated list of stories, articles, and poems. I hope you’ll enjoy !"
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Roussel.",
-    "section": "",
-    "text": "This website is about my professional journey. You’ll also find interesting stories on various topics in hard and cognitive sciences, and some even more random stuff.\nTo learn more about me, go to the About page. In Projects and Publications, you’ll find some work I’ve contributed to, along with the tech stack I’ve mastered over the years. For some very random stuff, go to Blog where you’ll find a curated list of stories, articles, and poems. I hope you’ll enjoy !"
-  },
-  {
-    "objectID": "index.html#news",
-    "href": "index.html#news",
-    "title": "Roussel.",
-    "section": "News",
-    "text": "News\n\n01 Aug. 2023 : I’ve pre-released version 0.1.4 of Updec: a mesh-free differentiable software for quick experimentation with a variety of PDEs. ☞ Repo.\n10 Mar. 2023 : I gave a talk at CMU Africa on emerging techniques and applications of graph neural networks. ☞ Recording.\n01 Dec. 2022 : I began my research on AI and HPC for mesh-free simulations. ☞ Synopsis.\n10 Oct. 2021 : I moved to Bristol for a PhD in the Interacrive AI CDT. Find pictures of my trips on ☞ Instagram."
-  },
-  {
-    "objectID": "index.html#selected-stories",
-    "href": "index.html#selected-stories",
-    "title": "Roussel.",
-    "section": "Selected stories*",
-    "text": "Selected stories*\n\nA computational theory of the causal mind ➡️ Read\nWelcome to our brand new website ! ➡️ Read\nMesh-free simulation in the age of Big Data ➡️ Comming soon …\n\nStay up to date and get more stories by signing up for my weekly newsletter in the Blog section."
-  },
-  {
-    "objectID": "index.html#selected-publications",
-    "href": "index.html#selected-publications",
-    "title": "Roussel.",
-    "section": "Selected publications*",
-    "text": "Selected publications*\n\nAccelerating Algebraic Multigrid Using Machine Learning ☞ Abstract\nFracturation de floes de glace par percussion dans un modèle granulaire ☞ Abstract\nSimulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones ☞ Abstract\n\nAll articles and theses can be found in the Publications section.\n\n    Reach out 🙂 ?"
+    "text": "Home\n    CV\n  \n\n\n\n\n\n  \n     Download current CV"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Roussel",
     "section": "",
-    "text": "Home\n    About\nHi there ! I’m a PhD student in HPC-AI at the University of Bristol, investigating parallel algorithms for combined data-driven and physics-informed simulation and control. I’m advised by Dr Tom Deakin, Pr David Barton, and Pr Simon McIntosh-Smith.\nMy research interests are at the intersection of Artificial Inteligence, Scientific Computing, and High Performance Computing. Some of the questions I ponder are:\nFor more details, read my CV or view my profile on LinkedIn. If they grab your attention, please do send me a message."
+    "text": "Home\n    About\nHi there ! I’m a PhD student in HPC-AI at the University of Bristol, investigating parallel algorithms for combined data-driven and physics-informed simulation and control. I’m advised by Dr Tom Deakin, Pr David Barton, and Pr Simon McIntosh-Smith.\nMy research interests are at the intersection of Artificial Intelligence, Scientific Computing, and High Performance Computing. Some of the questions I ponder are:\nFor more details, read my CV or view my profile on LinkedIn. If they grab your attention, please do send me a message."
   },
   {
     "objectID": "about.html#hobbies",
@@ -168,18 +140,46 @@
     "text": "Contact Me"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Roussel.",
     "section": "",
-    "text": "Home\n    CV\n  \n\n\n\n\n\n  \n     Download current CV"
+    "text": "This website is about my professional journey. You’ll also find interesting stories on various topics in hard and cognitive sciences, and some even more random stuff.\nTo learn more about me, go to the About page. In Projects and Publications, you’ll find some work I’ve contributed to, along with the tech stack I’ve mastered over the years. For some very random stuff, go to Blog where you’ll find a curated list of stories, articles, and poems. I hope you’ll enjoy !"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Roussel.",
+    "section": "",
+    "text": "This website is about my professional journey. You’ll also find interesting stories on various topics in hard and cognitive sciences, and some even more random stuff.\nTo learn more about me, go to the About page. In Projects and Publications, you’ll find some work I’ve contributed to, along with the tech stack I’ve mastered over the years. For some very random stuff, go to Blog where you’ll find a curated list of stories, articles, and poems. I hope you’ll enjoy !"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Roussel.",
+    "section": "News",
+    "text": "News\n\n01 Aug. 2023 : I’ve pre-released version 0.1.4 of Updec: a mesh-free differentiable software for quick experimentation with a variety of PDEs. ☞ Repo.\n10 Mar. 2023 : I gave a talk at CMU Africa on emerging techniques and applications of graph neural networks. ☞ Recording.\n01 Dec. 2022 : I began my research on AI and HPC for mesh-free simulations. ☞ Synopsis.\n10 Oct. 2021 : I moved to Bristol for a PhD in the Interactive AI CDT. Find pictures of my trips on ☞ Instagram."
+  },
+  {
+    "objectID": "index.html#selected-stories",
+    "href": "index.html#selected-stories",
+    "title": "Roussel.",
+    "section": "Selected stories*",
+    "text": "Selected stories*\n\nA computational theory of the causal mind ➡️ Read\nWelcome to our brand-new website ! ➡️ Read\nMesh-free simulation in the age of Big Data ➡️ Coming soon …\n\nStay up to date and get more stories by signing up for my weekly newsletter in the Blog section."
+  },
+  {
+    "objectID": "index.html#selected-publications",
+    "href": "index.html#selected-publications",
+    "title": "Roussel.",
+    "section": "Selected publications*",
+    "text": "Selected publications*\n\nAccelerating Algebraic Multigrid Using Machine Learning ☞ Abstract\nFracturation de floes de glace par percussion dans un modèle granulaire ☞ Abstract\nSimulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones ☞ Abstract\n\nAll articles and theses can be found in the Publications section.\n\n    Reach out 🙂 ?"
   },
   {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "Blog",
     "section": "",
-    "text": "Home\n    Blog\n  \n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nA parallel theory of the causal mind\n\n\n\n\n\n\n\nCognitive Science\n\n\nParallel Computing\n\n\nDifferential Equations\n\n\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\n9 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to our brand new website\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2023\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Home\n    Blog\n  \n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nA parallel theory of the causal mind\n\n\n\n\n\n\n\nCognitive Science\n\n\nParallel Computing\n\n\nDifferential Equations\n\n\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\n9 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to my brand-new website\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2023\n\n\n2 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/gnn4amg/index.html",

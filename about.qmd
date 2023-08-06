@@ -31,11 +31,11 @@ about:
 Hi there ! I'm a PhD student in HPC-AI at the University of Bristol, investigating parallel algorithms for combined data-driven and physics-informed simulation and control. I'm advised by [Dr Tom Deakin](https://hpc.tomdeakin.com/), [Pr David Barton](https://cityinthesky.co.uk/about-me/), and [Pr Simon McIntosh-Smith](http://uob-hpc.github.io/SimonMS/).
 
 
-My research interests are at the intersection of **Artificial Inteligence**, **Scientific Computing**, and **High Performance Computing**. Some of the questions I ponder are:
+My research interests are at the intersection of **Artificial Intelligence**, **Scientific Computing**, and **High Performance Computing**. Some of the questions I ponder are:
 
 - How to best combine classical knowledge of physical systems with AI approaches ?
 - How to scale existing physics-based AI techniques to real-world engineering problems: this involves questions like strong/weak scaling and uncertainty quantification.
-- What role do humans and domain scientists in particular play in the envisionned systemic symbiose above ?
+- What role do humans and domain scientists in particular play in the envisioned systemic symbioses above ?
 - The _parallel computational theory of the causal mind_ as broadly covered by John R. Searle in _Philosophy of Mind_ and Malcolm Gladwell in _Blink_.
 
 
@@ -48,7 +48,7 @@ For more details, read [my CV](cv.qmd) or view my profile on [LinkedIn](https://
 A few quotes describe me better than any essay I could ever write:
 
 - _God grant me the serenity to accept the things I cannot change, courage to change the things I can, and the wisdom to know the difference_ - __The Serenity Prayer__
-- _Time waits for no one_ - uttured in __The Girl Who Leapt Through Time__ -->
+- _Time waits for no one_ - uttered in __The Girl Who Leapt Through Time__ -->
 
 
 
