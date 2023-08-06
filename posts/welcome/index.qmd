@@ -7,6 +7,19 @@ categories: [News]
 comments:
   giscus: 
     repo: ddrous/ddrous.github.io
+filters:
+  - social-share
+share:
+  permalink: "https://ddrous.github.io/posts/welcome/"
+  description: "Please vote on your preferred design"
+  twitter: true
+  facebook: true
+  reddit: true
+  stumble: true
+  tumblr: true
+  linkedin: true
+  email: true
+  mastodon: true
 ---
 
 
