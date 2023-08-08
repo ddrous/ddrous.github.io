@@ -1,5 +1,5 @@
 ---
-title: "VnetCancer"
+title: "VnetAgainstCancer"
 author: "RD2N"
 date: "2020-06-18"
 categories: [AI, Simulation]
@@ -11,7 +11,7 @@ We solved a computerized tomography inverse problem: given the signal on the bou
 Software stack:
 - Transfer
 - Eigen
-- Tensorflow
+- TensorFlow
 
 
 Read an abstract of our report [here](ddrous.github.io/publications/theses/nzoyem2020.html).

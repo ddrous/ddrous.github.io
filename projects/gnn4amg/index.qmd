@@ -6,9 +6,10 @@ categories: [AI, HPC, Fluid Dynamics]
 image: "engine.png"
 ---
 
-How would you design a jet engine without ever buiding eanything ? This project introduces a Graph Neural Network model to acclerate the Algebraic Multigrid (AMG) method for linear systems. The goal is to improve AMG at its crucial prolongation step. The focus is on large and sparse linear systems coming from high-fidelity fluid simulation of gas-turbine engines during operation. This work mainly uses PyTorch, Deep Graph Library, and MATLAB.
+How would you design a jet engine without ever building anything ? This project introduced a Graph Neural Network model to accelerate the Algebraic Multigrid (AMG) method for linear systems. The goal was to improve AMG at its crucial prolongation step. The focus is on large and sparse linear systems coming from high-fidelity fluid simulation of gas-turbine engines during operation. This work mainly used PyTorch, Deep Graph Library, and MATLAB.
 
 Software stack:
 - Deep Graph Library
-- Pytorch
+- PyTorch
 - JAX
+- MATLAB

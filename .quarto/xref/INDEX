@@ -70,5 +70,8 @@
   },
   "posts/hard-learned-tech-stack/index.qmd": {
     "index.html": "02c22d88"
+  },
+  "projects/pdesim/index.qmd": {
+    "index.html": "8a781369"
   }
 }

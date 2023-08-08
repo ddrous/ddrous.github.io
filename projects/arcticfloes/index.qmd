@@ -2,12 +2,12 @@
 title: "ArcticFloes"
 author: "RD2N"
 date: "2021-07-31"
-categories: [Modelling, Functional Analysis]
+categories: [Modeling, Functional Analysis]
 image: "icefloes.png"
 ---
 
 
-The rapid shrinking of the Arctic ice cap these last decades is seen as one of the most striking manifestations of global warming. We investigated what happens when two or more ice floes collide, both in 1D and in 2D. We started by modelling an ice floe as a mass-spring-damper lattice, then we derived convergence guarantees with respect to its dynamics (percussion, fracture, etc.).
+The rapid shrinking of the Arctic ice cap these last decades is seen as one of the most striking manifestations of global warming. We investigated what happens when two or more ice floes collide, both in 1D and in 2D. We started by modeling an ice floe as a mass-spring-damper lattice, then we derived convergence guarantees with respect to its dynamics (percussion, fracture, etc.).
 
 Software stack:
 - Python Flask

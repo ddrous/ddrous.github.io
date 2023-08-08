@@ -1,0 +1,14 @@
+---
+title: "RBFs4PDEs"
+author: "RD2N"
+date: "2023-08-08"
+categories: [Modeling, Simulation, Optimal Control, Machine Learning]
+image: "rbf.png"
+---
+
+This project emerged out of the frustration of there existing no differentiable PDE simulator capable of handling the diversity of problems out there. We identified Radial Basis Functions as a powerful and flexible mesh-free tool to control systems governed by partial differential equations, including non-linear PDEs like the Navier-Stokes equations. We showed that our discretise-then-optimise differentiable programming (DP) framework is superior to both the optimise-then-discretise direct-adjoint-looping (DAL) and the data-driven Physics-Informed Neural Network (PINN).
+
+Software stack:
+- JAX
+- GMSH
+- PyVista
