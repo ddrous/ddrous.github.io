@@ -73,5 +73,11 @@
   },
   "projects/pdesim/index.qmd": {
     "index.html": "8a781369"
+  },
+  "publications/theses/nzoyem2023comparison.qmd": {
+    "nzoyem2023comparison.html": "519cde8e"
+  },
+  "publications/theses/nzoyem2022accelerating copy.qmd": {
+    "nzoyem2022accelerating copy.html": "f904e994"
   }
 }

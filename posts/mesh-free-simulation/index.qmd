@@ -14,4 +14,4 @@ This is goign to be about why we need mesh-fre simulations:
 - Meshes are heavy [AsiMov costs 3TB]
 - Complex geometries can easily be point-clouded rather than meshesd
 - Most data is represented as point clouds in computer graphics
-
+- See my slides here and here. See my talk.

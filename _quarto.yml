@@ -1,14 +1,14 @@
 project:
   type: website
   output-dir: docs
-
 format:
   html:
     theme: 
-      light: yeti
       dark: superhero
+      light: yeti
     css: styles.css
     highlight-style: zenburn
+    # backgroundcolor: "#000000"
     toc: false
     number-sections: false
     header-includes: |

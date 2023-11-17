@@ -1,0 +1,29 @@
+---
+title: "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints"
+type: "thesis"
+author: "**Nzoyem**, Barton & Deakin"
+year: "2023"
+publication: "Proceedings of the SC'23 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis"
+preprint: "https://arxiv.org/abs/2310.02286"
+doi: ""
+materials: ""
+toc: false
+categories:
+  - optimal control
+  - machine learning
+  - partial differential equations
+---
+
+```{=html}
+<center> <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=80GLOSUAAAAJ&citation_for_view=80GLOSUAAAAJ:8k81kl-MbHgC" target="_blank" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
+```
+
+
+## Citation (APA)
+
+> Nzoyem, R., Barton, D., & Deakin, T., (2023). A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints.
+
+
+## Abstract
+
+The field of Optimal Control under Partial Differential Equations (PDE) constraints is rapidly changing under the influence of Deep Learning and the accompanying automatic differentiation libraries. Novel techniques like Physics-Informed Neural Networks (PINNs) and Differentiable Programming (DP) are to be contrasted with established numerical schemes like Direct-Adjoint Looping (DAL). We present a comprehensive comparison of DAL, PINN, and DP using a general-purpose mesh-free differentiable PDE solver based on Radial Basis Functions. Under Laplace and Navier-Stokes equations, we found DP to be extremely effective as it produces the most accurate gradients; thriving even when DAL fails and PINNs struggle. Additionally, we provide a detailed benchmark highlighting the limited conditions under which any of those methods can be efficiently used. Our work provides a guide to Optimal Control practitioners and connects them further to the Deep Learning community.

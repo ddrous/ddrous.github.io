@@ -31,7 +31,7 @@ about:
 Hi there ! I'm a PhD student in HPC-AI at the University of Bristol, investigating parallel algorithms for combined data-driven and physics-informed simulation and control. I'm advised by [Dr Tom Deakin](https://hpc.tomdeakin.com/), [Pr David Barton](https://cityinthesky.co.uk/about-me/), and [Pr Simon McIntosh-Smith](http://uob-hpc.github.io/SimonMS/).
 
 
-My research interests are at the intersection of **Artificial Intelligence**, **Scientific Computing**, and **High Performance Computing**. Some of the questions I ponder are:
+My research sits at the intersection of **Artificial Intelligence**, **Scientific Computing**, and **High Performance Computing**. Some of the questions I ponder are:
 
 - How to best combine classical knowledge of physical systems with AI approaches ?
 - How to scale existing physics-based AI techniques to real-world engineering problems: this involves questions like strong/weak scaling and uncertainty quantification.
