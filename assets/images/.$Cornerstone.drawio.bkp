@@ -1,10 +1,10 @@
-<mxfile host="Electron" modified="2023-11-17T00:51:39.321Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="WWoLxR-VuShurd6s-bKb" version="22.0.3" type="device">
+<mxfile host="Electron" modified="2023-11-26T11:40:43.885Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="GJmZTCZPw_SMe8FO80kO" version="22.1.2" type="device">
   <diagram name="Page-1" id="3k1gNJ45gROYWSe4Auo9">
     <mxGraphModel dx="1114" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JNKEvkEiqk35rgI0VZBM-1" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font face=&quot;Trattatello&quot; style=&quot;font-size: 21px;&quot;&gt;God, grant me the serenity to accept the things I cannot change,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font face=&quot;Trattatello&quot; style=&quot;font-size: 21px;&quot;&gt;the courage to change the things I can,&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;font face=&quot;Trattatello&quot; style=&quot;font-size: 21px;&quot;&gt;and the wisdom to know the difference.&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="JNKEvkEiqk35rgI0VZBM-1" value="&lt;div style=&quot;font-size: 21px;&quot;&gt;&lt;/div&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 29px;&quot; face=&quot;Trattatello&quot;&gt;Proficimus More Irretenti.&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;CMU Bright&quot; style=&quot;font-size: 24px;&quot;&gt;We make progress unhindered by custom.&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="40" y="180" width="1120" height="430" as="geometry" />
         </mxCell>
       </root>
