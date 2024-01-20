@@ -4,8 +4,8 @@ project:
 format:
   html:
     theme: 
-      dark: superhero
       light: yeti
+      dark: superhero
     css: styles.css
     highlight-style: zenburn
     # backgroundcolor: "#000000"
