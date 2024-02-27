@@ -2,12 +2,24 @@
 title: "Mesh-free simulation in the age of Big Data"
 author: "RD2N"
 date: "2023-07-29"
+format:
+  html:
+    toc: true
+engine: knitr
 categories: [simulation]
 comments:
   giscus: 
     repo: ddrous/ddrous.github.io
 draft: true
 ---
+
+```{css}
+#| echo: false
+p {
+  text-align: justify
+}
+```
+
 
 This is goign to be about why we need mesh-fre simulations:
 

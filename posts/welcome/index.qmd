@@ -7,6 +7,7 @@ categories: [News]
 comments:
   giscus: 
     repo: ddrous/ddrous.github.io
+engine: knitr
 filters:
   - social-share
 share:
@@ -22,7 +23,12 @@ share:
   mastodon: true
 ---
 
-
+```{css}
+#| echo: false
+p {
+  text-align: justify
+}
+```
 
 Welcome! This is my very first post on this blog. 
 
@@ -42,7 +48,7 @@ Previous iterations of my personal websites might not be accessible anymore, but
 
 I cannot say what was wrong with versions 1 and 2. My biggest concern was that I couldn't write code like in iPython notebooks. The coding feature is something I value a lot for Data Science tutorials. The current iteration (version 3) is built on Quarto which fully supports in-line code cells in `Python` and `Julia`, my top 2 scripting languages. It offered a template more gorgeous than anything that I found elsewhere.
 
-Now that you know my reasons for making these changes, you can tell me which version you think is best. You can react below with 👍 for version 1, 🎉 for version 2, or ❤️ for version 3. The comment section is handle via [Giscus](https://giscus.app/), so you need to create a [GitHub](https://github.com/) account to be able to react or leave a comment. It's super easy though. 
+Now that you know my reasons for making these changes, you can tell me which version you think is best. You can react below with 👍 for version 1, 🎉 for version 2, or ❤️ for version 3. The comment section is handled via [Giscus](https://giscus.app/), so you need to create a [GitHub](https://github.com/) account to be able to react or leave a comment. It's super easy though. 
 
 
 Please go ahead and tell me which one's preferable so that I can incorporate the best of what that version has to offer. As always, thanks for reading !

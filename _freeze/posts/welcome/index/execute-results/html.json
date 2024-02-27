@@ -1,0 +1,14 @@
+{
+  "hash": "eed9bc7c614cb1a945d59e976bdd683e",
+  "result": {
+    "markdown": "---\ntitle: \"Welcome to my brand-new website !\"\nauthor: \"RD2N\"\ndate: \"2023-07-20\"\nimage: ./version3.png\ncategories: [News]\ncomments:\n  giscus: \n    repo: ddrous/ddrous.github.io\nengine: knitr\nfilters:\n  - social-share\nshare:\n  permalink: \"https://ddrous.github.io/posts/welcome/\"\n  description: \"Please vote on your preferred design\"\n  twitter: true\n  facebook: true\n  reddit: true\n  stumble: true\n  tumblr: true\n  linkedin: true\n  email: true\n  mastodon: true\n---\n\n::: {.cell}\n<style type=\"text/css\">\np {\n  text-align: justify\n}\n</style>\n:::\n\n\nWelcome! This is my very first post on this blog. \n\n\nI've never really owned a blog, even though it has been on my mind for more than 2 years now. Now that I've got a brand-new portfolio website, I feel like I'm never going to get a better opportunity than this to flesh out some of my ideas.\n\nPrevious iterations of my personal websites might not be accessible anymore, but snapshoots can be found below.\n\n::: {layout-nrow=3}\n![Version 1 built with Jekyll based on the [Alembic](https://alembic.darn.es/) template. This version is now [archived](https://github.com/ddrous/desmond-rn.github.io) on GitHub.](version1.png){width=300}\n\n![Version 2 built with ReactJS based on [Soumyajit's](https://github.com/ddrous/portfolio) template. This version is still [live](https://www.rousseldesnzoyem.com/), although not for long.](version2.png){width=300}\n\n![Version 3 built with [Quarto](https://quarto.org/) and using the `yeti` (light) and `superhero` (dark) themes. This is the [site](https://ddrous.github.io/) you're currently browsing.](version3.png){width=400}\n:::\n\n\nI cannot say what was wrong with versions 1 and 2. My biggest concern was that I couldn't write code like in iPython notebooks. The coding feature is something I value a lot for Data Science tutorials. The current iteration (version 3) is built on Quarto which fully supports in-line code cells in `Python` and `Julia`, my top 2 scripting languages. It offered a template more gorgeous than anything that I found elsewhere.\n\nNow that you know my reasons for making these changes, you can tell me which version you think is best. You can react below with 👍 for version 1, 🎉 for version 2, or ❤️ for version 3. The comment section is handled via [Giscus](https://giscus.app/), so you need to create a [GitHub](https://github.com/) account to be able to react or leave a comment. It's super easy though. \n\n\nPlease go ahead and tell me which one's preferable so that I can incorporate the best of what that version has to offer. As always, thanks for reading !\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

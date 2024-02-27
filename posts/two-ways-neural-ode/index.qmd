@@ -6,6 +6,7 @@ categories: [Differential Equations]
 format:
   html:
     toc: true
+engine: knitr
 number-sections: true
 filters:
   - social-share
@@ -25,6 +26,14 @@ comments:
     repo: ddrous/ddrous.github.io
 draft: true
 ---
+
+```{css}
+#| echo: false
+p {
+  text-align: justify
+}
+```
+
 
 The first way, as intended by its creators: a continuous ResNet (Show example of MNIST) - layer parallelism
 

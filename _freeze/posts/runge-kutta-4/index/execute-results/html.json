@@ -1,0 +1,14 @@
+{
+  "hash": "9643c6a1b1673f11c2dd59eeda4f2d0c",
+  "result": {
+    "markdown": "---\ntitle: \"In defense of the Runge-Kutta 4\"\nauthor: \"RD2N\"\ndate: \"2023-07-23\"\n# image: ./MindBodyProblem.png\ncategories: [Differential Equations]\nformat:\n  html:\n    toc: true\nengine: knitr\nnumber-sections: true\nfilters:\n  - social-share\nshare:\n  permalink: \"https://ddrous.github.io/posts/runge-kutta-4/\"\n  description: \"How to make good use of your RK4 solver\"\n  twitter: true\n  facebook: true\n  reddit: true\n  stumble: true\n  tumblr: true\n  linkedin: true\n  email: true\n  mastodon: true\ncomments:\n  giscus:\n    repo: ddrous/ddrous.github.io\ndraft: true\n---\n\n::: {.cell}\n<style type=\"text/css\">\np {\n  text-align: justify\n}\n</style>\n:::\n\n\nSimply adding a subdivisions argunment in RK4 can make it amazing !!\n\nWhat you want to pass into a solver ?\nWhat you want in a solver ? \nCan we learn the subdivition argument (converting from float to int and still bacpropagate) ?\n\nTHis is how an adaptive time-step solver work:\nAbout differentiating through the solve, which returns better gradients : adaptive or our RK4 ?\n\n\n(a simlectic solver can be chosen if we know the problem) If we have no knowledge of the data generation process, then ! \nWith neural ODEs, we care less about the solver, but more about the vector field itself ! So even Euler shouldnt be criticised. We initialise a lizschits vector field and we are okay. \n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

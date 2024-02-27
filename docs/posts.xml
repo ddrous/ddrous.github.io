@@ -21,6 +21,13 @@
 
 
 
+<div class="cell">
+<style type="text/css">
+p {
+  text-align: justify
+}
+</style>
+</div>
 <blockquote cite="https://youtu.be/zi7Va_4ekko" class="blockquote"> How do we fit our conception of ourselves (the human reality) with what the world is at its most fundamental level: physical particles and fields of forces ? </blockquote>I’ve always been fascinated by theories of the mind and how to fully replicate it with artificial general intelligence. Lately, the philosophical nature of this problem is one that I’ve found myself pondering over a lot. Hoping not to get into too much detail, I’ll talk about two technologies I believe are key to deciphering how the human mind works: Neural Ordinary Differential Equations, and Time-Parallel Computing. This article is based on ideas I collected from John Searle’s course <a href="https://youtu.be/zi7Va_4ekko"><em>Philosophy of Mind</em></a>, and Malcolm Gladwell’s best-selling book <a href="https://www.audible.co.uk/pd/Blink-Audiobook/B004F2Z324"><em>Blink</em></a>.<p></p>
 <section id="the-mind-body-problem" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="the-mind-body-problem"><span class="header-section-number">1</span> The mind-body problem</h2>
@@ -104,6 +111,13 @@ Note
 
 
 
+<div class="cell">
+<style type="text/css">
+p {
+  text-align: justify
+}
+</style>
+</div>
 <p>Welcome! This is my very first post on this blog.</p>
 <p>I’ve never really owned a blog, even though it has been on my mind for more than 2 years now. Now that I’ve got a brand-new portfolio website, I feel like I’m never going to get a better opportunity than this to flesh out some of my ideas.</p>
 <p>Previous iterations of my personal websites might not be accessible anymore, but snapshoots can be found below.</p>
@@ -140,7 +154,7 @@ Note
 </div>
 </div>
 <p>I cannot say what was wrong with versions 1 and 2. My biggest concern was that I couldn’t write code like in iPython notebooks. The coding feature is something I value a lot for Data Science tutorials. The current iteration (version 3) is built on Quarto which fully supports in-line code cells in <code>Python</code> and <code>Julia</code>, my top 2 scripting languages. It offered a template more gorgeous than anything that I found elsewhere.</p>
-<p>Now that you know my reasons for making these changes, you can tell me which version you think is best. You can react below with 👍 for version 1, 🎉 for version 2, or ❤️ for version 3. The comment section is handle via <a href="https://giscus.app/">Giscus</a>, so you need to create a <a href="https://github.com/">GitHub</a> account to be able to react or leave a comment. It’s super easy though.</p>
+<p>Now that you know my reasons for making these changes, you can tell me which version you think is best. You can react below with 👍 for version 1, 🎉 for version 2, or ❤️ for version 3. The comment section is handled via <a href="https://giscus.app/">Giscus</a>, so you need to create a <a href="https://github.com/">GitHub</a> account to be able to react or leave a comment. It’s super easy though.</p>
 <p>Please go ahead and tell me which one’s preferable so that I can incorporate the best of what that version has to offer. As always, thanks for reading !</p>
 
 

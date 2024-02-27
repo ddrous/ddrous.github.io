@@ -1,0 +1,49 @@
+---
+title: "In defense of the Runge-Kutta 4"
+author: "RD2N"
+date: "2023-07-23"
+# image: ./MindBodyProblem.png
+categories: [Differential Equations]
+format:
+  html:
+    toc: true
+engine: knitr
+number-sections: true
+filters:
+  - social-share
+share:
+  permalink: "https://ddrous.github.io/posts/runge-kutta-4/"
+  description: "How to make good use of your RK4 solver"
+  twitter: true
+  facebook: true
+  reddit: true
+  stumble: true
+  tumblr: true
+  linkedin: true
+  email: true
+  mastodon: true
+comments:
+  giscus:
+    repo: ddrous/ddrous.github.io
+draft: true
+---
+
+```{css}
+#| echo: false
+p {
+  text-align: justify
+}
+```
+
+Simply adding a subdivisions argunment in RK4 can make it amazing !!
+
+What you want to pass into a solver ?
+What you want in a solver ? 
+Can we learn the subdivition argument (converting from float to int and still bacpropagate) ?
+
+THis is how an adaptive time-step solver work:
+About differentiating through the solve, which returns better gradients : adaptive or our RK4 ?
+
+
+(a simlectic solver can be chosen if we know the problem) If we have no knowledge of the data generation process, then ! 
+With neural ODEs, we care less about the solver, but more about the vector field itself ! So even Euler shouldnt be criticised. We initialise a lizschits vector field and we are okay. 

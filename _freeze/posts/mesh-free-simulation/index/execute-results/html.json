@@ -1,0 +1,14 @@
+{
+  "hash": "7e308503b7d792058b14b9de7403fca8",
+  "result": {
+    "markdown": "---\ntitle: \"Mesh-free simulation in the age of Big Data\"\nauthor: \"RD2N\"\ndate: \"2023-07-29\"\nformat:\n  html:\n    toc: true\nengine: knitr\ncategories: [simulation]\ncomments:\n  giscus: \n    repo: ddrous/ddrous.github.io\ndraft: true\n---\n\n::: {.cell}\n<style type=\"text/css\">\np {\n  text-align: justify\n}\n</style>\n:::\n\n\n\nThis is goign to be about why we need mesh-fre simulations:\n\n- Meshes are heavy [AsiMov costs 3TB]\n- Complex geometries can easily be point-clouded rather than meshesd\n- Most data is represented as point clouds in computer graphics\n- See my slides here and here. See my talk.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
