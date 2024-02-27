@@ -12,12 +12,14 @@ format:
     toc: false
     number-sections: false
     header-includes: |
-      <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/cmu-sans-serif" type="text/css"/>
       <link href="https://fonts.cdnfonts.com/css/monaco" rel="stylesheet">
+      <link href="https://fonts.cdnfonts.com/css/trebuchet-ms-2" rel="stylesheet">
+# <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/cmu-sans-serif" type="text/css"/>
 link-citations: true
 # mainfont: CMU Sans Serif
 # mainfont: Arial
 mainfont: Trebuchet MS
+# mainfont: [Trebuchet MS, MJXTEX]
 
 # css: styles.css
 

@@ -35,7 +35,7 @@ p {
 ```
 
 ```{=html}
-<blockquote cite="https://youtu.be/zi7Va_4ekko"> How do we fit our conception of ourselves (the human reality) with what the world is at its most fundamental level: physical particles and fields of forces ? </blockquote
+<blockquote cite="https://youtu.be/zi7Va_4ekko"> How do we fit our conception of ourselves (the human reality) with what the world is at its most fundamental level: physical particles and fields of forces ? </blockquote>
 ```
 
 I've always been fascinated by theories of the mind and how to fully replicate it with artificial general intelligence. Lately, the philosophical nature of this problem is one that I've found myself pondering over a lot. Hoping not to get into too much detail, I'll talk about two technologies I believe are key to deciphering how the human mind works: Neural Ordinary Differential Equations, and Time-Parallel Computing. This article is based on ideas I collected from John Searle's course  [_Philosophy of Mind_](https://youtu.be/zi7Va_4ekko), and Malcolm Gladwell's best-selling book [_Blink_](https://www.audible.co.uk/pd/Blink-Audiobook/B004F2Z324).
