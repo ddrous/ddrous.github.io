@@ -28,12 +28,13 @@ about:
 </nav>
 ```
 
-Hi there ! I'm Roussel Desmond Nzoyem (pronounced _zo-e-m_), a PhD student in Scientific Machine Learning at the University of Bristol, investigating parallel algorithms for combined data-driven and physics-informed simulation and control. I'm advised by [Dr Tom Deakin](https://hpc.tomdeakin.com/), [Pr David Barton](https://cityinthesky.co.uk/about-me/), and [Pr Simon McIntosh-Smith](http://uob-hpc.github.io/SimonMS/).
+Hi there ! I'm Roussel Desmond Nzoyem (pronounced **zo-e-m**), a PhD student in Scientific Machine Learning at the University of Bristol, investigating parallel algorithms for combined data-driven and physics-informed simulation and control. I'm advised by [Dr Tom Deakin](https://hpc.tomdeakin.com/), [Pr David Barton](https://cityinthesky.co.uk/about-me/), and [Pr Simon McIntosh-Smith](http://uob-hpc.github.io/SimonMS/).
 
 
 My research sits at the intersection of **Artificial Intelligence**, **High Performance Computing**, and **Scientific Computing**. Some of the questions I ponder are:
 
 - How to best learn and combine classical knowledge of physical systems with data-driven approaches ?
+- How to make these systems robust to noise while generalizing well to unseen scenarios with limited data ?
 - How to scale existing physics-based AI techniques to real-world engineering problems: this involves questions like strong/weak scaling and uncertainty quantification.
 - What role do humans and domain scientists in particular play in the envisioned systemic symbioses above ?
 - The _parallel computational theory of the causal mind_ as broadly covered by John R. Searle in _Philosophy of Mind_ and Malcolm Gladwell in _Blink_.

@@ -4,7 +4,9 @@ project:
 format:
   html:
     theme: 
-      light: yeti
+      # light: yeti
+      # dark: superhero
+      light: [cosmo, custom.scss]
       dark: superhero
     css: styles.css
     highlight-style: zenburn
