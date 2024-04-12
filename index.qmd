@@ -2,7 +2,9 @@
 title: "Roussel."
 subtitle: PhD student @ [University of Bristol](http://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/)
 # image: ./assets/images/fluidflow.jpg
-image: ./assets/images/cornerstone.png
+# image: ./assets/images/cornerstone.png
+# image: ./assets/images/banner.png
+image: ./assets/images/banner_nature.jpg
 # page-layout: full
 about:
   template: marquee
@@ -26,14 +28,14 @@ about:
 
 ## Welcome 👋
 
-This website is about my professional journey. You'll find interesting stories on various topics in hard and soft sciences, and some even more random stuff.
-
-To learn more about me, go to the [About](/about.qmd) page. In [Projects](/projects.qmd) and [Publications](/publications.qmd), you'll find some work I've contributed to, along with the tech stack I've mastered over the years. For some very random stuff, go to [Blog](/posts.qmd) where you'll find a curated list of stories, articles, and poems. I hope you'll enjoy !
+To learn more about me, go to the [About](/about.qmd) page. In [Projects](/projects.qmd) and [Publications](/publications.qmd), you'll find some work I've contributed to. For a nice read, go to the [Blog](/posts.qmd) section. There you'll find interesting stories ranging many disciplines. Some very focused, and others quite random !
 
 
 ## News
 
-
+- **_07 May. 2024_** : I'm attending ICLR'24 in Vienna and presenting a poster at the workshop on [AI4DifferentialEquations in Science](https://ai4diffeqtnsinsci.github.io). I'm looking to have as much fun as possible. Please reach out if you're there as well :).
+- **_17 Apr. 2024_** : My profile will appear on the **Engineering Includes Me** wall in the University of Bristol's famous Queen's Building. This rewards our after-school work with [Codemakers](https://github.com/ddrous/ks3-project).
+- **_13 Mar. 2024_** : I'm going to the Turing Institute to attend the launch of their Probabilistic Programming theme. Looking forward to using [`Turing.jl`](https://github.com/TuringLang/Turing.jl) !
 - **_20 Nov. 2023_** : I'm giving a talk at the 2nd workshop on Physics Enhancing Machine Learning in Applied Mechanics, held at the Institute of Physics in London, UK. ☞ [Access my slides](https://drive.google.com/file/d/1DM1rC5qns4UA-MuWNPema72sYnKwcEw7/view?usp=sharing).
 - **_13 Nov. 2023_** : Our paper on mesh-free differential programming for optimal control is out during SuperComputing'23. ☞ [Have a read here](https://dl.acm.org/doi/10.1145/3624062.3626078){.external target="_blank"}.
 - **_18 Sep. 2023_** : I'm attending the 175th European Study Group with Industry (ESGI) in Berlin, Germany. ☞ [Link](https://wias-berlin.de/workshops/ESGI-175/#:~:text=Group%20with%20Industry-,Berlin%2C%20September%2018%2D22%2C%202023,modelling%20or%20an%20optimisation%20problem){.external target="_blank"}.
