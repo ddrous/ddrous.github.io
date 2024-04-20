@@ -36,7 +36,7 @@ To learn more about me, go to the [About](/about.qmd) page. In [Projects](/proje
 ## News
 
 - **_07 May. 2024_** : I'm attending ICLR'24 in Vienna and presenting a poster at the workshop on [AI4DifferentialEquations in Science](https://ai4diffeqtnsinsci.github.io). I'm looking to have as much fun as possible. Please reach out if you're there as well :).
-- **_17 Apr. 2024_** : My profile will appear on the **Engineering Includes Me** wall in the University of Bristol's famous Queen's Building. This rewards our after-school work with [Codemakers](https://github.com/ddrous/ks3-project).
+- **_17 Apr. 2024_** : My profile now appears on the **Engineering Includes Me** wall in the University of Bristol's iconic Queen's Building. This rewards our after-school work with [Codemakers](https://github.com/ddrous/ks3-project). ☞ [Blog Post](https://engineering.blogs.bristol.ac.uk/engineering-includes-me-roussel-desmond-nzoyem/)
 - **_13 Mar. 2024_** : I'm going to the Turing Institute to attend the launch of their Probabilistic Programming theme. Looking forward to using [`Turing.jl`](https://github.com/TuringLang/Turing.jl) !
 - **_20 Nov. 2023_** : I'm giving a talk at the 2nd workshop on Physics Enhancing Machine Learning in Applied Mechanics, held at the Institute of Physics in London, UK. ☞ [Access my slides](https://drive.google.com/file/d/1DM1rC5qns4UA-MuWNPema72sYnKwcEw7/view?usp=sharing).
 - **_13 Nov. 2023_** : Our paper on mesh-free differential programming for optimal control is out during SuperComputing'23. ☞ [Have a read here](https://dl.acm.org/doi/10.1145/3624062.3626078){.external target="_blank"}.
