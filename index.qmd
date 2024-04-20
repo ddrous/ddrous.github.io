@@ -5,7 +5,8 @@ subtitle: PhD student @ [University of Bristol](http://www.bristol.ac.uk/cdt/int
 # image: ./assets/images/cornerstone.png
 # image: ./assets/images/banner.png
 # image: ./assets/images/banner_nature.jpg
-image: ./assets/images/football.jpeg
+# image: ./assets/images/football.jpeg
+image: ./assets/images/banner_eng.jpeg
 # page-layout: full
 about:
   template: marquee
