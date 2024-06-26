@@ -1,0 +1,29 @@
+[
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/ncflow/index.html",
+      "/projects/pdesim/index.html",
+      "/projects/gnn4amg/index.html",
+      "/projects/arcticfloes/index.html",
+      "/projects/phifem/index.html",
+      "/projects/vnetcancer/index.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/theses/nzoyem2023comparison.html",
+      "/publications/theses/nzoyem2022accelerating.html",
+      "/publications/theses/nzoyem2021fracturation.html",
+      "/publications/theses/nzoyem2020simulation.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/parallel-mind-theory/index.html",
+      "/posts/welcome/index.html"
+    ]
+  }
+]

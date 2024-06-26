@@ -1,0 +1,289 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Home\n    CV\n  \n\n\n\n\n\n  \n     Download current CV"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Roussel",
+    "section": "",
+    "text": "Home\n    About\nHi there ! I’m Roussel Desmond Nzoyem (pronounced zo-e-m), a PhD student in Scientific Machine Learning at the University of Bristol, investigating parallel algorithms for combined data-driven and physics-informed simulation and control. I’m advised by Dr Tom Deakin, Pr David Barton, and Pr Simon McIntosh-Smith.\nMy research sits at the intersection of Artificial Intelligence, High Performance Computing, and Scientific Computing. Some of the questions I ponder are:\nFor more details, read my CV or view my profile on LinkedIn. If they grab your attention, please do send me a message."
+  },
+  {
+    "objectID": "about.html#hobbies",
+    "href": "about.html#hobbies",
+    "title": "Roussel",
+    "section": "Hobbies",
+    "text": "Hobbies\n\n\n\n\n\n\nI enjoy all things computer hardware, software and games: from old classics to AAA’s like DOOM. Nothing like a first-person shooter to evade your troubles.\n\n\n\n\n\n\n\nIn another life, I’m pretty sure I am/was a moviemaker.\n\n\n\n\n\n\n\n\n\nMy Casiotone CT-S100. I’ve just recently taken back to playing the piano. Hopefully some of my pieces will feature here soon.\n\n\n\n\n\n\n\nFootball is life. I play weekly in one of Bristol’s minor leagues. Call me if you’re putting together a game."
+  },
+  {
+    "objectID": "about.html#address",
+    "href": "about.html#address",
+    "title": "Roussel",
+    "section": "Address",
+    "text": "Address"
+  },
+  {
+    "objectID": "about.html#contact-me",
+    "href": "about.html#contact-me",
+    "title": "Roussel",
+    "section": "Contact Me",
+    "text": "Contact Me"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Roussel.",
+    "section": "",
+    "text": "To learn more about me, go to the About page. In Projects and Publications, you’ll find some work I’ve contributed to. For a nice read, go to the Blog section. There you’ll find interesting stories ranging many disciplines. Some very focused, and others quite random !"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Roussel.",
+    "section": "",
+    "text": "To learn more about me, go to the About page. In Projects and Publications, you’ll find some work I’ve contributed to. For a nice read, go to the Blog section. There you’ll find interesting stories ranging many disciplines. Some very focused, and others quite random !"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Roussel.",
+    "section": "News",
+    "text": "News\n\n07 May. 2024 : I’m attending ICLR’24 in Vienna and presenting a poster at the workshop on AI4DifferentialEquations in Science. I’m looking to have as much fun as possible. Please reach out if you’re there as well :).\n17 Apr. 2024 : My profile now appears on the Engineering Includes Me wall in the University of Bristol’s iconic Queen’s Building. This rewards our after-school work with Codemakers. ☞ Blog Post\n13 Mar. 2024 : I’m going to the Turing Institute to attend the launch of their Probabilistic Programming theme. Looking forward to using Turing.jl !\n20 Nov. 2023 : I’m giving a talk at the 2nd workshop on Physics Enhancing Machine Learning in Applied Mechanics, held at the Institute of Physics in London, UK. ☞ Access my slides.\n13 Nov. 2023 : Our paper on mesh-free differential programming for optimal control is out during SuperComputing’23. ☞ Have a read here.\n18 Sep. 2023 : I’m attending the 175th European Study Group with Industry (ESGI) in Berlin, Germany. ☞ Link.\n01 Aug. 2023 : I’ve pre-released version 0.1.4 of Updec: a mesh-free differentiable software for quick experimentation with a variety of PDEs. ☞ Repo.\n10 Mar. 2023 : I gave a talk at CMU Africa on emerging techniques and applications of graph neural networks. ☞ Recording.\n01 Dec. 2022 : I began my esearch on AI, HPC, and Scientific Machine Learning for mesh-free simulations. ☞ Synopsis.\n10 Oct. 2021 : I moved to Bristol for a PhD in the Interactive AI CDT. Find pictures of my trips on ☞ Instagram."
+  },
+  {
+    "objectID": "index.html#selected-stories",
+    "href": "index.html#selected-stories",
+    "title": "Roussel.",
+    "section": "Selected stories*",
+    "text": "Selected stories*\n\nA parallel theory of the causal mind ➡️ Read\nWelcome to our brand-new website ! ➡️ Read\nMesh-free simulation in the age of Big Data ➡️ Coming soon …\n\nStay up to date and get more stories by signing up for my weekly newsletter in the Blog section."
+  },
+  {
+    "objectID": "index.html#selected-publications",
+    "href": "index.html#selected-publications",
+    "title": "Roussel.",
+    "section": "Selected publications*",
+    "text": "Selected publications*\n\nAccelerating Algebraic Multigrid Using Machine Learning ☞ Abstract\nFracturation de floes de glace par percussion dans un modèle granulaire ☞ Abstract\nSimulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones ☞ Abstract\n\nAll articles and theses can be found in the Publications section.\n\n    Reach out 🙂 ?"
+  },
+  {
+    "objectID": "projects/phifem/index.html",
+    "href": "projects/phifem/index.html",
+    "title": "ϕ-FEM",
+    "section": "",
+    "text": "In recent years, numerical models using the Finite Elements Method (FEM) to simulate the soft tissue mechanisms of the human body have attracted a great interest. In the context of computer-assisted surgery, the simulation method should be quick, precise, and patient-specific. This work develops a new immersed boundary method named φ-FEM to address those issues.\nSoftware: - Fenics - SOFA"
+  },
+  {
+    "objectID": "projects/ncflow/index.html",
+    "href": "projects/ncflow/index.html",
+    "title": "Neural Context Flows",
+    "section": "",
+    "text": "Our goal is to build a foundational machine learning model for all of science. Neural Context Flow is the first steps towards that goal, which generalizes dynamical system learning to out of distribution parameters.\nSoftware stack: JAX, Equinox and more.\nGitHub: 👉 Neural Context Flow"
+  },
+  {
+    "objectID": "projects/vnetcancer/index.html",
+    "href": "projects/vnetcancer/index.html",
+    "title": "VnetAgainstCancer",
+    "section": "",
+    "text": "We solved a computerized tomography inverse problem: given the signal on the boundaries of an organ, we want to rebuild the density map of the organ, hence detecting abnormally high density zones (which are potential indicators of early-onset cancer). Our main tasks were: simulating the radiative transfer equation; using Convolutional Neural Network to solve the related inverse problem; using a V-Net to improve accuracy and recreate the complete density map.\nSoftware stack: - Transfer - Eigen - TensorFlow\nRead an abstract of our report here."
+  },
+  {
+    "objectID": "publications/theses/nzoyem2020simulation.html",
+    "href": "publications/theses/nzoyem2020simulation.html",
+    "title": "Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones",
+    "section": "",
+    "text": "Google Scholar"
+  },
+  {
+    "objectID": "publications/theses/nzoyem2020simulation.html#citation-apa",
+    "href": "publications/theses/nzoyem2020simulation.html#citation-apa",
+    "title": "Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones",
+    "section": "Citation (APA)",
+    "text": "Citation (APA)\n\nNzoyem, R., Franck, E., Navoret, L., Vigon, V., & PRUD’HOMME, C. (2020). Simulation 2D de l’equation du transfert radiatif et reconstruction de la densité par un réseau de neurones."
+  },
+  {
+    "objectID": "publications/theses/nzoyem2020simulation.html#abstract",
+    "href": "publications/theses/nzoyem2020simulation.html#abstract",
+    "title": "Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones",
+    "section": "Abstract",
+    "text": "Abstract\nEn 2015, le réseau de neurones vainqueur de l’ILSVRC1 obtient une précision de 97.3 % ce qui conduit les chercheurs à postuler que les machines peuvent identifier les objets dans des images mieux que les humains. Depuis lors, le domaine du Machine Learning a continué à prendre de l’ampleur. Aujourd’hui ses applications se multiplient dans plusieurs secteurs d’activité parmi lesquelles l’automobile, la finance, le divertissement, et plus important, celui de la santé à travers l’imagerie médicale.\nLes tumeurs ont des propriétés optiques différentes des tissus qui les entourent2. Étant donné un domaine avec un faisceau lumineux qui s’y propage, reconstruire sa densité à l’aide du signal temporel mesuré sur ses bords constitue un problème inverse. Les problèmes inverses sont très importants en sciences mathématiques et ont des applications variées en imagerie médicale, radar, vision, etc. Ils sont malheureusement très difficiles à résoudre car ils nécessitent l’utilisation d’algorithmes d’optimisation avancés. Les réseaux de neurones artificiels se présente comme une méthode potentiellement moins couteuse mais plus rapide.\nGrace à son unité mixte de recherche IRMA, l’UFR de mathématique et d’informatique de l’Université de Strasbourg est un pôle de recherche en mathématiques appliquées. À travers ses équipes MOCO et Probabilités, l’IRMA s’intéresse aux problématiques de modélisation des EDP et de Machine Learning, raison pour laquelle j’ai choisi d’y effectuer mon stage de master 1 CSMI3. Au cours de ce stage (du 15 juin au 15 août 2020), j’ai pu m’intéresser au problème inverse de reconstruction de la densité d’un domaine par un réseau de neurones convolutif (CNN).\nCe stage a été suivi par les enseignants-chercheurs MM. Emmanuel FRANCK, Laurent NAVORET, et Vincent VIGON et s’inscrit dans la continuation d’un projet (encadré par la même équipe) qui s’est déroulé du 19 mars au 28 mai 2020. Le projet consistait en la simulation 1D d’un schéma de « splitting » pour le modèle P1 de l’équation du transfert radiatif couplé avec la matière. Le stage quant à lui a essentiellement consisté en la simulation du même schéma en 2D, et en la reconstruction de la densité par un CNN. Plus généralement, ce stage a été l’opportunité pour moi d’apprendre sur les EDP et l’apprentissage profond tout en me familiarisant avec l’interface de programmation de la librairie de réseaux de neurones Keras.\nEn vue de rendre compte de manière fidèle des deux mois passés au sein de l’IRMA, il apparait logique de présenter en titre de préambule le cadre du stage et son environnement technique. Ensuite il s’agira de présenter les différentes missions et tâches qui j’ai pu effectuer. Enfin je présenterais un bilan du stage, en incluant les différents apports et enseignements que j’ai pu en tirer."
+  },
+  {
+    "objectID": "publications/theses/nzoyem2020simulation.html#footnotes",
+    "href": "publications/theses/nzoyem2020simulation.html#footnotes",
+    "title": "Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nImageNet Large Scale Visual Recognition Challenge↩︎\nLes tissus cancéreux sont généralement plus denses que les tissus sains.↩︎\nCalcul Scientifique et Mathématiques de l’Information↩︎"
+  },
+  {
+    "objectID": "publications/theses/nzoyem2021fracturation.html",
+    "href": "publications/theses/nzoyem2021fracturation.html",
+    "title": "Fracturation de floes de glace par percussion dans un modèle granulaire",
+    "section": "",
+    "text": "Google Scholar"
+  },
+  {
+    "objectID": "publications/theses/nzoyem2021fracturation.html#citation-apa",
+    "href": "publications/theses/nzoyem2021fracturation.html#citation-apa",
+    "title": "Fracturation de floes de glace par percussion dans un modèle granulaire",
+    "section": "Citation (APA)",
+    "text": "Citation (APA)\n\nNzoyem, R., Labbé, S. & Prud’homme, C. (2021). Fracturation de floes de glace par percussion dans un modèle granulaire."
+  },
+  {
+    "objectID": "publications/theses/nzoyem2021fracturation.html#abstract",
+    "href": "publications/theses/nzoyem2021fracturation.html#abstract",
+    "title": "Fracturation de floes de glace par percussion dans un modèle granulaire",
+    "section": "Abstract",
+    "text": "Abstract\nThe rapid shrinking of the Arctic ice cap these last decades is seen as one of the most striking manifestations of global warming. This decrease in size opens way to new opportunities, namely the creation of routes beneficial to the industrial sector. The second major consequence of this observation that we need to include the Marginal Ice Zone (MIZ) into climate prediction models. In 2015, Rabatel et al.1 developed a sophisticated model for the dynamics of rigid ice floes. The model was later enhanced by Balasoiu in 2020 when he considered the ice floe not as rigid, but as an elastic material modeled by a mass‐spring‐damper lattice2. Our main goal in this report is to study what happens when two or more ice floes collide (percussion, fracture, etc.), both in 1D and in 2D."
+  },
+  {
+    "objectID": "publications/theses/nzoyem2021fracturation.html#footnotes",
+    "href": "publications/theses/nzoyem2021fracturation.html#footnotes",
+    "title": "Fracturation de floes de glace par percussion dans un modèle granulaire",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nMatthias RABATEL et al. « Dynamics of an assembly of rigid ice floes ». In : Journal of Geophysical Research : Oceans 120.9 (2015), p. 5887‐5909.↩︎\nDimitri BALASOIU. « Modélisation et simulation du comportement mécanique de floes de glace ». Theses. Université Grenoble Alpes [2020‐….], oct. 2020. URL : https://tel. archives-ouvertes.fr/tel-03116132.↩︎"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome to my brand-new website !",
+    "section": "",
+    "text": "Welcome! This is my very first post on this blog.\nI’ve never really owned a blog, even though it has been on my mind for more than 2 years now. Now that I’ve got a brand-new portfolio website, I feel like I’m never going to get a better opportunity than this to flesh out some of my ideas.\nPrevious iterations of my personal websites might not be accessible anymore, but snapshoots can be found below.\n\n\n\n\n\n\nVersion 1 built with Jekyll based on the Alembic template. This version is now archived on GitHub.\n\n\n\n\n\n\n\n\n\nVersion 2 built with ReactJS based on Soumyajit’s template. This version is still live, although not for long.\n\n\n\n\n\n\n\n\n\nVersion 3 built with Quarto and using the yeti (light) and superhero (dark) themes. This is the site you’re currently browsing.\n\n\n\n\n\nI cannot say what was wrong with versions 1 and 2. My biggest concern was that I couldn’t write code like in iPython notebooks. The coding feature is something I value a lot for Data Science tutorials. The current iteration (version 3) is built on Quarto which fully supports in-line code cells in Python and Julia, my top 2 scripting languages. It offered a template more gorgeous than anything that I found elsewhere.\nNow that you know my reasons for making these changes, you can tell me which version you think is best. You can react below with 👍 for version 1, 🎉 for version 2, or ❤️ for version 3. The comment section is handled via Giscus, so you need to create a GitHub account to be able to react or leave a comment. It’s super easy though.\nPlease go ahead and tell me which one’s preferable so that I can incorporate the best of what that version has to offer. As always, thanks for reading !"
+  },
+  {
+    "objectID": "posts/parallel-mind-theory/index.html",
+    "href": "posts/parallel-mind-theory/index.html",
+    "title": "A parallel theory of the causal mind",
+    "section": "",
+    "text": "I’ve always been fascinated by theories of the mind and how to fully replicate it with artificial general intelligence. Lately, the philosophical nature of this problem is one that I’ve found myself pondering over a lot. Hoping not to get into too much detail, I’ll talk about two technologies I believe are key to deciphering how the human mind works: Neural Ordinary Differential Equations, and Time-Parallel Computing. This article is based on ideas I collected from John Searle’s course Philosophy of Mind, and Malcolm Gladwell’s best-selling book Blink."
+  },
+  {
+    "objectID": "posts/parallel-mind-theory/index.html#the-mind-body-problem",
+    "href": "posts/parallel-mind-theory/index.html#the-mind-body-problem",
+    "title": "A parallel theory of the causal mind",
+    "section": "1 The mind-body problem",
+    "text": "1 The mind-body problem\nThe mysteries of consciousness and the soul are some of the most challenging questions of our time. To tackle these questions, the Cartesian view postulates the existence of two realms: a real of Mind (whose essence is the “thinking”), and a real of Body (or the physical)1. The mind is indivisible, undoubtable (hence the famous phrase “I think, therefore I am.”), and commands the body. This fomulation, whose ideas we carry to this day, is an apt introduction to the dualist view, despite being a gross oversimplification of René Descartes’ legacy.\nThe dualist formulation dated back to the 17th century and is convenient for its time, as it leaves the realm of Body to science, and the realm of Mind to religion. Perfect if you’re a scientist trying to conduct thought-provoking research under the Inquisition. Descartes’s theory is appealing, but it leaves us with one big problem: how does the mind influence the brain? How are the two realms connected? Descartes’s answer to this Mind-Body puzzle was unconvincing.\nOver the centuries, several schools of thought have sought an answer to the puzzle, at times only considering one of the two realms. The main groups being idealism and behaviourism for Mind and Body, respectively. This is beautifully explained by John Searle in his course Philosophy of Mind. It would appear that the advent of computers and the emergence of the cross-disciplinary field of cognitive science is the key to this puzzle."
+  },
+  {
+    "objectID": "posts/parallel-mind-theory/index.html#the-bottom-up-mind-body-causality",
+    "href": "posts/parallel-mind-theory/index.html#the-bottom-up-mind-body-causality",
+    "title": "A parallel theory of the causal mind",
+    "section": "2 The bottom-up mind-body causality",
+    "text": "2 The bottom-up mind-body causality\nComputers function by means of algorithms: carefully established instructions relating an input to an output. If one were to think of the brain (and daringly the mind too) as a computer, then the causal relation between the brain and the mind would have to be at the heart of such formalism. That is the essence of cognitive science.\nWhen you feel pain, hunger or joy, there’s no doubt these are neurobiological processes in your brain firing. This suggests that the mind reacts to the behaviour of the world; it is caused by brain processes. On the other hand, when you decide to raise your hand and it goes up, or when you go from being unhappy to being ecstatic, neuroscientists can clearly observe a change in the physical disposition of your brain. In other words, your mind is a state of your brain, a feature.\nAs explained by Searle, the brain causes the mind, and the mind is a feature of the brain. This would appear paradoxical, but no, it isn’t. It makes sense if we think of the mind as made up of the higher-level processes compared to what we measure in the brain. For instance, when you decide to raise your hand and it goes up, there are two ways to interpret what happened: (1) neurons activated somewhere in your brain, sent a signal that travelled to your muscles, then causing your hand to go up (the low-level processes); (2) you had a thought, and you observed the materialisation of it as a hand in the air (the high-level process). Both interpretations are equally and simultaneously true.\nHow do higher-level systemic features emerge from low-level individual characteristics? This is the research question we’ve been after. We’ve turned an abstract philosophical puzzle into a very materialistic one; a scientific problem that includes the mind (unlike Descartes’ original formulation). Mind-blowing behaviour emerging from simplistic elementary processes is widespread in nature. My favourite example is the swirl of Starling birds.\n\n\n\n\n\n\n\nNote\n\n\n\nThis idea isn’t particularly groundbreaking. I’ve recently heard, on the Joy of Why podcast, about Professor Anil Seth and his pursuit of similar research questions at the University of Sussex."
+  },
+  {
+    "objectID": "posts/parallel-mind-theory/index.html#a-new-model-for-the-mind-and-the-brain",
+    "href": "posts/parallel-mind-theory/index.html#a-new-model-for-the-mind-and-the-brain",
+    "title": "A parallel theory of the causal mind",
+    "section": "3 A new model for the mind and the brain",
+    "text": "3 A new model for the mind and the brain\nAs an applied mathematician, the propagation of brain signals and the elusive bottom-up causality between low- and high-level processes remind me of two specific tools: differential equations and neural networks. I liken the causality and evolutionary nature of brain processes to ordinary differential equations (ODEs) as they describe individual dynamics. I then ascribe the compositionality of simple behaviour into larger features — difficult to account for with our current understanding of neuroscience — to deep neural networks.\nAs it turns out, those two concepts have been merged in what is now known as Neural ODEs. Our model for the mind-body relation is formulated as follows \\[\\begin{align}\n\\frac{\\text{d} y}{\\text{d} t}(t) &= f_{\\theta}(y,t) \\qquad t \\in ]t_0, t_f [ \\\\\ny(t_0) &= y_0 \\\\\nz(t) &= g_{\\theta'}(\\theta, y, y_0, t, t_0, t_f),\n\\end{align}\\] where \\(y\\) represents the physical signal transported and processed inside the brain. The transformative function \\(f_{\\theta}\\) — where the learnable parameters \\(\\theta\\) indicate a deep neural network2 — dictates how such continuous processing occurs. The mysterious readout function \\(g_{\\theta'}\\) tells us how a brain stimulus \\(y_0\\in \\mathbb{R}^b\\) turns into a global mind feature \\(z \\in \\mathbb{R}^m\\) (with \\(m\\gg b\\), i.e. potentially lots more elements involved in forming a mind compared to processing an elementary brain signal).\n\n\n\nFigure 1: Illustration of the Neural ODE model for the computational mind/brain relation\n\n\nThe Neural ODE paradigm has found breathtaking success, particularly as a drop-in replacement for ResNets. But neural networks today can grow to extremely large sizes with billions of parameters in the weights \\(\\theta\\). They are energy and computationally inefficient compared to the human brain from which they are inspired. What if this network didn’t have a fixed structure? What if neurons could dynamically adapt to the task at hand? These are the questions that Liquid Neural Networks attempt to answer. They were inspired by the efficiency of the worm’s brain, made up of merely 300 neurons; and have shown jaw-dropping performance in autonomous driving. I believe Neural ODEs and Liquid Neural Networks could be combined within a Liquid Neural ODE paradigm, thus unlocking the secrets of consciousness."
+  },
+  {
+    "objectID": "posts/parallel-mind-theory/index.html#accounting-for-the-subconscious",
+    "href": "posts/parallel-mind-theory/index.html#accounting-for-the-subconscious",
+    "title": "A parallel theory of the causal mind",
+    "section": "4 Accounting for the subconscious",
+    "text": "4 Accounting for the subconscious\nAs a full-time daydreamer, I believe any theory of the mind must account for the subconscious; although not necessarily as envisioned by Sigmund Freud, since I don’t believe his deeply abstract (and quite frightening) but brillant ideas are indispensable to replicating the human mind. That is why I think there’s a second computer at work in the back of our minds, even when we are awake. The same computer that quickly processes information and lets a car driver avoid pedestrians in an emergency situation. The kind of computer that shows us how we’re all carrying implicit biases. The same one we make use of on first impressions. The computer in the background that professionals use to identify talent without even knowing such things are happening subconsciously.\nIf those ideas sound familiar, that’s because they are collected from Malcolm Gladwell’s bestselling book Blink. Gladwell repeatedly uses the terminology thin slicing. He describes a computer that, given sufficient experience in a domain, discards all useless information to make the quickest decisions for our assumed benefit. The moral of the book is: listen to your inner voice, but know when to ignore it. Besides the discarding of useless information, I believe thin slicing happens so quickly because of the superior computational performance of that second computer.\nSo, how can this idea complement the Neural ODE (which represents the conscious mind in our model)? Well, we parallelise it. The model above, given an heterogenous input vector \\(y\\), should split the time-horizon \\(]t_0, t_f[\\) and distribute the chunks to much smaller units of compute in order to return faster results at competitive accuracy. This can be achieved if two time domains are considered, one coarse on which guesses for \\(y\\) and \\(z\\) are refined, and one fine on which brain units work in parallel. We can interpret this parallelisation as signals coming from various senses at different times, and processed by different units within the brain. What I’m describing is combined data- and time-parallelisation. We train the Neural ODE on a fine time domain with a large \\(y\\) containing all possible information, but under subconscious thin slicing conditions, we make sure inference happens on the coarse time domain with a smaller less informative \\(y\\) in successive stages.\nSeveral works have investigated parallel ideas on Neural ODEs, namely Gunther et al.’s and Massaroli et al.’s. However, they only considered time (or layer) parallelism. Moreover, they focus on the training, and show very limited interest for inference. Combining data and time for quick but accurate inference is a dream I hope to achieve before then end of my PhD in September 2025."
+  },
+  {
+    "objectID": "posts/parallel-mind-theory/index.html#closing-thoughts",
+    "href": "posts/parallel-mind-theory/index.html#closing-thoughts",
+    "title": "A parallel theory of the causal mind",
+    "section": "5 Closing thoughts",
+    "text": "5 Closing thoughts\nI’m currently investigating the feasibility of a data-time parallel Neural ODE with applications to PDE simulation. How would we test such an idea on the brain? I have no clue yet. What I know is that I can start with my brain, like in the famous Chinese Room argument3 (as Searle says, “always test the theory on yourself first”).\nIf your mind finds itself drawn to these ideas, then maybe they’re valid. In that case, send me a message. If you’ve heard these same ideas somewhere else and think I’m wasting my time or that there’s room for collaboration, then please do reach out. If this sounds like complete nonsense to you, then maybe it is. It shouldn’t stop us from pursuing the truth though, right ?\nUsing your GitHub account, please comment below for any insights you might have. And as always, thanks for reading !"
+  },
+  {
+    "objectID": "posts/parallel-mind-theory/index.html#footnotes",
+    "href": "posts/parallel-mind-theory/index.html#footnotes",
+    "title": "A parallel theory of the causal mind",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is the best I can do the define what the mind is, as opposed to what the body is. In this article, the body is reduced to the brain without loss of generality.↩︎\nIn this model, \\(\\theta\\) is optional in cases where neurobiological input-output relations are fully understood. \\(\\theta'\\) on the other hand, is not optional.↩︎\nWhile it concedes the idea of a computational brain, this argument proves computation alone cannot explain the mind. In our model, we account for that with our readout function \\(g_{\\theta'}\\).↩︎"
+  },
+  {
+    "objectID": "publications/theses/nzoyem2022accelerating.html",
+    "href": "publications/theses/nzoyem2022accelerating.html",
+    "title": "Accelerating Algebraic Multigrid Using Machine Learning",
+    "section": "",
+    "text": "Google Scholar"
+  },
+  {
+    "objectID": "publications/theses/nzoyem2022accelerating.html#citation-apa",
+    "href": "publications/theses/nzoyem2022accelerating.html#citation-apa",
+    "title": "Accelerating Algebraic Multigrid Using Machine Learning",
+    "section": "Citation (APA)",
+    "text": "Citation (APA)\n\nNzoyem, R., Louw, T., McIntosh-Smith, S. & Deakin, T., (2022). Accelerating Algebraic Multigrid Using Machine Learning: Application to problems originating from fluid simulation."
+  },
+  {
+    "objectID": "publications/theses/nzoyem2022accelerating.html#abstract",
+    "href": "publications/theses/nzoyem2022accelerating.html#abstract",
+    "title": "Accelerating Algebraic Multigrid Using Machine Learning",
+    "section": "Abstract",
+    "text": "Abstract\nHigh-fidelity fluid simulations require solving extremely large and sparse linear systems, often in- volving millions of unknowns. With its fast convergence properties, Algebraic Multigrid (AMG) is the method of choice in several application areas. This said, classical AMG suffers from a number of issues, calling Machine Learning (ML) to the rescue. Recent years have seen a flourish of ML tactics to accelerate AMG. However, published work tends to focus on small and unrepresentative problems. Moreover, these methods tend to be developed dissociatively, not involving human end users in the process.\nWith insights from potential users, we aim to build a ML-augmented AMG framework that is: (i) robust i.e. reusable in a variety of problems arising from fluid simulation; (ii) computationally cheap i.e. converges faster than the classical AMG; (iii) works for structured as well as unstructured grids; (iv) works for small systems as well as large systems, while taking advantage of their sparsity; and (v) scalable i.e. data- and model-parallelisable with efficient memory management.\nThe main contributions of this project are as follows: (1) a Graph Neural Network methodology for learning prolongation operators, built around DGL and PyTorch; (2) a Cloud Formation stack on AWS to run experiments, containing all the dependencies our implementation requires; (3) ex- periments indicating that our current AI model is better than the classical approach in about 20% of cases; and (4) a survey that, among other remarks, endeared participants to using (AI-enabled) AMG for their various problems.\nOur work entails much efficient usage of HPC resources. By noticing that ML can be leveraged not only when solving linear systems, we pave the way for ML to be efficiently used in other parts of the high-fidelity simulation pipeline. Moreover, the consideration of users and their needs is a positive step towards broader Design Space Exploration of prolongation operators, model hyperparameters, and physical parameters influencing mechanical engines in operation."
+  },
+  {
+    "objectID": "publications/theses/nzoyem2023comparison.html",
+    "href": "publications/theses/nzoyem2023comparison.html",
+    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
+    "section": "",
+    "text": "Google Scholar"
+  },
+  {
+    "objectID": "publications/theses/nzoyem2023comparison.html#citation-apa",
+    "href": "publications/theses/nzoyem2023comparison.html#citation-apa",
+    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
+    "section": "Citation (APA)",
+    "text": "Citation (APA)\n\nNzoyem, R., Barton, D., & Deakin, T., (2023). A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints."
+  },
+  {
+    "objectID": "publications/theses/nzoyem2023comparison.html#abstract",
+    "href": "publications/theses/nzoyem2023comparison.html#abstract",
+    "title": "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints",
+    "section": "Abstract",
+    "text": "Abstract\nThe field of Optimal Control under Partial Differential Equations (PDE) constraints is rapidly changing under the influence of Deep Learning and the accompanying automatic differentiation libraries. Novel techniques like Physics-Informed Neural Networks (PINNs) and Differentiable Programming (DP) are to be contrasted with established numerical schemes like Direct-Adjoint Looping (DAL). We present a comprehensive comparison of DAL, PINN, and DP using a general-purpose mesh-free differentiable PDE solver based on Radial Basis Functions. Under Laplace and Navier-Stokes equations, we found DP to be extremely effective as it produces the most accurate gradients; thriving even when DAL fails and PINNs struggle. Additionally, we provide a detailed benchmark highlighting the limited conditions under which any of those methods can be efficiently used. Our work provides a guide to Optimal Control practitioners and connects them further to the Deep Learning community."
+  },
+  {
+    "objectID": "projects/gnn4amg/index.html",
+    "href": "projects/gnn4amg/index.html",
+    "title": "AI4HPC",
+    "section": "",
+    "text": "How would you design a jet engine without ever building anything ? This project introduced a Graph Neural Network model to accelerate the Algebraic Multigrid (AMG) method for linear systems. The goal was to improve AMG at its crucial prolongation step. The focus is on large and sparse linear systems coming from high-fidelity fluid simulation of gas-turbine engines during operation. This work mainly used PyTorch, Deep Graph Library, and MATLAB.\nSoftware stack: - Deep Graph Library - PyTorch - JAX - MATLAB"
+  },
+  {
+    "objectID": "projects/pdesim/index.html",
+    "href": "projects/pdesim/index.html",
+    "title": "UPDES",
+    "section": "",
+    "text": "This project emerged out of the frustration of there existing no differentiable PDE simulator capable of handling the diversity of problems out there. We identified Radial Basis Functions as a powerful and flexible mesh-free tool to control systems governed by partial differential equations, including non-linear PDEs like the Navier-Stokes equations. We showed that our discretise-then-optimise differentiable programming (DP) framework is superior to both the optimise-then-discretise direct-adjoint-looping (DAL) and the data-driven Physics-Informed Neural Network (PINN).\nSoftware stack: - JAX - GMSH - PyVista\nGitHub: 👉 Universal Partial Differential Equations Simulator"
+  },
+  {
+    "objectID": "projects/arcticfloes/index.html",
+    "href": "projects/arcticfloes/index.html",
+    "title": "ArcticFloes",
+    "section": "",
+    "text": "The rapid shrinking of the Arctic ice cap these last decades is seen as one of the most striking manifestations of global warming. We investigated what happens when two or more ice floes collide, both in 1D and in 2D. We started by modeling an ice floe as a mass-spring-damper lattice, then we derived convergence guarantees with respect to its dynamics (percussion, fracture, etc.).\nSoftware stack: - Python Flask"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Home\n    Projects\n  \n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nNeural Context Flows\n\n\n\nMachine Learning\n\n\nSimulation\n\n\nMeta Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUPDES\n\n\n\nModeling\n\n\nSimulation\n\n\nOptimal Control\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI4HPC\n\n\n\nAI\n\n\nHPC\n\n\nFluid Dynamics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArcticFloes\n\n\n\nModeling\n\n\nFunctional Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nϕ-FEM\n\n\n\nModeling\n\n\nScientific Computing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVnetAgainstCancer\n\n\n\nAI\n\n\nSimulation\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n  \n    A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints\n    **Nzoyem**, Barton & Deakin\n    Proceedings of the SC'23 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis\n    (2023)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n  \n    Accelerating Algebraic Multigrid Using Machine Learning\n    **Nzoyem**, Louw, McIntosh-Smith & Deakin\n    HPC Reaserach Group - University of Bristol (PhD Summer Project)\n    (2022)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n  \n    Fracturation de floes de glace par percussion dans un modèle granulaire\n    **Nzoyem**, Labbé & Prud'homme\n    Laboratoire Jacques-Louis Lions - Sorbonne Université (MSc Thesis)\n    (2021)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n  \n    Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones\n    **Nzoyem**, Franck, Navoret, Vigon & Prud'homme\n    Institut de Recherche Mathématique Avancée (MSc Thesis)\n    (2020)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Home\n    Blog\n  \n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nA parallel theory of the causal mind\n\n\n\n\n\n\n\nCognitive Science\n\n\nParallel Computing\n\n\nDifferential Equations\n\n\n\n\n\n\n\n\n\n\n\nJul 23, 2023\n\n\n9 min\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to my brand-new website !\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\nJul 20, 2023\n\n\n2 min\n\n\n\n\n\n\nNo matching items"
+  }
+]
