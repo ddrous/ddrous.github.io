@@ -1,0 +1,13 @@
+---
+title: "Neural Context Flows"
+author: "RD2N"
+date: "2024-06-26"
+categories: [Machine Learning, Simulation, Meta Learning]
+image: "NCF.png"
+---
+
+Our goal is to build a foundational machine learning model for all of science. Neural Context Flow is the first steps towards that goal, which generalizes dynamical system learning to out of distribution parameters.
+
+Software stack: JAX, Equinox and more.
+
+GitHub: 👉 [Neural Context Flow](https://ddrous.github.io/ncflow/)

@@ -2,6 +2,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/ncflow/index.html",
       "/projects/pdesim/index.html",
       "/projects/gnn4amg/index.html",
       "/projects/arcticfloes/index.html",

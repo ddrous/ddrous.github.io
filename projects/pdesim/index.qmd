@@ -1,5 +1,5 @@
 ---
-title: "RBFs4PDEs"
+title: "UPDES"
 author: "RD2N"
 date: "2023-08-08"
 categories: [Modeling, Simulation, Optimal Control, Machine Learning]
@@ -12,3 +12,5 @@ Software stack:
 - JAX
 - GMSH
 - PyVista
+
+GitHub: 👉 [Universal Partial Differential Equations Simulator](https://ddrous.github.io/Updes/)

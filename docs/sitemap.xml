@@ -2,70 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ddrous.github.io/cv.html</loc>
-    <lastmod>2024-04-20T06:33:25.470Z</lastmod>
+    <lastmod>2024-06-26T05:23:15.074Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/about.html</loc>
-    <lastmod>2024-04-20T06:33:24.335Z</lastmod>
+    <lastmod>2024-06-26T05:23:14.034Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/index.html</loc>
-    <lastmod>2024-04-20T06:33:23.685Z</lastmod>
+    <lastmod>2024-06-26T05:23:13.378Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/projects/phifem/index.html</loc>
-    <lastmod>2024-04-20T06:33:22.778Z</lastmod>
+    <lastmod>2024-06-26T05:23:12.432Z</lastmod>
   </url>
   <url>
-    <loc>https://ddrous.github.io/projects/pdesim/index.html</loc>
-    <lastmod>2024-04-20T06:33:22.154Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/projects/gnn4amg/index.html</loc>
-    <lastmod>2024-04-20T06:33:21.547Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/publications/theses/nzoyem2023comparison.html</loc>
-    <lastmod>2024-04-20T06:33:20.771Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/publications/theses/nzoyem2022accelerating.html</loc>
-    <lastmod>2024-04-20T06:33:19.971Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/posts/parallel-mind-theory/index.html</loc>
-    <lastmod>2024-04-20T06:33:14.595Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/posts/welcome/index.html</loc>
-    <lastmod>2024-04-20T06:33:16.370Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/publications/theses/nzoyem2021fracturation.html</loc>
-    <lastmod>2024-04-20T06:33:20.364Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ddrous.github.io/publications/theses/nzoyem2020simulation.html</loc>
-    <lastmod>2024-04-20T06:33:21.223Z</lastmod>
+    <loc>https://ddrous.github.io/projects/ncflow/index.html</loc>
+    <lastmod>2024-06-26T05:23:11.833Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/projects/vnetcancer/index.html</loc>
-    <lastmod>2024-04-20T06:33:21.857Z</lastmod>
+    <lastmod>2024-06-26T05:23:11.253Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/publications/theses/nzoyem2020simulation.html</loc>
+    <lastmod>2024-06-26T05:23:10.644Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/publications/theses/nzoyem2021fracturation.html</loc>
+    <lastmod>2024-06-26T05:23:09.949Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/posts/welcome/index.html</loc>
+    <lastmod>2024-06-26T05:23:06.485Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/posts/parallel-mind-theory/index.html</loc>
+    <lastmod>2024-06-26T05:23:04.824Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/publications/theses/nzoyem2022accelerating.html</loc>
+    <lastmod>2024-06-26T05:23:09.589Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/publications/theses/nzoyem2023comparison.html</loc>
+    <lastmod>2024-06-26T05:23:10.271Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/projects/gnn4amg/index.html</loc>
+    <lastmod>2024-06-26T05:23:10.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/projects/pdesim/index.html</loc>
+    <lastmod>2024-06-26T05:23:11.553Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/projects/arcticfloes/index.html</loc>
-    <lastmod>2024-04-20T06:33:22.464Z</lastmod>
+    <lastmod>2024-06-26T05:23:12.134Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/projects.html</loc>
-    <lastmod>2024-04-20T06:33:23.295Z</lastmod>
+    <lastmod>2024-06-26T05:23:12.999Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/publications.html</loc>
-    <lastmod>2024-04-20T06:33:23.978Z</lastmod>
+    <lastmod>2024-06-26T05:23:13.688Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/posts.html</loc>
-    <lastmod>2024-04-20T06:33:24.803Z</lastmod>
+    <lastmod>2024-06-26T05:23:14.445Z</lastmod>
   </url>
 </urlset>
