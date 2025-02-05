@@ -1,7 +1,7 @@
 ---
 title: Curriculum Vitae
 description-meta: "Roussel's CV"
-date: 2023-08-07
+date: 2025-02-05
 # title-block-banner: "#771C6D"
 published-title: CV last updated
 engine: knitr 

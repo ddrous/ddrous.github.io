@@ -35,6 +35,7 @@ To learn more about me, go to the [About](/about.qmd) page. In [Projects](/proje
 
 ## News
 
+- **_22 Jan. 2025_** : I'm delighted to announce that our paper [Neural Context Flows](https://openreview.net/forum?id=8vzMLo8LDN&referrer=%5Bthe%20profile%20of%20Roussel%20Desmond%20Nzoyem%5D(%2Fprofile%3Fid%3D~Roussel_Desmond_Nzoyem1)) has been accepted to ICLR 2025. More info to come, including a blogpost with code and weights !
 - **_07 May. 2024_** : I'm attending ICLR'24 in Vienna and presenting a poster at the workshop on [AI4DifferentialEquations in Science](https://ai4diffeqtnsinsci.github.io). I'm looking to have as much fun as possible. Please reach out if you're there as well :).
 - **_17 Apr. 2024_** : My profile now appears on the **Engineering Includes Me** wall in the University of Bristol's iconic Queen's Building. This rewards our after-school work with [Codemakers](https://github.com/ddrous/ks3-project). ☞ [Blog Post](https://engineering.blogs.bristol.ac.uk/engineering-includes-me-roussel-desmond-nzoyem/)
 - **_13 Mar. 2024_** : I'm going to the Turing Institute to attend the launch of their Probabilistic Programming theme. Looking forward to using [`Turing.jl`](https://github.com/TuringLang/Turing.jl) !
