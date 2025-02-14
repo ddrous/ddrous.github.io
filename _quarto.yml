@@ -59,7 +59,7 @@ website:
       - icon: rss
         href: index.xml
   page-footer:
-    left: "Copyright © 2024 - Roussel Desmond Nzoyem"
+    left: "Copyright © 2025 - Roussel Desmond Nzoyem"
     right: "Powered by [Quarto](https://quarto.org/) <?quarto.version?>"
     background: light
   # sidebar:
