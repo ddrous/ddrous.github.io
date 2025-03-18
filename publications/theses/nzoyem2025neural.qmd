@@ -1,0 +1,30 @@
+---
+title: "Neural Context Flows for Meta-Learning of Dynamical Systems"
+type: "thesis"
+author: "<b>Nzoyem</b>, Barton & Deakin"
+year: "2025"
+publication: "The Thirteenth International Conference on Learning Representations (ICLR) 2025"
+preprint: "https://arxiv.org/pdf/2405.02154"
+doi: ""
+materials: ""
+toc: false
+categories:
+  - neural differential equations
+  - meta-learning
+  - machine learning
+  - partial differential equations
+---
+
+```{=html}
+<center> <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=80GLOSUAAAAJ&citation_for_view=80GLOSUAAAAJ:qxL8FJ1GzNcC" target="_blank" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
+```
+
+
+## Citation (APA)
+
+> Nzoyem, R. D., Barton, D. A. W., & Deakin, T. (2025). Neural Context Flows for Meta-Learning of Dynamical Systems. The Thirteenth International Conference on Learning Representations. Retrieved from https://openreview.net/forum?id=8vzMLo8LDN
+
+
+## Abstract
+
+Neural Ordinary Differential Equations (NODEs) often struggle to adapt to new dynamic behaviors caused by parameter changes in the underlying physical system, even when these dynamics are similar to previously observed behaviors. This problem becomes more challenging when the changing parameters are unobserved, meaning their value or influence cannot be directly measured when collecting data. To address this issue, we introduce Neural Context Flow (NCF), a robust and interpretable Meta-Learning framework that includes uncertainty estimation. NCF uses Taylor expansion to enable contextual self-modulation, allowing context vectors to influence dynamics from other domains while also modulating themselves. After establishing theoretical guarantees, we empirically test NCF and compare it to related adaptation methods. Our results show that NCF achieves state-of-the-art Out-of-Distribution performance on 5 out of 6 linear and non-linear benchmark problems. Through extensive experiments, we explore the flexible model architecture of NCF and the encoded representations within the learned context vectors. Our findings highlight the potential implications of NCF for foundational models in the physical sciences, offering a promising approach to improving the adaptability and generalization of NODEs in various scientific applications.

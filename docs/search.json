@@ -18,7 +18,7 @@
     "href": "about.html#hobbies",
     "title": "Roussel",
     "section": "Hobbies",
-    "text": "Hobbies\n\n\n\n\n\n\nI enjoy all things computer hardware, software and games: from old classics to AAA’s like DOOM. Nothing like a first-person shooter to evade your troubles.\n\n\n\n\n\n\n\nIn another life, I’m pretty sure I am/was a moviemaker.\n\n\n\n\n\n\n\n\n\nMy Casiotone CT-S100. I’ve just recently taken back to playing the piano. Hopefully some of my pieces will feature here soon.\n\n\n\n\n\n\n\nFootball is life. I play weekly in one of Bristol’s minor leagues. Call me if you’re putting together a game."
+    "text": "Hobbies\n\n\n\n\n\n\nI enjoy all things computer hardware, software and games: from old classics to AAA’s like Titanfall. Nothing like a first-person shooter to evade your troubles.\n\n\n\n\n\n\n\nI’m pretty sure there exists a dimension in which I am a moviemaker or a movie score composer à la Giacchino !\n\n\n\n\n\n\n\n\n\nMy old Casiotone CT-S100. I recently got back to making music. Hopefully some of my pieces will feature here soon.\n\n\n\n\n\n\n\nFootball is life. I play weekly in one of Bristol’s minor leagues. Call me if you’re putting together a game."
   },
   {
     "objectID": "about.html#address",
@@ -39,14 +39,14 @@
     "href": "index.html",
     "title": "Roussel.",
     "section": "",
-    "text": "To learn more about me, go to the About page. In Projects and Publications, you’ll find some work I’ve contributed to. For a nice read, go to the Blog section. There you’ll find interesting stories ranging many disciplines. Some very focused, and others quite random !"
+    "text": "To learn more about me, go to the About page. You’ll find some work I’ve contributed to in Projects and Publications. For a nice read, go to the Blog section. There you’ll find interesting stories ranging many disciplines. Some very focused, and others quite random !"
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
     "title": "Roussel.",
     "section": "",
-    "text": "To learn more about me, go to the About page. In Projects and Publications, you’ll find some work I’ve contributed to. For a nice read, go to the Blog section. There you’ll find interesting stories ranging many disciplines. Some very focused, and others quite random !"
+    "text": "To learn more about me, go to the About page. You’ll find some work I’ve contributed to in Projects and Publications. For a nice read, go to the Blog section. There you’ll find interesting stories ranging many disciplines. Some very focused, and others quite random !"
   },
   {
     "objectID": "index.html#news",
@@ -79,9 +79,9 @@
   {
     "objectID": "projects/ncflow/index.html",
     "href": "projects/ncflow/index.html",
-    "title": "Neural Context Flows",
+    "title": "Neural Context Flow",
     "section": "",
-    "text": "Our goal is to build a foundational machine learning model for all of science. Neural Context Flow is the first steps towards that goal, which generalizes dynamical system learning to out of distribution parameters.\nSoftware stack: JAX, Equinox and more.\nGitHub: 👉 Neural Context Flow"
+    "text": "Our goal is to build a foundational machine learning model for all of science. Neural Context Flow is the first steps towards that goal, which generalizes dynamical system learning to out of distribution parameters.\nSoftware stack: JAX, Equinox, Diffrax and more.\nGitHub: 👉 Neural Context Flow"
   },
   {
     "objectID": "projects/vnetcancer/index.html",
@@ -117,6 +117,27 @@
     "title": "Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nImageNet Large Scale Visual Recognition Challenge↩︎\nLes tissus cancéreux sont généralement plus denses que les tissus sains.↩︎\nCalcul Scientifique et Mathématiques de l’Information↩︎"
+  },
+  {
+    "objectID": "publications/theses/nzoyem2025foundational.html",
+    "href": "publications/theses/nzoyem2025foundational.html",
+    "title": "MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning",
+    "section": "",
+    "text": "Google Scholar"
+  },
+  {
+    "objectID": "publications/theses/nzoyem2025foundational.html#citation-apa",
+    "href": "publications/theses/nzoyem2025foundational.html#citation-apa",
+    "title": "MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning",
+    "section": "Citation (APA)",
+    "text": "Citation (APA)\n\nNzoyem, R. D., Stevens, G., Sahota, A., Barton, D. A. W., & Deakin, T. (2025). MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning. First Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models. Retrieved from https://openreview.net/forum?id=NteuHm0UXw"
+  },
+  {
+    "objectID": "publications/theses/nzoyem2025foundational.html#abstract",
+    "href": "publications/theses/nzoyem2025foundational.html#abstract",
+    "title": "MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning",
+    "section": "Abstract",
+    "text": "Abstract\nAs foundational models reshape scientific discovery, a bottleneck persists in dynamical system reconstruction (DSR): the ability to learn across system hierarchies. Many meta-learning approaches have been applied successfully to single systems, but falter when confronted with sparse, loosely related datasets. Mixture of Experts (MoE) offers a natural paradigm to address these challenges. Despite their potential, naive MoEs are inadequate for the nuanced demands of hierarchical DSR, largely due to their gradient descent-based gating update mechanism which leads to slow updates and conflicted routing during training. To overcome this limitation, we introduce MixER: Mixture of Expert Reconstructors, a novel sparse top-1 MoE layer employing a custom gating update algorithm based on K-means and least squares. Extensive experiments validate MixER’s capabilities, demonstrating efficient training and scalability to systems of up to ten parametric ordinary differential equations. However, further analysis indicates that our layer underperforms state-of-the-art meta-learners in high-data regimes, particularly when each expert is constrained to process only a fraction of a dataset composed of highly related data points."
   },
   {
     "objectID": "publications/theses/nzoyem2021fracturation.html",
@@ -245,6 +266,27 @@
     "text": "Abstract\nThe field of Optimal Control under Partial Differential Equations (PDE) constraints is rapidly changing under the influence of Deep Learning and the accompanying automatic differentiation libraries. Novel techniques like Physics-Informed Neural Networks (PINNs) and Differentiable Programming (DP) are to be contrasted with established numerical schemes like Direct-Adjoint Looping (DAL). We present a comprehensive comparison of DAL, PINN, and DP using a general-purpose mesh-free differentiable PDE solver based on Radial Basis Functions. Under Laplace and Navier-Stokes equations, we found DP to be extremely effective as it produces the most accurate gradients; thriving even when DAL fails and PINNs struggle. Additionally, we provide a detailed benchmark highlighting the limited conditions under which any of those methods can be efficiently used. Our work provides a guide to Optimal Control practitioners and connects them further to the Deep Learning community."
   },
   {
+    "objectID": "publications/theses/nzoyem2025neural.html",
+    "href": "publications/theses/nzoyem2025neural.html",
+    "title": "Neural Context Flows for Meta-Learning of Dynamical Systems",
+    "section": "",
+    "text": "Google Scholar"
+  },
+  {
+    "objectID": "publications/theses/nzoyem2025neural.html#citation-apa",
+    "href": "publications/theses/nzoyem2025neural.html#citation-apa",
+    "title": "Neural Context Flows for Meta-Learning of Dynamical Systems",
+    "section": "Citation (APA)",
+    "text": "Citation (APA)\n\nNzoyem, R. D., Barton, D. A. W., & Deakin, T. (2025). Neural Context Flows for Meta-Learning of Dynamical Systems. The Thirteenth International Conference on Learning Representations. Retrieved from https://openreview.net/forum?id=8vzMLo8LDN"
+  },
+  {
+    "objectID": "publications/theses/nzoyem2025neural.html#abstract",
+    "href": "publications/theses/nzoyem2025neural.html#abstract",
+    "title": "Neural Context Flows for Meta-Learning of Dynamical Systems",
+    "section": "Abstract",
+    "text": "Abstract\nNeural Ordinary Differential Equations (NODEs) often struggle to adapt to new dynamic behaviors caused by parameter changes in the underlying physical system, even when these dynamics are similar to previously observed behaviors. This problem becomes more challenging when the changing parameters are unobserved, meaning their value or influence cannot be directly measured when collecting data. To address this issue, we introduce Neural Context Flow (NCF), a robust and interpretable Meta-Learning framework that includes uncertainty estimation. NCF uses Taylor expansion to enable contextual self-modulation, allowing context vectors to influence dynamics from other domains while also modulating themselves. After establishing theoretical guarantees, we empirically test NCF and compare it to related adaptation methods. Our results show that NCF achieves state-of-the-art Out-of-Distribution performance on 5 out of 6 linear and non-linear benchmark problems. Through extensive experiments, we explore the flexible model architecture of NCF and the encoded representations within the learned context vectors. Our findings highlight the potential implications of NCF for foundational models in the physical sciences, offering a promising approach to improving the adaptability and generalization of NODEs in various scientific applications."
+  },
+  {
     "objectID": "projects/gnn4amg/index.html",
     "href": "projects/gnn4amg/index.html",
     "title": "AI4HPC",
@@ -270,14 +312,14 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Home\n    Projects\n  \n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nNeural Context Flows\n\n\n\nMachine Learning\n\n\nSimulation\n\n\nMeta Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUPDES\n\n\n\nModeling\n\n\nSimulation\n\n\nOptimal Control\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI4HPC\n\n\n\nAI\n\n\nHPC\n\n\nFluid Dynamics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArcticFloes\n\n\n\nModeling\n\n\nFunctional Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nϕ-FEM\n\n\n\nModeling\n\n\nScientific Computing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVnetAgainstCancer\n\n\n\nAI\n\n\nSimulation\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Home\n    Projects\n  \n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nNeural Context Flow\n\n\n\nMachine Learning\n\n\nSimulation\n\n\nMeta Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUPDES\n\n\n\nModeling\n\n\nSimulation\n\n\nOptimal Control\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAI4HPC\n\n\n\nAI\n\n\nHPC\n\n\nFluid Dynamics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArcticFloes\n\n\n\nModeling\n\n\nFunctional Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nϕ-FEM\n\n\n\nModeling\n\n\nScientific Computing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVnetAgainstCancer\n\n\n\nAI\n\n\nSimulation\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications.html",
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n  \n    A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints\n    **Nzoyem**, Barton & Deakin\n    Proceedings of the SC'23 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis\n    (2023)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n  \n    Accelerating Algebraic Multigrid Using Machine Learning\n    **Nzoyem**, Louw, McIntosh-Smith & Deakin\n    HPC Reaserach Group - University of Bristol (PhD Summer Project)\n    (2022)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n  \n    Fracturation de floes de glace par percussion dans un modèle granulaire\n    **Nzoyem**, Labbé & Prud'homme\n    Laboratoire Jacques-Louis Lions - Sorbonne Université (MSc Thesis)\n    (2021)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n  \n    Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones\n    **Nzoyem**, Franck, Navoret, Vigon & Prud'homme\n    Institut de Recherche Mathématique Avancée (MSc Thesis)\n    (2020)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n\n\nNo matching items"
+    "text": "Home\n    Publications\n  \n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Publication\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n  \n    MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning\n    Nzoyem, Stevens, Sahota, Barton & Deakin\n    First Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models @ ICLR 2025\n    (2025)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n  \n    Neural Context Flows for Meta-Learning of Dynamical Systems\n    Nzoyem, Barton & Deakin\n    The Thirteenth International Conference on Learning Representations (ICLR) 2025\n    (2025)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n  \n    A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints\n    Nzoyem, Barton & Deakin\n    Proceedings of the SC'23 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis\n    (2023)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n  \n    Accelerating Algebraic Multigrid Using Machine Learning\n    Nzoyem, Louw, McIntosh-Smith & Deakin\n    HPC Reaserach Group - University of Bristol (PhD Summer Project)\n    (2022)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n  \n    Fracturation de floes de glace par percussion dans un modèle granulaire\n    Nzoyem, Labbé & Prud'homme\n    Laboratoire Jacques-Louis Lions - Sorbonne Université (MSc Thesis)\n    (2021)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n  \n    Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones\n    Nzoyem, Franck, Navoret, Vigon & Prud'homme\n    Institut de Recherche Mathématique Avancée (MSc Thesis)\n    (2020)\n    \n      Details\n    \n    \n       Preprint\n    \n  \n\n\nNo matching items"
   },
   {
     "objectID": "posts.html",

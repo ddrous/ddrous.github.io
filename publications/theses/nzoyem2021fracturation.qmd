@@ -1,7 +1,7 @@
 ---
 title: "Fracturation de floes de glace par percussion dans un modèle granulaire"
 type: "thesis"
-author: "**Nzoyem**, Labbé & Prud'homme"
+author: "<b>Nzoyem</b>, Labbé & Prud'homme"
 year: "2021"
 publication: "Laboratoire Jacques-Louis Lions - Sorbonne Université (MSc Thesis)"
 preprint: "https://drive.google.com/file/d/1L2j7DQhP4Z1lqjfqew9LtN7K7DpXQMUA/view"

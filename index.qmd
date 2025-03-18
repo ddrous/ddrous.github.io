@@ -30,7 +30,7 @@ about:
 
 ## Welcome 👋
 
-To learn more about me, go to the [About](/about.qmd) page. In [Projects](/projects.qmd) and [Publications](/publications.qmd), you'll find some work I've contributed to. For a nice read, go to the [Blog](/posts.qmd) section. There you'll find interesting stories ranging many disciplines. Some very focused, and others quite random !
+To learn more about me, go to the [About](/about.qmd) page. You'll find some work I've contributed to in [Projects](/projects.qmd) and [Publications](/publications.qmd). For a nice read, go to the [Blog](/posts.qmd) section. There you'll find interesting stories ranging many disciplines. Some very focused, and others quite random !
 
 
 ## News

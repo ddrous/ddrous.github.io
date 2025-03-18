@@ -85,5 +85,11 @@
   },
   "projects/ncflow/index.qmd": {
     "index.html": "b5a40be1"
+  },
+  "publications/theses/nzoyem2025foundational.qmd": {
+    "nzoyem2025foundational.html": "7d5e1cf1"
+  },
+  "publications/theses/nzoyem2025neural.qmd": {
+    "nzoyem2025neural.html": "b3cf4d75"
   }
 }

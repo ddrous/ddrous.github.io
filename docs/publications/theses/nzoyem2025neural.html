@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Nzoyem, Louw, McIntosh-Smith &amp; Deakin">
+<meta name="author" content="Nzoyem, Barton &amp; Deakin">
 
-<title>Roussel. - Accelerating Algebraic Multigrid Using Machine Learning</title>
+<title>Roussel. - Neural Context Flows for Meta-Learning of Dynamical Systems</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -77,7 +77,7 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Roussel. - Accelerating Algebraic Multigrid Using Machine Learning">
+<meta property="og:title" content="Roussel. - Neural Context Flows for Meta-Learning of Dynamical Systems">
 <meta property="og:description" content="">
 <meta property="og:site-name" content="Roussel.">
 </head>
@@ -162,10 +162,12 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Accelerating Algebraic Multigrid Using Machine Learning</h1>
+<h1 class="title">Neural Context Flows for Meta-Learning of Dynamical Systems</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">linear algebra</div>
+    <div class="quarto-category">neural differential equations</div>
+    <div class="quarto-category">meta-learning</div>
     <div class="quarto-category">machine learning</div>
+    <div class="quarto-category">partial differential equations</div>
   </div>
   </div>
 
@@ -176,7 +178,7 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p><b>Nzoyem</b>, Louw, McIntosh-Smith &amp; Deakin </p>
+             <p><b>Nzoyem</b>, Barton &amp; Deakin </p>
           </div>
   </div>
     
@@ -187,19 +189,16 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
 
 </header>
 
-<center> <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=80GLOSUAAAAJ&amp;citation_for_view=80GLOSUAAAAJ:_FxGoFyzp5QC" target="_blank" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
+<center> <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=80GLOSUAAAAJ&amp;citation_for_view=80GLOSUAAAAJ:qxL8FJ1GzNcC" target="_blank" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
 <section id="citation-apa" class="level2">
 <h2 class="anchored" data-anchor-id="citation-apa">Citation (APA)</h2>
 <blockquote class="blockquote">
-<p>Nzoyem, R., Louw, T., McIntosh-Smith, S. &amp; Deakin, T., (2022). Accelerating Algebraic Multigrid Using Machine Learning: Application to problems originating from fluid simulation.</p>
+<p>Nzoyem, R. D., Barton, D. A. W., &amp; Deakin, T. (2025). Neural Context Flows for Meta-Learning of Dynamical Systems. The Thirteenth International Conference on Learning Representations. Retrieved from https://openreview.net/forum?id=8vzMLo8LDN</p>
 </blockquote>
 </section>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>High-fidelity fluid simulations require solving extremely large and sparse linear systems, often in- volving millions of unknowns. With its fast convergence properties, Algebraic Multigrid (AMG) is the method of choice in several application areas. This said, classical AMG suffers from a number of issues, calling Machine Learning (ML) to the rescue. Recent years have seen a flourish of ML tactics to accelerate AMG. However, published work tends to focus on small and unrepresentative problems. Moreover, these methods tend to be developed dissociatively, not involving human end users in the process.</p>
-<p>With insights from potential users, we aim to build a ML-augmented AMG framework that is: (i) robust i.e.&nbsp;reusable in a variety of problems arising from fluid simulation; (ii) computationally cheap i.e.&nbsp;converges faster than the classical AMG; (iii) works for structured as well as unstructured grids; (iv) works for small systems as well as large systems, while taking advantage of their sparsity; and (v) scalable i.e.&nbsp;data- and model-parallelisable with efficient memory management.</p>
-<p>The main contributions of this project are as follows: (1) a Graph Neural Network methodology for learning prolongation operators, built around DGL and PyTorch; (2) a Cloud Formation stack on AWS to run experiments, containing all the dependencies our implementation requires; (3) ex- periments indicating that our current AI model is better than the classical approach in about 20% of cases; and (4) a survey that, among other remarks, endeared participants to using (AI-enabled) AMG for their various problems.</p>
-<p>Our work entails much efficient usage of HPC resources. By noticing that ML can be leveraged not only when solving linear systems, we pave the way for ML to be efficiently used in other parts of the high-fidelity simulation pipeline. Moreover, the consideration of users and their needs is a positive step towards broader Design Space Exploration of prolongation operators, model hyperparameters, and physical parameters influencing mechanical engines in operation.</p>
+<p>Neural Ordinary Differential Equations (NODEs) often struggle to adapt to new dynamic behaviors caused by parameter changes in the underlying physical system, even when these dynamics are similar to previously observed behaviors. This problem becomes more challenging when the changing parameters are unobserved, meaning their value or influence cannot be directly measured when collecting data. To address this issue, we introduce Neural Context Flow (NCF), a robust and interpretable Meta-Learning framework that includes uncertainty estimation. NCF uses Taylor expansion to enable contextual self-modulation, allowing context vectors to influence dynamics from other domains while also modulating themselves. After establishing theoretical guarantees, we empirically test NCF and compare it to related adaptation methods. Our results show that NCF achieves state-of-the-art Out-of-Distribution performance on 5 out of 6 linear and non-linear benchmark problems. Through extensive experiments, we explore the flexible model architecture of NCF and the encoded representations within the learned context vectors. Our findings highlight the potential implications of NCF for foundational models in the physical sciences, offering a promising approach to improving the adaptability and generalization of NODEs in various scientific applications.</p>
 
 
 </section>

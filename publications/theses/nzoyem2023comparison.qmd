@@ -1,7 +1,7 @@
 ---
 title: "A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control under PDE Constraints"
 type: "thesis"
-author: "**Nzoyem**, Barton & Deakin"
+author: "<b>Nzoyem</b>, Barton & Deakin"
 year: "2023"
 publication: "Proceedings of the SC'23 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis"
 preprint: "https://arxiv.org/abs/2310.02286"

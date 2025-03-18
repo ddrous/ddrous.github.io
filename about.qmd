@@ -56,11 +56,11 @@ A few quotes describe me better than any essay I could ever write:
 ## Hobbies
 
 ::: {layout-nrow=2}
-![I enjoy all things computer hardware, software and games: from old classics to AAA's like DOOM. Nothing like a first-person shooter to evade your troubles.](assets/images/games.jpeg)
+![I enjoy all things computer hardware, software and games: from old classics to AAA's like Titanfall. Nothing like a first-person shooter to evade your troubles.](assets/images/titanfall.jpg)
 
-![In another life, I'm pretty sure I am/was a moviemaker.](assets/images/movies.jpg)
+![I'm pretty sure there exists a dimension in which I am a moviemaker or a movie score composer à la Giacchino !](assets/images/batsybats.jpg)
 
-![My Casiotone CT-S100. I've just recently taken back to playing the piano. Hopefully some of my pieces will feature here soon.](assets/images/piano.jpg)
+![My old Casiotone CT-S100. I recently got back to making music. Hopefully some of my pieces will feature here soon.](assets/images/piano.jpg)
 
 ![Football is life. I play weekly in one of Bristol's minor leagues. Call me if you're putting together a game.](assets/images/football.jpg)
 :::

@@ -1,7 +1,7 @@
 ---
 title: "Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones"
 type: "thesis"
-author: "**Nzoyem**, Franck, Navoret, Vigon & Prud'homme"
+author: "<b>Nzoyem</b>, Franck, Navoret, Vigon & Prud'homme"
 year: "2020"
 publication: "Institut de Recherche Mathématique Avancée (MSc Thesis)"
 preprint: "https://github.com/ddrous/inverse-problem-vnet/blob/master/doc/references/Rapport%20de%20stage%20M1.pdf"

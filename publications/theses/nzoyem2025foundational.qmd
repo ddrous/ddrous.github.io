@@ -1,0 +1,30 @@
+---
+title: "MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning"
+author: "<b>Nzoyem</b>, Stevens, Sahota, Barton & Deakin"
+year: "2025"
+publication: "First Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models @ ICLR 2025"
+preprint: "https://openreview.net/pdf?id=NteuHm0UXw"
+doi: ""
+materials: ""
+toc: false
+categories:
+  - optimisation
+  - mixture of experts
+  - meta-learning
+  - machine learning
+  - partial differential equations
+---
+
+```{=html}
+<center> <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=80GLOSUAAAAJ&citation_for_view=80GLOSUAAAAJ:4DMP91E08xMC" target="_blank" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
+```
+
+
+## Citation (APA)
+
+> Nzoyem, R. D., Stevens, G., Sahota, A., Barton, D. A. W., & Deakin, T. (2025). MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning. First Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models. Retrieved from https://openreview.net/forum?id=NteuHm0UXw
+
+
+## Abstract
+
+As foundational models reshape scientific discovery, a bottleneck persists in dynamical system reconstruction (DSR): the ability to learn across system hierarchies. Many meta-learning approaches have been applied successfully to single systems, but falter when confronted with sparse, loosely related datasets. Mixture of Experts (MoE) offers a natural paradigm to address these challenges. Despite their potential, naive MoEs are inadequate for the nuanced demands of hierarchical DSR, largely due to their gradient descent-based gating update mechanism which leads to slow updates and conflicted routing during training. To overcome this limitation, we introduce MixER: Mixture of Expert Reconstructors, a novel sparse top-1 MoE layer employing a custom gating update algorithm based on K-means and least squares. Extensive experiments validate MixER’s capabilities, demonstrating efficient training and scalability to systems of up to ten parametric ordinary differential equations. However, further analysis indicates that our layer underperforms state-of-the-art meta-learners in high-data regimes, particularly when each expert is constrained to process only a fraction of a dataset composed of highly related data points.
