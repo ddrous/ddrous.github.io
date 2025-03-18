@@ -37,7 +37,8 @@ To learn more about me, go to the [About](/about.qmd) page. In [Projects](/proje
 
 
 
-- **_13 Feb. 2025_** : I gave a talk at the University of Bristol's EPS Seminar Series. It's about Neural Context Flows and follow-up work on foundational models for science. ☞ [Slides](https://docs.google.com/presentation/d/1bJjbbQAohUw3EmT_N7iTpv5UY-wUvfAN/edit?usp=sharing&ouid=107359549014130993105&rtpof=true&sd=true)
+- **_06 Mar. 2025_** : Our latest paper [MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning](https://openreview.net/forum?id=NteuHm0UXw) was unanimously accepted into the SCOPE workshop @ ICLR 2025. Looking forward to seeing everyone in Singapore !
+- **_13 Feb. 2025_** : I gave a talk at the University of Bristol's EPS Seminar Series and the Engineering Design Society. It's about Neural Context Flows and follow-up work on foundational models for science. ☞ [Slides](https://docs.google.com/presentation/d/1bJjbbQAohUw3EmT_N7iTpv5UY-wUvfAN/edit?usp=sharing&ouid=107359549014130993105&rtpof=true&sd=true)
 - **_22 Jan. 2025_** : I'm delighted to announce that our paper [Neural Context Flows](https://openreview.net/forum?id=8vzMLo8LDN) has been accepted to ICLR 2025. More info to come, including a blogpost with code and weights !
 - **_07 May. 2024_** : I'm attending ICLR'24 in Vienna and presenting a poster at the workshop on [AI4DifferentialEquations in Science](https://ai4diffeqtnsinsci.github.io). I'm looking to have as much fun as possible. Please reach out if you're there as well :).
 - **_17 Apr. 2024_** : My profile now appears on the **Engineering Includes Me** wall in the University of Bristol's iconic Queen's Building. This rewards our after-school work with [Codemakers](https://github.com/ddrous/ks3-project). ☞ [Blog Post](https://engineering.blogs.bristol.ac.uk/engineering-includes-me-roussel-desmond-nzoyem/)
@@ -53,9 +54,9 @@ To learn more about me, go to the [About](/about.qmd) page. In [Projects](/proje
   <div class="card card-body">
 - **_13 Nov. 2023_** : Our paper on mesh-free differential programming for optimal control is out during SuperComputing'23. ☞ [Have a read here](https://dl.acm.org/doi/10.1145/3624062.3626078){.external target="_blank"}.
 - **_18 Sep. 2023_** : I'm attending the 175th European Study Group with Industry (ESGI) in Berlin, Germany. ☞ [Link](https://wias-berlin.de/workshops/ESGI-175/#:~:text=Group%20with%20Industry-,Berlin%2C%20September%2018%2D22%2C%202023,modelling%20or%20an%20optimisation%20problem){.external target="_blank"}.
-- **_01 Aug. 2023_** : I've pre-released version 0.1.4 of Updec: a mesh-free differentiable software for quick experimentation with a variety of PDEs. ☞ [Repo](https://github.com/ddrous/Updec){.external target="_blank"}.
+- **_01 Aug. 2023_** : I've pre-released version 0.1.4 of Updes: a mesh-free differentiable software for quick experimentation with a variety of PDEs. ☞ [Repo](https://github.com/ddrous/Updec){.external target="_blank"}.
 - **_10 Mar. 2023_** : I gave a talk at [CMU Africa](https://www.africa.engineering.cmu.edu){.external target="_blank"} on emerging techniques and applications of graph neural networks. ☞ [Recording](https://youtu.be/ahG-LG0ABRQ){.external target="_blank"}.
-- **_01 Dec. 2022_** : I began my esearch on AI, HPC, and Scientific Machine Learning for mesh-free simulations. ☞ [Synopsis](http://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/){.external target="_blank"}.
+- **_01 Dec. 2022_** : I began my research on AI, HPC, and Scientific Machine Learning for mesh-free simulations. ☞ [Synopsis](http://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/){.external target="_blank"}.
 - **_10 Oct. 2021_** : I moved to Bristol for a PhD in the [Interactive AI CDT](https://www.bristol.ac.uk/cdt/interactive-ai/){.external target="_blank"}. Find pictures of my trips on ☞ [Instagram](https://www.instagram.com/roussel_dn/){.external target="_blank"}.
   </div>
 </div>
