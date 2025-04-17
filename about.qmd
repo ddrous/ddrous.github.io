@@ -28,7 +28,7 @@ about:
 </nav>
 ```
 
-Hi there ! I'm Roussel Desmond Nzoyem (pronounced **zo-e-m**), a PhD student in Scientific Machine Learning at the University of Bristol, investigating parallel algorithms for combined data-driven and physics-informed simulation and control. I'm advised by [Dr Tom Deakin](https://hpc.tomdeakin.com/), [Pr David Barton](https://cityinthesky.co.uk/about-me/), and [Pr Simon McIntosh-Smith](http://uob-hpc.github.io/SimonMS/).
+Hello there ! I'm **Roussel Desmond Nzoyem** (pronounced **zo-e-m**), a pianist, footballer, game designer, and PhD student at the University of Bristol. I'm investigating meta-learning and mathematically grounded algorithms for combined data-driven and physics-informed simulation and control of dynamical systems. I'm advised by [Dr Tom Deakin](https://hpc.tomdeakin.com/), [Pr David Barton](https://cityinthesky.co.uk/about-me/), and [Pr Simon McIntosh-Smith](http://uob-hpc.github.io/SimonMS/).
 
 
 My research sits at the intersection of **Artificial Intelligence**, **High Performance Computing**, and **Scientific Computing**. Some of the questions I ponder are:

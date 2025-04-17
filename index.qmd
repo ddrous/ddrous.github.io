@@ -35,8 +35,7 @@ To learn more about me, go to the [About](/about.qmd) page. You'll find some wor
 
 ## News
 
-
-
+- **_22 Apr. 2025_** : I'm attending ICLR'25 in Singapore and presenting lots of stuff. This time again, I'm looking to connect and have as much fun as possible. ☞ [LinkedIn Post](https://www.linkedin.com/posts/roussel-desmond-nzoyem_iclr2025-ncf-mixer-activity-7318565522189537280-rQEm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB61F7IBWaLUUAnVeGDAWO94NrKSMXnAWu4)
 - **_06 Mar. 2025_** : Our latest paper [MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning](https://openreview.net/forum?id=NteuHm0UXw) was unanimously accepted into the SCOPE workshop @ ICLR 2025. Looking forward to seeing everyone in Singapore !
 - **_13 Feb. 2025_** : I gave a talk at the University of Bristol's EPS Seminar Series and the Engineering Design Society. It's about Neural Context Flows and follow-up work on foundational models for science. ☞ [Slides](https://docs.google.com/presentation/d/1bJjbbQAohUw3EmT_N7iTpv5UY-wUvfAN/edit?usp=sharing&ouid=107359549014130993105&rtpof=true&sd=true)
 - **_22 Jan. 2025_** : I'm delighted to announce that our paper [Neural Context Flows](https://openreview.net/forum?id=8vzMLo8LDN) has been accepted to ICLR 2025. More info to come, including a blogpost with code and weights !
