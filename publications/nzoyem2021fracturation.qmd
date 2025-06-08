@@ -2,14 +2,16 @@
 title: "Fracturation de floes de glace par percussion dans un modèle granulaire"
 type: "thesis"
 author: "<b>Nzoyem</b>, Labbé & Prud'homme"
+date: "2021-06-08"
 year: "2021"
 publication: "Laboratoire Jacques-Louis Lions - Sorbonne Université (MSc Thesis)"
 preprint: "https://drive.google.com/file/d/1L2j7DQhP4Z1lqjfqew9LtN7K7DpXQMUA/view"
 doi: ""
 materials: ""
+code: "https://github.com/ddrous/ice-floes"
 toc: false
 categories:
-  - partial differential equations
+  - differential equations
   - mathematical modelling
 ---
 

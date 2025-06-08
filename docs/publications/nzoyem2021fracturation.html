@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Nzoyem, Stevens, Sahota, Barton &amp; Deakin">
+<meta name="author" content="Nzoyem, Labbé &amp; Prud’homme">
+<meta name="dcterms.date" content="2021-06-08">
 
-<title>Roussel. - MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning</title>
+<title>Roussel. - Fracturation de floes de glace par percussion dans un modèle granulaire</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,25 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../assets/images/logo.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/images/logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,8 +77,10 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
 <link href="https://fonts.cdnfonts.com/css/trebuchet-ms-2" rel="stylesheet">
 
 
-<link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Roussel. - MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning">
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<meta property="og:title" content="Roussel. - Fracturation de floes de glace par percussion dans un modèle granulaire">
 <meta property="og:description" content="">
 <meta property="og:site-name" content="Roussel.">
 </head>
@@ -89,10 +92,10 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../assets/images/logo.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/images/logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Roussel.</span>
     </a>
   </div>
@@ -103,23 +106,23 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
+    <a class="nav-link" href="../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html" rel="" target="">
+    <a class="nav-link" href="../publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../cv.html" rel="" target="">
+    <a class="nav-link" href="../cv.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects.html" rel="" target="">
+    <a class="nav-link" href="../projects.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html" rel="" target="">
+    <a class="nav-link" href="../posts.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -135,7 +138,7 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../../index.xml" rel="" target=""><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../index.xml" rel="" target=""><i class="bi bi-rss" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -162,13 +165,10 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning</h1>
+<h1 class="title">Fracturation de floes de glace par percussion dans un modèle granulaire</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">optimisation</div>
-    <div class="quarto-category">mixture of experts</div>
-    <div class="quarto-category">meta-learning</div>
-    <div class="quarto-category">machine learning</div>
-    <div class="quarto-category">partial differential equations</div>
+    <div class="quarto-category">differential equations</div>
+    <div class="quarto-category">mathematical modelling</div>
   </div>
   </div>
 
@@ -179,10 +179,16 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p><b>Nzoyem</b>, Stevens, Sahota, Barton &amp; Deakin </p>
+             <p><b>Nzoyem</b>, Labbé &amp; Prud’homme </p>
           </div>
   </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 8, 2021</p>
+    </div>
+  </div>
   
     
   </div>
@@ -190,21 +196,28 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
 
 </header>
 
-<center> <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=80GLOSUAAAAJ&amp;citation_for_view=80GLOSUAAAAJ:4DMP91E08xMC" target="_blank" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
+<center> <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=80GLOSUAAAAJ&amp;citation_for_view=80GLOSUAAAAJ:u-x6o8ySG0sC" target="_blank" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
 <section id="citation-apa" class="level2">
 <h2 class="anchored" data-anchor-id="citation-apa">Citation (APA)</h2>
 <blockquote class="blockquote">
-<p>Nzoyem, R. D., Stevens, G., Sahota, A., Barton, D. A. W., &amp; Deakin, T. (2025). MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning. First Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models. Retrieved from https://openreview.net/forum?id=NteuHm0UXw</p>
+<p>Nzoyem, R., Labbé, S. &amp; Prud’homme, C. (2021). Fracturation de floes de glace par percussion dans un modèle granulaire.</p>
 </blockquote>
 </section>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>As foundational models reshape scientific discovery, a bottleneck persists in dynamical system reconstruction (DSR): the ability to learn across system hierarchies. Many meta-learning approaches have been applied successfully to single systems, but falter when confronted with sparse, loosely related datasets. Mixture of Experts (MoE) offers a natural paradigm to address these challenges. Despite their potential, naive MoEs are inadequate for the nuanced demands of hierarchical DSR, largely due to their gradient descent-based gating update mechanism which leads to slow updates and conflicted routing during training. To overcome this limitation, we introduce MixER: Mixture of Expert Reconstructors, a novel sparse top-1 MoE layer employing a custom gating update algorithm based on K-means and least squares. Extensive experiments validate MixER’s capabilities, demonstrating efficient training and scalability to systems of up to ten parametric ordinary differential equations. However, further analysis indicates that our layer underperforms state-of-the-art meta-learners in high-data regimes, particularly when each expert is constrained to process only a fraction of a dataset composed of highly related data points.</p>
+<p>The rapid shrinking of the Arctic ice cap these last decades is seen as one of the most striking manifestations of global warming. This decrease in size opens way to new opportunities, namely the creation of routes beneficial to the industrial sector. The second major consequence of this observation that we need to include the Marginal Ice Zone (MIZ) into climate prediction models. In 2015, Rabatel et al.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> developed a sophisticated model for the dynamics of rigid ice floes. The model was later enhanced by Balasoiu in 2020 when he considered the ice floe not as rigid, but as an elastic material modeled by a mass‐spring‐damper lattice<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Our main goal in this report is to study what happens when two or more ice floes collide (percussion, fracture, etc.), both in 1D and in 2D.</p>
 
 
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Matthias RABATEL et al.&nbsp;« Dynamics of an assembly of rigid ice floes ». In : Journal of Geophysical Research : Oceans 120.9 (2015), p.&nbsp;5887‐5909.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Dimitri BALASOIU. « Modélisation et simulation du comportement mécanique de floes de glace ». Theses. Université Grenoble Alpes [2020‐….], oct. 2020. URL : https://tel. archives-ouvertes.fr/tel-03116132.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

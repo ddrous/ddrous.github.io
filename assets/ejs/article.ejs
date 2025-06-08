@@ -24,6 +24,16 @@
       <i class="bi bi-file-earmark-zip"></i> Materials
     </a>
     <% } %>
+    <% if (item.code) { %>
+    <a href="<%- item.code %>" class="btn" style="background-color: #8b2635; border-color: #8b2635; color: white;" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-code-slash"></i> Code
+    </a>
+    <% } %>
+    <% if (item.blog) { %>
+    <a href="<%- item.blog %>" class="btn btn-info" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-pencil-square"></i> Blog
+    </a>
+    <% } %>
   </li>
 <% } %>
 </ul>

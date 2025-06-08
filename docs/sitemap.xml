@@ -2,82 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ddrous.github.io/cv.html</loc>
-    <lastmod>2025-04-17T20:12:52.105Z</lastmod>
+    <lastmod>2025-06-08T21:38:47.934Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/about.html</loc>
-    <lastmod>2025-04-17T20:12:50.854Z</lastmod>
+    <lastmod>2025-06-08T21:38:46.781Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/index.html</loc>
-    <lastmod>2025-04-17T20:12:50.103Z</lastmod>
+    <lastmod>2025-06-08T21:38:46.018Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/projects/phifem/index.html</loc>
-    <lastmod>2025-04-17T20:12:49.024Z</lastmod>
+    <lastmod>2025-06-08T21:38:44.944Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/projects/ncflow/index.html</loc>
-    <lastmod>2025-04-17T20:12:48.362Z</lastmod>
+    <lastmod>2025-06-08T21:38:44.312Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/projects/vnetcancer/index.html</loc>
-    <lastmod>2025-04-17T20:12:47.700Z</lastmod>
+    <lastmod>2025-06-08T21:38:43.706Z</lastmod>
   </url>
   <url>
-    <loc>https://ddrous.github.io/publications/theses/nzoyem2020simulation.html</loc>
-    <lastmod>2025-04-17T20:12:47.049Z</lastmod>
+    <loc>https://ddrous.github.io/publications/nzoyem2020simulation.html</loc>
+    <lastmod>2025-06-08T21:38:43.105Z</lastmod>
   </url>
   <url>
-    <loc>https://ddrous.github.io/publications/theses/nzoyem2025foundational.html</loc>
-    <lastmod>2025-04-17T20:12:46.296Z</lastmod>
+    <loc>https://ddrous.github.io/publications/nzoyem2025foundational.html</loc>
+    <lastmod>2025-06-08T21:38:42.384Z</lastmod>
   </url>
   <url>
-    <loc>https://ddrous.github.io/publications/theses/nzoyem2021fracturation.html</loc>
-    <lastmod>2025-04-17T20:12:45.571Z</lastmod>
+    <loc>https://ddrous.github.io/publications/nzoyem2025reevaluating.html</loc>
+    <lastmod>2025-06-08T21:38:41.705Z</lastmod>
   </url>
   <url>
-    <loc>https://ddrous.github.io/posts/welcome/index.html</loc>
-    <lastmod>2025-04-17T20:12:40.910Z</lastmod>
+    <loc>https://ddrous.github.io/publications/nzoyem2022accelerating.html</loc>
+    <lastmod>2025-06-08T21:38:41.033Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/posts/parallel-mind-theory/index.html</loc>
-    <lastmod>2025-04-17T20:12:38.460Z</lastmod>
+    <lastmod>2025-06-08T21:38:33.038Z</lastmod>
   </url>
   <url>
-    <loc>https://ddrous.github.io/publications/theses/nzoyem2022accelerating.html</loc>
-    <lastmod>2025-04-17T20:12:45.216Z</lastmod>
+    <loc>https://ddrous.github.io/posts/welcome/index.html</loc>
+    <lastmod>2025-06-08T21:38:35.267Z</lastmod>
   </url>
   <url>
-    <loc>https://ddrous.github.io/publications/theses/nzoyem2023comparison.html</loc>
-    <lastmod>2025-04-17T20:12:45.929Z</lastmod>
+    <loc>https://ddrous.github.io/publications/nzoyem2025weightspace.html</loc>
+    <lastmod>2025-06-08T21:38:40.675Z</lastmod>
   </url>
   <url>
-    <loc>https://ddrous.github.io/publications/theses/nzoyem2025neural.html</loc>
-    <lastmod>2025-04-17T20:12:46.647Z</lastmod>
+    <loc>https://ddrous.github.io/publications/nzoyem2021fracturation.html</loc>
+    <lastmod>2025-06-08T21:38:41.375Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/publications/nzoyem2023comparison.html</loc>
+    <lastmod>2025-06-08T21:38:42.052Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ddrous.github.io/publications/nzoyem2025neural.html</loc>
+    <lastmod>2025-06-08T21:38:42.720Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/projects/gnn4amg/index.html</loc>
-    <lastmod>2025-04-17T20:12:47.377Z</lastmod>
+    <lastmod>2025-06-08T21:38:43.410Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/projects/pdesim/index.html</loc>
-    <lastmod>2025-04-17T20:12:48.048Z</lastmod>
+    <lastmod>2025-06-08T21:38:44.014Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/projects/arcticfloes/index.html</loc>
-    <lastmod>2025-04-17T20:12:48.687Z</lastmod>
+    <lastmod>2025-06-08T21:38:44.634Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/projects.html</loc>
-    <lastmod>2025-04-17T20:12:49.652Z</lastmod>
+    <lastmod>2025-06-08T21:38:45.539Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/publications.html</loc>
-    <lastmod>2025-04-17T20:12:50.437Z</lastmod>
+    <lastmod>2025-06-08T21:38:46.360Z</lastmod>
   </url>
   <url>
     <loc>https://ddrous.github.io/posts.html</loc>
-    <lastmod>2025-04-17T20:12:51.303Z</lastmod>
+    <lastmod>2025-06-08T21:38:47.224Z</lastmod>
   </url>
 </urlset>

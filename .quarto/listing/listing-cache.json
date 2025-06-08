@@ -4,7 +4,7 @@
       "projects"
     ],
     "publications.qmd": [
-      "publications/*/**.qmd"
+      "publications/**.qmd"
     ],
     "posts.qmd": [
       "posts"

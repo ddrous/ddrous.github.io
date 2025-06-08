@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Nzoyem, Franck, Navoret, Vigon &amp; Prud’homme">
+<meta name="author" content="Nzoyem, Barton &amp; Deakin">
+<meta name="dcterms.date" content="2025-03-01">
 
-<title>Roussel. - Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones</title>
+<title>Roussel. - Reevaluating Meta-Learning Optimization Algorithms Through Contextual Self-Modulation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,25 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../assets/images/logo.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/images/logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,8 +77,10 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
 <link href="https://fonts.cdnfonts.com/css/trebuchet-ms-2" rel="stylesheet">
 
 
-<link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Roussel. - Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones">
+<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<meta property="og:title" content="Roussel. - Reevaluating Meta-Learning Optimization Algorithms Through Contextual Self-Modulation">
 <meta property="og:description" content="">
 <meta property="og:site-name" content="Roussel.">
 </head>
@@ -89,10 +92,10 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../assets/images/logo.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/images/logo.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Roussel.</span>
     </a>
   </div>
@@ -103,23 +106,23 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
+    <a class="nav-link" href="../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html" rel="" target="">
+    <a class="nav-link" href="../publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../cv.html" rel="" target="">
+    <a class="nav-link" href="../cv.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects.html" rel="" target="">
+    <a class="nav-link" href="../projects.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html" rel="" target="">
+    <a class="nav-link" href="../posts.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -135,7 +138,7 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../../index.xml" rel="" target=""><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../index.xml" rel="" target=""><i class="bi bi-rss" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -162,10 +165,12 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones</h1>
+<h1 class="title">Reevaluating Meta-Learning Optimization Algorithms Through Contextual Self-Modulation</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">partial differential equations</div>
-    <div class="quarto-category">machine learning</div>
+    <div class="quarto-category">optimisation</div>
+    <div class="quarto-category">meta-learning</div>
+    <div class="quarto-category">computer vision</div>
+    <div class="quarto-category">differential equations</div>
   </div>
   </div>
 
@@ -176,44 +181,46 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p><b>Nzoyem</b>, Franck, Navoret, Vigon &amp; Prud’homme </p>
+             <p><b>Nzoyem</b>, Barton &amp; Deakin </p>
           </div>
   </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 1, 2025</p>
+    </div>
+  </div>
   
     
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/https://openreview.net/forum?id=TzxHreJ1og">https://openreview.net/forum?id=TzxHreJ1og</a>
+      </p>
+    </div>
+  </div>
   </div>
   
 
 </header>
 
-<center> <a href="https://scholar.google.com/scholar?cluster=6127329550477364938&amp;hl=en&amp;oi=scholarr" target="_blank" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
+<center> <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=80GLOSUAAAAJ&amp;citation_for_view=80GLOSUAAAAJ:_kc_bZDykSQC" target="_blank" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
 <section id="citation-apa" class="level2">
 <h2 class="anchored" data-anchor-id="citation-apa">Citation (APA)</h2>
 <blockquote class="blockquote">
-<p>Nzoyem, R., Franck, E., Navoret, L., Vigon, V., &amp; PRUD’HOMME, C. (2020). Simulation 2D de l’equation du transfert radiatif et reconstruction de la densité par un réseau de neurones.</p>
+<p>Nzoyem, R. D., Barton, D. A. W., &amp; Deakin, T. (2025). Reevaluating Meta-Learning Optimization Algorithms Through Contextual Self-Modulation. Retrieved from https://openreview.net/forum?id=TzxHreJ1og</p>
 </blockquote>
 </section>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>En 2015, le réseau de neurones vainqueur de l’ILSVRC<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> obtient une précision de 97.3 % ce qui conduit les chercheurs à postuler que les machines peuvent identifier les objets dans des images mieux que les humains. Depuis lors, le domaine du Machine Learning a continué à prendre de l’ampleur. Aujourd’hui ses applications se multiplient dans plusieurs secteurs d’activité parmi lesquelles l’automobile, la finance, le divertissement, et plus important, celui de la santé à travers l’imagerie médicale.</p>
-<p>Les tumeurs ont des propriétés optiques différentes des tissus qui les entourent<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Étant donné un domaine avec un faisceau lumineux qui s’y propage, reconstruire sa densité à l’aide du signal temporel mesuré sur ses bords constitue un problème inverse. Les problèmes inverses sont très importants en sciences mathématiques et ont des applications variées en imagerie médicale, radar, vision, etc. Ils sont malheureusement très difficiles à résoudre car ils nécessitent l’utilisation d’algorithmes d’optimisation avancés. Les réseaux de neurones artificiels se présente comme une méthode potentiellement moins couteuse mais plus rapide.</p>
-<p>Grace à son unité mixte de recherche IRMA, l’UFR de mathématique et d’informatique de l’Université de Strasbourg est un pôle de recherche en mathématiques appliquées. À travers ses équipes MOCO et Probabilités, l’IRMA s’intéresse aux problématiques de modélisation des EDP et de Machine Learning, raison pour laquelle j’ai choisi d’y effectuer mon stage de master 1 CSMI<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. Au cours de ce stage (du 15 juin au 15 août 2020), j’ai pu m’intéresser au problème inverse de reconstruction de la densité d’un domaine par un réseau de neurones convolutif (CNN).</p>
-<p>Ce stage a été suivi par les enseignants-chercheurs MM. Emmanuel FRANCK, Laurent NAVORET, et Vincent VIGON et s’inscrit dans la continuation d’un projet (encadré par la même équipe) qui s’est déroulé du 19 mars au 28 mai 2020. Le projet consistait en la simulation 1D d’un schéma de « splitting » pour le modèle P1 de l’équation du transfert radiatif couplé avec la matière. Le stage quant à lui a essentiellement consisté en la simulation du même schéma en 2D, et en la reconstruction de la densité par un CNN. Plus généralement, ce stage a été l’opportunité pour moi d’apprendre sur les EDP et l’apprentissage profond tout en me familiarisant avec l’interface de programmation de la librairie de réseaux de neurones Keras.</p>
-<p>En vue de rendre compte de manière fidèle des deux mois passés au sein de l’IRMA, il apparait logique de présenter en titre de préambule le cadre du stage et son environnement technique. Ensuite il s’agira de présenter les différentes missions et tâches qui j’ai pu effectuer. Enfin je présenterais un bilan du stage, en incluant les différents apports et enseignements que j’ai pu en tirer.</p>
+<p>Contextual Self-Modulation (CSM) (Nzoyem et al.&nbsp;2025) is a potent regularization mechanism for Neural Context Flows (NCFs) which demonstrates powerful meta-learning on physical systems. However, CSM has limitations in its applicability across different modalities and in high-data regimes. In this work, we introduce two extensions: CSM which expands CSM to infinite-dimensional variations by embedding the contexts into a function space, and StochasticNCF which improves scalability by providing a low-cost approximation of meta-gradient updates through a sampled set of nearest environments. These extensions are demonstrated through comprehensive experimentation on a range of tasks, including dynamical systems, computer vision challenges, and curve fitting problems. Additionally, we incorporate higher-order Taylor expansions via Taylor-Mode automatic differentiation, revealing that higher-order approximations do not necessarily enhance generalization. Finally, we demonstrate how CSM can be integrated into other meta-learning frameworks with FlashCAVIA, a computationally efficient extension of the CAVIA meta-learning framework (Zintgraf et al.&nbsp;2019). Together, these contributions highlight the significant benefits of CSM and indicate that its strengths in meta-learning and out-of-distribution tasks are particularly well-suited to physical systems.</p>
 
 
 </section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>ImageNet Large Scale Visual Recognition Challenge<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Les tissus cancéreux sont généralement plus denses que les tissus sains.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn3"><p>Calcul Scientifique et Mathématiques de l’Information<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

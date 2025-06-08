@@ -1,0 +1,31 @@
+---
+title: "Reevaluating Meta-Learning Optimization Algorithms Through Contextual Self-Modulation"
+author: "<b>Nzoyem</b>, Barton & Deakin"
+date: "2025-03-01"
+year: "2025"
+publication: "Fourth Conference on Lifelong Learning Agents (CoLLAs)"
+preprint: "https://arxiv.org/abs/2410.01655"
+doi: "https://openreview.net/forum?id=TzxHreJ1og"
+materials: ""
+code: "https://github.com/ddrous/self-mod"
+toc: false
+categories:
+  - optimisation
+  - meta-learning
+  - computer vision
+  - differential equations
+---
+
+```{=html}
+<center> <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=80GLOSUAAAAJ&citation_for_view=80GLOSUAAAAJ:_kc_bZDykSQC" target="_blank" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
+```
+
+
+## Citation (APA)
+
+> Nzoyem, R. D., Barton, D. A. W., & Deakin, T. (2025). Reevaluating Meta-Learning Optimization Algorithms Through Contextual Self-Modulation. Retrieved from https://openreview.net/forum?id=TzxHreJ1og
+
+
+## Abstract
+Contextual Self-Modulation (CSM) (Nzoyem et al. 2025) is a potent regularization mechanism for Neural Context Flows (NCFs) which demonstrates powerful meta-learning on physical systems. However, CSM has limitations in its applicability across different modalities and in high-data regimes. In this work, we introduce two extensions: 
+CSM which expands CSM to infinite-dimensional variations by embedding the contexts into a function space, and StochasticNCF which improves scalability by providing a low-cost approximation of meta-gradient updates through a sampled set of nearest environments. These extensions are demonstrated through comprehensive experimentation on a range of tasks, including dynamical systems, computer vision challenges, and curve fitting problems. Additionally, we incorporate higher-order Taylor expansions via Taylor-Mode automatic differentiation, revealing that higher-order approximations do not necessarily enhance generalization. Finally, we demonstrate how CSM can be integrated into other meta-learning frameworks with FlashCAVIA, a computationally efficient extension of the CAVIA meta-learning framework (Zintgraf et al. 2019). Together, these contributions highlight the significant benefits of CSM and indicate that its strengths in meta-learning and out-of-distribution tasks are particularly well-suited to physical systems.

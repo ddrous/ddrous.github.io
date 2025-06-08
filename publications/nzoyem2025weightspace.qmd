@@ -1,0 +1,32 @@
+---
+title: "Weight-Space Linear Recurrent Neural Networks"
+type: "thesis"
+author: "<b>Nzoyem</b>, Keshtmand, Tsayem, Barton & Deakin"
+date: "2025-06-08"
+year: "2025"
+publication: "ArXiv"
+preprint: "https://arxiv.org/abs/2506.01153"
+doi: ""
+materials: ""
+code: "https://github.com/ddrous/warp"
+toc: false
+categories:
+  - test-time training
+  - computer vision
+  - meta-learning
+  - recurrent neural networks
+  - differential equations
+---
+
+```{=html}
+<center> <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=80GLOSUAAAAJ&citation_for_view=80GLOSUAAAAJ:Wp0gIr-vW9MC" target="_blank" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
+```
+
+
+## Citation (APA)
+
+> Nzoyem, R. D., Keshtmand, N., Tsayem, I., Barton, D. A. W., & Deakin, T. (2025). Weight-Space Linear Recurrent Neural Networks. ArXiv Preprint. Retrieved from https://arxiv.org/abs/2506.01153
+
+
+## Abstract
+We introduce WARP (Weight-space Adaptive Recurrent Prediction), a simple yet powerful framework that unifies weight-space learning with linear recurrence to redefine sequence modeling. Unlike conventional recurrent neural networks (RNNs) which collapse temporal dynamics into fixed-dimensional hidden states, WARP explicitly parametrizes the hidden state as the weights of a distinct root neural network. This formulation promotes higher-resolution memory, gradient-free adaptation at test-time, and seamless integration of domain-specific physical priors. Empirical validation shows that WARP matches or surpasses state-of-the-art baselines on diverse classification tasks, spanning synthetic benchmarks to real-world datasets. Furthermore, extensive experiments across sequential image completion, dynamical system reconstruction, and multivariate time series forecasting demonstrate its expressiveness and generalization capabilities. Critically, WARP's weight trajectories offer valuable insights into the model's inner workings. Ablation studies confirm the architectural necessity of key components, solidifying weight-space linear RNNs as a transformative paradigm for adaptive machine intelligence.

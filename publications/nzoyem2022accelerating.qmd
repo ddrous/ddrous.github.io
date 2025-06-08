@@ -2,11 +2,13 @@
 title: "Accelerating Algebraic Multigrid Using Machine Learning"
 type: "thesis"
 author: "<b>Nzoyem</b>, Louw, McIntosh-Smith & Deakin"
+date: "2022-06-08"
 year: "2022"
 publication: "HPC Reaserach Group - University of Bristol (PhD Summer Project)"
 preprint: "https://github.com/ddrous/accelerating-amg/blob/main/report.pdf"
 doi: ""
 materials: ""
+code: "https://github.com/ddrous/accelerating-amg"
 toc: false
 categories:
   - linear algebra

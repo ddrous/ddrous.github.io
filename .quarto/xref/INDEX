@@ -91,5 +91,35 @@
   },
   "publications/theses/nzoyem2025neural.qmd": {
     "nzoyem2025neural.html": "b3cf4d75"
+  },
+  "publications/theses/nzoyem2025weightspace.qmd": {
+    "nzoyem2025weightspace.html": "7e2f8c8e"
+  },
+  "publications/nzoyem2025weightspace.qmd": {
+    "nzoyem2025weightspace.html": "ed592c18"
+  },
+  "publications/nzoyem2025reevaluating.qmd": {
+    "nzoyem2025reevaluating.html": "f295f98f"
+  },
+  "publications/nzoyem2022accelerating.qmd": {
+    "nzoyem2022accelerating.html": "8439138f"
+  },
+  "publications/nzoyem2025neural.qmd": {
+    "nzoyem2025neural.html": "93809097"
+  },
+  "publications/nzoyem2021fracturation.qmd": {
+    "nzoyem2021fracturation.html": "e9e31f3e"
+  },
+  "publications/nzoyem2023comparison.qmd": {
+    "nzoyem2023comparison.html": "b480ceea"
+  },
+  "publications/nzoyem2025foundational.qmd": {
+    "nzoyem2025foundational.html": "160e293d"
+  },
+  "publications/nzoyem2020simulation.qmd": {
+    "nzoyem2020simulation.html": "381d726a"
+  },
+  "posts/linear-attention-jax/index.qmd": {
+    "index.html": "aca1a475"
   }
 }

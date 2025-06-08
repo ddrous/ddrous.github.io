@@ -13,12 +13,14 @@
   {
     "listing": "/publications.html",
     "items": [
-      "/publications/theses/nzoyem2025foundational.html",
-      "/publications/theses/nzoyem2025neural.html",
-      "/publications/theses/nzoyem2023comparison.html",
-      "/publications/theses/nzoyem2022accelerating.html",
-      "/publications/theses/nzoyem2021fracturation.html",
-      "/publications/theses/nzoyem2020simulation.html"
+      "/publications/nzoyem2025weightspace.html",
+      "/publications/nzoyem2025reevaluating.html",
+      "/publications/nzoyem2025foundational.html",
+      "/publications/nzoyem2025neural.html",
+      "/publications/nzoyem2023comparison.html",
+      "/publications/nzoyem2022accelerating.html",
+      "/publications/nzoyem2021fracturation.html",
+      "/publications/nzoyem2020simulation.html"
     ]
   },
   {

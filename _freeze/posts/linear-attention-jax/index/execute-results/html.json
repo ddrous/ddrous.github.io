@@ -1,0 +1,14 @@
+{
+  "hash": "4a3b3fac6189b447f7574f9983df1bd1",
+  "result": {
+    "markdown": "---\ntitle: \"Linear Attention in JAX: A Complete Guide\"\nauthor: \"RD2N\"\ndate: \"2025-06-08\"\ncategories: [Cognitive Science, Parallel Computing, Differential Equations]\nformat:\n  html:\n    toc: true\nengine: knitr\nnumber-sections: true\nfilters:\n  - social-share\nshare:\n  permalink: \"https://ddrous.github.io/posts/linear-attention-jax/\"\n  description: \"Linear Attention in JAX: A Complete Guide\"\n  twitter: true\n  facebook: true\n  reddit: true\n  stumble: true\n  tumblr: true\n  linkedin: true\n  email: true\n  mastodon: true\ncomments:\n  giscus:\n    repo: ddrous/ddrous.github.io\ndraft: true\n---\n\n::: {.cell}\n<style type=\"text/css\">\np {\n  text-align: justify\n}\n</style>\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

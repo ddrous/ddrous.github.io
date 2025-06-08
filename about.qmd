@@ -5,11 +5,13 @@ image: ./assets/images/profile.png
 about:
   template: trestles
   links:
+    - text: Google Scholar
+      href: https://scholar.google.com/citations?user=80GLOSUAAAAJ&hl=en
     - icon: envelope
       text: Email
       href: mailto:rd.nzoyemngueguin@bristol.ac.uk
     - icon: twitter
-      text: Twitter
+      text: Twitter/X
       href: https://twitter.com/rdesnzoyem
     - icon: linkedin
       text: LinkedIn
@@ -17,6 +19,9 @@ about:
     - icon: github
       text: Github
       href: https://github.com/ddrous
+    - icon: wechat
+      text: WeChat
+      href: weixin://dl/chat?weid_08_rdes
 ---
 
 ```{=html}
@@ -28,19 +33,13 @@ about:
 </nav>
 ```
 
-Hello there ! I'm **Roussel Desmond Nzoyem** (pronounced **zo-e-m**), a pianist, footballer, game designer, and PhD student at the University of Bristol. I'm investigating meta-learning and mathematically grounded algorithms for combined data-driven and physics-informed simulation and control of dynamical systems. I'm advised by [Dr Tom Deakin](https://hpc.tomdeakin.com/), [Pr David Barton](https://cityinthesky.co.uk/about-me/), and [Pr Simon McIntosh-Smith](http://uob-hpc.github.io/SimonMS/).
+I am a Machine Learning PhD candidate at the [University of Bristol](https://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/). I hold a BSc in Mathematics from [Aix-Marseille University](https://www.univ-amu.fr) (2019) and an MSc in Applied Mathematics from [UniStra](https://mathinfo.unistra.fr/formations/master/master-mathematiques-et-applications/) (2021), advised by [Prof. Stéphane Labbé](https://www.ljll.fr/membre/labbe-stephane/).
 
+My research lies at the intersection of **neural network (self-)adaptation** and **machine learning systems**, with applications to dynamical systems in the physical sciences, computer vision, and large language modeling. Under the supervision of [Dr. Tom Deakin](https://hpc.tomdeakin.com/), [Prof. David Barton](https://cityinthesky.co.uk/about-me/), and [Prof. Simon McIntosh-Smith](http://uob-hpc.github.io/SimonMS/), I combine expertise in AI, HPC, and Scientific Computing.
 
-My research sits at the intersection of **Artificial Intelligence**, **High Performance Computing**, and **Scientific Computing**. Some of the questions I ponder are:
+Beyond research, I am committed to equity in STEM education, volunteering for outreach initiatives like [CodeMakers](https://engineering.blogs.bristol.ac.uk/engineering-includes-me-roussel-desmond-nzoyem/), [ExamStar](https://bio.site/examstar), and [St Theresa](https://www.stteresasfilton.org.uk/first-holy-communion-2025). In my downtime, I enjoy football, piano, creative coding, and building indie games.
 
-- How to best learn and combine classical knowledge of physical systems with data-driven approaches ?
-- How to make these systems robust to noise while generalizing well to unseen scenarios with limited data ?
-- How to scale existing physics-based AI techniques to real-world engineering problems: this involves questions like strong/weak scaling and uncertainty quantification.
-- What role do humans and domain scientists in particular play in the envisioned systemic symbioses above ?
-- The _parallel computational theory of the causal mind_ as broadly covered by John R. Searle in _Philosophy of Mind_ and Malcolm Gladwell in _Blink_.
-
-
-For more details, read [my CV](cv.qmd) or view my profile on [LinkedIn](https://www.linkedin.com/in/roussel-desmond-nzoyem/). If they grab your attention, please do send me [a message](#contact-me).
+Feel free to explore my [CV](cv.qmd) or learn more through my profile on [LinkedIn](https://www.linkedin.com/in/roussel-desmond-nzoyem/). [Let’s connect](#contact-me) if you'd like to collaborate or chat!
 
 
 <!-- 

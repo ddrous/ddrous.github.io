@@ -1,18 +1,20 @@
 ---
 title: "MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning"
 author: "<b>Nzoyem</b>, Stevens, Sahota, Barton & Deakin"
+date: "2025-02-15"
 year: "2025"
-publication: "First Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models @ ICLR 2025"
+publication: "First Workshop on Scalable Optimization for Efficient and Adaptive Foundation Models @ ICLR"
 preprint: "https://openreview.net/pdf?id=NteuHm0UXw"
-doi: ""
+doi: "https://openreview.net/forum?id=NteuHm0UXw"
 materials: ""
+code: "https://github.com/ddrous/self-mod"
 toc: false
 categories:
   - optimisation
   - mixture of experts
   - meta-learning
   - machine learning
-  - partial differential equations
+  - differential equations
 ---
 
 ```{=html}
