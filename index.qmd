@@ -29,7 +29,39 @@ css: styles.css
 
 ## Welcome 👋🏼
 
-Hello there ! I'm **Roussel Desmond Nzoyem** (pronounced **zo-e-m**). To learn more about me, go to the [About](/about.qmd) page. You'll find some work I've contributed to in [Projects](/projects.qmd) and [Publications](/publications.qmd). For a nice read, go to the [Blog](/posts.qmd) section. There you'll find interesting stories ranging many disciplines. Some very focused, and others quite random !
+Hello there ! I'm **Roussel Desmond Nzoyem** (pronounced **zo-e-m**). To learn more about me, go to the [About](/about.qmd) and [CV](/cv.qmd) pages. You'll find some work I've contributed to in [Projects](/projects.qmd) and [Publications](/publications.qmd). For a nice read, go to the [Blog](/posts.qmd) section where you'll find interesting stories ranging many disciplines. Some very focused, and others quite random !
+
+
+
+## Selected publications
+
+A few of my HPC and ML publications are listed below. Please check the [Publications](/publications.qmd) section or my [Google Scholar](https://scholar.google.com/citations?user=80GLOSUAAAAJ&hl=en) for more papers.
+
+::: {.figure-caption style="font-size: 0.9em;"}
+|  Venue                                       | Title                                                      |                                                            |
+|:----------------------------------------------------|:-------------------------------|:-------------------------------------------------------------------|
+| <span style="color: #808080;">**ArXiv 2025**</span>  | Weight-Space Linear Recurrent Neural Networks                                                      | [<span style="white-space: nowrap;">Abstract</span>](publications/nzoyem2025weightspace.qmd)                 |
+| <span style="color: maroon;">**SCOPE @ ICLR 2025**</span> | MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning                          | [Abstract](publications/nzoyem2025foundational.qmd)                |
+| <span style="color:rgb(9, 139, 182);">**CoLLAs 2025**</span>     | Reevaluating Meta-Learning Optimization Algorithms Through Contextual Self-Modulation              | [Abstract](publications/nzoyem2025reevaluating.qmd)                |
+| <span style="color: maroon;">**ICLR 2025**</span>       | Neural Context Flows for Meta-Learning of Dynamical Systems                                        | [Abstract](publications/nzoyem2025neural.qmd)                      |
+| <span style="color: #FF8C00;">**SC'W 2023**</span>       | A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control | [Abstract](publications/nzoyem2023comparison.qmd)                  |
+:::
+
+I've reviewed for top conferences such as [<span style="color:rgb(190, 211, 0);">**Euro-PAR'24**</span>](https://2025.euro-par.org), [<span style="color: maroon;">**ICLR'25**</span>](https://iclr.cc), [<span style="color: #8A2BE2;">**ICML'25**</span>](https://icml.cc) (Top Reviewer), and [<span style="color:rgb(12, 20, 182);">**NeurIPS'25**</span>](https://neurips.cc). 
+
+<!-- 
+- Accelerating Algebraic Multigrid Using Machine Learning ☞ [Abstract](publications/theses/nzoyem2022accelerating.qmd)
+- Fracturation de floes de glace par percussion dans un modèle granulaire ☞ [Abstract](publications/theses/nzoyem2021fracturation.qmd)
+- Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones ☞ [Abstract](publications/theses/nzoyem2020simulation.qmd) -->
+
+
+## Selected stories
+- ###### [Linear Attention in JAX](/posts/linear-attention-jax/index.qmd) (Coming soon ...)
+- ###### [A parallel theory of the causal mind](/posts/parallel-mind-theory/index.qmd)
+- ###### [Welcome to my brand-new website !](/posts/welcome/index.qmd)
+- ###### [Mesh-free simulation in the age of Big Data](/posts/mesh-free-simulation/index.qmd) (Coming soon ...)
+
+Stay up to date with my blog posts by signing up for the [newsletter](/posts.qmd).
 
 
 ## News
@@ -46,10 +78,10 @@ Hello there ! I'm **Roussel Desmond Nzoyem** (pronounced **zo-e-m**). To learn m
 
 
 <a data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-  <span role="button"><h4><u>Toggle more news</u></h4></span>
+  <span role="button"><h4><u>More news!</u></h4></span>
 </a> <br>
-<div class="collapse" id="collapseExample">
-  <div class="card card-body">
+<div class="collapse" id="collapseExample" style="margin-bottom:1rem;">
+  <div class="card card-body" style="padding-bottom: 0 !important; margin-bottom: 0 !important;padding-top:2rem;">
 - **_13 Mar. 2024_** : I'm going to the Turing Institute to attend the launch of their Probabilistic Programming theme. Looking forward to using [`Turing.jl`](https://github.com/TuringLang/Turing.jl) !
 - **_20 Nov. 2023_** : I'm giving a talk at the 2nd workshop on Physics Enhancing Machine Learning in Applied Mechanics, held at the Institute of Physics in London, UK. ☞ [Access my slides](https://drive.google.com/file/d/1DM1rC5qns4UA-MuWNPema72sYnKwcEw7/view?usp=sharing).
 - **_13 Nov. 2023_** : Our paper on mesh-free differential programming for optimal control is out during SuperComputing'23. ☞ [Have a read here](https://dl.acm.org/doi/10.1145/3624062.3626078){.external target="_blank"}.
@@ -61,33 +93,6 @@ Hello there ! I'm **Roussel Desmond Nzoyem** (pronounced **zo-e-m**). To learn m
   </div>
 </div>
 
-
-## Selected stories
-- ###### [Linear Attention in JAX](/posts/linear-attention-jax/index.qmd) (Coming soon ...)
-- ###### [A parallel theory of the causal mind](/posts/parallel-mind-theory/index.qmd)
-- ###### [Welcome to my brand-new website !](/posts/welcome/index.qmd)
-- ###### [Mesh-free simulation in the age of Big Data](/posts/mesh-free-simulation/index.qmd) (Coming soon ...)
-
-Stay up to date with my blog posts by signing up for my [newsletter](/posts.qmd).
-
-
-## Selected publications
-::: {.figure-caption style="font-size: 0.9em;"}
-|  Venue                                       | Title                                                      |                                                            |
-|:----------------------------------------------------|:-------------------------------|:-------------------------------------------------------------------|
-| <span style="color: #808080;">**ArXiv 2025**</span>  | Weight-Space Linear Recurrent Neural Networks                                                      | [<span style="white-space: nowrap;">Abstract</span>](publications/nzoyem2025weightspace.qmd)                 |
-| <span style="color: #8A2BE2;">**SCOPE @ ICLR 2025**</span> | MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning                          | [Abstract](publications/nzoyem2025foundational.qmd)                |
-| <span style="color: #2E8B57;">**CoLLAs 2025**</span>     | Reevaluating Meta-Learning Optimization Algorithms Through Contextual Self-Modulation              | [Abstract](publications/nzoyem2025reevaluating.qmd)                |
-| <span style="color: #8A2BE2;">**ICLR 2025**</span>       | Neural Context Flows for Meta-Learning of Dynamical Systems                                        | [Abstract](publications/nzoyem2025neural.qmd)                      |
-| <span style="color: #FF8C00;">**SC'W 2023**</span>       | A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control | [Abstract](publications/nzoyem2023comparison.qmd)                  |
-:::
-
-<!-- 
-- Accelerating Algebraic Multigrid Using Machine Learning ☞ [Abstract](publications/theses/nzoyem2022accelerating.qmd)
-- Fracturation de floes de glace par percussion dans un modèle granulaire ☞ [Abstract](publications/theses/nzoyem2021fracturation.qmd)
-- Simulation 2D de l’équation du transfert radiatif et reconstruction de la densité par un réseau de neurones ☞ [Abstract](publications/theses/nzoyem2020simulation.qmd) -->
-
-More articles can be found in the [Publications](/publications.qmd) section, or on my [Google Scholar](https://scholar.google.com/citations?user=80GLOSUAAAAJ&hl=en) profile.
 
 <!-- 
 ```{=html}
