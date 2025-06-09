@@ -26,7 +26,8 @@ a {
 }
 
 a:hover {
-  color: #004080 !important; /* or whatever teal shade you prefer */
+  /* color: #004080 !important; or whatever teal shade you prefer */
+  color: maroon !important; /* or whatever teal shade you prefer */
 }
 
 .about-links .about-link:first-child::before {
@@ -88,8 +89,8 @@ iframe.slide-deck {
 }
 
 .btn-primary:hover {
-  background-color: #006666 !important; /* Darker teal on hover */
-  border-color: #006666 !important;
+  background-color: maroon !important; /* Darker teal on hover */
+  border-color: maroon !important;
   font-weight: bold !important; /* Make text bold on hover */
   /* Change text color to white on hover */
   color: white !important; /* Ensure text is readable */
