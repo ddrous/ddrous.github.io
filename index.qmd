@@ -66,7 +66,7 @@ Stay up to date with my blog posts by signing up for the [newsletter](/posts.qmd
 
 ## News
 
-- **_24 Jun. 2025_** : I am co-organizing a two-day conference focused on embedding domain-specific knowledge in ML models, physical and mathematical methods for AL/ML development, and applications. ☞ [Programme](https://cdt-aimlac.org/cdt-conference2025.html)
+- **_24 Jun. 2025_** : I am co-organizing a two-days conference focused on embedding domain-specific knowledge in ML models, physical and mathematical methods for AL/ML development, and applications. ☞ [Programme](https://cdt-aimlac.org/cdt-conference2025.html)
 - **_10 Jun. 2025_** : I'm giving a flash talk the UoB's SciML in the Faculty of Engineering Workshop on a new adaptation mechanism I am extremely excited about: [Weight-Space Linear Recurrent Neural Networks](https://arxiv.org/abs/2506.01153). ☞ [Slides](https://drive.google.com/file/d/1I2VI_c3pV2xdjeHcSQo4FiyugjY7BIKV/view?usp=sharing)
 - **_19 May. 2025_** : I was in Montreal (Canada) for the CRM summer school on [Mathematical Foundations of Data Science](https://www.crmath.ca/en/activities/#/type/activity/id/3993). I also attended the workshop on [Optimization and learning: theory and applications](https://www.crmath.ca/en/activities/#/type/activity/id/3994) !
 - **_22 Apr. 2025_** : I'm attending ICLR'25 in Singapore and presenting lots of stuff. This time again, I'm looking to connect and have as much fun as possible. ☞ [LinkedIn Post](https://www.linkedin.com/posts/roussel-desmond-nzoyem_iclr2025-ncf-mixer-activity-7318565522189537280-rQEm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB61F7IBWaLUUAnVeGDAWO94NrKSMXnAWu4)
