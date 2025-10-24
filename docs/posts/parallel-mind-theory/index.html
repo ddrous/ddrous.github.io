@@ -35,15 +35,12 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../assets/images/logo.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../../site_libs/quarto-contrib/social-share-0.1.0/social-share.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/social-share-0.1.0/all.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -75,15 +72,16 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
 </script>
-<link href="https://fonts.cdnfonts.com/css/monaco" rel="stylesheet">
-<link href="https://fonts.cdnfonts.com/css/trebuchet-ms-2" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&amp;family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../styles.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="../../styles_dark.css">
 <meta property="og:title" content="Roussel. - A parallel theory of the causal mind">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://ddrous.github.io/posts/parallel-mind-theory/MindBodyProblem.png">
@@ -117,12 +115,12 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html" rel="" target="">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link" href="../../cv.html" rel="" target="">
+ <span class="menu-text">CV et al.</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../cv.html" rel="" target="">
- <span class="menu-text">CV</span></a>
+    <a class="nav-link" href="../../publications.html" rel="" target="">
+ <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../projects.html" rel="" target="">
@@ -229,14 +227,14 @@ p {
 <blockquote cite="https://youtu.be/zi7Va_4ekko" class="blockquote"> How do we fit our conception of ourselves (the human reality) with what the world is at its most fundamental level: physical particles and fields of forces ? </blockquote>
 <p>I’ve always been fascinated by theories of the mind and how to fully replicate it with artificial general intelligence. Lately, the philosophical nature of this problem is one that I’ve found myself pondering over a lot. Hoping not to get into too much detail, I’ll talk about two technologies I believe are key to deciphering how the human mind works: Neural Ordinary Differential Equations, and Time-Parallel Computing. This article is based on ideas I collected from John Searle’s course <a href="https://youtu.be/zi7Va_4ekko"><em>Philosophy of Mind</em></a>, and Malcolm Gladwell’s best-selling book <a href="https://www.audible.co.uk/pd/Blink-Audiobook/B004F2Z324"><em>Blink</em></a>.</p>
 <section id="the-mind-body-problem" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="the-mind-body-problem"><span class="header-section-number">1</span> The mind-body problem</h2>
+<h2 data-number="1" data-anchor-id="the-mind-body-problem"><span class="header-section-number">1</span> The mind-body problem</h2>
 <p>The mysteries of consciousness and the soul are some of the most challenging questions of our time. To tackle these questions, the Cartesian view postulates the existence of two realms: a real of <strong>Mind</strong> (whose essence is the “thinking”), and a real of <strong>Body</strong> (or the physical)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. The mind is indivisible, undoubtable (hence the famous phrase “<em>I think, therefore I am.</em>”), and commands the body. This fomulation, whose ideas we carry to this day, is an apt introduction to the dualist view, despite being a gross oversimplification of René Descartes’ legacy.</p>
 <p>The dualist formulation dated back to the 17th century and is convenient for its time, as it leaves the realm of Body to <strong>science</strong>, and the realm of Mind to <strong>religion</strong>. Perfect if you’re a scientist trying to conduct thought-provoking research under the Inquisition. Descartes’s theory is appealing, but it leaves us with one big problem: how does the mind influence the brain? How are the two realms connected? Descartes’s answer to this Mind-Body puzzle was unconvincing.</p>
 <p>Over the centuries, several schools of thought have sought an answer to the puzzle, at times only considering one of the two realms. The main groups being <strong>idealism</strong> and <strong>behaviourism</strong> for Mind and Body, respectively. This is beautifully explained by John Searle in his course <a href="https://youtu.be/zi7Va_4ekko">Philosophy of Mind</a>. It would appear that the advent of computers and the emergence of the cross-disciplinary field of <strong>cognitive science</strong> is the key to this puzzle.</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zi7Va_4ekko" title="Philosophy of Mind - Lecture 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
 <section id="the-bottom-up-mind-body-causality" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="the-bottom-up-mind-body-causality"><span class="header-section-number">2</span> The bottom-up mind-body causality</h2>
+<h2 data-number="2" data-anchor-id="the-bottom-up-mind-body-causality"><span class="header-section-number">2</span> The bottom-up mind-body causality</h2>
 <p>Computers function by means of <strong>algorithms</strong>: carefully established instructions relating an input to an output. If one were to think of the brain (and <em>daringly</em> the mind too) as a computer, then the causal relation between the brain and the mind would have to be at the heart of such formalism. That is the essence of cognitive science.</p>
 <p>When you feel pain, hunger or joy, there’s no doubt these are neurobiological processes in your brain firing. This suggests that the mind reacts to the behaviour of the world; it is caused by brain processes. On the other hand, when you decide to raise your hand and it goes up, or when you go from being unhappy to being ecstatic, neuroscientists can clearly observe a change in the physical disposition of your brain. In other words, your mind is a state of your brain, a feature.</p>
 <p>As explained by Searle, the brain <strong>causes</strong> the mind, and the mind is a <strong>feature</strong> of the brain. This would appear paradoxical, but no, it isn’t. It makes sense if we think of the mind as made up of the higher-level processes compared to what we measure in the brain. For instance, when you decide to raise your hand and it goes up, there are two ways to interpret what happened: (1) neurons activated somewhere in your brain, sent a signal that travelled to your muscles, then causing your hand to go up (the <em>low-level</em> processes); (2) you had a thought, and you observed the materialisation of it as a hand in the air (the <em>high-level</em> process). Both interpretations are equally and simultaneously true.</p>
@@ -257,30 +255,31 @@ Note
 </div>
 </section>
 <section id="a-new-model-for-the-mind-and-the-brain" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="a-new-model-for-the-mind-and-the-brain"><span class="header-section-number">3</span> A new model for the mind and the brain</h2>
+<h2 data-number="3" data-anchor-id="a-new-model-for-the-mind-and-the-brain"><span class="header-section-number">3</span> A new model for the mind and the brain</h2>
 <p>As an applied mathematician, the propagation of brain signals and the elusive bottom-up causality between low- and high-level processes remind me of two specific tools: <strong>differential equations</strong> and <strong>neural networks</strong>. I liken the causality and evolutionary nature of brain processes to ordinary differential equations (ODEs) as they describe individual dynamics. I then ascribe the compositionality of simple behaviour into larger features — difficult to account for with our current understanding of neuroscience — to deep neural networks.</p>
 <p>As it turns out, those two concepts have been merged in what is now known as <a href="https://proceedings.neurips.cc/paper_files/paper/2018/hash/69386f6bb1dfed68692a24c8686939b9-Abstract.html">Neural ODEs</a>. Our model for the mind-body relation is formulated as follows <span class="math display">\[\begin{align}
 \frac{\text{d} y}{\text{d} t}(t) &amp;= f_{\theta}(y,t) \qquad t \in ]t_0, t_f [ \\
 y(t_0) &amp;= y_0 \\
 z(t) &amp;= g_{\theta'}(\theta, y, y_0, t, t_0, t_f),
 \end{align}\]</span> where <span class="math inline">\(y\)</span> represents the physical signal transported and processed inside the brain. The transformative function <span class="math inline">\(f_{\theta}\)</span> — where the learnable parameters <span class="math inline">\(\theta\)</span> indicate a deep neural network<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> — dictates how such continuous processing occurs. The mysterious <strong>readout</strong> function <span class="math inline">\(g_{\theta'}\)</span> tells us how a brain stimulus <span class="math inline">\(y_0\in \mathbb{R}^b\)</span> turns into a global mind feature <span class="math inline">\(z \in \mathbb{R}^m\)</span> (with <span class="math inline">\(m\gg b\)</span>, i.e.&nbsp;potentially lots more elements involved in forming a mind compared to processing an elementary brain signal).</p>
+<!-- ![Figure 1: Illustration of the Neural ODE model for the computational mind/brain relation](MindBodyProblem.png) -->
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MindBodyProblem.png" class="img-fluid figure-img"></p>
+<p><img src="MindBodyProblem.png" style="width:80.0%" class="figure-img"></p>
 <figcaption class="figure-caption">Figure 1: Illustration of the Neural ODE model for the computational mind/brain relation</figcaption>
 </figure>
 </div>
 <p>The Neural ODE paradigm has found breathtaking success, particularly as a drop-in replacement for <a href="https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html">ResNets</a>. But neural networks today can grow to extremely large sizes with billions of parameters in the weights <span class="math inline">\(\theta\)</span>. They are energy and computationally inefficient compared to the human brain from which they are inspired. What if this network didn’t have a fixed structure? What if neurons could dynamically adapt to the task at hand? These are the questions that <a href="https://ojs.aaai.org/index.php/AAAI/article/view/16936">Liquid Neural Networks</a> attempt to answer. They were inspired by the efficiency of the worm’s brain, made up of merely 300 neurons; and have shown jaw-dropping performance in autonomous driving. I believe Neural ODEs and Liquid Neural Networks could be combined within a <strong>Liquid Neural ODE</strong> paradigm, thus unlocking the secrets of consciousness.</p>
 </section>
 <section id="accounting-for-the-subconscious" class="level2" data-number="4">
-<h2 data-number="4" class="anchored" data-anchor-id="accounting-for-the-subconscious"><span class="header-section-number">4</span> Accounting for the subconscious</h2>
+<h2 data-number="4" data-anchor-id="accounting-for-the-subconscious"><span class="header-section-number">4</span> Accounting for the subconscious</h2>
 <p>As a full-time daydreamer, I believe any theory of the mind must account for the subconscious; although not necessarily as envisioned by Sigmund Freud, since I don’t believe his deeply abstract (and quite frightening) but brillant ideas are indispensable to replicating the human mind. That is why I think there’s a <strong>second computer</strong> at work in the back of our minds, even when we are awake. The same computer that quickly processes information and lets a car driver avoid pedestrians in an emergency situation. The kind of computer that shows us how we’re all carrying <a href="https://implicit.harvard.edu/implicit/takeatest.html">implicit biases</a>. The same one we make use of on first impressions. The computer in the background that professionals use to identify talent without even knowing such things are happening subconsciously.</p>
 <p>If those ideas sound familiar, that’s because they are collected from Malcolm Gladwell’s bestselling book <a href="https://www.audible.co.uk/pd/Blink-Audiobook/B004F2Z324">Blink</a>. Gladwell repeatedly uses the terminology <strong>thin slicing</strong>. He describes a computer that, given sufficient experience in a domain, discards all useless information to make the quickest decisions for our assumed benefit. The moral of the book is: <em>listen to your inner voice, but know when to ignore it</em>. Besides the discarding of useless information, I believe thin slicing happens so quickly because of the superior computational performance of that second computer.</p>
 <p>So, how can this idea complement the Neural ODE (which represents the conscious mind in our model)? Well, we parallelise it. The model above, given an heterogenous input vector <span class="math inline">\(y\)</span>, should split the time-horizon <span class="math inline">\(]t_0, t_f[\)</span> and distribute the chunks to much smaller units of compute in order to return faster results at competitive accuracy. This can be achieved if two time domains are considered, one <strong>coarse</strong> on which guesses for <span class="math inline">\(y\)</span> and <span class="math inline">\(z\)</span> are refined, and one <strong>fine</strong> on which brain units work in parallel. We can interpret this parallelisation as signals coming from various senses at different times, and processed by different units within the brain. What I’m describing is combined data- and time-parallelisation. We train the Neural ODE on a fine time domain with a large <span class="math inline">\(y\)</span> containing all possible information, but under subconscious thin slicing conditions, we make sure inference happens on the coarse time domain with a smaller less informative <span class="math inline">\(y\)</span> in successive stages.</p>
 <p>Several works have investigated parallel ideas on Neural ODEs, namely <a href="https://epubs.siam.org/doi/abs/10.1137/19M1247620">Gunther et al.’s</a> and <a href="https://proceedings.neurips.cc/paper/2021/hash/89b9c689a57b82e59074c6ba09aa394d-Abstract.html">Massaroli et al.’s</a>. However, they only considered time (or layer) parallelism. Moreover, they focus on the training, and show very limited interest for inference. Combining data and time for quick but accurate inference is a dream I hope to achieve before then end of my PhD in September 2025.</p>
 </section>
 <section id="closing-thoughts" class="level2" data-number="5">
-<h2 data-number="5" class="anchored" data-anchor-id="closing-thoughts"><span class="header-section-number">5</span> Closing thoughts</h2>
+<h2 data-number="5" data-anchor-id="closing-thoughts"><span class="header-section-number">5</span> Closing thoughts</h2>
 <p>I’m currently investigating the feasibility of a data-time parallel Neural ODE with applications to PDE simulation. How would we test such an idea on the brain? I have no clue yet. What I know is that I can start with my brain, like in the famous <a href="https://plato.stanford.edu/entries/chinese-room/">Chinese Room</a> argument<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> (as Searle says, “<em>always test the theory on yourself first</em>”).</p>
 <p>If your mind finds itself drawn to these ideas, then maybe they’re valid. In that case, <a href="https://ddrous.github.io/about.html#contact-me">send me a message</a>. If you’ve heard these same ideas somewhere else and think I’m wasting my time or that there’s room for collaboration, then please do reach out. If this sounds like complete nonsense to you, then maybe it is. It shouldn’t stop us from pursuing the truth though, right ?</p>
 <p>Using your <a href="https://github.com/">GitHub</a> account, please comment below for any insights you might have. And as always, thanks for reading !</p>
@@ -406,7 +405,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  let localAlternateSentinel = 'alternate';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
@@ -431,217 +430,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     toggleColorMode(true);
   } else {
     toggleColorMode(false);
-  }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-  function tippyHover(el, contentFn) {
-    const config = {
-      allowHTML: true,
-      content: contentFn,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start'
-    };
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      return note.innerHTML;
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
-      });
-    }
   }
 });
 </script>

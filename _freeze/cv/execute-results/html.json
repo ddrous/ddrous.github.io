@@ -1,0 +1,14 @@
+{
+  "hash": "592455eded327e2922ff80dcdc8b76ea",
+  "result": {
+    "markdown": "---\ntitle: CV et al.\ndescription-meta: \"Roussel's Academic Portfolio - CV, Research & Teaching Statements\"\ndate: 2025-10-20\npublished-title: Last updated\nengine: knitr \ndocuments:\n  cv: \"assets/pdfs/CV.pdf\"\n  research: \"assets/pdfs/Research.pdf\"\n  teaching: \"assets/pdfs/Teaching.pdf\"\n---\n\n```{=html}\n<nav aria-label=\"breadcrumb\">\n  <ol class=\"breadcrumb\">\n    <li class=\"breadcrumb-item\"><a href=\"index.html\">Home</a></li>\n    <li class=\"breadcrumb-item active\" aria-current=\"page\">CV et al.</li>\n  </ol>\n</nav>\n```\n\n::: {.cell}\n<style type=\"text/css\">\n.embed-container {\n    position: relative;\n    padding-bottom: 129%;\n    height: 0;\n    overflow: hidden;\n    max-width: 100%;\n    margin-bottom: 2rem;\n}\n\n.embed-container iframe,\n.embed-container object,\n.embed-container embed {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n\n.document-section {\n    margin-bottom: 3rem;\n}\n\n.document-section h2 {\n    margin-top: 2rem;\n    margin-bottom: 1rem;\n}\n</style>\n:::\n\n```{=html}\n<div class=\"document-section\">\n  <h2><i class=\"fas fa-file-alt\"></i> Curriculum Vitae</h2>\n  <p class=\"text-center\">\n    <a class=\"btn btn-primary btn-lg cv-download\" href=\"assets/pdfs/CV.pdf\" target=\"_blank\">\n      <i class=\"fa-solid fa-file-arrow-down\"></i>&ensp;Download CV\n    </a>\n  </p>\n  <div class=\"embed-container\">\n    <iframe src=\"assets/pdfs/CV.pdf\" style=\"border: 0.5px\"></iframe>\n  </div>\n</div>\n\n<div class=\"document-section\">\n  <h2><i class=\"fas fa-flask\"></i> Research Statement</h2>\n  <p class=\"text-center\">\n    <a class=\"btn btn-primary btn-lg cv-download\" href=\"assets/pdfs/Research.pdf\" target=\"_blank\">\n      <i class=\"fa-solid fa-file-arrow-down\"></i>&ensp;Download Research Statement\n    </a>\n  </p>\n  <div class=\"embed-container\">\n    <iframe src=\"assets/pdfs/Research.pdf\" style=\"border: 0.5px\"></iframe>\n  </div>\n</div>\n\n<div class=\"document-section\">\n  <h2><i class=\"fas fa-chalkboard-teacher\"></i> Teaching Statement</h2>\n  <p class=\"text-center\">\n    <a class=\"btn btn-primary btn-lg cv-download\" href=\"assets/pdfs/Teaching.pdf\" target=\"_blank\">\n      <i class=\"fa-solid fa-file-arrow-down\"></i>&ensp;Download Teaching Statement\n    </a>\n  </p>\n  <div class=\"embed-container\">\n    <iframe src=\"assets/pdfs/Teaching.pdf\" style=\"border: 0.5px\"></iframe>\n  </div>\n</div>\n```",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

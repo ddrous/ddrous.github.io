@@ -33,14 +33,12 @@ ul.task-list li input[type="checkbox"] {
 <link href="./assets/images/logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,19 +68,18 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
 </script>
-<link href="https://fonts.cdnfonts.com/css/monaco" rel="stylesheet">
-<link href="https://fonts.cdnfonts.com/css/trebuchet-ms-2" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&amp;family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="styles_dark.css">
 <meta property="og:title" content="Roussel.">
 <meta property="og:description" content="PhD student @ University of Bristol">
-<meta property="og:image" content="https://ddrous.github.io/assets/images/cornerstone.png">
+<meta property="og:image" content="https://ddrous.github.io/assets/images/cornerstone.webp">
 <meta property="og:site-name" content="Roussel.">
-<meta property="og:image:height" content="860">
-<meta property="og:image:width" content="1530">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -110,12 +107,12 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html" rel="" target="">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link" href="./cv.html" rel="" target="">
+ <span class="menu-text">CV et al.</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cv.html" rel="" target="">
- <span class="menu-text">CV</span></a>
+    <a class="nav-link" href="./publications.html" rel="" target="">
+ <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./projects.html" rel="" target="">
@@ -163,7 +160,7 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
 <!-- main -->
 <div class="quarto-about-marquee">
   <div class="about-image-container">
-    <img src="./assets/images/cornerstone.png" class="about-image " style="width: 100%;">
+    <img src="./assets/images/cornerstone.webp" class="about-image " style="width: 100%;">
   </div>
   <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
@@ -174,376 +171,237 @@ gtag('config', 'G-GLZPYK16BE', { 'anonymize_ip': true});
 <div class="quarto-title-meta">
   </div>
 </header> <main class="content" id="quarto-document-content">
-<p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&amp;family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"></p>
-<style>
-/* REMOVED ALL DUPLICATE VENUE-BADGE STYLES FROM HERE */
-.talk-compact {
-margin-bottom: 1rem;
-padding: 0.75rem;
-background-color: #fafafa;
-border-left: 3px solid #e0e0e0;
-border-radius: 4px;
-}
-.talk-compact strong {
-display: block;
-color: #2c3e50;
-margin-bottom: 0.25rem;
-font-size: 0.95em;
-}
-.talk-compact span {
-font-size: 0.85em;
-color: #6c757d;
-}
-.note {
-background-color: #f8f9fa;
-border-left: 4px solid #0066cc;
-padding: 1rem 1.25rem;
-margin: 2rem 0;
-font-size: 0.95rem;
-color: #444;
-border-radius: 4px;
-}
-.note a {
-color: #0066cc;
-text-decoration: none;
-font-weight: 500;
-}
-.note a:hover {
-text-decoration: underline;
-}
-/* Publications list */
-.publications-list {
-margin: 2rem 0;
-}
-.pub-item {
-padding: 1.5rem 0;
-border-bottom: 1px solid #e5e7eb;
-transition: background-color 0.2s ease;
-}
-.pub-item:last-child {
-border-bottom: none;
-}
-.pub-item:hover {
-background-color: #fafafa;
-margin: 0 -1rem;
-padding: 1.5rem 1rem;
-border-radius: 8px;
-}
-/* Venue badges */
-.venue-badge {
-display: inline-block;
-padding: 0.25rem 0.75rem;
-border-radius: 4px;
-font-size: 0.75rem;
-font-weight: 600;
-text-transform: uppercase;
-letter-spacing: 0.5px;
-margin-bottom: 0.5rem;
-}
-.venue-arxiv {
-background-color: #b31b1b;
-color: white;
-}
-.venue-iclr {
-background-color: #3b82f6;
-color: white;
-}
-.venue-collas {
-background-color: #8b5cf6;
-color: white;
-}
-.venue-scw {
-background-color: #059669;
-color: white;
-}
-.venue-icml {
-background-color: #dc2626;
-color: white;
-}
-/* Publication title */
-.pub-title {
-font-size: 1.1rem;
-font-weight: 600;
-color: #1f2937;
-margin: 0.5rem 0 0 0;
-line-height: 1.5;
-display: block;
-}
-/* Authors */
-.pub-authors {
-color: #6b7280;
-font-size: 0.9rem;
-margin: 0.5rem 0;
-font-style: italic;
-}
-/* Links */
-.pub-links {
-margin-top: 0.75rem;
-display: flex;
-gap: 1rem;
-flex-wrap: wrap;
-}
-.pub-link {
-display: inline-block;
-padding: 0.35rem 0.9rem;
-background-color: white;
-border: 1px solid #d1d5db;
-border-radius: 6px;
-color: #374151;
-text-decoration: none;
-font-size: 0.85rem;
-font-weight: 500;
-transition: all 0.2s ease;
-}
-.pub-link:hover {
-background-color: #f3f4f6;
-border-color: #9ca3af;
-color: #1f2937;
-transform: translateY(-1px);
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
-/* Responsive design */
-@media (max-width: 768px) {
-.pub-item:hover {
-margin: 0;
-padding: 1.5rem 0;
-}
-.venue-badge {
-display: block;
-width: fit-content;
-margin-bottom: 0.75rem;
-}
-.pub-title {
-display: block;
-margin-top: 0.5rem;
-}
-}
-</style>
-<!-- ====================================================== -->
-<!-- WELCOME SECTION -->
-<!-- ====================================================== -->
+<!--
+ABOUT ME
+-->
 <section>
-<h2>
-<i class="fas fa-hand-sparkles"></i> Welcome
-</h2>
 <p>
-Hello there ! I’m <strong>Roussel Desmond Nzoyem</strong> (pronounced <strong>zo-e-m</strong>). To learn more about me, go to the <a href="./about.html">About</a> and <a href="./cv.html">CV</a> pages. You’ll find some work I’ve contributed to in <a href="./projects.html">Projects</a> and <a href="./publications.html">Publications</a>. For a nice read, go to the <a href="./posts.html">Blog</a> section where you’ll find interesting stories ranging many disciplines. Some very focused, and others quite random !
+Hello there! I’m <strong>Roussel Desmond Nzoyem</strong> (pronounced <strong>zo-e-m</strong>). To learn more about me, go to the <a href="./about.html">About</a> and <a href="./cv.html">CV</a> pages. You’ll find work I’ve contributed to in <a href="./projects.html">Projects</a> and <a href="./publications.html">Publications</a>. For a nice read, go to the <a href="./posts.html">Blog</a> section where you’ll find interesting stories.
 </p>
 </section>
 <section>
 <h2>
-<i class="fas fa-feather-alt"></i> Selected Stories
+<i class="fas fa-feather-alt"></i> Selected Stories*
 </h2>
-<div class="story-card">
-<h4>
-<a href="./posts/linear-attention-jax/index.html">Linear Attention in JAX</a>
-</h4>
-<p class="story-description">
-Exploring efficient attention mechanisms through JAX implementation (Coming soon …).
-</p>
-<!-- <span class="story-status">Coming soon</span> -->
+<!-- <p style="margin-top: 2rem; font-size: 1.05em; color: #495057;"> -->
+<p>*Stay up to date by signing up for my <a href="./posts.html" style="font-weight: 600;">newsletter</a>. <!-- </p> --></p>
+<div class="story-compact">
+<p><strong><i class="fas fa-code"></i> <a href="./posts/linear-attention-jax/index.html">Linear Attention in JAX</a></strong> <span>Exploring efficient attention mechanisms through JAX implementation</span> <span class="story-status">Coming soon</span></p>
 </div>
-<div class="story-card">
-<h4>
-<a href="./posts/parallel-mind-theory/index.html">A Parallel Theory of the Causal Mind</a>
-</h4>
-<p class="story-description">
-Investigating how our minds process causality through parallel mechanisms.
-</p>
+<div class="story-compact">
+<p><strong><i class="fas fa-brain"></i> <a href="./posts/parallel-mind-theory/index.html">A Parallel Theory of the Causal Mind</a></strong> <span>Investigating how our minds process causality through parallel mechanisms</span></p>
 </div>
-<div class="story-card">
-<h4>
-<a href="./posts/welcome/index.html">Welcome to My Brand-New Website!</a>
-</h4>
-<p class="story-description">
-An introduction to this space where I share research insights, technical explorations, and thoughts on AI, scientific computing, and the intersection of theory and practice.
-</p>
+<div class="story-compact">
+<p><strong><i class="fas fa-rocket"></i> <a href="./posts/welcome/index.html">Welcome to My Brand-New Website!</a></strong> <span>An introduction to this space where I share research insights, technical explorations, and thoughts on AI</span></p>
 </div>
-<div class="story-card">
-<h4>
-<a href="./posts/mesh-free-simulation/index.html">Mesh-Free Simulation in the Age of Big Data</a>
-</h4>
-<p class="story-description">
-How modern mesh-free methods are revolutionizing computational physics and engineering (Coming soon …).
-</p>
-<!-- <span class="story-status">Coming soon</span> -->
+<div class="story-compact">
+<p><strong><i class="fas fa-project-diagram"></i> <a href="./posts/mesh-free-simulation/index.html">Mesh-Free Simulation in the Age of Big Data</a></strong> <span>How modern mesh-free methods are revolutionizing computational physics and engineering</span> <span class="story-status">Coming soon</span></p>
 </div>
-<p style="margin-top: 2rem; font-size: 1.05em; color: #495057;">
-Stay up to date with my blog posts by signing up for the <a href="./posts.html" style="font-weight: 600; color: #5a7fc7;">newsletter</a>.
-</p>
 </section>
-<!-- ====================================================== -->
-<!-- NEWS SECTION -->
-<!-- ====================================================== -->
+<!--
+NEWS
+-->
 <section>
 <h2>
-<i class="fas fa-bullhorn"></i> News
+<i class="fas fa-bullhorn"></i> Latest News*
 </h2>
 <div class="news-item">
-<p><span class="news-date">24 Jun.&nbsp;2025</span> : I am co-organizing a two-days conference focused on embedding domain-specific knowledge in ML models, physical and mathematical methods for AL/ML development, and applications. ☞ <a href="https://cdt-aimlac.org/cdt-conference2025.html" class="external" target="_blank">Programme</a></p>
+<p><span class="news-date">24 Jun.&nbsp;2025:</span> I am co-organizing a two-days conference focused on embedding domain-specific knowledge in ML models, physical and mathematical methods for AL/ML development, and applications. ☞ <a href="https://cdt-aimlac.org/cdt-conference2025.html" class="external" target="_blank">Programme</a></p>
 </div>
 <div class="news-item">
-<p><span class="news-date">10 Jun.&nbsp;2025</span> : I’m giving a flash talk the UoB’s SciML in the Faculty of Engineering Workshop on a new adaptation mechanism I am extremely excited about: <a href="https://arxiv.org/abs/2506.01153" class="external" target="_blank">Weight-Space Linear Recurrent Neural Networks</a>. ☞ <a href="https://drive.google.com/file/d/1I2VI_c3pV2xdjeHcSQo4FiyugjY7BIKV/view?usp=sharing" class="external" target="_blank">Slides</a></p>
+<p><span class="news-date">10 Jun.&nbsp;2025:</span> I’m giving a flash talk the UoB’s SciML in the Faculty of Engineering Workshop on a new adaptation rule I am extremely excited about: <a href="https://arxiv.org/abs/2506.01153" class="external" target="_blank">Weight-Space Linear Recurrent Neural Networks</a>. ☞ <a href="https://drive.google.com/file/d/1I2VI_c3pV2xdjeHcSQo4FiyugjY7BIKV/view?usp=sharing" class="external" target="_blank">Slides</a></p>
 </div>
 <div class="news-item">
-<p><span class="news-date">19 May. 2025</span> : I was in Montreal (Canada) for the CRM summer school on <a href="https://www.crmath.ca/en/activities/#/type/activity/id/3993" class="external" target="_blank">Mathematical Foundations of Data Science</a>. I also attended the workshop on <a href="https://www.crmath.ca/en/activities/#/type/activity/id/3994" class="external" target="_blank">Optimization and learning: theory and applications</a> !</p>
+<p><span class="news-date">19 May. 2025:</span> I was in Montreal for the CRM summer school on the <a href="https://www.crmath.ca/en/activities/#/type/activity/id/3993" class="external" target="_blank">Mathematical Foundations of Data Science</a>. I also attended the workshop on <a href="https://www.crmath.ca/en/activities/#/type/activity/id/3994" class="external" target="_blank">Optimization and learning: theory and applications</a> !</p>
 </div>
 <div class="news-item">
-<p><span class="news-date">22 Apr.&nbsp;2025</span> : I’m attending ICLR’25 in Singapore and presenting lots of stuff. This time again, I’m looking to connect and have as much fun as possible. ☞ <a href="https://www.linkedin.com/posts/roussel-desmond-nzoyem_iclr2025-ncf-mixer-activity-7318565522189537280-rQEm?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAB61F7IBWaLUUAnVeGDAWO94NrKSMXnAWu4" class="external" target="_blank">LinkedIn Post</a></p>
+<p><span class="news-date">22 Apr.&nbsp;2025:</span> I’m attending ICLR’25 in Singapore and presenting lots of stuff. This time again, I’m looking to connect and have as much fun as possible. ☞ <a href="https://www.linkedin.com/posts/roussel-desmond-nzoyem_iclr2025-ncf-mixer-activity-7318565522189537280-rQEm?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAB61F7IBWaLUUAnVeGDAWO94NrKSMXnAWu4" class="external" target="_blank">LinkedIn Post</a></p>
 </div>
 <div class="news-item">
-<p><span class="news-date">06 Mar.&nbsp;2025</span> : Our latest paper <a href="https://openreview.net/forum?id=NteuHm0UXw" class="external" target="_blank">MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning</a> was unanimously accepted into the SCOPE workshop @ ICLR 2025. Looking forward to seeing everyone in Singapore !</p>
+<p><span class="news-date">06 Mar.&nbsp;2025:</span> Our latest paper <a href="https://openreview.net/forum?id=NteuHm0UXw" class="external" target="_blank">MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning</a> was unanimously accepted into the SCOPE workshop @ ICLR 2025. Looking forward to seeing everyone in Singapore !</p>
 </div>
 <div class="news-item">
-<p><span class="news-date">13 Feb.&nbsp;2025</span> : I gave a talk at the University of Bristol’s EPS Seminar Series and the Engineering Design Society. It’s about Neural Context Flows and follow-up work on foundational models for science. ☞ <a href="https://docs.google.com/presentation/d/1bJjbbQAohUw3EmT_N7iTpv5UY-wUvfAN/edit?usp=sharing&amp;ouid=107359549014130993105&amp;rtpof=true&amp;sd=true" class="external" target="_blank">Slides</a></p>
+<p><span class="news-date">13 Feb.&nbsp;2025:</span> I gave a talk at the University of Bristol’s EPS Seminar Series and the Engineering Design Society. It’s about Neural Context Flows and follow-up work on foundational models for science. ☞ <a href="https://docs.google.com/presentation/d/1bJjbbQAohUw3EmT_N7iTpv5UY-wUvfAN/edit?usp=sharing&amp;ouid=107359549014130993105&amp;rtpof=true&amp;sd=true" class="external" target="_blank">Slides</a></p>
 </div>
 <div class="news-item">
-<p><span class="news-date">22 Jan.&nbsp;2025</span> : I’m delighted to announce that our paper <a href="https://openreview.net/forum?id=8vzMLo8LDN" class="external" target="_blank">Neural Context Flows</a> has been accepted to ICLR 2025. More info to come, including a blogpost with code and weights !</p>
+<p><span class="news-date">22 Jan.&nbsp;2025:</span> I’m delighted to announce that our paper <a href="https://openreview.net/forum?id=8vzMLo8LDN" class="external" target="_blank">Neural Context Flows</a> has been accepted to ICLR 2025. More info to come, including a blogpost with code and weights !</p>
 </div>
 <a data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> <span role="button">
-<h4>
-<u>More news!</u>
-</h4>
+<h3>
+*<u>More news!</u>
+</h3>
 </span></a><p><a data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> </a></p>
 <div id="collapseExample" class="collapse" style="margin-bottom:1rem;">
 <div class="card card-body" style="padding-bottom: 0 !important; margin-bottom: 0 !important;padding-top:2rem;">
+<!-- Collapsed news items go here -->
 <div class="news-item">
-<p><span class="news-date">07 May. 2024</span> : I’m attending ICLR’24 in Vienna and presenting a poster at the workshop on <a href="https://ai4diffeqtnsinsci.github.io" class="external" target="_blank">AI4DifferentialEquations in Science</a>. I’m looking to have as much fun as possible. Please reach out if you’re there as well :).</p>
+<p><span class="news-date">07 May. 2024:</span> I’m attending ICLR’24 in Vienna and presenting a poster at the workshop on <a href="https://ai4diffeqtnsinsci.github.io" class="external" target="_blank">AI4DifferentialEquations in Science</a>.</p>
 </div>
 <div class="news-item">
-<p><span class="news-date">17 Apr.&nbsp;2024</span> : My profile now appears on the <strong>Engineering Includes Me</strong> wall in the University of Bristol’s iconic Queen’s Building. This rewards our after-school work with <a href="https://github.com/ddrous/ks3-project" class="external" target="_blank">Codemakers</a>. ☞ <a href="https://engineering.blogs.bristol.ac.uk/engineering-includes-me-roussel-desmond-nzoyem/" class="external" target="_blank">Blog Post</a></p>
+<p><span class="news-date">17 Apr.&nbsp;2024:</span> My profile now appears on the <strong>Engineering Includes Me</strong> wall in the University of Bristol’s iconic Queen’s Building. ☞ <a href="https://engineering.blogs.bristol.ac.uk/engineering-includes-me-roussel-desmond-nzoyem/" class="external" target="_blank">Blog Post</a></p>
 </div>
 <div class="news-item">
-<p><span class="news-date">13 Mar.&nbsp;2024</span> : I’m going to the Turing Institute to attend the launch of their Probabilistic Programming theme. Looking forward to using <a href="https://github.com/TuringLang/Turing.jl" class="external" target="_blank">Turing.jl</a> !</p>
+<p><span class="news-date">13 Mar.&nbsp;2024:</span> I’m going to the Turing Institute to attend the launch of their Probabilistic Programming theme.</p>
 </div>
 <div class="news-item">
-<p><span class="news-date">20 Nov.&nbsp;2023</span> : I’m giving a talk at the 2nd workshop on Physics Enhancing Machine Learning in Applied Mechanics, held at the Institute of Physics in London, UK. ☞ <a href="https://drive.google.com/file/d/1DM1rC5qns4UA-MuWNPema72sYnKwcEw7/view?usp=sharing" class="external" target="_blank">Access my slides</a>.</p>
+<p><span class="news-date">20 Nov.&nbsp;2023</span> I’m giving a talk at the 2nd workshop on Physics Enhancing Machine Learning in Applied Mechanics, held at the Institute of Physics in London, UK. ☞ <a href="https://drive.google.com/file/d/1DM1rC5qns4UA-MuWNPema72sYnKwcEw7/view?usp=sharing" class="external" target="_blank">Slides</a>.</p>
 </div>
 <div class="news-item">
-<p><span class="news-date">13 Nov.&nbsp;2023</span> : Our paper on mesh-free differential programming for optimal control is out during SuperComputing’23. ☞ <a href="https://dl.acm.org/doi/10.1145/3624062.3626078" class="external" target="_blank">Have a read here</a>.</p>
+<p><span class="news-date">13 Nov.&nbsp;2023:</span> Our paper on mesh-free differential programming for optimal control is out during SuperComputing’23. ☞ <a href="https://dl.acm.org/doi/10.1145/3624062.3626078" class="external" target="_blank">Read here</a>.</p>
 </div>
 <div class="news-item">
-<p><span class="news-date">18 Sep.&nbsp;2023</span> : I’m attending the 175th European Study Group with Industry (ESGI) in Berlin, Germany. ☞ <a href="https://wias-berlin.de/workshops/ESGI-175/#:~:text=Group%20with%20Industry-,Berlin%2C%20September%2018%2D22%2C%202023,modelling%20or%20an%20optimisation%20problem" class="external" target="_blank">Link</a>.</p>
+<p><span class="news-date">18 Sep.&nbsp;2023:</span> I’m attending the 175th European Study Group with Industry (ESGI) in Berlin, Germany.</p>
 </div>
 <div class="news-item">
-<p><span class="news-date">01 Aug.&nbsp;2023</span> : I’ve pre-released version 0.1.4 of Updes: a mesh-free differentiable software for quick experimentation with a variety of PDEs. ☞ <a href="https://github.com/ddrous/Updec" class="external" target="_blank">Repo</a>.</p>
+<p><span class="news-date">01 Aug.&nbsp;2023:</span> I’ve pre-released version 0.1.4 of Updes: a mesh-free differentiable software for quick experimentation with a variety of PDEs. ☞ <a href="https://github.com/ddrous/Updec" class="external" target="_blank">Repo</a>.</p>
 </div>
 <div class="news-item">
-<p><span class="news-date">10 Mar.&nbsp;2023</span> : I gave a talk at <a href="https://www.africa.engineering.cmu.edu" class="external" target="_blank">CMU Africa</a> on emerging techniques and applications of graph neural networks. ☞ <a href="https://youtu.be/ahG-LG0ABRQ" class="external" target="_blank">Recording</a>.</p>
+<p><span class="news-date">10 Mar.&nbsp;2023</span> I gave a talk at <a href="https://www.africa.engineering.cmu.edu" class="external" target="_blank">CMU Africa</a> on emerging techniques and applications of graph neural networks. ☞ <a href="https://youtu.be/ahG-LG0ABRQ" class="external" target="_blank">Recording</a>.</p>
 </div>
 <div class="news-item">
-<p><span class="news-date">01 Dec.&nbsp;2022</span> : I began my research on AI, HPC, and Scientific Machine Learning for mesh-free simulations. ☞ <a href="http://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/" class="external" target="_blank">Synopsis</a>.</p>
+<p><span class="news-date">01 Dec.&nbsp;2022:</span> I began my research on AI, HPC, and Scientific Machine Learning for mesh-free simulations.</p>
 </div>
 <div class="news-item">
-<p><span class="news-date">10 Oct.&nbsp;2021</span> : I moved to Bristol for a PhD in the <a href="https://www.bristol.ac.uk/cdt/interactive-ai/" class="external" target="_blank">Interactive AI CDT</a>. Find pictures of my trips on ☞ <a href="https://www.instagram.com/roussel_dn/" class="external" target="_blank">Instagram</a>.</p>
+<p><span class="news-date">10 Oct.&nbsp;2021:</span> I moved to Bristol for a PhD in the <a href="https://www.bristol.ac.uk/cdt/interactive-ai/" class="external" target="_blank">Interactive AI CDT</a>.</p>
 </div>
 </div>
 </div>
 </section>
-<!-- ====================================================== -->
-<!-- SELECTED PUBLICATIONS SECTION -->
-<!-- ====================================================== -->
+<!--
+SELECTED PUBLICATIONS
+-->
 <section>
 <h2>
-<i class="fas fa-book-open"></i> Selected Publications
+<i class="fas fa-book-open"></i> Selected Publications*
 </h2>
-<p class="note">
-A few of my publications and preprints are listed below. Please check the <a href="./publications.html">Publications</a> section or my <a href="https://scholar.google.com/citations?user=80GLOSUAAAAJ&amp;hl=en">Google Scholar</a> for more.
-</p>
+<!-- <p class="note"> -->
+<!-- </p> -->
 <div class="publications-list">
+<p>*Please check my <a href="https://scholar.google.com/citations?user=80GLOSUAAAAJ&amp;hl=en">Google Scholar</a> for more.</p>
 <div class="pub-item">
-<span class="venue-badge venue-arxiv">ArXiv 2025</span>
+<div style="margin-top: 0.2rem;">
+<p><span class="venue-badge venue-aaai">AAAI 2026 Student Abstract &amp; Poster Program</span></p>
+</div>
+<div class="pub-content">
+<h3 class="pub-title">
+Language Models Do Not Embed Numbers Continuously
+</h3>
+<p class="pub-authors">
+A Davies, <strong>RD Nzoyem</strong>, N Ajmeri
+</p>
+<div class="pub-links">
+<!-- <a href="publications/nzoyem2025weightspace.qmd" class="pub-link">Abstract</a> -->
+<p><a href="https://arxiv.org/pdf/2510.08009?" class="pub-link" target="_blank">PDF</a> <a href="#" class="pub-link">Code</a></p>
+</div>
+</div>
+</div>
+<div class="pub-item">
+<div style="margin-top: 0.2rem;">
+<p><span class="venue-badge venue-arxiv">ArXiv 2025</span></p>
+</div>
+<div class="pub-content">
 <h3 class="pub-title">
 Weight-Space Linear Recurrent Neural Networks
 </h3>
-<!-- <p class="pub-authors">Author Name, Author Name, Author Name</p> -->
+<p class="pub-authors">
+<strong>RD Nzoyem</strong>, N Keshtmand, E Crespo Fernandez, I Tsayem, R Santos-Rodriguez, DAW Barton, T Deakin
+</p>
 <div class="pub-links">
-<p><a href="./publications/nzoyem2025weightspace.html" class="pub-link">Abstract</a> <a href="#" class="pub-link">PDF</a> <a href="#" class="pub-link">Code</a></p>
+<p><a href="./publications/nzoyem2025weightspace.html" class="pub-link">Abstract</a> <a href="https://arxiv.org/abs/2506.01153" class="pub-link" target="_blank">PDF</a> <a href="#" class="pub-link">Code</a></p>
+</div>
 </div>
 </div>
 <div class="pub-item">
-<span class="venue-badge venue-iclr">SCOPE @ ICLR 2025</span>
+<div style="margin-top: 0.2rem;">
+<p><span class="venue-badge venue-iclr">SCOPE@ICLR 2025</span></p>
+</div>
+<div class="pub-content">
 <h3 class="pub-title">
 MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning
 </h3>
-<!-- <p class="pub-authors">Author Name, Author Name, Author Name</p> -->
+<p class="pub-authors">
+<strong>RD Nzoyem</strong>, G Stevens, A Sahota, DAW Barton, T Deakin
+</p>
 <div class="pub-links">
-<p><a href="./publications/nzoyem2025foundational.html" class="pub-link">Abstract</a> <a href="#" class="pub-link">PDF</a> <a href="#" class="pub-link">Code</a></p>
+<p><a href="./publications/nzoyem2025foundational.html" class="pub-link">Abstract</a> <a href="https://openreview.net/forum?id=NteuHm0UXw" class="pub-link" target="_blank">PDF</a> <a href="#" class="pub-link">Code</a></p>
+</div>
 </div>
 </div>
 <div class="pub-item">
-<span class="venue-badge venue-collas">CoLLAs 2025</span>
+<div style="margin-top: 0.2rem;">
+<p><span class="venue-badge venue-collas">CoLLAs 2025</span></p>
+</div>
+<div class="pub-content">
 <h3 class="pub-title">
 Reevaluating Meta-Learning Optimization Algorithms Through Contextual Self-Modulation
 </h3>
-<!-- <p class="pub-authors">Author Name, Author Name, Author Name</p> -->
+<p class="pub-authors">
+<strong>RD Nzoyem</strong>, DAW Barton, T Deakin
+</p>
 <div class="pub-links">
-<p><a href="./publications/nzoyem2025reevaluating.html" class="pub-link">Abstract</a> <a href="#" class="pub-link">PDF</a></p>
+<p><a href="./publications/nzoyem2025reevaluating.html" class="pub-link">Abstract</a> <a href="https://arxiv.org/abs/2410.01655" class="pub-link">PDF</a></p>
+</div>
 </div>
 </div>
 <div class="pub-item">
-<span class="venue-badge venue-iclr">ICLR 2025</span>
+<div style="margin-top: 0.2rem;">
+<p><span class="venue-badge venue-iclr">ICLR 2025</span></p>
+</div>
+<div class="pub-content">
 <h3 class="pub-title">
 Neural Context Flows for Meta-Learning of Dynamical Systems
 </h3>
-<!-- <p class="pub-authors">Author Name, Author Name, Author Name</p> -->
+<p class="pub-authors">
+<strong>RD Nzoyem</strong>, DAW Barton, T Deakin
+</p>
 <div class="pub-links">
-<p><a href="./publications/nzoyem2025neural.html" class="pub-link">Abstract</a> <a href="#" class="pub-link">PDF</a> <a href="#" class="pub-link">Code</a></p>
+<p><a href="./publications/nzoyem2025neural.html" class="pub-link">Abstract</a> <a href="https://openreview.net/forum?id=8vzMLo8LDN" class="pub-link" target="_blank">PDF</a> <a href="#" class="pub-link">Code</a></p>
+</div>
 </div>
 </div>
 <div class="pub-item">
-<span class="venue-badge venue-scw">SC’W 2023</span>
+<div style="margin-top: 0.2rem;">
+<p><span class="venue-badge venue-scw">SC’W 2023</span></p>
+</div>
+<div class="pub-content">
 <h3 class="pub-title">
 A Comparison of Mesh-Free Differentiable Programming and Data-Driven Strategies for Optimal Control
 </h3>
-<!-- <p class="pub-authors">Author Name, Author Name, Author Name</p> -->
-<div class="pub-links">
-<p><a href="./publications/nzoyem2023comparison.html" class="pub-link">Abstract</a> <a href="#" class="pub-link">PDF</a></p>
+<p class="pub-authors">
+<strong>RD Nzoyem</strong>, DAW Barton, T Deakin
+</p><div class="pub-links">
+<p><a href="./publications/nzoyem2023comparison.html" class="pub-link">Abstract</a> <a href="https://dl.acm.org/doi/10.1145/3624062.3626078" class="pub-link" target="_blank">PDF</a></p>
+</div>
 </div>
 </div>
 </div>
 </section>
-<!-- ====================================================== -->
-<!-- SERVICES SECTION -->
-<!-- ====================================================== -->
+<!--
+SERVICES
+-->
 <section>
 <h2>
-<i class="fas fa-tasks"></i> Professional Services
+<i class="fas fa-tasks"></i> Recent Services
 </h2>
 <h3>
-Peer Review
+Reviewer:
 </h3>
-<!-- <div class="service-pills">
-<span class="conf conf-iclr">ICLR'25</span>
-<span class="conf conf-icml">ICML'25 (Top Reviewer)</span>
-<span class="conf conf-neurips">NeurIPS'25</span>
-<span class="conf conf-tmlr">TMLR</span>
-<span class="conf conf-europar">EuroPAR'24</span>
-<span class="conf conf-scope">SCOPE @ ICLR 2025</span>
-</div> -->
-<!-- I've reviewed for top conferences such as: -->
-<p><span style="background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; font-weight: 500;">Euro-PAR’24</span></p>
-<p><span style="background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; font-weight: 500;">ICLR’25</span></p>
-<p><span style="background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; font-weight: 500;">ICLR’26</span></p>
-<p><span style="background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; font-weight: 500;">ICML’25</span> (Top Reviewer)</p>
-<p><span style="background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; font-weight: 500;">NeurIPS’25</span></p>
-<p><span style="background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; font-weight: 500;">TMLR</span></p>
-<p><span style="background-color: #f8f9fa; padding: 2px 8px; border-radius: 4px; font-weight: 500;">SCOPE @ ICLR 2025</span></p>
+<div class="service-pills">
+<p><span class="service-pill">Euro-PAR’24</span> <span class="service-pill">ICLR’25</span> <span class="service-pill">ICLR’26</span> <span class="service-pill">ICML’25 (Top Reviewer)</span> <span class="service-pill">NeurIPS’25</span> <span class="service-pill">TMLR</span> <span class="service-pill">SCOPE@ICLR 2025</span></p>
+</div>
 <h3>
-Conference Organization
+Conferences:
 </h3>
-<ul class="service-list">
-<li>
-Co-organizer, Joint UKRI CDT Conference in Artificial Intelligence, Machine Learning &amp; Advanced Computing <em>(June 2025)</em>
-</li>
-<li>
-Co-organizer, The Interactive AI Spring Research Conference <em>(March 2024)</em>
-</li>
-</ul>
+<div class="talk-compact">
+<p><strong>Joint UKRI CDT Conference in Artificial Intelligence, Machine Learning &amp; Advanced Computing</strong> <span>Co-organizer | June 2025, Bristol, UK</span></p>
+</div>
+<div class="talk-compact">
+<p><strong>The Interactive AI Spring Research Conference</strong> <span>Co-organizer | March 2024, Bristol, UK</span></p>
+</div>
 </section>
-<!-- ====================================================== -->
-<!-- TALKS SECTION -->
-<!-- ====================================================== -->
+<!--
+TALKS
+-->
 <section>
 <h2>
 <i class="fas fa-microphone-alt"></i> Recent Talks
@@ -557,16 +415,20 @@ Co-organizer, The Interactive AI Spring Research Conference <em>(March 2024)</em
 <div class="talk-compact">
 <p><strong>Differentiable Programming for Mesh-Free Fluid Control</strong> <span>Physics Enhancing ML in Applied Mechanics, Institute of Physics, London | Nov 2024</span></p>
 </div>
-<div class="talk-compact">
-<p><strong>Emerging Techniques and Applications of Graph Neural Networks</strong> <span>Graduate Student Seminar, CMU Africa, Kigali, Rwanda | Mar 2023</span></p>
+<div class="talk-compact talk-with-video">
+<strong>Emerging Techniques and Applications of Graph Neural Networks</strong> <span>Graduate Student Seminar, CMU Africa, Kigali, Rwanda | Mar 2023</span>
+<div class="talk-video">
+<iframe width="100%" height="200" src="https://www.youtube.com/embed/ahG-LG0ABRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+</div>
 </div>
 </section>
-<!-- ====================================================== -->
-<!-- SELECTED STORIES SECTION -->
-<!-- ====================================================== -->
-<center>
-<a href="./about.html#contact-me" class="btn btn-primary"> Reach out <i class="fas fa-comment-dots"></i> </a>
-</center>
+<!--
+CONTACT
+-->
+<section style="text-align: center; margin-top: 3rem;">
+<a href="./about.html#contact-me" class="btn btn-primary btn-lg"> Reach out <i class="fas fa-comment-dots"></i> </a>
+</section>
 
 
 </main> 
@@ -700,7 +562,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  let localAlternateSentinel = 'alternate';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
@@ -725,210 +587,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     toggleColorMode(true);
   } else {
     toggleColorMode(false);
-  }
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-  function tippyHover(el, contentFn) {
-    const config = {
-      allowHTML: true,
-      content: contentFn,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start'
-    };
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      return note.innerHTML;
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
-      });
-    }
   }
 });
 </script>

@@ -1,44 +1,41 @@
 project:
   type: website
   output-dir: docs
+
 format:
   html:
     theme: 
-      # light: yeti
-      # dark: superhero
-      light: [cosmo, custom.scss]
       dark: superhero
+      light: [cosmo, custom.scss]
     css:
       - styles.css
-      - https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css
-      - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+      - styles_dark.css
     highlight-style: zenburn
-    # backgroundcolor: "#000000"
     toc: false
     number-sections: false
     header-includes: |
-      <link href="https://fonts.cdnfonts.com/css/monaco" rel="stylesheet">
-      <link href="https://fonts.cdnfonts.com/css/trebuchet-ms-2" rel="stylesheet">
-# <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/cmu-sans-serif" type="text/css"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+      <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    fig-width: 8
+    fig-height: 6
+    fig-dpi: 150  # Lower DPI for web
+    minimal: true
+    anchor-sections: false
+    smooth-scroll: false
+    code-tools: false
+    code-fold: false
 link-citations: true
-# mainfont: CMU Sans Serif
-# mainfont: Arial
-mainfont: Trebuchet MS
-# mainfont: [Trebuchet MS, MJXTEX]
-
-# css: styles.css
-
-
+mainfont: "Roboto Condensed"
 
 website:
   title: "Roussel."
-  # description: "Unapolagetically curious."
   site-url: https://ddrous.github.io/
   favicon: "assets/images/logo.png"
   open-graph: true
   google-analytics: "G-GLZPYK16BE"
   page-navigation: true
-  # back-to-top-navigation: true
   reader-mode: true
   navbar:
     logo: "assets/images/logo.png"
@@ -46,10 +43,10 @@ website:
     left:
       - text: "About"
         href: "about.qmd"
+      - text: "CV et al."
+        href: "cv.qmd"
       - text: "Publications"
         href: "publications.qmd"
-      - text: "CV"
-        href: "cv.qmd"
       - text: "Projects"
         href: "projects.qmd"
       - text: "Blog"
@@ -65,10 +62,3 @@ website:
     left: "Copyright © 2025 - Roussel Desmond Nzoyem"
     right: "Powered by [Quarto](https://quarto.org/) <?quarto.version?>"
     background: light
-  # sidebar:
-    # style: "docked"
-    # search: true
-  # search: true
-  # comments:
-  #   giscus:
-  #     repo: ddrous/ddrous.github.io

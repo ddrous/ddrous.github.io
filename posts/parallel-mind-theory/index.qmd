@@ -87,9 +87,9 @@ z(t) &= g_{\theta'}(\theta, y, y_0, t, t_0, t_f),
 \end{align}
 where $y$ represents the physical signal transported and processed inside the brain. The transformative function $f_{\theta}$ --- where the learnable parameters $\theta$ indicate a deep neural network[^2] --- dictates how such continuous processing occurs. The mysterious **readout** function $g_{\theta'}$ tells us how a brain stimulus $y_0\in \mathbb{R}^b$ turns into a global mind feature $z \in \mathbb{R}^m$ (with $m\gg b$, i.e. potentially lots more elements involved in forming a mind compared to processing an elementary brain signal).
 
-![Figure 1: Illustration of the Neural ODE model for the computational mind/brain relation](MindBodyProblem.png)
+<!-- ![Figure 1: Illustration of the Neural ODE model for the computational mind/brain relation](MindBodyProblem.png) -->
 
-
+![Figure 1: Illustration of the Neural ODE model for the computational mind/brain relation](MindBodyProblem.png){width=80% fig-align="center"}
 
 The Neural ODE paradigm has found breathtaking success, particularly as a drop-in replacement for [ResNets](https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html). But neural networks today can grow to extremely large sizes with billions of parameters in the weights $\theta$. They are energy and computationally inefficient compared to the human brain from which they are inspired. What if this network didn't have a fixed structure? What if neurons could dynamically adapt to the task at hand? These are the questions that [Liquid Neural Networks](https://ojs.aaai.org/index.php/AAAI/article/view/16936) attempt to answer. They were inspired by the efficiency of the worm's brain, made up of merely 300 neurons; and have shown jaw-dropping performance in autonomous driving. I believe Neural ODEs and Liquid Neural Networks could be combined within a __Liquid Neural ODE__ paradigm, thus unlocking the secrets of consciousness.
 
