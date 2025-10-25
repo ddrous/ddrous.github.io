@@ -5,11 +5,12 @@ project:
 format:
   html:
     theme: 
-      dark: superhero
-      light: [cosmo, custom.scss]
+      # For light mode: load cosmo, then common rules, then light-only rules
+      light: [cosmo, custom.scss, styles_light.scss]
+      # For dark mode: load superhero, then common rules, then dark-only rules
+      dark: [superhero, custom.scss, styles_dark.scss]
     css:
-      - styles.css
-      - styles_dark.css
+      # This is correct - keep it as is
       - https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css
     highlight-style: zenburn
     toc: false
@@ -21,7 +22,7 @@ format:
       <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     fig-width: 8
     fig-height: 6
-    fig-dpi: 150  # Lower DPI for web
+    fig-dpi: 150
     minimal: true
     anchor-sections: false
     smooth-scroll: false

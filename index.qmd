@@ -2,6 +2,7 @@
 title: "Roussel."
 subtitle: "PhD student @ University of Bristol"
 image: ./assets/images/cornerstone.webp
+# image: "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
 
 about:
   template: marquee
@@ -19,7 +20,7 @@ about:
       text: "LinkedIn"
       href: https://www.linkedin.com/in/roussel-desmond-nzoyem/
 
-css: styles.css
+# css: styles_dark.css
 ---
 
 

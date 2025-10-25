@@ -1,3 +1,15 @@
+/*-- scss:rules --*/
+
+/* ======================================================
+GLOBAL STYLES
+======================================================
+*/
+
+body {
+  font-family: "Roboto Condensed", "Inter", sans-serif;
+  font-size: 0.9rem; /* 14px if base is 16px */
+  line-height: 1.5;
+}
 /* ======================================================
 DARK MODE STYLES
 ======================================================
@@ -669,6 +681,7 @@ NEWSLETTER FORM - DARK MODE
   font-family: 'Academicons' !important;
   content: "\e9d4" !important;
 }
+
 /* ======================================================
 TERMINAL INTRO
 ======================================================
