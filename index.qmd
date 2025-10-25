@@ -293,7 +293,7 @@ SELECTED PUBLICATIONS
 </div>
 <div class="pub-content">
 <h3 class="pub-title">Language Models Do Not Embed Numbers Continuously</h3>
-<p class="pub-authors">A Davies, **RD Nzoyem**, N Ajmeri</p>
+<p class="pub-authors">A Davies, **RD Nzoyem**, N Ajmeri, T Silva Filho</p>
 <div class="pub-links">
 <!-- <a href="publications/nzoyem2025weightspace.qmd" class="pub-link">Abstract</a> -->
 <a href="https://arxiv.org/pdf/2510.08009?" class="pub-link" target="_blank">PDF</a>
@@ -322,7 +322,7 @@ SELECTED PUBLICATIONS
 <span class="venue-badge venue-iclr">SCOPE@ICLR 2025</span>
 </div>
 <div class="pub-content">
-<h3 class="pub-title">MixER: Better Mixture of Experts Routing for Hierarchical Meta-Learning</h3>
+<h3 class="pub-title">Towards Foundational Models for Dynamical System Reconstruction: Hierarchical Meta-Learning via Mixture of Experts</h3>
 <p class="pub-authors">**RD Nzoyem**, G Stevens, A Sahota, DAW Barton, T Deakin</p>
 <div class="pub-links">
 <a href="publications/nzoyem2025foundational.qmd" class="pub-link">Abstract</a>
