@@ -22,17 +22,152 @@ about:
 css: styles.css
 ---
 
+
+
 <!--
 
 ABOUT ME
 
 -->
 
-<section>
+<!-- <section>
 <p>
-Hello there! I'm <strong>Roussel Desmond Nzoyem</strong> (pronounced <strong>zo-e-m</strong>). To learn more about me, go to the <a href="/about.qmd">About</a> and <a href="/cv.qmd">CV</a> pages. You'll find work I've contributed to in <a href="/projects.qmd">Projects</a> and <a href="/publications.qmd">Publications</a>. For a nice read, go to the <a href="/posts.qmd">Blog</a> section where you'll find interesting stories.
+Hi! I'm <strong>Roussel Desmond Nzoyem</strong> (pronounced <strong>zo-e-m</strong>). Want to know more? Check my <a href="/about.qmd">About</a> & <a href="/cv.qmd">CV</a>, peek at my <a href="/projects.qmd">Projects</a> & <a href="/publications.qmd">Publications</a>, or enjoy some <a href="/posts.qmd">Stories</a> from the blog.
 </p>
+</section> -->
+
+::: {.hero-quote style="text-align: right;"}
+"Give me a lever long enough and a fulcrum on which to place it, and I shall move the world."
+― Archimedes
+:::
+
+<!--
+
+TERMINAL INTRO
+
+-->
+```{=html}
+<section class="terminal-intro">
+  <div class="terminal-window">
+    <div class="terminal-header">
+      <span class="terminal-button red"></span>
+      <span class="terminal-button yellow"></span>
+      <span class="terminal-button green"></span>
+      <span class="terminal-title">ddrous@web:~</span>
+    </div>
+    <div class="terminal-body" id="terminal-body">
+      </div>
+  </div>
 </section>
+
+<script>
+// Helper function to type text
+function typeWriter(element, text, speed, callback) {
+  let i = 0;
+  function type() {
+    if (i < text.length) {
+      element.innerHTML += text.charAt(i);
+      i++;
+      setTimeout(type, speed);
+    } else if (callback) {
+      setTimeout(callback, 500); // Wait after typing
+    }
+  }
+  type();
+}
+
+// Get the terminal body element
+const terminalBody = document.getElementById('terminal-body');
+
+// --- Main Animation Function ---
+function runTerminalAnimation() {
+
+  // 1. Start with 'whoami'
+  // Clear terminal and add the first command line
+  terminalBody.innerHTML = `
+    <div class="terminal-line">
+      <span class="prompt">visitor@web:~$</span>
+      <span class="command" id="cmd1"></span>
+      <span class="cursor">▋</span>
+    </div>
+    <div class="terminal-line response" id="response1"></div>`;
+  
+  typeWriter(document.getElementById('cmd1'), 'whoami', 80, () => {
+    document.querySelector('#cmd1 + .cursor').style.display = 'none';
+    const response1 = document.getElementById('response1');
+    response1.innerHTML = 'Roussel Desmond Nzoyem (pronounced zo-e-m): researcher, music enthusiast, gamer, footballer';
+    response1.style.display = 'block';
+    
+    // 2. Wait, then run 'cat info.txt'
+    setTimeout(() => {
+      // Clear terminal and add the second command line
+      terminalBody.innerHTML = `
+        <div class="terminal-line" id="line2">
+          <span class="prompt">visitor@web:~$</span>
+          <span class="command" id="cmd2"></span>
+          <span class="cursor">▋</span>
+        </div>
+        <div class="terminal-line response" id="response2"></div>`;
+      
+      typeWriter(document.getElementById('cmd2'), 'cat info.txt', 80, () => {
+        document.querySelector('#cmd2 + .cursor').style.display = 'none';
+        const response2 = document.getElementById('response2');
+        response2.innerHTML = 'Check my <a href="/about.html">About</a> & <a href="/cv.html">CV et al.</a> pages';
+        response2.style.display = 'block';
+        
+        // 3. Wait, then run 'ls work/'
+        setTimeout(() => {
+          // Clear terminal and add the third command line
+          terminalBody.innerHTML = `
+            <div class="terminal-line" id="line3">
+              <span class="prompt">visitor@web:~$</span>
+              <span class="command" id="cmd3"></span>
+              <span class="cursor">▋</span>
+            </div>
+            <div class="terminal-line response" id="response3"></div>`;
+          
+          typeWriter(document.getElementById('cmd3'), 'ls work/', 80, () => {
+            document.querySelector('#cmd3 + .cursor').style.display = 'none';
+            const response3 = document.getElementById('response3');
+            response3.innerHTML = 'Check <a href="/publications.html">Publications</a> & <a href="/projects.html">Projects</a>';
+            response3.style.display = 'block';
+            
+            // 4. Wait, then run 'cat hobbies.txt'
+            setTimeout(() => {
+              // Clear terminal and add the fourth command line
+              terminalBody.innerHTML = `
+                <div class="terminal-line" id="line4">
+                  <span class="prompt">visitor@web:~$</span>
+                  <span class="command" id="cmd4"></span>
+                  <span class="cursor">▋</span>
+                </div>
+                <div class="terminal-line response" id="response4"></div>`;
+              
+              typeWriter(document.getElementById('cmd4'), 'cat hobbies.txt', 80, () => {
+                document.querySelector('#cmd4 + .cursor').style.display = 'none';
+                const response4 = document.getElementById('response4');
+                response4.innerHTML = 'Movies, computers, <a href="/posts.html">stories</a>, etc.';
+                response4.style.display = 'block';
+                
+                // 5. Wait, then RESTART the entire animation
+                setTimeout(() => {
+                  runTerminalAnimation(); // Loop!
+                }, 5000); // Wait 3 seconds before looping
+
+              });
+            }, 2500); // Wait 2.5s
+          });
+        }, 2500); // Wait 2.5s
+      });
+    }, 2500); // Wait 2.5s
+  });
+}
+
+// --- Start the animation ---
+// Use a small delay to make sure the page is ready
+setTimeout(runTerminalAnimation, 500);
+</script>
+```
 
 
 
@@ -264,12 +399,12 @@ SERVICES
 <h3>Conferences:</h3>
 
 <div class="talk-compact">
-<strong>Joint UKRI CDT Conference in Artificial Intelligence, Machine Learning & Advanced Computing</strong>
+<strong><a href="https://cdt-aimlac.org/cdt-conference2025.html">Joint UKRI CDT Conference in Artificial Intelligence, Machine Learning & Advanced Computing</a></strong>
 <span>Co-organizer | June 2025, Bristol, UK</span>
 </div>
 
 <div class="talk-compact">
-<strong>The Interactive AI Spring Research Conference</strong>
+<strong><a href="https://www.bristol.ac.uk/cdt/interactive-ai/events/spring-research-conference-2024">The Interactive AI Spring Research Conference</a></strong>
 <span>Co-organizer | March 2024, Bristol, UK</span>
 </div>
 </section>
@@ -284,22 +419,45 @@ TALKS
 <h2><i class="fas fa-microphone-alt"></i> Recent Talks</h2>
 
 <div class="talk-compact">
-<strong>Weight-Space Linear Recurrent Neural Networks</strong>
+<strong><a href="https://drive.google.com/file/d/1I2VI_c3pV2xdjeHcSQo4FiyugjY7BIKV/view?usp=drive_link">Weight-Space Linear Recurrent Neural Networks</a></strong>
 <span>Workshop on Scientific Machine Learning, University of Bristol, UK | June 2025</span>
 </div>
 
 <div class="talk-compact">
-<strong>Neural Context Flows for Meta-Learning of Dynamical Systems</strong>
+<strong><a href="https://docs.google.com/presentation/d/1RETBA9fm0hEm67cBmsB1dOHy1kgk_K13/edit?usp=drive_link&ouid=107359549014130993105&rtpof=true&sd=true">My Background, Research, Outreach & Gender Equality in STEM</a></strong>
+<span>Engineering Design + Black Engineers Talk Series, University of Bristol, UK | Feb 2025</span>
+</div>
+
+<div class="talk-compact">
+<strong><a href="https://docs.google.com/presentation/d/1bJjbbQAohUw3EmT_N7iTpv5UY-wUvfAN/edit?usp=drive_link&ouid=107359549014130993105&rtpof=true&sd=true">Neural Context Flows for Meta-Learning of Dynamical Systems</a></strong>
 <span>EPS Seminar Series, University of Bristol, UK | Feb 2025</span>
 </div>
 
 <div class="talk-compact">
-<strong>Differentiable Programming for Mesh-Free Fluid Control</strong>
-<span>Physics Enhancing ML in Applied Mechanics, Institute of Physics, London | Nov 2024</span>
+<strong><a href="https://docs.google.com/presentation/d/1SiV7rbAGQ6aVNM8f_P3X_shZ8YpjhEAf/edit?usp=drive_link&ouid=107359549014130993105&rtpof=true&sd=true">Quarto: The Tech and its Uses</a></strong>
+<span>New Ways of Publishing Workshop, University of Bristol, UK | Jun 2024</span>
 </div>
 
+
+<div class="talk-compact">
+<strong><a href="https://drive.google.com/file/d/1DM1rC5qns4UA-MuWNPema72sYnKwcEw7/view?usp=drive_link">Differentiable Programming for Mesh-Free Fluid Control</a></strong>
+<span>Physics Enhancing ML in Applied Mechanics, Institute of Physics, London | Nov 2023</span>
+</div>
+
+<div class="talk-compact">
+<strong><a href="https://docs.google.com/presentation/d/16jF1fLg_QkKLhBO91zVhM14vege0d7nq/edit?usp=drive_link&ouid=107359549014130993105&rtpof=true&sd=true">User-centered PDE solvers for optimal control and reconstruction</a></strong>
+<span>Pecha Kucha Student Talk, Spring Research Showcase, UK | Mar 2024</span>
+</div>
+
+
+<div class="talk-compact">
+<strong><a href="https://docs.google.com/presentation/d/1qmafg05EtSqF9BcLmMg5adEdJILMruHW/edit?usp=drive_link&ouid=107359549014130993105&rtpof=true&sd=true">Scaling Differential Equations via Transferable Dynamics</a></strong>
+<span>Flash Presentation, Barton Research Group Meeting, UK | Dec 2023</span>
+</div>
+
+
 <div class="talk-compact talk-with-video">
-<strong>Emerging Techniques and Applications of Graph Neural Networks</strong>
+<strong><a href="https://docs.google.com/presentation/d/1pQ4SmQM-2m5yAdEu7ZVTiCdl36bbkHq5/edit?usp=drive_link&ouid=107359549014130993105&rtpof=true&sd=true">Emerging Techniques and Applications of Graph Neural Networks</a></strong>
 <span>Graduate Student Seminar, CMU Africa, Kigali, Rwanda | Mar 2023</span>
 <div class="talk-video">
 <iframe width="100%" height="200" src="https://www.youtube.com/embed/ahG-LG0ABRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
