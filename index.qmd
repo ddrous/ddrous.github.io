@@ -7,6 +7,7 @@ about:
   template: marquee
   links:
     - text: "Google Scholar"
+      icon: ai ai-google-scholar
       href: https://scholar.google.com/citations?user=80GLOSUAAAAJ&hl=en
     - icon: github
       text: "Github"

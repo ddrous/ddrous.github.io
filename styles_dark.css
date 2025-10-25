@@ -660,3 +660,12 @@ NEWSLETTER FORM - DARK MODE
 #mlb2-6662164.ml-form-embedContainer .ml-form-embedWrapper .ml-block-form .ml-field-group label {
   color: #d0d0d0 !important;
 }
+/* Ensure Academicons work in about links */
+.about-links .about-link .bi.ai {
+  font-family: 'Academicons' !important;
+}
+
+.about-links .about-link[href*="scholar"] .bi::before {
+  font-family: 'Academicons' !important;
+  content: "\e9d4" !important;
+}

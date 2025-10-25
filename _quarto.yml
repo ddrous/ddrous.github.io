@@ -10,6 +10,7 @@ format:
     css:
       - styles.css
       - styles_dark.css
+      - https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css
     highlight-style: zenburn
     toc: false
     number-sections: false

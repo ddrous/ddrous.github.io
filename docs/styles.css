@@ -542,3 +542,12 @@ STORIES SECTION (Compact Style)
   border-radius: 4px;
   height: 225px; /* Reduced height */
 }
+/* Ensure Academicons work in about links */
+.about-links .about-link .bi.ai {
+  font-family: 'Academicons' !important;
+}
+
+.about-links .about-link[href*="scholar"] .bi::before {
+  font-family: 'Academicons' !important;
+  content: "\e9d4" !important;
+}
