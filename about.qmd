@@ -34,7 +34,7 @@ about:
 </nav>
 ```
 
-I am a Machine Learning PhD candidate at the [University of Bristol](https://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/). I hold a BSc in Mathematics from [Aix-Marseille University](https://www.univ-amu.fr) (2019) and an MSc in Applied Mathematics from [UniStra](https://mathinfo.unistra.fr/formations/master/master-mathematiques-et-applications/) (2021), advised by [Prof. Stéphane Labbé](https://www.ljll.fr/membre/labbe-stephane/).
+I am a Machine Learning PhD candidate at the [University of Bristol](https://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/). I hold a BSc in Mathematics from [Aix-Marseille University](https://www.univ-amu.fr) (2019) and an MSc in Applied Mathematics from [Strasbourg University](https://mathinfo.unistra.fr/formations/master/master-mathematiques-et-applications/) (2021), advised by [Prof. Stéphane Labbé](https://www.ljll.fr/membre/labbe-stephane/).
 
 My research lies at the intersection of machine learning and physical systems found in engineering, computer graphics, vision, and more. I build the next wave of generative models and simulation technologies, leveraging my deep experience in differentiable programming, in-context learning, and meta-learning to create realistic and immersive virtual worlds. Under the supervision of [Dr. Tom Deakin](https://hpc.tomdeakin.com/), [Prof. David Barton](https://cityinthesky.co.uk/about-me/), and [Prof. Simon McIntosh-Smith](http://uob-hpc.github.io/SimonMS/), I combine expertise in AI, HPC, and Scientific Computing.
 
