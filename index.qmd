@@ -218,7 +218,7 @@ SELECTED PUBLICATIONS
 
 <div class="pub-item">
 <div style="margin-top: 0.2rem;">
-<span class="venue-badge venue-aaai">AAAI 2026 Student Abstract & Poster Program</span>
+<span class="venue-badge venue-aaai">AAAI 2026 Student Abstract</span>
 </div>
 <div class="pub-content">
 <h3 class="pub-title">Language Models Do Not Embed Numbers Continuously</h3>
