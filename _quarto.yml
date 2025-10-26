@@ -5,10 +5,10 @@ project:
 format:
   html:
     theme: 
-      # For light mode: load cosmo, then common rules, then light-only rules
-      light: [cosmo, custom.scss, styles_light.scss]
       # For dark mode: load superhero, then common rules, then dark-only rules
       dark: [superhero, custom.scss, styles_dark.scss]
+      # For light mode: load cosmo, then common rules, then light-only rules
+      light: [cosmo, custom.scss, styles_light.scss]
     css:
       # This is correct - keep it as is
       - https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css
