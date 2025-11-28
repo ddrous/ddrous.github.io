@@ -1,7 +1,7 @@
 ---
 title: CV et al.
 description-meta: "Roussel's Academic Portfolio - CV, Research & Teaching Statements"
-date: 2025-10-20
+date: 2025-10-28
 published-title: Last updated
 engine: knitr 
 documents:
