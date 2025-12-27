@@ -1,6 +1,8 @@
 ---
-title: "Roussel."
-subtitle: "PhD student @ University of Bristol"
+# title: "Roussel."
+title: "Roussel Desmond Nzoyem"
+# subtitle: "PhD student @ University of Bristol"|
+subtitle: "PhD student @ University of Bristol &nbsp;·&nbsp; [ddrouslab [at] gmail [dot] com](mailto:ddrouslab@gmail.com)"
 image: ./assets/images/cornerstone.webp
 # image: "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
 
