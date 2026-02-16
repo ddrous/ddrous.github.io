@@ -39,9 +39,12 @@ about:
 </nav>
 ```
 
-I am a Machine Learning PhD candidate at the [University of Bristol](https://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/). I hold a BSc in Mathematics from [Aix-Marseille University](https://www.univ-amu.fr) (2019) and an MSc in Applied Mathematics from [Strasbourg University](https://mathinfo.unistra.fr/formations/master/master-mathematiques-et-applications/) (2021), advised by [Prof. Stéphane Labbé](https://www.ljll.fr/membre/labbe-stephane/).
+My research lies at the intersection of machine learning and physical systems found in engineering, computer graphics, vision, and more. I build the next wave of generative models and simulation technologies, leveraging my deep experience in differentiable programming, in-context learning, and meta-learning to create realistic and immersive virtual worlds.
+ 
+I completed my PhD at the [University of Bristol](https://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/) under the supervision of [Dr. Tom Deakin](https://hpc.tomdeakin.com/), [Prof. David Barton](https://cityinthesky.co.uk/about-me/), and [Prof. Simon McIntosh-Smith](http://uob-hpc.github.io/SimonMS/). My thesis was titled [Learning to Learn Sequential Dynamics](https://www.researchgate.net/publication/400581335_Learning_to_Learn_Sequential_Dynamics_Context-Aware_Out-of-Distribution_Adaptation_for_Time_Series_and_Physical_Systems), in which I combined expertise in AI, HPC, and Scientific Computing.
 
-My research lies at the intersection of machine learning and physical systems found in engineering, computer graphics, vision, and more. I build the next wave of generative models and simulation technologies, leveraging my deep experience in differentiable programming, in-context learning, and meta-learning to create realistic and immersive virtual worlds. Under the supervision of [Dr. Tom Deakin](https://hpc.tomdeakin.com/), [Prof. David Barton](https://cityinthesky.co.uk/about-me/), and [Prof. Simon McIntosh-Smith](http://uob-hpc.github.io/SimonMS/), I combine expertise in AI, HPC, and Scientific Computing.
+<!-- I am a Machine Learning PhD candidate at the [University of Bristol](https://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/).  -->
+I hold a BSc in Mathematics from [Aix-Marseille University](https://www.univ-amu.fr) (2019) and an MSc in Applied Mathematics from [Strasbourg University](https://mathinfo.unistra.fr/formations/master/master-mathematiques-et-applications/) (2021), advised by [Prof. Stéphane Labbé](https://www.ljll.fr/membre/labbe-stephane/).
 
 Beyond research, I am committed to equity in STEM education, volunteering for outreach initiatives with [CodeMakers](https://engineering.blogs.bristol.ac.uk/engineering-includes-me-roussel-desmond-nzoyem/), [ExamStar](https://bio.site/examstar), and [St. Theresa](https://www.stteresasfilton.org.uk/first-holy-communion-2025), among others. In my downtime, I enjoy football, playing the piano, creative coding, and building indie games.
 
@@ -67,7 +70,7 @@ EDUCATION
 
 <div class="timeline-item">
 <div class="icon"><i class="fas fa-circle"></i></div>
-<div class="timeline-date">Sept 2021 - (Anticipated Feb 2026)</div>
+<div class="timeline-date">Sept 2021 - Feb 2026</div>
 <div class="timeline-title">PhD in Machine Learning (Interactive AI)</div>
 <div class="timeline-meta">
 <span><i class="fas fa-university"></i> University of Bristol</span>
@@ -127,7 +130,17 @@ WORK EXPERIENCE
 
 <div class="timeline-item">
 <div class="icon"><i class="fas fa-circle"></i></div>
-<div class="timeline-date">Jan 2022 - Present</div>
+<div class="timeline-date">Nov 2025 - Jan 2026</div>
+<div class="timeline-title">Visiting Researcher</div>
+<div class="timeline-meta">
+<span><i class="fas fa-building"></i> University of Alberta</span>
+<span><i class="fas fa-map-marker-alt"></i> Edmonton, CA</span>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="icon"><i class="fas fa-circle"></i></div>
+<div class="timeline-date">Jan 2022 - Sept 2025</div>
 <div class="timeline-title">Teaching Assistant</div>
 <div class="timeline-meta">
 <span><i class="fas fa-building"></i> University of Bristol</span>

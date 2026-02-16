@@ -54,6 +54,33 @@ h2:hover::after {
   width: 100px;
 }
 
+/* Section header animation */
+h4 {
+  position: relative;
+  padding-bottom: 10px;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  // font-family: "Inter", sans-serif;
+}
+
+h4::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 3px;
+  background-color: #20b2aa;
+  border-radius: 2px;
+  transition: width 0.3s ease-in-out;
+}
+
+h4:hover::after {
+  width: 100px;
+}
+
+
 h3 {
   font-weight: 700;
 }
@@ -83,8 +110,10 @@ a {
 
 a:hover {
   color: #ff6b6b !important;
-  text-decoration: underline;
+  text-decoration: none !important; /* Forces the underline to disappear */
+  border-bottom: none !important;   /* Extra safety in case it's a border */
 }
+
 
 /* Specific fix for academicons on jolla template */
 .about-links .about-link[href*="scholar.google.com"] .icon::before {
@@ -154,22 +183,77 @@ BUTTONS
 NEWS SECTION
 ======================================================
 */
+
+
+/* Custom style for the More News header */
+h4.news-gradient {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+h4.news-gradient::after {
+  /* 1. Set initial Green color (Remove any gradients) */
+  background: #20b2aa !important; 
+  
+  /* 2. Animate ONLY width. By omitting background-color, the color swap is instant. */
+  transition: width 0.3s ease-in-out !important;
+}
+
+h4.news-gradient:hover::after {
+  /* 3. Instantly swap to Red on hover */
+  background: #ff6b6b !important;
+  
+  /* 4. Grow the line */
+  width: 110px; 
+}
+
+
 .news-item {
-  margin-bottom: 0.45rem;
+  /* Typography */
   font-size: 0.85rem;
+  line-height: 1.35 !important;
+  
+  /* CRITICAL: Remove the original border! */
+  border: none !important;
+  
+  /* Remove all padding */
+  padding: 0 !important;
+  
+  /* Spacing between items - this creates the gap */
+  margin-top: 0.2rem !important;
+  margin-bottom: 0.2rem !important;
+  
+  /* Position for the pseudo-element line */
+  position: relative;
+}
+
+/* Create a centered dashed line between items */
+.news-item::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.5rem; /* Negative half of margin-bottom - centers the line */
   border-bottom: 1px dashed #404040;
-  padding-bottom: 0.005rem;
 }
 
-.news-item:last-child {
-  border-bottom: none;
+/* Remove the line after the last item */
+.news-item:last-child::after {
+  display: none;
 }
 
+/* First item starts flush with the top */
+.news-item:first-child {
+  margin-top: 0 !important;
+}
+
+/* Date Styling */
 .news-date {
   font-weight: 600;
   color: #b0b0b0;
   display: inline-block;
-  width: 85px;
+  min-width: 85px; 
+  vertical-align: top;
 }
 
 .news-item a {
@@ -332,8 +416,8 @@ PUBLICATIONS LIST
   line-height: 1;
 }
 
-.venue-arxiv { background-color: #d32f2f; color: white; }
-.venue-iclr { background-color: #4a9eff; color: white; }
+.venue-arxiv { background-color: #4a9eff; color: white; }
+.venue-iclr { background-color: #d32f2f; color: white; }
 .venue-collas { background-color: #a78bfa; color: white; }
 .venue-scw { background-color: #10b981; color: white; }
 .venue-icml { background-color: #ef4444; color: white; }

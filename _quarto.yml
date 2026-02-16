@@ -57,10 +57,10 @@ website:
       - icon: github
         href: https://github.com/ddrous
       - icon: envelope
-        href: mailto:rd.nzoyemngueguin@bristol.ac.uk
+        href: mailto:ddrouslab@gmail.com
       - icon: rss
         href: index.xml
   page-footer:
-    left: "Copyright © 2025 - Roussel Desmond Nzoyem"
+    left: "Copyright © 2026 - Roussel Desmond Nzoyem"
     right: "Powered by [Quarto](https://quarto.org/) <?quarto.version?>"
     background: light

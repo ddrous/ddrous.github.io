@@ -10,7 +10,7 @@
 <atom:link href="https://ddrous.github.io/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.433</generator>
-<lastBuildDate>Sun, 23 Jul 2023 06:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 22 Jul 2023 23:00:00 GMT</lastBuildDate>
 <item>
   <title>A parallel theory of the causal mind</title>
   <dc:creator>RD2N </dc:creator>
@@ -100,7 +100,7 @@ Note
   <category>Parallel Computing</category>
   <category>Differential Equations</category>
   <guid>https://ddrous.github.io/posts/parallel-mind-theory/index.html</guid>
-  <pubDate>Sun, 23 Jul 2023 06:00:00 GMT</pubDate>
+  <pubDate>Sat, 22 Jul 2023 23:00:00 GMT</pubDate>
   <media:content url="https://ddrous.github.io/posts/parallel-mind-theory/MindBodyProblem.png" medium="image" type="image/png" height="56" width="144"/>
 </item>
 <item>
@@ -164,7 +164,7 @@ p {
  ]]></description>
   <category>News</category>
   <guid>https://ddrous.github.io/posts/welcome/index.html</guid>
-  <pubDate>Thu, 20 Jul 2023 06:00:00 GMT</pubDate>
+  <pubDate>Wed, 19 Jul 2023 23:00:00 GMT</pubDate>
   <media:content url="https://ddrous.github.io/posts/welcome/version3.png" medium="image" type="image/png" height="74" width="144"/>
 </item>
 </channel>

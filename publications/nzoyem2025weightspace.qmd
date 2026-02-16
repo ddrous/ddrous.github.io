@@ -1,10 +1,10 @@
 ---
 title: "Weight-Space Linear Recurrent Neural Networks"
 type: "thesis"
-author: "<b>Nzoyem</b>, Keshtmand, Tsayem, Barton & Deakin"
+author: "<b>Nzoyem</b>, Keshtmand, Crespo-Fernandez, Tsayem, Santos-Rodriguez, Barton & Deakin"
 date: "2025-06-08"
-year: "2025"
-publication: "ArXiv"
+year: "2026"
+publication: "The Fourteenth International Conference on Learning Representations (ICLR)"
 preprint: "https://arxiv.org/abs/2506.01153"
 doi: ""
 materials: ""
@@ -25,7 +25,7 @@ categories:
 
 ## Citation (APA)
 
-> Nzoyem, R. D., Keshtmand, N., Tsayem, I., Barton, D. A. W., & Deakin, T. (2025). Weight-Space Linear Recurrent Neural Networks. ArXiv Preprint. Retrieved from https://arxiv.org/abs/2506.01153
+> Nzoyem, R. D., Keshtmand, N., Crespo-Fernandez, E. C., Tsayem, I., Santos-Rodriguez, R., Barton, D. A. W., & Deakin, T. (2026). Weight-Space Linear Recurrent Neural Networks. The Fourteenth International Conference on Learning Representations. Retrieved from https://arxiv.org/abs/2506.01153
 
 
 ## Abstract
