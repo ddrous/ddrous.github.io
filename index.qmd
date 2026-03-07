@@ -508,6 +508,16 @@ SERVICES
 </div>
 </section>
 
+<h3>Teaching @ UoB: </h3>
+<div class="service-pills">
+<span class="service-pill">&bull;&nbsp;Introduction to Artificial Intelligence (MSc)</span> <br>
+<span class="service-pill">&bull;&nbsp;High-Performance Computing (BSc/MSc)</span> <br>
+<span class="service-pill">&bull;&nbsp;Overview of Computer Architecture (MSc)</span> <br>
+<span class="service-pill">&bull;&nbsp;Sustainable and Cloud Computing (MSc)</span> <br>
+<span class="service-pill">&bull;&nbsp;Scientific Computing (BSc/MSc)</span> <br>
+<span class="service-pill">&bull;&nbsp;Engineering Mathematics 1 & 2 (BSc)</span>
+</div>
+
 
 <h3>Students:</h3>
 
@@ -522,8 +532,8 @@ SERVICES
 <span>MEng Engineering Mathematics, University of Bristol, UK</span> <br>
 <span>(Co-supervising with Nawid Keshtmand, Jeff Clark, and Amberly Bridgen)</span>
 </div>
-
 </section>
+
 
 
 <!--
