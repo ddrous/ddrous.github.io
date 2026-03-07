@@ -509,6 +509,23 @@ SERVICES
 </section>
 
 
+<h3>Students:</h3>
+
+<div class="talk-compact">
+<strong>Tassia Jones </strong>
+<span>MEng Engineering Mathematics, University of Bristol, UK</span> <br>
+<span>(Co-supervising with Nawid Keshtmand, Jeff Clark, and Amberly Bridgen)</span>
+</div>
+
+<div class="talk-compact">
+<strong>Skye Goodman</strong>
+<span>MEng Engineering Mathematics, University of Bristol, UK</span> <br>
+<span>(Co-supervising with Nawid Keshtmand, Jeff Clark, and Amberly Bridgen)</span>
+</div>
+
+</section>
+
+
 <!--
 
 CONTACT
