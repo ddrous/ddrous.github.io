@@ -44,7 +44,7 @@ My research lies at the intersection of machine learning and physical systems fo
 I completed my PhD at the [University of Bristol](https://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/) under the supervision of [Dr. Tom Deakin](https://hpc.tomdeakin.com/), [Prof. David Barton](https://cityinthesky.co.uk/about-me/), and [Prof. Simon McIntosh-Smith](http://uob-hpc.github.io/SimonMS/). Titled [Learning to Learn Sequential Dynamics](https://www.researchgate.net/publication/400581335_Learning_to_Learn_Sequential_Dynamics_Context-Aware_Out-of-Distribution_Adaptation_for_Time_Series_and_Physical_Systems), my thesis integrated expertise across AI, HPC, and Scientific Computing.
 
 <!-- I am a Machine Learning PhD candidate at the [University of Bristol](https://www.bristol.ac.uk/cdt/interactive-ai/current-students/2021-cohort/nzoyem/).  -->
-I hold an MSc in Applied Mathematics from the [University of Strasbourg](https://mathinfo.unistra.fr/formations/master/master-mathematiques-et-applications/) (2021), advised by [Prof. Stéphane Labbé](https://www.ljll.fr/membre/labbe-stephane/). Prior to that, my undergraduate studies in Mathematics and Physical Sciences spanned a BSc from [Aix-Marseille University](https://www.univ-amu.fr) (2019) and associate degrees from [Oshima College of Technology](https://www.oshima-k.ac.jp/) (2019), the [University of the People](https://www.uopeople.edu/) (2019), and the [National Advanced School of Engineering of Yaoundé](https://polytechnique.cm/) (2017).
+I received my MSc in Applied Mathematics from the [University of Strasbourg](https://mathinfo.unistra.fr/formations/master/master-mathematiques-et-applications/) (2021), advised by [Prof. Stéphane Labbé](https://www.ljll.fr/membre/labbe-stephane/) at Sorbonne's [Laboratoire Jacques-Louis Lions](https://www.ljll.fr/en/). Prior to that, my undergraduate studies in Mathematics and Physical Sciences spanned a BSc from [Aix-Marseille University](https://www.univ-amu.fr) (2019) and associate degrees from [Oshima College of Technology](https://www.oshima-k.ac.jp/) (2019), the [University of the People](https://www.uopeople.edu/) (2019), and the [National Advanced School of Engineering of Yaoundé](https://polytechnique.cm/) (2017).
 
 Beyond research, I am committed to equity in STEM education, volunteering for outreach initiatives with [CodeMakers](https://engineering.blogs.bristol.ac.uk/engineering-includes-me-roussel-desmond-nzoyem/), [ExamStar](https://bio.site/examstar), and [St. Teresa](https://www.stteresasfilton.org.uk/first-holy-communion-2025), among others. In my downtime, I enjoy football, playing the piano, creative coding, and building indie games.
 
@@ -59,65 +59,10 @@ A few quotes describe me better than any essay I could ever write:
 - _God grant me the serenity to accept the things I cannot change, courage to change the things I can, and the wisdom to know the difference_ - __The Serenity Prayer__
 - _Time waits for no one_ - uttered in __The Girl Who Leapt Through Time__ -->
 
-<!--
 
-EDUCATION
 
--->
 
-<section>
-<h2><i class="fas fa-graduation-cap"></i> Education</h2>
 
-<div class="timeline-item">
-<div class="icon"><i class="fas fa-circle"></i></div>
-<div class="timeline-date">Sept 2021 - Feb 2026</div>
-<div class="timeline-title">PhD in Machine Learning (Interactive AI)</div>
-<div class="timeline-meta">
-<span><i class="fas fa-university"></i> University of Bristol</span>
-<span><i class="fas fa-map-marker-alt"></i> Bristol, UK</span>
-</div>
-</div>
-
-<div class="timeline-item">
-<div class="icon"><i class="fas fa-circle"></i></div>
-<div class="timeline-date">Sept 2019 - Sept 2021</div>
-<div class="timeline-title">MSc in Applied Mathematics (CSMI)</div>
-<div class="timeline-meta">
-<span><i class="fas fa-university"></i> University of Strasbourg</span>
-<span><i class="fas fa-map-marker-alt"></i> Strasbourg, FR</span>
-</div>
-</div>
-
-<div class="timeline-item">
-<div class="icon"><i class="fas fa-circle"></i></div>
-<div class="timeline-date">Nov 2017 - Jul 2019</div>
-<div class="timeline-title">BSc in Mathematics</div>
-<div class="timeline-meta">
-<span><i class="fas fa-university"></i> Aix-Marseille University</span>
-<span><i class="fas fa-map-marker-alt"></i> Marseille, FR</span>
-</div>
-</div>
-
-<div class="timeline-item">
-<div class="icon"><i class="fas fa-circle"></i></div>
-<div class="timeline-date">Apr 2017 - Jun 2019</div>
-<div class="timeline-title">Associate degree in Mechatronics</div>
-<div class="timeline-meta">
-<span><i class="fas fa-university"></i> Oshima College of Technology</span>
-<span><i class="fas fa-map-marker-alt"></i> Oshima, JP</span>
-</div>
-</div>
-
-<div class="timeline-item">
-<div class="icon"><i class="fas fa-circle"></i></div>
-<div class="timeline-date">Jan 2017 - Apr 2019</div>
-<div class="timeline-title">Associate degree in Computer Science</div>
-<div class="timeline-meta">
-<span><i class="fas fa-university"></i> University of the People</span>
-<span><i class="fas fa-map-marker-alt"></i> Pasadena, USA</span>
-</div>
-</div>
-</section>
 
 <!--
 
@@ -185,6 +130,69 @@ WORK EXPERIENCE
 <div class="timeline-meta">
 <span><i class="fas fa-building"></i> Institut de Recherche Mathématiques Avancées (IRMA)</span>
 <span><i class="fas fa-map-marker-alt"></i> Strasbourg, FR</span>
+</div>
+</div>
+</section>
+
+
+
+
+<!--
+
+EDUCATION
+
+-->
+
+<section>
+<h2><i class="fas fa-graduation-cap"></i> Education</h2>
+
+<div class="timeline-item">
+<div class="icon"><i class="fas fa-circle"></i></div>
+<div class="timeline-date">Sept 2021 - Feb 2026</div>
+<div class="timeline-title">PhD in Machine Learning (Interactive AI)</div>
+<div class="timeline-meta">
+<span><i class="fas fa-university"></i> University of Bristol</span>
+<span><i class="fas fa-map-marker-alt"></i> Bristol, UK</span>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="icon"><i class="fas fa-circle"></i></div>
+<div class="timeline-date">Sept 2019 - Sept 2021</div>
+<div class="timeline-title">MSc in Applied Mathematics (CSMI)</div>
+<div class="timeline-meta">
+<span><i class="fas fa-university"></i> University of Strasbourg</span>
+<span><i class="fas fa-map-marker-alt"></i> Strasbourg, FR</span>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="icon"><i class="fas fa-circle"></i></div>
+<div class="timeline-date">Nov 2017 - Jul 2019</div>
+<div class="timeline-title">BSc in Mathematics</div>
+<div class="timeline-meta">
+<span><i class="fas fa-university"></i> Aix-Marseille University</span>
+<span><i class="fas fa-map-marker-alt"></i> Marseille, FR</span>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="icon"><i class="fas fa-circle"></i></div>
+<div class="timeline-date">Apr 2017 - Jun 2019</div>
+<div class="timeline-title">Associate degree in Mechatronics</div>
+<div class="timeline-meta">
+<span><i class="fas fa-university"></i> Oshima College of Technology</span>
+<span><i class="fas fa-map-marker-alt"></i> Oshima, JP</span>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="icon"><i class="fas fa-circle"></i></div>
+<div class="timeline-date">Jan 2017 - Apr 2019</div>
+<div class="timeline-title">Associate degree in Computer Science</div>
+<div class="timeline-meta">
+<span><i class="fas fa-university"></i> University of the People</span>
+<span><i class="fas fa-map-marker-alt"></i> Pasadena, USA</span>
 </div>
 </div>
 </section>
