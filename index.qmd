@@ -4,7 +4,7 @@ title: "Roussel Desmond Nzoyem"
 # subtitle: "PhD student @ University of Bristol"|
 subtitle: "Machine Learning Researcher &nbsp;•&nbsp; [ddrouslab [at] gmail [dot] com](mailto:ddrouslab@gmail.com)"
 # image: ./assets/images/cornerstone.webp
-image: ./assets/images/cornerstone_pixels.webp
+image: ./assets/images/cornerstone_pixels_green.webp
 # image: "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
 
 about:
