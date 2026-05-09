@@ -229,6 +229,21 @@ SELECTED PUBLICATIONS
 
 <div class="pub-item">
 <div style="margin-top: 0.2rem;">
+<span class="venue-badge venue-aaai">CAO @ ICLR 2026</span>
+</div>
+<div class="pub-content">
+<h3 class="pub-title">Out-of-Support Generalisation via Weight-Space Sequence Modelling</h3>
+<p class="pub-authors">**RD Nzoyem**</p>
+<div class="pub-links">
+<a href="publications/nzoyem2026outofsupport.qmd" class="pub-link">Abstract</a>
+<a href="https://arxiv.org/abs/2602.13550" class="pub-link" target="_blank">PDF</a>
+<a href="#" class="pub-link">Code</a>
+</div>
+</div>
+</div>
+
+<div class="pub-item">
+<div style="margin-top: 0.2rem;">
 <span class="venue-badge venue-iclr">ICLR 2026</span>
 </div>
 <div class="pub-content">

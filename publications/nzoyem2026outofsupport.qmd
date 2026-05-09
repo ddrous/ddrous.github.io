@@ -1,0 +1,31 @@
+---
+title: "Out-of-Support Generalisation via Weight-Space Sequence Modelling"
+type: "thesis"
+author: "<b>Nzoyem</b>"
+date: "2026-03-02"
+year: "2026"
+publication: "CAO Workshop at The Fourteenth International Conference on Learning Representations (ICLR)"
+preprint: "https://arxiv.org/abs/2602.13550"
+doi: ""
+materials: ""
+code: "https://github.com/ddrous/weightcaster"
+toc: false
+categories:
+  - out-of-distribution generalisation
+  - weight-space learning
+  - meta-learning
+  - recurrent neural networks
+---
+
+```{=html}
+<center> <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7nJQpXgAAAAJ&sortby=pubdate&citation_for_view=7nJQpXgAAAAJ:hqOjcs7Dif8C" target="_blank" class="btn btn-primary rounded-pill"> Google Scholar </a> </center>
+```
+
+
+## Citation (APA)
+
+> Nzoyem, R. D. (2026). Out-of-Support Generalisation via Weight-Space Sequence Modelling. CAO Workshop at The Fourteenth International Conference on Learning Representations. Retrieved from https://arxiv.org/abs/2602.13550
+
+
+## Abstract
+As breakthroughs in deep learning transform key industries, models are increasingly required to extrapolate on datapoints found outside the range of the training set, a challenge we coin as out-of-support (OoS) generalisation. However, neural networks frequently exhibit catastrophic failure on OoS samples, yielding unrealistic but overconfident predictions. We address this challenge by reformulating the OoS generalisation problem as a sequence modelling task in the weight space, wherein the training set is partitioned into concentric shells corresponding to discrete sequential steps. Our WeightCaster framework yields plausible, interpretable, and uncertainty-aware predictions without necessitating explicit inductive biases, all the while maintaining high computational efficiency. Empirical validation on a synthetic cosine dataset and real-world air quality sensor readings demonstrates performance competitive or superior to the state-of-the-art. By enhancing reliability beyond in-distribution scenarios, these results hold significant implications for the wider adoption of artificial intelligence in safety-critical applications.

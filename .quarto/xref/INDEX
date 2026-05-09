@@ -121,5 +121,8 @@
   },
   "posts/linear-attention-jax/index.qmd": {
     "index.html": "aca1a475"
+  },
+  "publications/nzoyem2026outofsupport.qmd": {
+    "nzoyem2026outofsupport.html": "84bbc10a"
   }
 }
