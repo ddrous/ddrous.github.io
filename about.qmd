@@ -42,7 +42,7 @@ about:
 <!-- My research lies at the intersection of machine learning and physical systems found in engineering, computer graphics, vision, and more. I build the next wave of generative models and simulation technologies, leveraging my deep experience in fundamental AI, high-efficiency meta-learning, and dynamical systems to synthesise realistic and immersive virtual worlds. -->
 
 
-My research develops efficient models for sequential decision-making, with applications across: (1) scientific machine learning, where optimal controls steer physical systems governed by differential equations into desirable states; (2) world models, where actions determine subsequent system states; and (3) experimental design, where utility functions prescribe the next system state to explore. To improve usability in the real world, I make these models more adaptable and uncertainty-aware by leveraging meta-learning, weight-space learning, and differentiable simulation.
+My research develops efficient and adaptable models for sequential decision making, with applications across: __(1)__ scientific machine learning, where controls steer dynamical systems into desirable states; __(2)__ world models, where agent actions determine subsequent system states; and __(3)__ experimental design, where utility functions prescribe the next system state to explore. To improve usability in the real world, I make these models uncertainty-aware by leveraging amortised Bayesian inference, meta-learning, weight-space learning, and differentiable simulation.
 
 Currently, I am a Postdoctoral Researcher at the University of Manchester in [Prof. Samuel Kaski](https://kaski-lab.com)'s team. Within the [Centre for AI Fundamentals](https://www.ai-fun.manchester.ac.uk), my research seeks to design principled foundational world models for experimental design.
 
@@ -67,6 +67,90 @@ A few quotes describe me better than any essay I could ever write:
 - _Time waits for no one_ - uttered in __The Girl Who Leapt Through Time__ -->
 
 
+
+
+
+
+
+<!--
+
+WORK EXPERIENCE
+
+-->
+
+<section>
+<h2><i class="fas fa-briefcase"></i> Work Experience</h2>
+
+<div class="timeline-item">
+<div class="icon"><i class="fas fa-circle"></i></div>
+<div class="timeline-date">Apr 2026 - Present</div>
+<div class="timeline-title">Postdoctoral Research Associate</div>
+<div class="timeline-meta">
+<span><i class="fas fa-building"></i> University of Manchester</span>
+<span><i class="fas fa-map-marker-alt"></i> Manchester, UK</span>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="icon"><i class="fas fa-circle"></i></div>
+<div class="timeline-date">Nov 2025 - Jan 2026</div>
+<div class="timeline-title">Visiting Researcher</div>
+<div class="timeline-meta">
+<span><i class="fas fa-building"></i> University of Alberta</span>
+<span><i class="fas fa-map-marker-alt"></i> Edmonton, CA</span>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="icon"><i class="fas fa-circle"></i></div>
+<div class="timeline-date">Jan 2022 - Sept 2025</div>
+<div class="timeline-title">Teaching Assistant</div>
+<div class="timeline-meta">
+<span><i class="fas fa-building"></i> University of Bristol</span>
+<span><i class="fas fa-map-marker-alt"></i> Bristol, UK</span>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="icon"><i class="fas fa-circle"></i></div>
+<div class="timeline-date">Jun 2024 - Sept 2024</div>
+<div class="timeline-title">Data Science Intern (PhD)</div>
+<div class="timeline-meta">
+<span><i class="fas fa-building"></i> SLB (Schlumberger)</span>
+<span><i class="fas fa-map-marker-alt"></i> Abingdon, UK</span>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="icon"><i class="fas fa-circle"></i></div>
+<div class="timeline-date">May 2022 - Aug 2022</div>
+<div class="timeline-title">Summer Project Intern (PhD)</div>
+<div class="timeline-meta">
+<span><i class="fas fa-building"></i> HPC Research Group & Bristol Robotics Lab.</span>
+<span><i class="fas fa-map-marker-alt"></i> Bristol, UK</span>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="icon"><i class="fas fa-circle"></i></div>
+<div class="timeline-date">Feb 2021 - Jul 2021</div>
+<div class="timeline-title">MSc Intern</div>
+<div class="timeline-meta">
+<span><i class="fas fa-building"></i> Laboratoire Jacques-Louis Lions (Sorbonne Université)</span>
+<span><i class="fas fa-map-marker-alt"></i> Paris, FR</span>
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="icon"><i class="fas fa-circle"></i></div>
+<div class="timeline-date">Jun 2020 - Aug 2020</div>
+<div class="timeline-title">MSc Intern</div>
+<div class="timeline-meta">
+<span><i class="fas fa-building"></i> Institut de Recherche Mathématiques Avancées (IRMA)</span>
+<span><i class="fas fa-map-marker-alt"></i> Strasbourg, FR</span>
+</div>
+</div>
+</section>
 
 
 
@@ -130,90 +214,6 @@ EDUCATION
 </div>
 </div>
 </section>
-
-
-
-<!--
-
-WORK EXPERIENCE
-
--->
-
-<section>
-<h2><i class="fas fa-briefcase"></i> Work Experience</h2>
-
-<div class="timeline-item">
-<div class="icon"><i class="fas fa-circle"></i></div>
-<div class="timeline-date">Apr 2026 - Present</div>
-<div class="timeline-title">Postdoctoral Research Associate</div>
-<div class="timeline-meta">
-<span><i class="fas fa-building"></i> University of Manchester</span>
-<span><i class="fas fa-map-marker-alt"></i> Manchester, UK</span>
-</div>
-</div>
-
-<div class="timeline-item">
-<div class="icon"><i class="fas fa-circle"></i></div>
-<div class="timeline-date">Nov 2025 - Jan 2026</div>
-<div class="timeline-title">Visiting Researcher</div>
-<div class="timeline-meta">
-<span><i class="fas fa-building"></i> University of Alberta</span>
-<span><i class="fas fa-map-marker-alt"></i> Edmonton, CA</span>
-</div>
-</div>
-
-<div class="timeline-item">
-<div class="icon"><i class="fas fa-circle"></i></div>
-<div class="timeline-date">Jan 2022 - Sept 2025</div>
-<div class="timeline-title">Teaching Assistant</div>
-<div class="timeline-meta">
-<span><i class="fas fa-building"></i> University of Bristol</span>
-<span><i class="fas fa-map-marker-alt"></i> Bristol, UK</span>
-</div>
-</div>
-
-<div class="timeline-item">
-<div class="icon"><i class="fas fa-circle"></i></div>
-<div class="timeline-date">Jun 2024 - Sept 2024</div>
-<div class="timeline-title">Data Science Internship</div>
-<div class="timeline-meta">
-<span><i class="fas fa-building"></i> SLB (Schlumberger)</span>
-<span><i class="fas fa-map-marker-alt"></i> Abingdon, UK</span>
-</div>
-</div>
-
-<div class="timeline-item">
-<div class="icon"><i class="fas fa-circle"></i></div>
-<div class="timeline-date">May 2022 - Aug 2022</div>
-<div class="timeline-title">PhD Summer Projects</div>
-<div class="timeline-meta">
-<span><i class="fas fa-building"></i> HPC Research Group & Bristol Robotics Lab.</span>
-<span><i class="fas fa-map-marker-alt"></i> Bristol, UK</span>
-</div>
-</div>
-
-<div class="timeline-item">
-<div class="icon"><i class="fas fa-circle"></i></div>
-<div class="timeline-date">Feb 2021 - Jul 2021</div>
-<div class="timeline-title">MSc Internship</div>
-<div class="timeline-meta">
-<span><i class="fas fa-building"></i> Laboratoire Jacques-Louis Lions (Sorbonne Université)</span>
-<span><i class="fas fa-map-marker-alt"></i> Paris, FR</span>
-</div>
-</div>
-
-<div class="timeline-item">
-<div class="icon"><i class="fas fa-circle"></i></div>
-<div class="timeline-date">Jun 2020 - Aug 2020</div>
-<div class="timeline-title">MSc Internship</div>
-<div class="timeline-meta">
-<span><i class="fas fa-building"></i> Institut de Recherche Mathématiques Avancées (IRMA)</span>
-<span><i class="fas fa-map-marker-alt"></i> Strasbourg, FR</span>
-</div>
-</div>
-</section>
-
-
 
 
 
