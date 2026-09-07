@@ -1,0 +1,38 @@
+---
+title: "How not to Train your Neural ODE"
+author: "RD2N"
+date: "2026-09-07"
+categories: [Optimisation, Differential Equations]
+format:
+  html:
+    toc: true
+engine: knitr
+number-sections: true
+filters:
+  - social-share
+share:
+  permalink: "https://ddrous.github.io/posts/how-not-to-train-node/"
+  description: "How not to train your Neural ODE: Common pitfalls in training Neural ODEs—and how to avoid them"
+  twitter: true
+  facebook: true
+  reddit: true
+  stumble: true
+  tumblr: true
+  linkedin: true
+  email: true
+  mastodon: true
+comments:
+  giscus:
+    repo: ddrous/ddrous.github.io
+draft: true
+---
+
+```{css}
+/* #| echo: false */
+p {
+  text-align: justify
+}
+```
+
+
+Many people have told me that Neural ODEs don't work (Xinguyuan). This is to understand why, and offer practical advice on how to avoid common pitfalls when training Neural ODEs and derived methods (CNF, etc.). The goal is to help researchers and practitioners achieve better performance and stability in their models.
