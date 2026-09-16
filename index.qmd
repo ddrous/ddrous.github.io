@@ -522,6 +522,7 @@ SERVICES
 <span class="service-pill">CAO@ICLR 2026</span>
 <span class="service-pill">TMLR</span>
 <span class="service-pill">JAIR</span>
+<span class="service-pill">IJHPCA</span>
 </div>
 
 <h3>Conferences:</h3>
