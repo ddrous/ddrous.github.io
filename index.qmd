@@ -354,6 +354,9 @@ NEWS
 <section>
 <h2><i class="fas fa-bullhorn"></i> Latest News*</h2>
 <div class="news-item">
+<span class="news-date">30 Sept. 2026:</span> I gave a talk at the [AI Fundamentals Research Forum](https://www.ai-fun.manchester.ac.uk), titled "Amortisation for Generalisable Neural Surrogates and One-Step Bayesian Inference" ☞ <a href="https://1drv.ms/p/c/7275e83169953b71/IQC97QqoMHZ8T4mpmEZQ-I5HAf2PbYmp4EykVVjeJWmH1mo?e=pBuylo" class="external" target="_blank">Slides</a>.
+</div>
+<div class="news-item">
 <span class="news-date">27 Apr. 2026:</span> I joined the [Manchester Centre for AI Fundamentals](https://www.ai-fun.manchester.ac.uk) as a postdoctoral research associate. I'll be working with Prof Samuel Kaski on probabilistic modelling.
 </div>
 <div class="news-item">
